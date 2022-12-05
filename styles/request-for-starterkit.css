@@ -170,3 +170,9 @@
         top: 40px;
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1150px) {
+    .hpp-dtc-m-starter-kit__content__area img {
+        max-width: 500px;
+    }
+}
