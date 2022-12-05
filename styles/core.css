@@ -8925,12 +8925,6 @@ footer h4 {
 	}
 }
 
-@media (min-width:320px) and (max-width:767px) {
-	.isi-sticky.isi-fullHome[data-isi-sticky] {
-		height: 76px
-	}
-}
-
 .isi-sticky {
 	z-index: 259;
 	left: 0;
