@@ -1,0 +1,123 @@
+.hpp-dtc-m-hero .content {
+    padding: 0 1rem !important;
+}
+
+.hpp-dtc-m-form.container {
+    max-width: 850px;
+}
+
+.link.cta.cta__white {
+    text-decoration: none !important;
+}
+
+.checkbox-box:before,
+.radio-box:before {
+    border-radius: 4px;
+}
+
+.description::before {
+    font-size: 19rem;
+    top: 7rem !important;
+    left: -6.6rem;
+}
+
+.description {
+    position: relative;
+}
+
+.hpp-dtc-footer a:hover {
+    color: #fff;
+}
+
+.hpp-dtc-m-form__body_submit {
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 6rem;
+}
+
+.hpp-dtc-m-form__body_submit:hover,
+.hpp-dtc-m-form__body_submit:focus {
+    background-color: var(--dark-green);
+    color: var(--white);
+}
+
+[data-module=PageSubnav] {
+    background-color: var(--white);
+}
+
+@media (min-width: 230px) and (max-width: 1023px) {
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .hero-box.quote {
+        padding-left: 3rem !important;
+        margin: 20px 5rem;
+    }
+
+    .internal-navegator {
+        display: none !important;
+    }
+
+    .hpp-dtc-life-with__content .description::before {
+        left: 0rem !important;
+    }
+
+}
+
+@media (min-width: 230px) and (max-width:767px) {
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .hero-box.quote {
+        padding-left: 3rem !important;
+        margin: 50px 1.5rem;
+    }
+
+    .hpp-dtc-m-hero.here-for-you-hero .content .pre-title {
+        position: relative;
+        top: 42px;
+        right: 34px;
+    }
+
+    .hpp-dtc-life-with__content .description::before {
+        font-size: 15rem;
+        top: 5.5rem !important;
+    }
+
+    .peer-subnav .jumpbtn {
+        margin-top: -75px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .hpp-dtc-m-hero .content {
+        margin-top: 15rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    [data-module=PageSubnav] {
+        margin-top: 2rem !important;
+    }
+
+    [data-module=HeroModule] .row.mx-0:after {
+        content: "";
+        background: #fff;
+        box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+        -webkit-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+        -moz-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+        background: #fff;
+        border-top-left-radius: 100px;
+        position: relative;
+        display: block;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        height: 100px;
+        width: 100%;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content {
+        margin-bottom: 4rem;
+        padding-right: 2.5rem !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -110px;
+    }
+}

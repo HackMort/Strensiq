@@ -1,0 +1,167 @@
+/* Hero */
+.sign-up-section[data-module=HeroModule] {
+  align-items: flex-start;
+}
+
+.sign-up-section[data-module=HeroModule] .HeroCalloutCntr:after {
+  display: none;
+}
+
+.sign-up-section form .select-wrap:after {
+  top: 48px;
+}
+
+.sign-up-section[data-module=HeroModule] .row.mx-0:after {
+  content: "";
+  background: #fff;
+  box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+  -webkit-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+  -moz-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+  width: 100%;
+  border-top-left-radius: 100px;
+  position: relative;
+  display: block;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100px;
+  display: none;
+}
+
+.hpp-dtc-m-hero.sign-up-section .content {
+  z-index: 2;
+}
+
+/* .hpp-dtc-m-hero.sign-up-section .hero-bg img {
+  object-position: top;
+} */
+
+.sign-up-section .hpp-dtc-m-hpp-patient-support-form_form .btn {
+  font-family: azo-sans-web, Arial, sans-serif;
+  color: var(--dark-green);
+  background: transparent;
+  border-radius: 0;
+  border: 1px solid var(--dark-green);
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  transition: all .3s ease-out;
+  letter-spacing: .1em;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sign-up-section .hpp-dtc-m-hpp-patient-support-form_form .btn:hover {
+  background: var(--dark-green);
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: var(--white);
+}
+
+/* Media Queries */
+@media screen and (min-width: 992px) {
+  .sign-up-hero[data-module=HeroModule] .HeroCalloutCntr:after {
+    display: block;
+    /* bottom: 95px; */
+    z-index: 1;
+  }
+
+
+
+  .hpp-dtc-m-hero.sign-up-hero .content {
+    /* margin-top: 30rem; */
+    margin-bottom: 4rem;
+  }
+
+  /* .hpp-dtc-m-hero.sign-up-hero .content {
+    padding-right: 1rem;
+  } */
+
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
+    margin-top: 6rem;
+    position: relative;
+    left: -7rem;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  [data-module=PageSubnav] {
+    margin-top: 110px !important;
+    min-height: auto;
+  }
+
+  .hpp-dtc-m-hpp-patient-support-form {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .hpp-dtc-m-hpp-patient-support-form {
+    margin-top: -2rem;
+    background: white;
+    z-index: 2;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sign-up-section[data-module=HeroModule] .row.mx-0:after {
+    display: block;
+  }
+
+  .sign-up-hero[data-module=HeroModule] .HeroCalloutCntr:after {
+    bottom: 90px;
+  }
+
+  [data-module=PageSubnav] .jumpbtn {
+    margin-top: -60px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .hpp-dtc-m-hero.internal-hero .hero-bg img {
+    object-position: left;
+  }
+
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
+    left: -8.5%;
+  }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1365px) {
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
+    left: -9% !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .sign-up-hero[data-module=HeroModule] .HeroCalloutCntr:after {
+    bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sign-up-hero[data-module=HeroModule] .HeroCalloutCntr:after {
+    bottom: 2px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
+    left: -15%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
+    left: -25%;
+  }
+}

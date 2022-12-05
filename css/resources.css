@@ -1,0 +1,387 @@
+.hpp-dtc-m-hero .hero-bg::before {
+    display: none;
+}
+
+[data-module=HeroModule] .row.mx-0:after {
+    content: "";
+    background: #fff;
+    box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    -webkit-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    -moz-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    border-top-left-radius: 100px;
+    position: relative;
+    display: block;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100px;
+    width: 100%;
+}
+
+.pagesubnavstickpoint {
+    background-color: white;
+}
+
+.hpp-dtc-life-with__content .description::before {
+    top: 4rem !important;
+    left: -7rem;
+}
+
+.hpp-dtc-life-with__content .logo {
+    margin-left: 0;
+}
+
+.hpp-dtc-m-hero .content {
+    padding: 0 1rem !important;
+}
+
+.hpp-dtc-m-form.container {
+    max-width: 850px;
+}
+
+.link.cta.cta__white {
+    text-decoration: none !important;
+}
+
+.checkbox-box:before,
+.radio-box:before {
+    border-radius: 4px;
+}
+
+.description::before {
+    font-size: 19rem;
+    top: 7rem !important;
+    left: -6.6rem;
+}
+
+.description {
+    position: relative;
+}
+
+.hpp-dtc-footer a:hover {
+    color: #fff;
+}
+
+.mainheading {
+    font-size: 45px !important;
+    margin: 0 0 50px !important;
+}
+
+.hpp-dtc-m-card_btn {
+    text-transform: uppercase;
+}
+
+.hpp-dtc-m-card h4 {
+    color: var(--dark-green);
+    font-family: 'Druk-bold';
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.hpp-dtc-m-card_btn.link:hover {
+    background-color: #005d55;
+}
+
+.hpp-dtc-m-card_btn.link:hover span {
+    color: #fff !important;
+}
+
+.hpp-support-elx .hpp-dtc-m-card_link-arrow {
+    padding-top: 0.7rem;
+}
+
+.hpp-support-elx .hpp-dtc-m-card_btn {
+    width: 18.3rem;
+    font-size: 1.4rem;
+}
+
+.heecol .hero-box {
+    align-self: flex-start !important;
+    max-width: 56rem !important;
+}
+
+.heecol .hero-box .hpp-dtc-m-card_btn {
+    border: 1px solid #fff;
+    margin-top: 20px;
+    width: auto;
+    color: #fff !important;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.heecol .hero-box .hpp-dtc-m-card_btn:hover {
+    background-color: #fff;
+    color: #000000 !important;
+}
+
+.heecol .hpp-dtc-m-card_btnCaption {
+    padding: 0;
+}
+
+.hpp-dtc-m-card_btnCaption {
+    padding-top: 1rem;
+    font-family: 'azo-sans-web';
+}
+
+.heecol .hero-box .hpp-dtc-m-card_btn:hover span {
+    color: #000000 !important;
+}
+
+.mainheading.mab20 {
+    margin-bottom: 32px !important;
+}
+
+.hpp-dtc-m-form__body_submit {
+    margin-top: 3.5rem;
+    margin-inline: auto;
+    text-transform: uppercase;
+    background-color: var(--white);
+    border: 1px solid var(--dark-green);
+    padding: 1.1rem 2.1rem;
+    font-size: 1.6rem;
+    letter-spacing: .16rem;
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+.hpp-dtc-m-form__body_submit:hover {
+    background-color: #005D55 !important;
+    color: #fff !important;
+}
+
+.link {
+    text-decoration: none !important;
+}
+
+.none.active {
+    color: #005d55 !important;
+}
+
+
+.contact-links {
+    align-items: center;
+}
+
+.contact-links .contact-link-main {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.contact-links .contact-link-main a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.card-arrow-icon {
+    background-image: url('/images/getting-started-on-strensiq/darrow.svg');
+    width: 22px;
+    height: 25px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 7px;
+    /* transition: all 0.1s ease; */
+}
+
+.hpp-dtc-m-card_btn.link:hover .card-arrow-icon,
+.hpp-dtc-m-card_btn.link:focus .card-arrow-icon {
+    background-image: url('/images/getting-started-on-strensiq/darrow_white.svg');
+}
+
+.hpp-dtc-m-card_btn.link .card-arrow-icon.arrow-right,
+.hpp-dtc-m-card_btn.link .card-arrow-icon.arrow-right,
+.hpp-dtc-m-card_btn.link:hover .card-arrow-icon.arrow-right,
+.hpp-dtc-m-card_btn.link:focus .card-arrow-icon.arrow-right {
+    background-image: url('/images/getting-started-on-strensiq/text-link.svg');
+    height: 15px;
+    width: 18px;
+    background-size: contain;
+    top: 2px;
+}
+
+.hpp-dtc-m-card_btn.link:hover .card-arrow-icon.arrow-right,
+.hpp-dtc-m-card_btn.link:focus .card-arrow-icon.arrow-right {
+    /* rotate 45 deg */
+    background-image: url('/images/getting-started-on-strensiq/text-link_white.svg');
+    top: -4px;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    width: 22px;
+}
+
+@media screen and (min-width: 768px) {
+    .hpp-support-elx .hpp-dtc-m-card {
+        min-height: 52rem;
+    }
+
+}
+
+@media (min-width: 230px) and (max-width: 767px) {
+
+    .internal-navegator {
+        display: none
+    }
+
+    .jumpbtn {
+        margin-top: -30px !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero .content .hero-box {
+        padding-right: 3.8rem !important;
+    }
+
+    .heecol .hero-box .hpp-dtc-m-card_btn {
+        font-size: 12px !important;
+    }
+
+    .hpp-dtc-life-with__content .description::before {
+        left: 0rem !important;
+    }
+
+    .image-holder .logo {
+        padding: 0px 0 30px 0px !important;
+    }
+
+    .m-block {
+        display: block !important;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .resources-hero .pre-title {
+        position: relative;
+        top: 13%;
+        left: -1%;
+    }
+
+    .resources-hero .resources-hero-content {
+        position: relative;
+        top: 12%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .hpp-dtc-m-hero.internal-hero.resources-hero .content .hero-box {
+        margin-left: 5rem !important;
+        margin-right: 5rem !important;
+        padding-right: 5rem !important;
+        padding-left: 5rem !important;
+    }
+
+    .internal-navegator {
+        display: none !important
+    }
+
+    .jumpbtn {
+        margin-top: -30px !important;
+    }
+}
+
+.resources-section .imgzoom picture:after {
+    background-image: url(../images/how-strensiq-helps/tap-to-zoom.svg);
+    display: none;
+}
+
+@media (max-width: 1023px) {
+    .resources-section .imgzoom picture:after {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 9999px) {
+
+    [data-module=PageSubnav] .pagesubnavcntr span,
+    [data-module=PageSubnav] .pagesubnavcntr span:hover,
+    [data-module=PageSubnav] .pagesubnavcntr span>button {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .resources-hero .resources-hero-content {
+        position: relative;
+        /* left: -5%; */
+    }
+
+    .hpp-dtc-m-hero.internal-hero .content {
+        margin-bottom: 4rem;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero .content .pre-title {
+        margin-top: 3.5rem;
+    }
+
+    .hpp-dtc-m-hero .content {
+        padding-right: 2.25rem !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    [data-module=PageSubnav] {
+        margin-top: 3rem !important;
+    }
+
+    .cards-container {
+        justify-content: center;
+        align-items: center;
+        display: flex !important;
+    }
+
+    .hpp-dtc-m-hero .content {
+        margin-top: 16rem !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .pagesubnavstickpoint {
+        display: none;
+    }
+
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -110px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hpp-dtc-pharmacy-support__content {
+        border: 0;
+    }
+
+    .heecol.hpp-dtc-m-hero .content {
+        margin-top: 7rem !important;
+    }
+
+    .hpp-dtc-m-hpp-patient-advocacy {
+        padding-top: 0px !important;
+    }
+
+    .mainheading {
+        font-size: 36px !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    .hpp-dtc-m-hero .hero-bg::before {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .heecol.hpp-dtc-m-hero.internal-hero .content {
+        justify-content: center;
+    }
+
+    .heecol.hpp-dtc-m-hero.internal-hero .content .hero-box {
+        min-height: auto !important;
+        padding-bottom: 5.7rem;
+    }
+}
