@@ -622,7 +622,8 @@
 	}
 
 	.hpp-dtc-icons-panel__content .content-holder .secondary-content {
-		border: 0;
+		border-bottom: 1px solid rgb(150 150 150 / 50%);
+        padding: 5.4rem;
 	}
 
 	.two-cols-hpp .hpp-image~.content .hpp-spl-p {

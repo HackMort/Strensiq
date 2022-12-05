@@ -5453,7 +5453,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (max-width:767px) {
   .hpp-dtc-icons-panel .container {
-    padding: 5.4rem 0px;
+    padding: 5.4rem .9375rem;
   }
 
   .hpp-dtc-icons-panel__content {
@@ -5561,7 +5561,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
   .hpp-dtc-icons-panel__content .content-holder .secondary-content {
     padding: 5rem 0 4rem;
-    border-bottom: .1rem solid #969696
+    border-bottom: .1rem solid rgb(150 150 150 / 50%);
   }
 
   .hpp-dtc-icons-panel__content .content-holder .secondary-content:last-child {
