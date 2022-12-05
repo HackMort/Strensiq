@@ -402,4 +402,12 @@
     .heecol.hpp-dtc-m-hero.internal-hero .content .hero-box {
         margin-left: 6rem;
     }
+
+    .hpp-dtc-life-with__content .logo {
+        margin-left: 45px;
+    }
+
+    .hpp-dtc-life-with__content .content-holder {
+        margin-left: -80px;
+    }
 }
