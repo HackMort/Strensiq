@@ -8927,7 +8927,7 @@ footer h4 {
 
 @media (min-width:320px) and (max-width:767px) {
 	.isi-sticky.isi-fullHome[data-isi-sticky] {
-		height: 130px
+		height: 76px
 	}
 }
 
@@ -8940,7 +8940,7 @@ footer h4 {
 	position: fixed;
 	display: flex;
 	flex-direction: column;
-	height: 48px
+	height: 76px
 }
 
 .isi-sticky--quarter {
@@ -8956,12 +8956,12 @@ footer h4 {
 }
 
 .isi-sticky--collapsed {
-	height: 48px
+	height: 76px
 }
 
 @media (min-width:320px) and (max-width:767px) {
 	.isi-sticky--collapsed {
-		height: 30px
+		height: 76px
 	}
 }
 
