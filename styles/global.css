@@ -11755,7 +11755,7 @@ ul {
 
 @media screen and (max-width: 1023px) {
   .hpp-dtc-life-with__content .description::before {
-    top: 12rem !important;
+    top: 12rem;
   }
 
   .site-header .get-cta {
