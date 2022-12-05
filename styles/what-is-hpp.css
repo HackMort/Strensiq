@@ -636,7 +636,7 @@
 	}
 
 	.what-is-hpp-quote .description::before {
-		top: 10rem !important;
+		top: 16rem !important;
 		left: 1rem !important;
 	}
 
@@ -649,7 +649,6 @@
 	}
 
 	.hpp-dtc-life-with__content .title {
-		padding-left: 6rem;
 	}
 }
 
