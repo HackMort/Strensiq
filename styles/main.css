@@ -1669,7 +1669,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   font-family: druk-bold, sans-serif;
   font-size: 20rem;
   position: absolute;
-  top: 4rem !important;
+  top: 4rem;
   left: -9rem;
 }
 
@@ -1694,7 +1694,6 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
   .hpp-dtc-life-with__content .title {
     font-size: 38px;
-    padding-left: 8rem;
     margin-top: 0;
     margin-bottom: 2rem;
   }
@@ -2364,7 +2363,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   }
 
   .hpp-dtc-looking-for-resources__content {
-    text-align: center;
+    text-align: left;
     padding: 6.5rem 0
   }
 
@@ -5454,7 +5453,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (max-width:767px) {
   .hpp-dtc-icons-panel .container {
-    padding: 5.4rem 0px;
+    padding: 5.4rem .9375rem;
   }
 
   .hpp-dtc-icons-panel__content {
@@ -5562,7 +5561,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
   .hpp-dtc-icons-panel__content .content-holder .secondary-content {
     padding: 5rem 0 4rem;
-    border-bottom: .1rem solid #969696
+    border-bottom: .1rem solid rgb(150 150 150 / 50%);
   }
 
   .hpp-dtc-icons-panel__content .content-holder .secondary-content:last-child {
@@ -5839,7 +5838,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   display: inline-block;
   margin-right: .5em;
   position: relative;
-  margin-top: .8rem
+  margin-top: 0.55rem;
 }
 
 .hpp-dtc-m-form__body_item--checkbox .checkbox-label .checkbox-box:before {
@@ -6852,7 +6851,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
     width: 46rem;
     margin-bottom: 3.3rem;
-    margin-inline: auto
+    margin-inline: 0
   }
 }
 
@@ -6864,7 +6863,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (min-width:992px) {
   .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content {
-    padding-bottom: 12.4rem
+    padding-bottom: 10rem;
   }
 
   .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .title {
@@ -6872,7 +6871,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   }
 
   .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
-    margin-inline: auto;
+    margin-inline: 0;
     width: max-content;
     padding: 0
   }
