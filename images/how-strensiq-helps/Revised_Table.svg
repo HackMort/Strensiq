@@ -1,0 +1,89 @@
+<svg id="Component_266_1" data-name="Component 266 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1301" height="576" viewBox="0 0 1301 576">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4305" data-name="Rectangle 4305" width="1158" height="544" transform="translate(104 1027)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="_2.2-stq-3339-chart-studied-all-ages" data-name="2.2-stq-3339-chart-studied-all-ages" transform="translate(-104 -1027)" clip-path="url(#clip-path)">
+    <g id="Group_10979" data-name="Group 10979" transform="translate(0 14)">
+      <g id="Group_10958" data-name="Group 10958" transform="translate(1020.408 1012.943)">
+        <path id="Path_102806" data-name="Path 102806" d="M0,0H239.95V117.967H0Z" transform="translate(0 313)" fill="#929497" opacity="0.321"/>
+        <rect id="Rectangle_3830" data-name="Rectangle 3830" width="239.95" height="93.967" transform="translate(0 150)" fill="#929497" opacity="0.321"/>
+        <rect id="Rectangle_3827" data-name="Rectangle 3827" width="239.95" height="65.967" fill="#929497"/>
+        <path id="Path_102805" data-name="Path 102805" d="M91.471,0V542.755H-148.257V0Z" transform="translate(148.331 0.557)" fill="none" stroke="#929497" stroke-width="0.5"/>
+      </g>
+      <g id="Group_10957" data-name="Group 10957" transform="translate(762.666 1012.943)">
+        <path id="Path_102806-2" data-name="Path 102806" d="M0,0H239.971V117.967H0Z" transform="translate(0 313)" fill="#dfdf00" opacity="0.321"/>
+        <rect id="Rectangle_3830-2" data-name="Rectangle 3830" width="239.971" height="94.967" transform="translate(0 150)" fill="#dfdf00" opacity="0.321"/>
+        <rect id="Rectangle_3827-2" data-name="Rectangle 3827" width="239.971" height="65.967" transform="translate(0)" fill="#dfdf00"/>
+        <path id="Path_102805-2" data-name="Path 102805" d="M91.492,0V542.25H-148.257V0Z" transform="translate(148.331 0.557)" fill="none" stroke="#dfd700" stroke-width="0.5"/>
+      </g>
+      <g id="Group_10956" data-name="Group 10956" transform="translate(506.03 1012.943)">
+        <rect id="Rectangle_3831" data-name="Rectangle 3831" width="239.971" height="117.967" transform="translate(0 313)" fill="#005d55" opacity="0.321"/>
+        <rect id="Rectangle_3830-3" data-name="Rectangle 3830" width="239.971" height="94.967" transform="translate(0 150)" fill="#005d55" opacity="0.321"/>
+        <rect id="Rectangle_3827-3" data-name="Rectangle 3827" width="239.971" height="65.967" transform="translate(0)" fill="#005d55"/>
+        <path id="Path_102805-3" data-name="Path 102805" d="M91.492,0V542.016H-148.257V0Z" transform="translate(148.331 0.557)" fill="none" stroke="#00554c" stroke-width="0.5"/>
+      </g>
+      <text id="STUDY_2" data-name="STUDY 2" transform="translate(509 1035.306)" fill="#fff" font-size="20" font-family="AzoSans-Bold, Azo Sans" font-weight="700" letter-spacing="0.01em"><tspan x="75.07" y="20">STUDY 2</tspan></text>
+      <text id="_" data-name=" " transform="translate(622.287 1366.768)" fill="#221f20" font-size="16" font-family="AzoSans-Light, Azo Sans" font-weight="300"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name=" " transform="translate(604.561 1459.085)" fill="#221f20" font-size="16" font-family="AzoSans-Light, Azo Sans" font-weight="300"><tspan x="0" y="0"> </tspan></text>
+      <g id="Group_10955" data-name="Group 10955" transform="translate(246.508 1012.943)">
+        <rect id="Rectangle_3831-2" data-name="Rectangle 3831" width="239.971" height="117.967" transform="translate(0 313)" fill="#69be28" opacity="0.321"/>
+        <rect id="Rectangle_3830-4" data-name="Rectangle 3830" width="239.971" height="94.967" transform="translate(0 150)" fill="#69be28" opacity="0.321"/>
+        <rect id="Rectangle_3827-4" data-name="Rectangle 3827" width="239.971" height="65.967" fill="#69be28"/>
+        <path id="Path_102805-4" data-name="Path 102805" d="M91.492,0V541.313H-148.257V0Z" transform="translate(148.331 0.557)" fill="none" stroke="#24b717" stroke-width="0.5"/>
+      </g>
+      <text id="STUDY_1" data-name="STUDY 1" transform="translate(246.559 1033.689)" fill="#fff" font-size="20" font-family="AzoSans-Bold, Azo Sans" font-weight="700" letter-spacing="0.01em"><tspan x="78.22" y="20">STUDY 1</tspan></text>
+      <text id="Initial_ages" data-name="Initial ages" transform="translate(104 1126.232)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="0" y="0">Initial ages</tspan></text>
+      <text id="When_did_HPP_symptoms_start_" data-name="When did HPP symptoms start?  " transform="translate(104 1168.186)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="0" y="18">When did HPP </tspan><tspan x="0" y="42">symptoms </tspan><tspan x="0" y="66" xml:space="preserve">start?  </tspan></text>
+      <text id="_3" data-name=" " transform="translate(373.039 1193.186)" fill="#221f20" font-size="9" font-family="AzoSans-Light, Azo Sans" font-weight="300"><tspan x="0" y="0"> </tspan></text>
+      <text id="Number_of_people_in_study" data-name="Number 
+of people 
+in study" transform="translate(104 1254.553)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="0" y="18">Number </tspan><tspan x="0" y="42">of people </tspan><tspan x="0" y="66">in study</tspan></text>
+      <text id="Primary_endpoints" data-name="Primary endpoints" transform="translate(104 1360.918)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="0" y="18">Primary </tspan><tspan x="0" y="42">endpoints</tspan></text>
+      <text id="Select_additional_endpoints" data-name="Select additional endpoints" transform="translate(104 1463.471)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="0" y="18">Select </tspan><tspan x="0" y="42">additional </tspan><tspan x="0" y="66">endpoints</tspan></text>
+      <text id="STUDY_3" data-name="STUDY 3" transform="translate(762.4 1035.195)" fill="#fff" font-size="20" font-family="AzoSans-Bold, Azo Sans" font-weight="700" letter-spacing="0.043em"><tspan x="75.71" y="20">STUDY 3</tspan></text>
+      <g id="Group_10968" data-name="Group 10968" transform="translate(0.4)">
+        <text id="_6_to_12_years" data-name="6 to 12 years" transform="translate(775.184 1109.572)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="57.227" y="18">6 to 12 years</tspan></text>
+        <text id="Before_18_years_of_age_" data-name="Before 
+18 years of age " transform="translate(770.032 1182.851)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="86.958" y="18">Before </tspan><tspan x="51.147" y="42">18 years of age </tspan></text>
+        <text id="_13" data-name="13" transform="translate(774.717 1281.625)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="101.318" y="18">13</tspan></text>
+        <text id="Improvements_in_HPPb-related_bone_health_mineralization_" data-name="Improvements 
+in  HPPb-related bone health/mineralization " transform="translate(783.225 1350.187)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="39.618" y="18">Improvements </tspan><tspan x="11.071" y="42" xml:space="preserve">in  HPP</tspan><tspan y="42" font-size="10.499" baseline-shift="5.999400079342301">b</tspan><tspan y="42">-related bone </tspan><tspan x="10.548" y="66">health/mineralization </tspan></text>
+        <text id="Growth_and_mobility" data-name="Growth and mobility" transform="translate(769.784 1486.989)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="22.802" y="18">Growth and </tspan><tspan y="18" font-family="AzoSans-Bold, Azo Sans" font-weight="700">mobility</tspan></text>
+      </g>
+      <text id="_4" data-name=" " transform="translate(808.638 1458.989)" font-size="16" font-family="AzoSans-Light, Azo Sans" font-weight="300"><tspan x="0" y="0"> </tspan></text>
+      <text id="STUDY_4" data-name="STUDY 4" transform="translate(1020.035 1035.195)" fill="#fff" font-size="20" font-family="AzoSans-Bold, Azo Sans" font-weight="700" letter-spacing="0.01em"><tspan x="76.84" y="20">STUDY 4</tspan></text>
+      <g id="Group_10967" data-name="Group 10967" transform="translate(92.893)">
+        <text id="_13_to_65_years" data-name="13 to 65 years" transform="translate(937.6 1109.572)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="49.296" y="18">13 to 65 years</tspan></text>
+        <text id="Before_18_years_of_age_for_18_of_the_19_study_patients_" data-name="Before 
+18 years of age 
+(for 18 of the 19 study patients)   " transform="translate(928.596 1174.4)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="90.95" y="18">Before </tspan><tspan x="55.139" y="42">18 years of age </tspan><tspan font-size="14"><tspan x="12.646" y="66">(for 18 of the 19 study patients) </tspan><tspan y="66" xml:space="preserve" font-size="18">  </tspan></tspan></text>
+        <text id="_19" data-name="19" transform="translate(937.915 1279.903)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="98.031" y="18">19</tspan></text>
+        <text id="Changes_in_PPi_and_PLPc_blood_levels_" data-name="Changes in PPi and PLPc blood levels  " transform="translate(937.618 1361.049)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="5.524" y="18">Changes in PPi and PLP</tspan><tspan y="18" font-size="10.499" baseline-shift="5.999400079342301">c </tspan><tspan x="57.288" y="42" xml:space="preserve">blood levels  </tspan></text>
+        <text id="Mobility_and_bone_health_mineralization_" data-name="Mobility and bone health/mineralization " transform="translate(938 1474.635)" fill="#343434" font-size="18" font-family="AzoSans-Bold, Azo Sans" letter-spacing="0.01em" font-weight="700"><tspan x="30.486" y="18">Mobility</tspan><tspan y="18" xml:space="preserve" font-family="AzoSans-Regular, Azo Sans" font-weight="400"> and bone </tspan><tspan x="17.04" y="42" font-family="AzoSans-Regular, Azo Sans" font-weight="400">health/mineralization </tspan></text>
+      </g>
+      <text id="_5" data-name=" " transform="translate(1022.469 1439.635)" font-size="16" font-family="AzoSans-Medium, Azo Sans" font-weight="500"><tspan x="0" y="0"> </tspan></text>
+      <g id="Group_10969" data-name="Group 10969">
+        <text id="Up_to_5_years" data-name="Up to 5 years" transform="translate(500.802 1109.786)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="66.051" y="18">Up to 5 years</tspan></text>
+        <text id="_69" data-name="69" transform="translate(501.428 1279.415)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="110.344" y="18">69</tspan></text>
+        <text id="Before_6_months_of_age_" data-name="Before 
+6 months of age " transform="translate(510.187 1186.513)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="87.573" y="18">Before </tspan><tspan x="46.173" y="42">6 months of age </tspan></text>
+        <text id="Growth_and_survival" data-name="Growth and survival" transform="translate(500.561 1485.989)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="36.855" y="18">Growth and survival</tspan></text>
+        <text id="Improvements_in_HPP-related_bone_health_mineralization_" data-name="Improvements 
+in HPP-related bone health/mineralization " transform="translate(508.86 1349.187)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="55.233" y="18">Improvements </tspan><tspan x="32.13" y="42">in HPP-related bone </tspan><tspan x="26.163" y="66">health/mineralization </tspan></text>
+      </g>
+      <g id="Group_10970" data-name="Group 10970" transform="translate(-18.542)">
+        <text id="Up_to_3_years" data-name="Up to 3 years" transform="translate(278.997 1110.122)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="49.918" y="18">Up to 3 years</tspan></text>
+        <text id="Before_6_months_of_age_2" data-name="Before 
+6 months of age " transform="translate(278.542 1185.513)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="77.539" y="18">Before </tspan><tspan x="36.139" y="42">6 months of age </tspan></text>
+        <text id="_11" data-name="11" transform="translate(282.103 1280.496)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="95.313" y="18">11</tspan></text>
+        <text id="Growthd_and_survival" data-name="Growthd and survival" transform="translate(280.947 1484.989)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="16.635" y="18">Growth</tspan><tspan y="18" font-size="10.499" baseline-shift="5.999400079342301">d</tspan><tspan y="18" xml:space="preserve"> and survival</tspan></text>
+        <text id="Improvements_in_HPPb-related_bone_health_mineralization_2" data-name="Improvements 
+in HPPb-related bone health/mineralization " transform="translate(281.077 1349.187)" fill="#343434" font-size="18" font-family="AzoSans-Regular, Azo Sans" letter-spacing="0.01em"><tspan x="42.199" y="18">Improvements </tspan><tspan x="15.92" y="42">in HPP</tspan><tspan y="42" font-size="10.499" baseline-shift="5.999400079342301">b</tspan><tspan y="42">-related bone </tspan><tspan x="13.129" y="66">health/mineralization </tspan></text>
+      </g>
+    </g>
+  </g>
+  <text id="Select_secondary_endpoints_are_in_bold_in_the_table_above._" data-name="Select secondary endpoints are in bold in the table above.
+" transform="translate(141 553)" fill="#343434" font-size="18" font-family="AzoSans-Italic, Azo Sans" font-style="italic" letter-spacing="0.01em"><tspan x="0" y="18">Select secondary endpoints are in bold in the table above.</tspan></text>
+</svg>
