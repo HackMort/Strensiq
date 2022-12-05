@@ -1,2 +1,3 @@
 # Strensiq
-Stresiq 
+
+Strensiq Project
