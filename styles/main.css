@@ -5839,7 +5839,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   display: inline-block;
   margin-right: .5em;
   position: relative;
-  margin-top: .8rem
+  margin-top: 0.55rem;
 }
 
 .hpp-dtc-m-form__body_item--checkbox .checkbox-label .checkbox-box:before {
