@@ -394,4 +394,12 @@
     .hpp-dtc-m-card {
         width: auto;
     }
+
+    .hpp-dtc-m-hero.internal-hero {
+        min-height: auto;
+    }
+
+    .heecol.hpp-dtc-m-hero.internal-hero .content .hero-box {
+        margin-left: 6rem;
+    }
 }
