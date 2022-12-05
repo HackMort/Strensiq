@@ -835,6 +835,7 @@ body {
 
     .navbar-collapse .nav li.m-last a {
         padding: 20px 0 0 !important;
+        text-transform: none;
     }
 
     .navbar-collapse .nav li.m-last .fa {
