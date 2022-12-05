@@ -1,0 +1,33 @@
+<svg id="Icon_Instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_136477" data-name="Path 136477" d="M22.5-71A22.5,22.5,0,0,0,45-93.5,22.5,22.5,0,0,0,22.5-116,22.5,22.5,0,0,0,0-93.5,22.5,22.5,0,0,0,22.5-71Z" transform="translate(0 116)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_136479" data-name="Path 136479" d="M72.858-76A1.358,1.358,0,0,0,71.5-74.642a1.358,1.358,0,0,0,1.358,1.358,1.358,1.358,0,0,0,1.358-1.358A1.358,1.358,0,0,0,72.858-76" transform="translate(-71.5 76)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_136481" data-name="Path 136481" d="M50.319-62.454a3.732,3.732,0,0,1-3.728-3.727,3.732,3.732,0,0,1,3.728-3.727,3.731,3.731,0,0,1,3.727,3.727,3.731,3.731,0,0,1-3.727,3.727m0-9.546A5.825,5.825,0,0,0,44.5-66.181a5.826,5.826,0,0,0,5.819,5.819,5.826,5.826,0,0,0,5.819-5.819A5.826,5.826,0,0,0,50.319-72" transform="translate(-44.5 72)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_136484" data-name="Path 136484" d="M36.491-84.81a4.807,4.807,0,0,0-4.8,4.8v9.293a4.807,4.807,0,0,0,4.8,4.8h9.293a4.807,4.807,0,0,0,4.8-4.8v-9.293a4.807,4.807,0,0,0-4.8-4.8Zm9.293,21.086H36.491A7,7,0,0,1,29.5-70.716v-9.293A7,7,0,0,1,36.491-87h9.293a7,7,0,0,1,6.992,6.991v9.293a7,7,0,0,1-6.992,6.991Z" transform="translate(-29.5 87)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Path_136483" data-name="Path 136483" d="M29.5-63.724H52.776V-87H29.5Z" transform="translate(-29.5 87)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_16189" data-name="Group 16189" clip-path="url(#clip-path)">
+    <path id="Path_136476" data-name="Path 136476" d="M-1-117H44.776v45.776H-1Z" transform="translate(0.612 116.612)" fill="#fff"/>
+  </g>
+  <g id="Group_16190" data-name="Group 16190" transform="translate(27.737 15.518)" clip-path="url(#clip-path-2)">
+    <path id="Path_136478" data-name="Path 136478" d="M70.5-77h3.491v3.491H70.5Z" transform="translate(-70.888 76.612)" fill="#005d54"/>
+  </g>
+  <g id="Group_16191" data-name="Group 16191" transform="translate(17.263 17.068)" clip-path="url(#clip-path-3)">
+    <path id="Path_136480" data-name="Path 136480" d="M43.5-73H55.914v12.414H43.5Z" transform="translate(-43.888 72.612)" fill="#005d54"/>
+  </g>
+  <g id="Group_16193" data-name="Group 16193" transform="translate(11.444 11.25)" clip-path="url(#clip-path-4)">
+    <g id="Group_16192" data-name="Group 16192" transform="translate(0)" clip-path="url(#clip-path-5)">
+      <path id="Path_136482" data-name="Path 136482" d="M28.5-88H52.552v24.052H28.5Z" transform="translate(-28.888 87.612)" fill="#005d54"/>
+    </g>
+  </g>
+</svg>
