@@ -2363,7 +2363,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   }
 
   .hpp-dtc-looking-for-resources__content {
-    text-align: center;
+    text-align: left;
     padding: 6.5rem 0
   }
 
@@ -5838,7 +5838,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   display: inline-block;
   margin-right: .5em;
   position: relative;
-  margin-top: .8rem
+  margin-top: 0.55rem;
 }
 
 .hpp-dtc-m-form__body_item--checkbox .checkbox-label .checkbox-box:before {
@@ -6851,7 +6851,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
     width: 46rem;
     margin-bottom: 3.3rem;
-    margin-inline: auto
+    margin-inline: 0
   }
 }
 
@@ -6863,7 +6863,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (min-width:992px) {
   .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content {
-    padding-bottom: 12.4rem
+    padding-bottom: 10rem;
   }
 
   .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .title {
@@ -6871,7 +6871,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   }
 
   .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
-    margin-inline: auto;
+    margin-inline: 0;
     width: max-content;
     padding: 0
   }

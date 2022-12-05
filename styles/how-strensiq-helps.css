@@ -417,7 +417,7 @@
   }
 
   .hpp-dtc-m-hero.internal-hero .hero-bg img {
-    object-position: left;
+    object-position: right;
   }
 
   .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
@@ -434,6 +434,12 @@
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .how-sq-helps references-section {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 1100px) {
+  .hpp-dtc-m-hero.internal-hero .hero-bg img {
+    object-position: left;
   }
 }
 

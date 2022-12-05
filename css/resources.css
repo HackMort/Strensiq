@@ -385,3 +385,29 @@
         padding-bottom: 5.7rem;
     }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .hpp-dtc-m-hpp-patient-advocacy .cards-container {
+        max-width: 99%;
+    }
+
+    .hpp-dtc-m-card {
+        width: auto;
+    }
+
+    .hpp-dtc-m-hero.internal-hero {
+        min-height: auto;
+    }
+
+    .heecol.hpp-dtc-m-hero.internal-hero .content .hero-box {
+        margin-left: 6rem;
+    }
+
+    .hpp-dtc-life-with__content .logo {
+        margin-left: 45px;
+    }
+
+    .hpp-dtc-life-with__content .content-holder {
+        margin-left: -80px;
+    }
+}
