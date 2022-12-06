@@ -779,4 +779,11 @@
 		display: flex;
 		align-items: center;
 	}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1366px) {
+	.hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
+		margin: 3rem;
+	}
 }
