@@ -755,3 +755,18 @@
 		left: -6rem;
 	}
 }
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.custom-columns {
+		flex-direction: column;
+	}
+
+	.custom-columns>div:first-of-type {
+		margin-bottom: 3rem;
+	}
+
+	.custom-columns>div {
+		left: 0;
+		width: 100%;
+	}
+}
