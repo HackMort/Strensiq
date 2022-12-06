@@ -5429,7 +5429,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 }
 
 .hpp-dtc-icons-panel.hpp-conditions .main-content .mainDescription {
-  padding: 0px;
+  /* padding: 0px; */
 }
 
 .hpp-dtc-icons-panel.hpp-conditions .content-holder .title {
@@ -5471,7 +5471,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
   }
 
   .hpp-dtc-icons-panel__content .main-content .mainDescription {
-    padding: 0 0rem;
+    padding: 0 4rem;
     margin-top: 3rem
   }
 
