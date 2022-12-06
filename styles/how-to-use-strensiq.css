@@ -290,9 +290,10 @@
 .strensiq-injection-background .subhead {
 	text-align: left;
 	font: normal normal bold 20px/32px Azo Sans;
+	font-family: 'azo-sans-web';
 	letter-spacing: 0.2px;
 	color: #69BE28;
-
+	margin-bottom: 5px;
 }
 
 .strensiq-injection-heading {
@@ -320,6 +321,7 @@
 	letter-spacing: 1.57px;
 	color: #DFDF00;
 	text-transform: uppercase;
+	margin-bottom: 2rem;
 }
 
 .looking-for-strensiq {
@@ -334,7 +336,7 @@
 
 .looking-for-strensiq__content .description {
 	color: var(--white);
-	margin-bottom: 4.5rem;
+	margin-bottom: 3.5rem;
 	width: 84%;
 }
 
@@ -356,8 +358,7 @@
 
 .strensiq-injection-starter-kit {
 	padding-right: 50px;
-	padding-bottom: 30px;
-	;
+	padding-bottom: 0;
 }
 
 .one-source-section {
@@ -748,5 +749,42 @@
 @media (min-width: 1024px) {
 	[data-module=PageSubnav] .pagesubnavcntr span>button {
 		margin-right: 25px;
+	}
+
+	.hpp-dtc-life-with__content .description::before {
+		top: 10rem !important;
+		left: -6rem;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.custom-columns {
+		flex-direction: column;
+	}
+
+	.custom-columns>div:first-of-type {
+		margin-bottom: 3rem;
+	}
+
+	.custom-columns>div {
+		left: 0;
+		width: 100%;
+	}
+
+	.strensiq-injection-heading {
+		font-size: 38px;
+		margin-bottom: 3rem;
+	}
+
+	.strensiq-injection-padding .align-items-center {
+		display: flex;
+		align-items: center;
+	}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1366px) {
+	.hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
+		margin: 3rem;
 	}
 }

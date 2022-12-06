@@ -209,3 +209,9 @@
         margin-top: -115px !important;
     }
 }
+
+@media (min-width: 1024px) {
+    [data-module=PageSubnav] .pagesubnavcntr span>button {
+        margin-right: 35px;
+    }
+}
