@@ -85,6 +85,10 @@
   margin-left: auto;
 }
 
+.rteblock p {
+    text-align: center;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .internal-hero .hero-box {
@@ -200,7 +204,7 @@
   }
 
   .hpp-dtc-m-hpp-patient-support__content .quote-box p {
-    font-family: azo-sans-web, sans-serif;
+    font-family: Cubano, sans-serif;
     font-size: 18px;
   }
 
