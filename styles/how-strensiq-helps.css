@@ -338,6 +338,10 @@
     padding-right: 15px;
   }
 
+  .studies-text__container {
+    padding: 0 10px;
+  }
+
 }
 
 @media (max-width: 1023px) {
