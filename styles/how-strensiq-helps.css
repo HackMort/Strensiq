@@ -120,7 +120,7 @@
 .how-sq-helps[data-module=Numbers] .numberwheelcntr+h3 {
     font-family: 'azo-sans-web', sans-serif;
     margin-top: 15px;
-    margin-bottom: 15px !important;
+    margin-bottom: 0px !important;
 }
 
 .how-sq-helps .btn--primary--video .wistia_click_to_play:before,
