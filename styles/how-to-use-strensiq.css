@@ -290,9 +290,10 @@
 .strensiq-injection-background .subhead {
 	text-align: left;
 	font: normal normal bold 20px/32px Azo Sans;
+	font-family: 'azo-sans-web';
 	letter-spacing: 0.2px;
 	color: #69BE28;
-
+	margin-bottom: 5px;
 }
 
 .strensiq-injection-heading {
@@ -356,8 +357,7 @@
 
 .strensiq-injection-starter-kit {
 	padding-right: 50px;
-	padding-bottom: 30px;
-	;
+	padding-bottom: 0;
 }
 
 .one-source-section {
@@ -768,5 +768,15 @@
 	.custom-columns>div {
 		left: 0;
 		width: 100%;
+	}
+
+	.strensiq-injection-heading {
+		font-size: 38px;
+		margin-bottom: 3rem;
+	}
+
+	.strensiq-injection-padding .align-items-center {
+		display: flex;
+		align-items: center;
 	}
 }
