@@ -212,11 +212,9 @@
     text-align: left;
 }
 
-.cw-text sup {
-    display: inline-block;
-    margin-left: -10px;
-    padding-right: 5px;
-
+.cw-text::first-letter {
+    vertical-align: super;
+    font-size: xx-small;
 }
 
 .cw-text.lg {
@@ -285,7 +283,8 @@
         justify-content: flex-start !important;
     }
 
-    .stq-chart-improvements-study::after {
+    .stq-chart-improvements-study::after,
+    .strensiq-side-effects::after {
         bottom: 0 !important;
     }
 
