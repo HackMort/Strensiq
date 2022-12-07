@@ -210,8 +210,30 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     [data-module=PageSubnav] .pagesubnavcntr span>button {
         margin-right: 35px;
+    }
+
+    #howtostorestrensiq .l-row.u-mt-3 .l-col-5>.d-flex {
+        min-height: 120px;
+    }
+
+    .img-do-not {
+        margin-top: -5px;
+    }
+
+    #howtostorestrensiq .l-row.u-mt-3 .l-col-5:last-of-type .d-flex:last-of-type .textcntr {
+        margin-top: 1px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    #howtostorestrensiq .l-row.u-mt-3 .l-col-push-1 {
+        left: 0;
+    }
+
+    #howtostorestrensiq .l-row.u-mt-3 .l-col-5 {
+        width: 50%;
     }
 }
