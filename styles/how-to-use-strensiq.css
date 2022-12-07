@@ -788,3 +788,10 @@
 		margin: 3rem;
 	}
 }
+
+@media screen and (min-width: 1024px) {
+	.strensiq-injection-padding .l-row.u-mt-3 {
+		display: flex;
+		align-items: center;
+	}
+}

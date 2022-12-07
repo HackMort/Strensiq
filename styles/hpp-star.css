@@ -94,12 +94,14 @@
     padding-right: 1rem;
   } */
 
-  .hpp-dtc-m-hero.internal-hero.hpp-dtc-m-hero.hpp-star-section .content .hero-box.quote {
-    max-width: 650px;
-  }
+
 
   .hpp-dtc-m-hpp-patient-support-form {
     padding-top: 1rem;
+    background-color: var(--white);
+    position: relative;
+    z-index: 3;
+    margin-top: -1rem;
   }
 }
 
@@ -112,6 +114,23 @@
   .hpp-star-section .hero-box {
     position: relative;
     top: 10%
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .hpp-dtc-m-hero.hpp-star-section .hero-bg img {
+    object-position: right;
+  }
+
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box {
+    max-width: 55rem;
+    margin-top: -5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hpp-dtc-m-hero.internal-hero.hpp-dtc-m-hero.hpp-star-section .content .hero-box.quote {
+    max-width: 650px;
   }
 }
 

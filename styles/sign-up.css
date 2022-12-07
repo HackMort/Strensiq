@@ -165,3 +165,13 @@
     left: -25%;
   }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .hpp-dtc-m-hero.internal-hero .hero-bg img {
+    object-position: center;
+  }
+
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box {
+    max-width: 58rem;
+  }
+}

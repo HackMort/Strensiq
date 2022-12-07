@@ -15106,7 +15106,7 @@ function nextBtn() {
 		document.querySelector('.hpp-dtc-lets-connect .secondary-title').classList.add('invisible');
 		document.querySelector('.hpp-dtc-lets-connect .main-title').style.display = 'none';
 		document.querySelector('.hpp-dtc-lets-connect .lets-connect').style.display = 'none';
-		document.querySelector('.hpp-dtc-lets-connect_form .content').scrollIntoView();
+		document.querySelector('.hpp-dtc-lets-connect_form').scrollIntoView({ behavior: 'smooth', block: 'start' });
 	}
 }
 function prevBtn() {
@@ -15122,7 +15122,9 @@ function prevBtn() {
 	document.querySelector('#magnify').style.display = 'none';
 	document.querySelector('#medical').style.display = 'none';
 	document.querySelector('.hpp-dtc-lets-connect .main-title').innerHTML = 'WHICH BEST DESCRIBES YOU?';
-	document.querySelector('.hpp-dtc-lets-connect .secondary-title').classList.remove('invisible');
+	document.querySelector('.hpp-dtc-lets-connect .secondary-title').classList.add('invisible');
+	let title = document.querySelector('.hpp-dtc-lets-connect .secondary-title');
+	console.log('Title: ', title)
 	stepOneCard(selectedStep1);
 }
 
