@@ -284,6 +284,10 @@
     #wistia_86\.thumb_container {
         justify-content: flex-start;
     }
+
+    .stq-chart-improvements-study::after {
+        bottom: 0 !important;
+    }
 }
 
 .pagesubnavstickpoint {
