@@ -288,6 +288,10 @@
     .stq-chart-improvements-study::after {
         bottom: 0 !important;
     }
+
+    .callout-block-container {
+        padding: 0;
+    }
 }
 
 .pagesubnavstickpoint {
