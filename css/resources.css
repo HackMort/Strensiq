@@ -364,7 +364,19 @@
         width: 100%;
     }
 
-    .hpp-dtc-pharmacy-support__content {
+    .journey-from-prescription-container {
+        padding-bottom: 0;
+        border: none;
+    }
+
+    .journey-from-prescription-container .container-fluid .imgzoom {
+        border-bottom: .1rem solid #eaeaea;
+        margin-bottom: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    .journey_prescription {
+        padding-bottom: 6rem !important;
     }
 
     .heecol.hpp-dtc-m-hero .content {
