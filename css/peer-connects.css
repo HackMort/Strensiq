@@ -2,6 +2,80 @@
     padding: 0 1rem !important;
 }
 
+.form-control {
+    border: none;
+    height: 4.8rem;
+    font-size: 1.6rem;
+    background-color: #f8f8f8
+}
+
+.form-container .invalid-feedback {
+    font-family: azo-sans-web, sans-serif;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.form-group label {
+    font-size: 1.6rem;
+    font-family: azo-sans-web, sans-serif;
+}
+
+.form-group .form-check {
+    padding-left: 0;
+    padding-bottom: 1.5rem;
+}
+
+.form-check .form-check-input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.form-check label {
+    font-size: 1.4rem;
+    position: relative;
+    cursor: pointer;
+    margin-left: 3rem;
+    padding-right: .7rem;
+}
+
+.form-check label::before {
+    content: "";
+    -webkit-appearance: none;
+    background-color: var(--white);
+    border: 0.1rem solid #969696;
+    padding: 0.9rem;
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    left: -3.1rem;
+    margin-top: 0;
+}
+
+.form-check input:checked+label::before {
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+.form-check input:checked+label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0.5rem;
+    left: -2.3rem;
+    width: 0.4rem;
+    height: 1.1rem;
+    border: solid white;
+    border-width: 0 0.2rem 0.2rem 0;
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
 .hpp-dtc-m-form.container {
     max-width: 850px;
     margin-top: 0;
