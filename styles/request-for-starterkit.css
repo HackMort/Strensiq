@@ -60,6 +60,20 @@
     color: var(--white);
 }
 
+.starter-kit__img-container.imgzoom picture::after {
+    pointer-events: none;
+    content: "";
+    cursor: default;
+    position: absolute;
+    left: calc(50% - 75px);
+    background-image: url('../images/how-strensiq-helps/tap-to-zoom.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 27px;
+    bottom: -32px;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
 
     .lg-curve {
@@ -133,6 +147,10 @@
         position: relative;
         bottom: 30%;
         left: -4%;
+    }
+
+    .starter-kit__img-container.imgzoom picture::after {
+        display: none;
     }
 }
 
