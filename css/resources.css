@@ -225,6 +225,10 @@
 
 @media (min-width: 230px) and (max-width: 767px) {
 
+    .hpp-support-elx {
+        margin-top: 50px;
+    }
+
     .internal-navegator {
         display: none
     }
@@ -307,6 +311,7 @@
 }
 
 @media screen and (min-width: 992px) {
+
     .resources-hero .resources-hero-content {
         position: relative;
         /* left: -5%; */
@@ -342,9 +347,6 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .pagesubnavstickpoint {
-        display: none;
-    }
 
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         top: -110px;
