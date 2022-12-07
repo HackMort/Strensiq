@@ -2,7 +2,9 @@
 	padding: 0px 0px !important;
 }
 
-
+.patient-prescribing-information a {
+    font-weight: bold;
+}
 
 [data-module=PageSubnav] .js-accordion__header {
 	cursor: auto !important;
