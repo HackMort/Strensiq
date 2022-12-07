@@ -176,6 +176,7 @@
 	font: normal normal normal 18px/30px Azo Sans;
 	letter-spacing: 0.18px;
 	opacity: 1;
+	flex: 1;
 }
 
 .isrblock1 ul,
@@ -781,6 +782,9 @@
 		align-items: center;
 	}
 
+	.isrblock1 {
+		padding-right: 0;
+	}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1366px) {
