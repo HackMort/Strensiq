@@ -292,6 +292,10 @@
     .callout-block-container {
         padding: 0;
     }
+
+    .rteblock .rteblock__info li {
+        margin-bottom: 25px !important;
+    }
 }
 
 .pagesubnavstickpoint {
