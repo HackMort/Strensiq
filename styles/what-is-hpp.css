@@ -623,7 +623,7 @@
 
 	.hpp-dtc-icons-panel__content .content-holder .secondary-content {
 		border-bottom: 1px solid rgb(150 150 150 / 50%);
-        padding: 5.4rem;
+		padding: 5.4rem;
 	}
 
 	.two-cols-hpp .hpp-image~.content .hpp-spl-p {
@@ -648,8 +648,7 @@
 		margin-bottom: 3rem;
 	}
 
-	.hpp-dtc-life-with__content .title {
-	}
+	.hpp-dtc-life-with__content .title {}
 }
 
 @media (max-width: 1023px) {
@@ -696,5 +695,11 @@
 	.green-bar-section .description {
 		text-align: left;
 		padding: 0;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .hero-bg img {
+		object-position: right;
 	}
 }
