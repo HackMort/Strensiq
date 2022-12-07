@@ -6,6 +6,15 @@
   .hpp-dtc-lets-connect_slide-pagination {
     top: 0 !important;
   }
+
+  .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .row .form {
+    margin: 0 !important;
+    min-width: auto !important;
+  }
+
+  .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .row {
+    padding: 0 2rem;
+  }
 }
 
 @media screen and (max-width: 1440px) {
