@@ -1903,7 +1903,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     background: #ecf8fe;
     background-position: center 103%;
     background-size: 100%;
-    padding: 5.8rem 0 0
+    padding: 5.8rem 0 !important;
 }
 
 .hpp-dtc-m-hpp-patient-support__content {
@@ -2028,7 +2028,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     font-family: cubano, sans-serif;
     font-weight: bolder;
     font-size: 1.8rem;
-    line-height: 2.6rem;
+    line-height: 30px;
     margin-bottom: .1rem;
     padding: 0;
     text-align: left;
