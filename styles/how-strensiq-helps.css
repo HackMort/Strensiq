@@ -272,9 +272,17 @@
     [data-module].references-section,
     [data-module].skeletal-section {
         margin-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-bottom: 10px;
+    }
+
+    div.how-sq-helps.sq-improves {
+        padding: 0 10px;
+    }
+
+    #wistia_86\.thumb_container {
+        justify-content: flex-start;
     }
 }
 
