@@ -586,6 +586,7 @@
 	.hpp-dtc-icons-panel__content .content-holder .logo {
 		margin-right: auto;
 		margin-left: auto;
+		max-width: 164px;
 	}
 
 	.hpp-dtc-m-hero.what-is-hpp-hero .content {
@@ -701,5 +702,13 @@
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 	.hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .hero-bg img {
 		object-position: right;
+	}
+
+	.hpp-dtc-looking-for-resources__content .title {
+		margin-bottom: 2rem;
+	}
+
+	.green-bar-section .description {
+		margin-bottom: 3rem;
 	}
 }

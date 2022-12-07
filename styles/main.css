@@ -1904,6 +1904,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     background-position: center 103%;
     background-size: 100%;
     padding: 5.8rem 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .hpp-dtc-m-hpp-patient-support__content {
