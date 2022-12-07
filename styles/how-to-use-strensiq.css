@@ -185,7 +185,7 @@
 }
 
 .isrblock1 {
-	padding-right: 100px;
+	/* padding-right: 100px; */
 	padding-left: 20px;
 }
 
@@ -782,9 +782,6 @@
 		align-items: center;
 	}
 
-	.isrblock1 {
-		padding-right: 0;
-	}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1366px) {
