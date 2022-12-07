@@ -1,1 +1,21 @@
-/* Just in case we need it later on. */
+.hpp-dtc-p-home .hpp-dtc-lets-connect_cards.step-2 .card .description {
+  margin: 5rem 1rem -2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hpp-dtc-p-home .hpp-dtc-lets-connect_cards {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hpp-dtc-p-home .hpp-dtc-lets-connect_cards {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .hpp-dtc-lets-connect_cards {
+    padding: 1rem 5.6rem 0 1rem;
+  }
+}
