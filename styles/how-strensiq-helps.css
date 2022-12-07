@@ -281,8 +281,8 @@
         padding: 0 10px;
     }
 
-    #wistia_86\.thumb_container {
-        justify-content: flex-start;
+    .video-container > div {
+        justify-content: flex-start !important;
     }
 
     .stq-chart-improvements-study::after {
