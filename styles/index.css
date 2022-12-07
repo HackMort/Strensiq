@@ -2,6 +2,21 @@
   margin: 5rem 1rem -2rem;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hpp-dtc-lets-connect_slide-pagination {
+    top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+  .hpp-dtc-lets-connect_slide-pagination .next,
+  .hpp-dtc-lets-connect_slide-pagination .prev,
+  .hpp-dtc-lets-connect_slide-pagination .results {
+    margin: 0 0 5.4rem;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .hpp-dtc-p-home .hpp-dtc-lets-connect_cards {
     padding-top: 1rem;
