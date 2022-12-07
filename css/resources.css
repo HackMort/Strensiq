@@ -354,6 +354,13 @@
 }
 
 @media (max-width: 767px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: 28.4rem;
+        object-fit: cover;
+        object-position: top right;
+        width: 100%;
+    }
+
     .hpp-dtc-pharmacy-support__content {
         border: 0;
     }
