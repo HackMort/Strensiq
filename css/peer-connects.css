@@ -42,6 +42,10 @@
     padding-right: .7rem;
 }
 
+.nav-only-desktop {
+    display: none;
+}
+
 .form-check label::before {
     content: "";
     -webkit-appearance: none;
@@ -74,6 +78,12 @@
     border-width: 0 0.2rem 0.2rem 0;
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+.form-submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hpp-dtc-m-form.container {
@@ -200,5 +210,11 @@
 @media screen and (max-width: 1023px) {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         top: -110px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-only-desktop {
+        display: block;
     }
 }
