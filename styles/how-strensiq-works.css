@@ -86,7 +86,7 @@
 }
 
 .rteblock p {
-    text-align: center;
+  text-align: center;
 }
 
 /* Media Queries */
@@ -151,6 +151,10 @@
 @media screen and (min-width: 992px) {
   .how-strensiq-works-logo {
     margin-left: -10px;
+  }
+
+  .rteblock p {
+    text-align: left;
   }
 
   .tips-hero .hero-box {
