@@ -8925,12 +8925,6 @@ footer h4 {
 	}
 }
 
-@media (min-width:320px) and (max-width:767px) {
-	.isi-sticky.isi-fullHome[data-isi-sticky] {
-		height: 130px
-	}
-}
-
 .isi-sticky {
 	z-index: 259;
 	left: 0;
@@ -8940,7 +8934,7 @@ footer h4 {
 	position: fixed;
 	display: flex;
 	flex-direction: column;
-	height: 48px
+	height: 76px
 }
 
 .isi-sticky--quarter {
@@ -8956,12 +8950,12 @@ footer h4 {
 }
 
 .isi-sticky--collapsed {
-	height: 48px
+	height: 76px
 }
 
 @media (min-width:320px) and (max-width:767px) {
 	.isi-sticky--collapsed {
-		height: 30px
+		height: 76px
 	}
 }
 
@@ -14821,9 +14815,9 @@ body.Page-Strensiq_Patient_com .jumpbutton {
 		display: block;
 		width: 100%;
 		text-align: left;
-		font-weight: 500;
+		font-weight: 900;
 		font-size: 18px;
-		color: #343434;
+		color: #000000;
 		margin-bottom: 20px
 	}
 
