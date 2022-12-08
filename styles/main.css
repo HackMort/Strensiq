@@ -4983,9 +4983,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     content: "";
     display: block;
     position: absolute;
-    top: .5rem;
-    left: -2.5rem;
-    width: .4rem;
+    top: 0.4rem;
+    left: -2.6rem;
+    width: 0.5rem;
     height: 1.1rem;
     border: solid var(--white);
     border-width: 0 .2rem .2rem 0;
