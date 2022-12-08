@@ -3305,7 +3305,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     -webkit-appearance: none;
     background-color: var(--white);
     border: .1rem solid #969696;
-    padding: .9rem;
+    border-radius: 2px;
+    padding: 1rem;
+    /* padding: .9rem; */
     display: inline-block;
     position: absolute;
     vertical-align: middle;
@@ -3324,9 +3326,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     content: "";
     display: block;
     position: absolute;
-    top: .5rem;
+    top: 0.4rem;
     left: -2.3rem;
-    width: .4rem;
+    width: 0.5rem;
     height: 1.1rem;
     border: solid var(--white);
     border-width: 0 .2rem .2rem 0;

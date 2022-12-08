@@ -2,6 +2,35 @@
     padding: 0 1rem !important;
 }
 
+.hpp-dtc-m-hpp-patient-support-form_form .btn {
+    font-family: azo-sans-web, Arial, sans-serif;
+    color: var(--dark-green);
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid var(--dark-green);
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: all .3s ease-out;
+    letter-spacing: .1em;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
+}
+
+.hpp-dtc-m-hpp-patient-support-form_form .btn:hover,
+.hpp-dtc-m-hpp-patient-support-form_form .btn:focus {
+    background-color: var(--dark-green);
+}
+
+form .select-wrap:after {
+    top: 48px;
+}
+
 .form-control {
     border: none;
     height: 4.8rem;
@@ -176,6 +205,11 @@
 }
 
 @media (min-width: 992px) {
+    .hpp-dtc-life-with__content .description::before {
+        top: 3rem !important;
+        left: -7rem !important;
+    }
+
     [data-module=PageSubnav] {
         margin-top: 2rem !important;
     }
