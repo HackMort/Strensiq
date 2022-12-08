@@ -251,6 +251,8 @@
 .btn-brochure:hover:after,
 .btn-brochure:focus:after {
 	background: url('../images/how-to-use-strensiq/download_white.svg');
+	height: 21px;
+	width: 21px;
 }
 
 .download-brochure {
