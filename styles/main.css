@@ -1904,6 +1904,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     background-position: center 103%;
     background-size: 100%;
     padding: 5.8rem 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .hpp-dtc-m-hpp-patient-support__content {
@@ -2325,6 +2326,13 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     width: 84%
 }
 
+@media screen and (min-width: 325px) and (max-width: 424px) {
+    .quote-container .quote-box p {
+        letter-spacing: 0.5px;
+        line-height: 25px;
+    }
+}
+
 @media screen and (max-width:767px) {
     .hpp-dtc-looking-for-resources__content {
         text-align: center;
@@ -2349,11 +2357,11 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
         font-size: 1.4rem
     }
 
-    .hpp-dtc-m-hpp-patient-support__content .quote-container {
+    .quote-container {
         height: 352px;
     }
 
-    .hpp-dtc-m-hpp-patient-support__content .quote-box {
+    .quote-container .quote-box {
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -5847,7 +5855,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 .hpp-dtc-m-form__body_item--checkbox .checkbox-label input:checked+.checkbox-box:before {
     background: #69be28;
     border-color: #69be28;
-    animation: check 1s ease
+    /* animation: check 1s ease */
 }
 
 .hpp-dtc-m-form__body_item--checkbox .checkbox-label input:checked+.checkbox-box:after {

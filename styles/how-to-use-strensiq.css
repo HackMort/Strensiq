@@ -2,7 +2,9 @@
 	padding: 0px 0px !important;
 }
 
-
+.patient-prescribing-information a {
+    font-weight: bold;
+}
 
 [data-module=PageSubnav] .js-accordion__header {
 	cursor: auto !important;
@@ -10,6 +12,10 @@
 
 [data-module=PageSubnav] .jumpbtn {
 	margin-top: -78px;
+}
+
+.resources-for-injection-text {
+    text-align: left;
 }
 
 .lg-curve {
@@ -176,6 +182,7 @@
 	font: normal normal normal 18px/30px Azo Sans;
 	letter-spacing: 0.18px;
 	opacity: 1;
+	flex: 1;
 }
 
 .isrblock1 ul,
@@ -184,7 +191,7 @@
 }
 
 .isrblock1 {
-	padding-right: 100px;
+	/* padding-right: 100px; */
 	padding-left: 20px;
 }
 
@@ -213,6 +220,13 @@
 	line-height: 24px;
 	letter-spacing: 1.6px;
 	text-transform: uppercase;
+
+    position: relative;
+}
+
+.btn-brochure p {
+	font-weight: 700 !important;
+    display: inline-block;
 }
 
 .btn-brochure:after {
@@ -220,8 +234,8 @@
 	background: url(../images/how-to-use-strensiq/download.svg) no-repeat;
 	background-size: contain;
 	background-position: 50%;
-	width: 14px;
-	height: 14px;
+	width: 20px;
+	height: 20px;
 	margin-left: 10px;
 	transition: all .3s ease-in-out;
 	font-weight: 400;
@@ -522,8 +536,8 @@
 	}
 
 	.looking-for-strensiq-tips {
-		padding-left: 20px;
-		padding-right: 20px;
+		/* padding-left: 20px; */
+		/* padding-right: 20px; */
 	}
 
 	.looking-for-strensiq__content {
@@ -721,6 +735,51 @@
 		position: relative;
 		top: 14%
 	}
+
+    .download-brochure {
+        display: flex;
+        justify-content: center;
+        left: 0;
+    }
+
+    .download-brochure .btn-brochure {
+        text-align: left;
+    }
+
+    .download-brochure .btn-brochure::after {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .download-brochure .btn-brochure p {
+        width: 80%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .looking-for-strensiq {
+        margin-top: 72px !important;
+    }
+
+    .looking-for-strensiq-tips {
+        padding: 0;
+
+    }
+
+    .looking-for-strensiq-tips .description {
+        text-align: center;
+    }
+
+    .looking-for-strensiq-tips  .button-holder {
+        display: flex;
+        justify-content: center;
+    }
+
+    .looking-for-strensiq-tips  .button-holder a {
+        width: auto;
+        padding: .5rem 1.3rem;
+    }
 }
 
 @media (max-width: 1023px) {

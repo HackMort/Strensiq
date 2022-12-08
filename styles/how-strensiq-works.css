@@ -1,88 +1,88 @@
 /* Hero */
 .how-sq-works[data-module=HeroModule] .HeroCalloutCntr:after {
-  display: none;
+    display: none;
 }
 
 .rwm-hero.hpp-dtc-m-hero .hero-bg::before {
-  display: none;
+    display: none;
 }
 
 .how-sq-works[data-module=HeroModule] .row.mx-0:after {
-  content: "";
-  background: #fff;
-  width: 100%;
-  border-top-left-radius: 100px;
-  position: relative;
-  display: block;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-  height: 100px;
+    content: "";
+    background: #fff;
+    width: 100%;
+    border-top-left-radius: 100px;
+    position: relative;
+    display: block;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100px;
 }
 
 .how-sq-works .l-ten {
-  left: 8.33333%;
-  width: 83.33333%;
+    left: 8.33333%;
+    width: 83.33333%;
 }
 
 .how-sq-works .green-text {
-  color: var(--dark-green);
-  font-weight: bold;
-  margin-bottom: 20px;
+    color: var(--dark-green);
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 #howstrensiqworksinthebody .green-text {
-  max-width: 426px;
+    max-width: 426px;
 }
 
 #howstrensiqworksinthebody picture {
-  background-color: var(--white);
-  display: block;
+    background-color: var(--white);
+    display: block;
 }
 
 .how-sq-works .ct-mw {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 760px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 760px;
 }
 
 .how-sq-works .c-ten {
-  left: auto;
-  right: auto;
-  float: none;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  width: 760px;
+    left: auto;
+    right: auto;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    width: 760px;
 }
 
 .looking-for-strensiq {
-  background-color: var(--dark-green);
-  color: var(--white);
+    background-color: var(--dark-green);
+    color: var(--white);
 }
 
 .looking-for-strensiq__content {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .looking-for-strensiq .title {
-  font: normal normal bold 45px/42px Druk-bold;
-  letter-spacing: 1.57px;
-  color: #DFDF00;
-  text-transform: uppercase;
-  margin-bottom: 3rem;
+    font: normal normal bold 45px/42px Druk-bold;
+    letter-spacing: 1.57px;
+    color: #DFDF00;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
 }
 
 .looking-for-strensiq__content .description {
-  color: var(--white);
-  margin-bottom: 4.5rem;
+    color: var(--white);
+    margin-bottom: 4.5rem;
 }
 
 .custom-max-width {
-  max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .rteblock p {
@@ -91,37 +91,37 @@
 
 /* Media Queries */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .internal-hero .hero-box {
-    min-height: 25.3rem;
-  }
+    .internal-hero .hero-box {
+        min-height: 25.3rem;
+    }
 }
 
 @media screen and (max-width: 767px) {
-  #howstrensiqworksinthebody {
-    margin-top: 75px;
-    text-align: center;
-  }
+    #howstrensiqworksinthebody {
+        margin-top: 75px;
+        text-align: center;
+    }
 
-  #howstrensiqworksinthebody picture img {
-    display: block;
-    margin: 0 auto;
-    max-width: 250px;
-    width: 100%;
-  }
+    #howstrensiqworksinthebody picture img {
+        display: block;
+        margin: 0 auto;
+        max-width: 250px;
+        width: 100%;
+    }
 
-  .strensiq-treats {
-    margin-top: -3rem !important;
-  }
+    .strensiq-treats {
+        margin-top: -3rem !important;
+    }
 }
 
 @media screen and (max-width: 991px) {
-  .looking-for-strensiq__content {
-    text-align: center;
-  }
+    .looking-for-strensiq__content {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 992px) {
-  /* .hpp-dtc-p-how-strensiq-works .content {
+    /* .hpp-dtc-p-how-strensiq-works .content {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
@@ -131,119 +131,129 @@
     padding: 0 11rem;
   } */
 
-  .hpp-dtc-p-how-strensiq-works .content .pre-title {
-    font-family: 'Druk-bold';
-    letter-spacing: 1px;
-    line-height: 32px;
-    /* margin-bottom: 2rem !important; */
-  }
+    .hpp-dtc-p-how-strensiq-works .content .pre-title {
+        font-family: 'Druk-bold';
+        letter-spacing: 1px;
+        line-height: 32px;
+        /* margin-bottom: 2rem !important; */
+    }
 
-  .how-sq-works.hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content {
-    flex-direction: column;
-    margin-top: 18rem;
-  }
+    .how-sq-works.hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content {
+        flex-direction: column;
+        margin-top: 18rem;
+    }
 
-  .looking-for-strensiq__content .description {
-    width: 84%;
-  }
+    .looking-for-strensiq__content .description {
+        width: 84%;
+    }
 }
 
 @media screen and (min-width: 992px) {
-  .how-strensiq-works-logo {
-    margin-left: -10px;
-  }
+    .how-strensiq-works-logo {
+        margin-left: -10px;
+    }
 
-  .tips-hero .hero-box {
-    min-height: auto;
-  }
+    .rteblock p {
+        text-align: left;
+    }
+
+    .tips-hero .hero-box {
+        min-height: auto;
+    }
 }
 
 @media (max-width: 1023px) {
-  #iq2 {
-    margin-bottom: -3rem !important;
-  }
+    #iq2 {
+        margin-bottom: -3rem !important;
+    }
 
-  .hpp-dtc-m-hero .hero-bg::before {
-    display: none;
-  }
+    .hpp-dtc-m-hero .hero-bg::before {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-  .alp-helps-form {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+    .alp-helps-form {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
-  .how-sq-works .l-ten {
-    padding: 0px;
-  }
+    .how-sq-works .l-ten {
+        padding: 0px;
+    }
 
-  .l-ten picture {
-    padding: 0px 5rem;
-  }
+    .l-ten picture {
+        padding: 0px 5rem;
+    }
 
-  .how-sq-works .l-grid {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
+    .how-sq-works .l-grid {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 
-  .how-sq-works .t-headline {
-    font-size: 36px;
-  }
+    .how-sq-works .t-headline {
+        font-size: 36px;
+    }
 
-  .how-sq-works .green-text {
-    margin: 0px 6rem 20px 6rem;
-  }
+    .how-sq-works .green-text {
+        margin: 0px 6rem 20px 6rem;
+    }
 
-  .how-sq-works .replaces-the-alp {
-    margin: 0px 6rem 20px 6rem;
-  }
+    .how-sq-works .replaces-the-alp {
+        margin: 0px 6rem 20px 6rem;
+    }
 
-  .how-sq-works .frees-phosphate {
-    margin: 0px 7rem 20px 7rem;
-  }
+    .how-sq-works .frees-phosphate {
+        margin: 0px 7rem 20px 7rem;
+    }
 
-  .hpp-dtc-m-hpp-patient-support__content .quote-box p {
-    font-family: Cubano, sans-serif;
-    font-size: 18px;
-  }
+    .hpp-dtc-m-hpp-patient-support__content .quote-box p {
+        font-family: Cubano, sans-serif;
+        font-size: 18px;
+    }
 
-  .hpp-dtc-m-hpp-patient-support__content .quote-box p.manager {
-    font-size: 1.7rem;
-  }
+    .hpp-dtc-m-hpp-patient-support__content .quote-box p.manager {
+        font-size: 1.7rem;
+    }
 }
 
 @media (max-width: 1023px) {
-  .pagesubnavstickpoint.scrolled {
-    display: none;
-  }
+    .pagesubnavstickpoint.scrolled {
+        display: none;
+    }
 }
 
 @media (min-width: 992px) {
 
-  .hpp-dtc-m-hero.internal-hero .hero-bg img {
-    object-position: left;
-  }
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        object-position: left;
+    }
 
-  .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
-    left: -9%;
-  }
+    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
+        left: -9%;
+    }
 }
 
 @media (min-width: 1366px) {
-  .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
-    left: -12%;
-  }
+    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
+        left: -12%;
+    }
 }
 
 @media (min-width: 1500px) {
-  .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
-    left: -18%;
-  }
+    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
+        left: -18%;
+    }
 }
 
 @media (min-width: 1800px) {
-  .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
-    left: -35%;
-  }
+    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
+        left: -35%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rteblock p {
+        text-align: left;
+    }
 }
