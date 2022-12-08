@@ -11,6 +11,10 @@
   top: 48px;
 }
 
+.nav-only-desktop {
+    display: none;
+}
+
 .sign-up-section[data-module=HeroModule] .row.mx-0:after {
   content: "";
   background: #fff;
@@ -64,6 +68,18 @@
 }
 
 /* Media Queries */
+@media screen and (max-width: 375px) {
+    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+        background-position: left 10% top 48% !important;
+    }    
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+        background-position: left 10% top 52% !important;
+    }    
+}
+
 @media screen and (min-width: 992px) {
   .sign-up-hero[data-module=HeroModule] .HeroCalloutCntr:after {
     display: block;
@@ -174,4 +190,14 @@
   .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box {
     max-width: 58rem;
   }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-only-desktop {
+        display: block;
+    }
+
+    .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
+        display: block;
+    }
 }
