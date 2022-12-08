@@ -3,7 +3,7 @@
 }
 
 .patient-prescribing-information a {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 [data-module=PageSubnav] .js-accordion__header {
@@ -15,7 +15,7 @@
 }
 
 .resources-for-injection-text {
-    text-align: left;
+	text-align: left;
 }
 
 .lg-curve {
@@ -116,7 +116,7 @@
 
 .tips-for-smooth-injection-heading,
 .resources-injection-heading {
-	color: #005D55;
+	color: var(--dark-green);
 	text-align: left;
 	font: normal normal bold 45px/42px Druk-bold;
 	letter-spacing: 1.57px;
@@ -199,17 +199,14 @@
 	padding-left: 100px;
 }
 
-.btn-brochure:hover,
-.btn-brochure:focus {
-	color: #005D55;
-}
+
 
 .btn-brochure {
-	border: 2px solid #005D55;
+	border: 2px solid var(--dark-green);
 	opacity: 1;
 	display: inline-block;
 	font-weight: 400;
-	color: #005D55;
+	color: var(--dark-green);
 	text-align: center;
 	vertical-align: middle;
 	padding: 10px 20px;
@@ -221,12 +218,12 @@
 	letter-spacing: 1.6px;
 	text-transform: uppercase;
 
-    position: relative;
+	position: relative;
 }
 
 .btn-brochure p {
 	font-weight: 700 !important;
-    display: inline-block;
+	display: inline-block;
 }
 
 .btn-brochure:after {
@@ -245,13 +242,24 @@
 	position: relative;
 }
 
+.btn-brochure:hover,
+.btn-brochure:focus {
+	color: var(--white);
+	background-color: var(--dark-green);
+}
+
+.btn-brochure:hover:after,
+.btn-brochure:focus:after {
+	background: url('../images/how-to-use-strensiq/download_white.svg');
+}
+
 .download-brochure {
 	position: relative;
 	left: 9%;
 }
 
 .what-to-do {
-	background: #005D55;
+	background: var(--dark-green);
 	padding: 50px;
 	border-radius: 10px;
 	text-align: left;
@@ -282,7 +290,7 @@
 	text-align: left;
 	font: normal normal bold 28px/32px Druk-bold;
 	letter-spacing: 0.84px;
-	/* color: #005D55; */
+	/* color: var(--dark-green); */
 	opacity: 1;
 	padding-bottom: 85px;
 }
@@ -291,7 +299,7 @@
 	text-align: left;
 	font: normal normal bold 28px/32px Druk-bold;
 	letter-spacing: 0.84px;
-	color: #005D55;
+	color: var(--dark-green);
 	opacity: 1;
 }
 
@@ -311,7 +319,7 @@
 }
 
 .strensiq-injection-heading {
-	color: #005D55;
+	color: var(--dark-green);
 	text-align: left;
 	font: normal normal bold 45px/42px Druk-bold;
 	letter-spacing: 1.57px;
@@ -736,50 +744,50 @@
 		top: 14%
 	}
 
-    .download-brochure {
-        display: flex;
-        justify-content: center;
-        left: 0;
-    }
+	.download-brochure {
+		display: flex;
+		justify-content: center;
+		left: 0;
+	}
 
-    .download-brochure .btn-brochure {
-        text-align: left;
-    }
+	.download-brochure .btn-brochure {
+		text-align: left;
+	}
 
-    .download-brochure .btn-brochure::after {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+	.download-brochure .btn-brochure::after {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
 
-    .download-brochure .btn-brochure p {
-        width: 80%;
-        display: inline-block;
-        text-align: center;
-    }
+	.download-brochure .btn-brochure p {
+		width: 80%;
+		display: inline-block;
+		text-align: center;
+	}
 
-    .looking-for-strensiq {
-        margin-top: 72px !important;
-    }
+	.looking-for-strensiq {
+		margin-top: 72px !important;
+	}
 
-    .looking-for-strensiq-tips {
-        padding: 0;
+	.looking-for-strensiq-tips {
+		padding: 0;
 
-    }
+	}
 
-    .looking-for-strensiq-tips .description {
-        text-align: center;
-    }
+	.looking-for-strensiq-tips .description {
+		text-align: center;
+	}
 
-    .looking-for-strensiq-tips  .button-holder {
-        display: flex;
-        justify-content: center;
-    }
+	.looking-for-strensiq-tips .button-holder {
+		display: flex;
+		justify-content: center;
+	}
 
-    .looking-for-strensiq-tips  .button-holder a {
-        width: auto;
-        padding: .5rem 1.3rem;
-    }
+	.looking-for-strensiq-tips .button-holder a {
+		width: auto;
+		padding: .5rem 1.3rem;
+	}
 }
 
 @media (max-width: 1023px) {
