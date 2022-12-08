@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .hpp-dtc-lets-connect_cards {
-    padding: 1rem 2rem;
+    padding: 0 2rem;
   }
 }
 
