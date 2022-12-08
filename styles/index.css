@@ -2,6 +2,8 @@
   margin: 5rem 1rem -2rem;
 }
 
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .hpp-dtc-lets-connect_slide-pagination {
     top: 0 !important;
@@ -38,8 +40,27 @@
   }
 }
 
+@media screen and (min-width: 992px) {
+  .hpp-dtc-life-with__content .description::before {
+    top: 8.5rem;
+    left: -6rem;
+  }
+}
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .hpp-dtc-lets-connect_cards {
-    padding: 1rem 5.6rem 0 1rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .hpp-dtc-m-hero.home-hero .hero-box {
+    max-width: 55rem;
+    margin-top: 100px;
+  }
+
+  #intro.hpp-dtc-m-hero .content {
+    padding-right: 1.5rem;
+    margin-bottom: 50px;
   }
 }
