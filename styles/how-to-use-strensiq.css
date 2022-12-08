@@ -731,9 +731,40 @@
 }
 
 @media (min-width: 230px) and (max-width: 767px) {
+
+	.hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box{
+		padding-top: 30px;
+	}
+
+	.hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box h3{
+		font-size: 42px;
+       line-height: 44px;
+	}
+
+	.hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box p{
+		font-size: 16px;
+		line-height: 26px;
+	}
 	.live-with-confidence-hero .hero-box {
 		position: relative;
-		top: 14%
+		top: 11%;
+		margin-top: 0px;
+		padding-bottom: 40px;
+	}
+
+	.howitsdosed .t-headline{
+		font-size: 41px!important;
+		line-height: 42px!important;
+		padding-bottom: 25px!important;
+	}
+
+	.howitsdosed .self-injection{
+		font-size: 16px;
+		line-height: 26px;		
+	}
+
+	.self-injection .tips-image-size{
+		width: 160px;
 	}
 
     .download-brochure {
