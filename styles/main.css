@@ -1234,6 +1234,10 @@ header.site-header {
         text-align: center;
         padding: 0 1.5rem
     }
+
+    .content-holder .content-holder__child {
+        margin-bottom: 35px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -7333,16 +7337,17 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (max-width: 756px) and (min-width: 376px) {
     .hpp-dtc-getting-started p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .hpp-dtc-getting-started .cta {
         padding: 0.5rem 1rem;
-        font-size: 12px;
+        font-size: 16px;
+        font-weight: 700;
     }
 
     .hpp-dtc-getting-started .title {
-        font-size: 23px;
+        font-size: 30px;
     }
 
     .hpp-dtc-getting-started .col-6 {
@@ -7352,16 +7357,17 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (max-width: 376px) {
     .hpp-dtc-getting-started p {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .hpp-dtc-getting-started .cta {
         padding: 0.5rem 1rem;
-        font-size: 11px;
+        font-size: 16px;
+        font-weight: 700;
     }
 
     .hpp-dtc-getting-started .title {
-        font-size: 22px;
+        font-size: 30px;
     }
 
     .hpp-dtc-getting-started .col-6 {
