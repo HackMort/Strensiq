@@ -76,6 +76,25 @@ sup {
   [data-module=PageSubnav] .jumpbtn {
     margin-top: 10px !important;
   }
+
+  .hpp-dtc-m-hero.internal-hero .hero-bg img {
+    position: relative;
+
+    height: auto;
+    object-position: left bottom;
+  }
+}
+
+@media (min-width: 320px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -58px;
+    }
+}
+
+@media (min-width: 425px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -41px;
+    }
 }
 
 @media (max-width: 1023px) {
