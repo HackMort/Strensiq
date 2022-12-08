@@ -153,6 +153,10 @@
         margin-left: -10px;
     }
 
+    .rteblock p {
+        text-align: left;
+    }
+
     .tips-hero .hero-box {
         min-height: auto;
     }

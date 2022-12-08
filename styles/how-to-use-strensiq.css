@@ -182,6 +182,7 @@
 	font: normal normal normal 18px/30px Azo Sans;
 	letter-spacing: 0.18px;
 	opacity: 1;
+	flex: 1;
 }
 
 .isrblock1 ul,
@@ -190,7 +191,7 @@
 }
 
 .isrblock1 {
-	padding-right: 100px;
+	/* padding-right: 100px; */
 	padding-left: 20px;
 }
 
