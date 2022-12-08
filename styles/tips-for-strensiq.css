@@ -333,3 +333,12 @@
         margin-bottom: 12px
      }
 }
+
+@media screen and (max-width: 425px) {
+    .howtostorestrensiq .container.tips-callout {
+        margin: 0;
+        padding: 0 !important;
+
+        margin-top: 38px;
+    }
+}
