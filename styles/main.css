@@ -5848,7 +5848,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 .hpp-dtc-m-form__body_item--checkbox .checkbox-label input:checked+.checkbox-box:before {
     background: #69be28;
     border-color: #69be28;
-    animation: check 1s ease
+    /* animation: check 1s ease */
 }
 
 .hpp-dtc-m-form__body_item--checkbox .checkbox-label input:checked+.checkbox-box:after {
