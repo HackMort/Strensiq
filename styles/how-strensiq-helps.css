@@ -406,13 +406,13 @@
     .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
         margin-bottom: 2rem;
         padding-right: 7rem;
-        /* padding-right: 1rem; */
+        padding-left: 15px;
     }
 
     .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
         margin-top: 4.5rem;
         position: relative;
-        left: -12rem;
+        left: 0;
         bottom: 1.5rem;
     }
 
@@ -464,15 +464,15 @@
         object-position: right;
     }
 
-    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
+    /* .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
         left: -9%;
-    }
+    } */
 }
 
 @media screen and (min-width: 1250px) and (max-width: 1365px) {
-    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
+    /* .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
         left: -11%;
-    }
+    } */
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
