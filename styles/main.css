@@ -5,8 +5,209 @@
 
 */
 
-header.site-header {
+header.site-header,
+header.mobile-header {
     background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+}
+
+header.site-header {
+    display: none;
+}
+
+header.mobile-header {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    z-index: 1000;
+
+    width: 100%;
+}
+
+header.mobile-header.mobile-header--menu-opened {
+    position: fixed;
+}
+
+header.mobile-header .mobile-header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 70px;
+    padding-left: 3rem;
+
+    position: relative;
+}
+
+header.mobile-header .mobile-header__container--menu-opened {
+    background: #005d55;
+}
+
+header.mobile-header .mobile-header__container--menu-opened .right-content {
+    opacity: 0;
+}
+
+header.mobile-header .mobile-header__container .mobile-header__sidenav {
+    position: absolute;
+    left: -100%;
+    top: 70px;
+    right: auto;
+    transition: all .3s ease;
+    display: block;
+    width: 100%;
+    text-align: left;
+    flex-basis: auto;
+    background: #005d55;
+    bottom: 0;
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+
+    padding: 30px;
+}
+
+header.mobile-header .mobile-header__container .mobile-header__sidenav--opened {
+    transition: left .3s ease;
+    left: 0;
+}
+
+header.mobile-header .sidenav__menu {
+    display: block;
+    list-style: none;
+}
+
+header.mobile-header .sidenav__menu .sidenav__menu-item {
+    border-bottom: 1px solid hsla(0, 0%, 91%, .5);
+    margin-right: 0;
+}
+
+header.mobile-header .sidenav__menu .sidenav__menu-item:last-of-type a>i {
+    padding-left: 7px;
+    color: #00a8e1;
+}
+
+header.mobile-header .sidenav__menu .sidenav__menu-item a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    padding: 25px 0;
+    display: block;
+}
+
+header.mobile-header .sidenav__menu .sidenav__menu-group {
+    position: relative;
+    border-bottom: 1px solid hsla(0, 0%, 91%, .5);
+}
+
+header.mobile-header .sidenav__menu .sidenav__menu-group>a {
+    color: hsla(0, 0%, 100%, .55);
+
+    display: block;
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    padding: 25px 0 10px;
+}
+
+header.mobile-header .sidenav__menu .sidenav__menu-subgroup {
+    width: 100%;
+    min-width: 315px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2px 2px rgb(52 52 52 / 5%);
+    max-height: initial;
+    background: none;
+}
+
+header.mobile-header .sidenav__menu .sidenav__menu-subgroup .sidenav__menu-item {
+    border: none;
+}
+
+header.mobile-header .sidenav__menu .sidenav__menu-subgroup .sidenav__menu-item:last-of-type a {
+    padding: 10px 0 25px;
+}
+
+header.mobile-header .sidenav__menu .sidenav__menu-subgroup .sidenav__menu-item a {
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+
+    text-transform: none;
+}
+
+header.mobile-header .mobile-header__container .left-content,
+header.mobile-header .mobile-header__container .right-content {
+    display: flex;
+    align-items: center;
+
+    gap: 1.5rem;
+}
+
+header.mobile-header .mobile-header__toggle {
+    display: block;
+    background: none;
+    padding: 0;
+    border: none;
+    top: 35px;
+    left: 30px;
+}
+
+header.mobile-header .mobile-header__toggle .icon-bar {
+    transition: all .3s ease;
+}
+
+header.mobile-header .mobile-header__toggle--opened .icon-bar:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 6px;
+}
+
+header.mobile-header .mobile-header__toggle--opened .icon-bar:nth-child(2) {
+    display: none;
+}
+
+header.mobile-header .mobile-header__toggle--opened .icon-bar:nth-child(3) {
+    transform: rotate(-40deg);
+    position: relative;
+    top: -1px;
+}
+
+header.mobile-header .mobile-header__logo {
+    max-width: 102px;
+}
+
+header.mobile-header .mobile-header__signup {
+    font-size: 14px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    border: 1px solid #00A8E1;
+    background: #00a8e1;
+    color: #fff;
+    padding: 9px 16px 6px;
+    font-weight: bold;
+    white-space: nowrap;
+    height: 40px;
+    width: 104px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    header.mobile-header {
+        display: none;
+    }
+
+    header.site-header {
+        display: block;
+    }
 }
 
 .hpp-dtc-m-signUp {
@@ -7223,6 +7424,18 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         position: relative;
         top: 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .top-nav-mobile {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .top-nav-mobile {
+        grid-template-columns: repeat(5, 1fr);
     }
 }
 
