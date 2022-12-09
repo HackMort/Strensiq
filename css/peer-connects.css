@@ -232,12 +232,24 @@ form .select-wrap:after {
     }
 
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content {
-        margin-bottom: 4rem;
-        padding-right: 2.5rem !important;
+        margin-top: 15rem;
+        margin-bottom: 25px;
+        /* padding-right: 2.5rem !important; */
     }
 
     [data-module=PageSubnav] {
-        border-top-left-radius: 80px;
+        border-top-left-radius: 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hpp-dtc-m-hero .content {
+        line-height: 1;
+        padding: 0 15px !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .pre-title {
+        margin-top: 8px;
     }
 }
 
