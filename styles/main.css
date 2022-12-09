@@ -102,7 +102,7 @@ header.mobile-header .sidenav__menu .sidenav__menu-group {
     border-bottom: 1px solid hsla(0, 0%, 91%, .5);
 }
 
-header.mobile-header .sidenav__menu .sidenav__menu-group>a {
+header.mobile-header .sidenav__menu .sidenav__menu-group > a {
     color: hsla(0, 0%, 100%, .55);
 
     display: block;
@@ -198,6 +198,11 @@ header.mobile-header .mobile-header__signup {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+header.mobile-header .sidenav__menu-item .menu-item--active {
+    color: #dfdf00 !important;
+    font-weight: 700 !important;
 }
 
 @media screen and (min-width: 1024px) {
@@ -7764,11 +7769,13 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (max-width: 320px) {
 
+    /*
     body.activemenu .cookie-disclaimer {
         height: 0px;
         overflow: hidden;
         opacity: 0;
     }
+    */
 
     .navbar-toggle.no-cookie {
         top: 83% !important;
@@ -7785,11 +7792,13 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
 
+    /*
     body.activemenu .cookie-disclaimer {
         height: 0px;
         overflow: hidden;
         opacity: 0;
     }
+    */
 
     .navbar-toggle.no-cookie {
         top: 82% !important;
@@ -7806,11 +7815,13 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
 
+    /*
     body.activemenu .cookie-disclaimer {
         height: 0px;
         overflow: hidden;
         opacity: 0;
     }
+    */
 
     .navbar-toggle.no-cookie {
         top: 80% !important;
@@ -7827,11 +7838,13 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (min-width: 426px) and (max-width: 1023px) {
 
+    /*
     body.activemenu .cookie-disclaimer {
         height: 0px;
         overflow: hidden;
         opacity: 0;
     }
+    */
 
     .navbar-toggle.no-cookie {
         top: 80% !important;

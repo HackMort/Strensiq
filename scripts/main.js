@@ -14815,37 +14815,28 @@ $(".navbar-toggle").click(function () {
 });
 
 $(".mobile-header__toggle").click(function () {
-    $("body").toggleClass("activemenu");
-	$(".mobile-header").toggleClass("mobile-header--menu-opened ");
+	$(".mobile-header").toggleClass("mobile-header--menu-opened");
 	$(".mobile-header__container").toggleClass("mobile-header__container--menu-opened ");
 	$(".mobile-header__toggle").toggleClass("mobile-header__toggle--opened");
 	$(".mobile-header__sidenav ").toggleClass("mobile-header__sidenav--opened");
+
+    const mobileHeaderHeight = document.querySelector("header.mobile-header").offsetHeight;
+    const sidenav = document.querySelector(".mobile-header__sidenav.mobile-header__sidenav--opened");
+
+    sidenav.style.height = `calc(100vh - ${mobileHeaderHeight}px)`;
 });
 
-/*
+
 $('document').ready(function () {
 	// add Active Class to sub menu items and parent li 
-	let navItems = document.querySelectorAll('.subnav  li a');
-	let mainNavItems = document.querySelectorAll('.nav > li a');
+	let navItems = document.querySelectorAll('.sidenav__menu-item a');
+	let mainNavItems = document.querySelectorAll('.sidenav__menu > a');
 	navItems.forEach(navItem => {
 		if (navItem.href === location.href) {
-			$(navItem).addClass("active")
-			$(navItem).closest('.hasSubNav').addClass('activeli');
+			$(navItem).addClass("menu-item--active")
 		}
 	});
-	var whatishppElement = $('.in-flex.nav li:nth-child(2)').find('a');
-
-	if (whatishppElement && whatishppElement[0].href === location.href) {
-		var activeClass = $('.in-flex.nav li:nth-child(2)')[0];
-		$(activeClass).addClass('activeli');
-		var isMobile = Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
-		if (isMobile) {
-			$(activeClass).addClass('activelisg');
-		}
-	}
-
 });
-*/
 
 // Find if hero-box exists, if exists, set floating menu height to the same as the hero-box
 
