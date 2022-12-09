@@ -7389,8 +7389,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 }
 
 .cookie-banner .link {
-    color: var(--white);
-    text-decoration: underline;
+    color: var(--white) !important;
+    text-decoration: underline !important;
 }
 
 .cookie-closer {
