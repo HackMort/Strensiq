@@ -306,11 +306,11 @@
 
 @media (min-width: 1024px) and (max-width: 9999px) {
 
-    [data-module=PageSubnav] .pagesubnavcntr span,
+    /* [data-module=PageSubnav] .pagesubnavcntr span,
     [data-module=PageSubnav] .pagesubnavcntr span:hover,
     [data-module=PageSubnav] .pagesubnavcntr span>button {
         margin-right: 15px;
-    }
+    } */
 }
 
 @media screen and (min-width: 992px) {
