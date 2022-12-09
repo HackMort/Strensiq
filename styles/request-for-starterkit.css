@@ -135,11 +135,6 @@
         height: 100px;
     }
 
-    .starting-strensiq-hero .pre-title {
-        position: relative;
-        left: -8.5rem;
-    }
-
     .tips-hero .request-a-starter-kit-hero-box {
         max-width: 50rem !important;
         padding-left: 7rem;
@@ -206,4 +201,14 @@
     /* [data-module=PageSubnav] .pagesubnavcntr span>button {
         margin-right: 46px;
     } */
+}
+
+@media screen and (min-width: 992px) {
+    .hpp-dtc-m-hero.internal-hero.starting-strensiq-hero .content {
+        padding: 0 15px;
+    }
+
+    .starting-strensiq-hero .pre-title {
+        left: -8.5rem;
+    }
 }
