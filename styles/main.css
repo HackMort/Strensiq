@@ -7327,11 +7327,11 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (max-width: 640px) {
     .hpp-dtc-m-hpp-patient-support__content h2 {
-        font-size: 39px !important;
+        font-size: 42px !important;
     }
 
     .hpp-dtc-m-hpp-patient-support__content .cta {
-        font-size: 1.2rem;
+        font-size: 14px;
     }
 }
 
