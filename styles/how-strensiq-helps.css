@@ -279,7 +279,7 @@
         padding: 0 10px;
     }
 
-    .video-container > div {
+    .video-container>div {
         justify-content: flex-start !important;
     }
 
@@ -456,9 +456,9 @@
 }
 
 @media (min-width: 992px) {
-    [data-module=PageSubnav] .pagesubnavcntr span {
+    /* [data-module=PageSubnav] .pagesubnavcntr span {
         margin-right: 2.5rem;
-    }
+    } */
 
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         object-position: right;
