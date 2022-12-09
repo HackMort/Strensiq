@@ -816,9 +816,9 @@
 }
 
 @media (min-width: 1024px) {
-	[data-module=PageSubnav] .pagesubnavcntr span>button {
+	/* [data-module=PageSubnav] .pagesubnavcntr span>button {
 		margin-right: 25px;
-	}
+	} */
 
 	.hpp-dtc-life-with__content .description::before {
 		top: 10rem !important;
