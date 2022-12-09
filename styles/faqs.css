@@ -2,6 +2,10 @@
   text-decoration: none;
 }
 
+.link.wistia_embed {
+  display: inline-block;
+}
+
 .isi-body .link {
   text-decoration: underline;
 }
