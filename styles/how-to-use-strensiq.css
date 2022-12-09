@@ -16,6 +16,8 @@
 
 .resources-for-injection-text {
     text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.16px;
 }
 
 .lg-curve {
@@ -165,7 +167,7 @@
 
 .resources-injection-site .subhead {
 	text-align: left;
-	font: normal normal bold 20px/32px Azo Sans;
+	font: normal normal bolder 16px/32px Azo Sans;
 	letter-spacing: 0.2px;
 	color: #69BE28;
 
@@ -179,8 +181,8 @@
 .isrblock1,
 .isrblock2 {
 	text-align: left;
-	font: normal normal normal 18px/30px Azo Sans;
-	letter-spacing: 0.18px;
+	font: normal normal normal 16px/26px Azo Sans;
+	letter-spacing: 0.16px;
 	opacity: 1;
 	flex: 1;
 }

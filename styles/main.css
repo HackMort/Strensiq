@@ -5,6 +5,10 @@
 
 */
 
+.noscroll {
+    overflow: hidden;
+}
+
 header.site-header,
 header.mobile-header {
     background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
@@ -18,10 +22,21 @@ header.mobile-header {
     display: flex;
     flex-direction: column;
 
-    position: absolute;
+    position: fixed;
     z-index: 1000;
 
     width: 100%;
+    top: 0;
+    transition: all 200ms ease-in-out;
+}
+
+header.mobile-header.mobile-header--hidden {
+    top: -100%;
+}
+
+header.mobile-header.mobile-header--visible {
+    top: 0;
+    background-color: #fff;
 }
 
 header.mobile-header.mobile-header--menu-opened {
@@ -1914,13 +1929,22 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
     .hpp-dtc-life-with__content .logo {
         width: 25rem;
-        padding-bottom: 3rem;
+        padding-bottom: 4rem;
         margin: auto
     }
 
     .hpp-dtc-life-with__content .description {
         padding: 0 6rem 0 7rem;
         margin-bottom: 2.8rem
+    }
+
+    .hpp-dtc-life-with__content .content-holder__description {
+        padding-right: 3rem !important;
+        margin-bottom: 1.8rem !important;
+    }
+
+    .hpp-dtc-life-with__content {
+        padding-bottom: 0 !important;
     }
 
     .hpp-dtc-life-with__content .description::before {
