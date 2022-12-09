@@ -206,6 +206,7 @@
 @media screen and (min-width: 992px) {
     .hpp-dtc-m-hero.internal-hero.starting-strensiq-hero .content {
         padding: 0 15px;
+        margin-bottom: 25px;
     }
 
     .starting-strensiq-hero .pre-title {

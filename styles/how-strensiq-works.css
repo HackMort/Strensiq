@@ -229,6 +229,14 @@
         object-position: center;
     }
 
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-bottom: 7px;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
+        margin-top: 30px;
+    }
+
     /* .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
         left: -9%;
     } */

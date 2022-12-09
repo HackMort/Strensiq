@@ -404,13 +404,13 @@
 
 @media (min-width: 992px) {
     .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
-        margin-bottom: 2rem;
+        margin-bottom: 13px;
         padding-right: 7rem;
         padding-left: 15px;
     }
 
     .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
-        margin-top: 4.5rem;
+        margin-top: 35px;
         position: relative;
         left: 0;
         bottom: 1.5rem;
