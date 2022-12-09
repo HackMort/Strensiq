@@ -224,6 +224,9 @@
 }
 
 @media (min-width: 992px) {
+    .site-header .container .d-flex.jcnt-end .logo {
+        margin-left: -5px;
+    }
 
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         object-position: center;
