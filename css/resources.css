@@ -402,6 +402,17 @@
 }
 
 @media (min-width: 992px) {
+    .hpp-dtc-m-hero .hero-bg::before {
+        content: "";
+        display: block;
+        height: 7.8rem;
+        opacity: .6;
+        background: #000;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0, #000 100%);
+        position: absolute;
+        width: 100%;
+    }
+
     .heecol.hpp-dtc-m-hero.internal-hero .content {
         justify-content: center;
     }
