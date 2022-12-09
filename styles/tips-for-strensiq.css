@@ -332,6 +332,17 @@
      .tips-for-using-strensiq-hero .hero-box p{
         margin-bottom: 12px
      }
+
+     .hpp-dtc-looking-for-resources__content .mainTitle{
+        font-size: 42px;
+        line-height: 42px;
+     }
+
+     .hpp-dtc-looking-for-resources__content .description{
+        padding: 0px 17px;
+     }
+
+
 }
 
 @media screen and (max-width: 425px) {
