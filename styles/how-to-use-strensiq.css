@@ -731,12 +731,13 @@
 		text-transform: uppercase;
 		margin-top: 6.5rem;
 		opacity: 1;
-		left: 4rem;
+		left: 0;
 		position: relative;
 	}
 
 	.hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
 		margin-bottom: 10rem;
+		padding: 0 15px !important;
 	}
 }
 
