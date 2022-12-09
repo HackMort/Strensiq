@@ -322,9 +322,12 @@
 
     .hpp-dtc-m-hero.internal-hero .content {
         margin-bottom: 4rem;
+        padding: 0 15px !important;
     }
 
     .hpp-dtc-m-hero.internal-hero.resources-hero .content .pre-title {
+        position: relative;
+        left: 0;
         margin-top: 3.5rem;
     }
 
