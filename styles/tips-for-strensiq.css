@@ -250,9 +250,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-    [data-module=PageSubnav] .pagesubnavcntr span>button {
+    /* [data-module=PageSubnav] .pagesubnavcntr span>button {
         margin-right: 35px;
-    }
+    } */
 
     #howtostorestrensiq .l-row.u-mt-3 .l-col-5>.d-flex {
         min-height: 120px;
