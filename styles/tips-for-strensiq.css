@@ -212,9 +212,11 @@
 @media screen and (min-width: 992px) {
     .hpp-dtc-m-hero.internal-hero .content {
         justify-content: flex-end;
+        padding: 0 15px;
     }
 
     .hpp-dtc-m-hero.internal-hero.tips-for-using-strensiq-hero .content .pre-title {
+        left: 0;
         margin-top: 4rem;
     }
 
