@@ -7531,6 +7531,17 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
     .site-header .container .d-flex.jcnt-end .logo {
         margin-right: auto;
+        margin-left: -12px;
+    }
+
+    .pagesubnavstickpoint>.l-grid {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pagesubnavstickpoint>.l-grid {
+        padding-left: 20px;
     }
 }
 
