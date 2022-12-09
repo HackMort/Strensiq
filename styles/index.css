@@ -56,6 +56,10 @@
     top: 8.5rem;
     left: -6rem;
   }
+
+  #intro.hpp-dtc-m-hero .content {
+    padding: 0 15px;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {

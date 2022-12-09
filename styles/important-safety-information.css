@@ -22,3 +22,9 @@ header.site-header {
     color: var(--white);
   }
 }
+
+@media (min-width: 992px) {
+  .site-header .container .d-flex.jcnt-end .logo {
+    margin-left: 0;
+  }
+}
