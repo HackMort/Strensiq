@@ -14762,8 +14762,8 @@ body.Page-Strensiq_Patient_com .jumpbutton {
 
 @media (min-width:1024px) and (max-width:9999px) {
 
-	/* [data-module=PageSubnav] .pagesubnavcntr span, */
-	[data-module=PageSubnav] .pagesubnavcntr span:hover,
+	/* [data-module=PageSubnav] .pagesubnavcntr span,
+	[data-module=PageSubnav] .pagesubnavcntr span:hover, */
 	[data-module=PageSubnav] .pagesubnavcntr span>button {
 		margin-right: 46px;
 		/* margin-right: 5px; */
