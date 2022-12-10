@@ -245,7 +245,7 @@
     }
 
     #support h2{
-        padding-right: 25px;
+        padding: 0 40px;
         font-size: 41px!important;
 
     }
@@ -255,7 +255,7 @@
     }
 
     [data-module=PageSubnav] {
-        margin-top: 0px!important;
+        margin-top: 40px!important;
     }
 
     .hpp-dtc-m-hpp-patient-advocacy_header{
@@ -309,7 +309,7 @@
 
     .resources-hero .resources-hero-content {
         position: relative;
-        top: 5%;
+        top: 12%;
     }
 }
 
@@ -403,6 +403,12 @@
         border: none;
     }
 
+    .journey-from-prescription-container .subTitle {
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+
     .journey-from-prescription-container .container-fluid .imgzoom {
         border-bottom: .1rem solid #eaeaea;
         margin-bottom: 6rem;
@@ -422,7 +428,7 @@
     }
 
     .mainheading {
-        font-size: 42px !important;
+        font-size: 41px !important;
     }
 }
 
@@ -466,5 +472,17 @@
 
     .hpp-dtc-life-with__content .content-holder {
         margin-left: -80px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -130px !important;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -79px !important;
     }
 }

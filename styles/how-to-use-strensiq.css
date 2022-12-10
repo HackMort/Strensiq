@@ -1034,6 +1034,14 @@
     section.record.u-pb-8 {
         padding-bottom: 50px !important;
     }
+
+    .rteblock.rteblock-last p {
+        padding-bottom: 0 !important;
+    }
+
+    .mobile-self-injection-text {
+        margin-bottom: 15px !important;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -1071,5 +1079,13 @@
 
     section.record.u-pb-8 {
         padding-bottom: 50px !important;
+    }
+
+    .rteblock.rteblock-last p {
+        padding-bottom: 0 !important;
+    }
+
+    .mobile-self-injection-text {
+        margin-bottom: 15px !important;
     }
 }
