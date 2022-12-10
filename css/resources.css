@@ -226,6 +226,43 @@
 
 @media (min-width: 230px) and (max-width: 767px) {
 
+    .journey-from-prescription-container .imgzoom .mainheading{
+        font-size: 30px!important;
+        line-height: 32px!important;
+    }
+
+    .hpp-dtc-pharmacy-support__content .main-content-holder .subTitle{
+        font-size: 18px;
+    }
+
+    .heecol{
+        padding-top: 20%;
+    }
+
+    .hpp-dtc-m-card.global-genes .hpp-dtc-m-card_text, .hpp-dtc-m-card.nord .hpp-dtc-m-card_text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #support h2{
+        padding-right: 25px;
+        font-size: 41px!important;
+
+    }
+
+    .hpp-dtc-m-hero .content{
+        padding: 0 22px!important;
+    }
+
+    [data-module=PageSubnav] {
+        margin-top: 0px!important;
+    }
+
+    .hpp-dtc-m-hpp-patient-advocacy_header{
+        line-height: 42px!important;
+        font-size: 42px!important;
+    }
+
     .hpp-support-elx {
         margin-top: 50px;
     }
@@ -272,7 +309,7 @@
 
     .resources-hero .resources-hero-content {
         position: relative;
-        top: 12%;
+        top: 5%;
     }
 }
 
@@ -333,10 +370,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    [data-module=PageSubnav] {
-        margin-top: 3rem !important;
-    }
+@media screen and (max-width: 767px) {   
 
     .cards-container {
         justify-content: center;

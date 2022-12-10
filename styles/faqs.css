@@ -74,8 +74,23 @@ sup {
   }
 
   [data-module=PageSubnav] .jumpbtn {
-    margin-top: 10px !important;
+    margin-top: -43px !important;
   }
+
+  .hpp-dtc-m-hero.internal-hero .content .hero-box{
+    padding-top: 8.5rem;   
+    position: relative;
+    bottom: 3%;
+  }
+   .hero-box h3{
+    bottom: 50px;
+   }
+   .hpp-dtc-m-hero.internal-hero.faqs-hero .content .hero-box p{
+    width: 100%;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 50px;
+   }
 
   .hpp-dtc-m-hero.internal-hero .hero-bg img {
     position: relative;

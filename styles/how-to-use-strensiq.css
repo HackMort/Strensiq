@@ -897,7 +897,31 @@
 	.medical-alert-card{
 		padding: 34px 30px;
 	}
+
+	.iconcontent .subhead {
+		letter-spacing: 1.29px;
+	}
+
+	.self-injection .rteblock p{
+		padding-bottom: 40px;
+	}
+
+	[data-module=PageSubnav] .jumpbtn {
+		margin-top: -15px !important;
+	}
+
+	.howitsdosed .h2{		
+	  padding-top: 40px;		
+	} 
+    #howitsdosed .t-center p{
+		margin-top: 0px;
+		padding: 0px 12px;
+	}
+	[data-module=PageSubnav] {		
+		margin-bottom: 30px;
+	}
 	
+}
 
 @media (max-width: 1023px) {
 	.tips-image-size {
