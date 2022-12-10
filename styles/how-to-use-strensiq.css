@@ -980,10 +980,26 @@
     .tips-for-using__button {
         font-size: 14px;
     }
+
+    .mobile-hero__container .mobile-hero__image {
+        object-position: center right !important;
+    }
+
+    .container.mobile-hero-box__container {
+        margin-top: 16.5rem !important;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
     .looking-for-strensiq__content {
 		padding: 5rem 6rem;
 	}
+
+    .mobile-hero__container .mobile-hero__image {
+        object-position: center right !important;
+    }
+
+    .container.mobile-hero-box__container {
+        margin-top: 16.5rem !important;
+    }
 }
