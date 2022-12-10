@@ -77,6 +77,15 @@ sup {
     margin-top: -43px !important;
   }
 
+  .hpp-dtc-faqs-textContent_description{
+    font-size: 16px!important;
+    line-height: 26px!important;
+  }
+
+  .hpp-dtc-p-faqs .hpp-dtc-faqs-textContent_group{
+    margin: 5rem 2rem;
+  }
+
   .hpp-dtc-m-hero.internal-hero .content .hero-box{
     padding-top: 8.5rem;   
     padding-bottom: 0;
