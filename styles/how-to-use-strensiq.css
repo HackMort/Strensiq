@@ -993,6 +993,23 @@
     section.one-source-section {
         transform: translateX(-2.5px);
     } 
+
+    .medical-alert-card {
+        min-height: 330px;
+        padding: 22px 30px 44px 30px;
+	}
+
+    .medical-alert-card .calloutgraphic {
+        margin-bottom: 15px;
+    }
+
+    .medical-alert-card h3 {
+        padding-top: 0;
+    }
+
+    section.record.u-pb-8 {
+        padding-bottom: 50px !important;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -1012,4 +1029,23 @@
     section.one-source-section {
         transform: translateX(-2.5px);
     } 
+
+    .medical-alert-card {
+        min-height: auto;
+        padding: 22px 30px 44px 30px;
+	}
+
+    .medical-alert-card .calloutgraphic {
+        margin-bottom: 15px;
+    }
+
+    .medical-alert-card h3 {
+        padding-top: 0;
+
+        padding: 0 1.5rem;
+    }
+
+    section.record.u-pb-8 {
+        padding-bottom: 50px !important;
+    }
 }
