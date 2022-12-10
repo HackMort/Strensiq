@@ -824,7 +824,7 @@
 	}
 
 	.one-source-section .medical-alert-card img{
-		width: 109px;
+		width: 109px !important;
 		max-width: 109px;
 	}
 
@@ -983,11 +983,16 @@
 
     .mobile-hero__container .mobile-hero__image {
         object-position: center right !important;
+        top: 0 !important;
     }
 
     .container.mobile-hero-box__container {
-        margin-top: 16.5rem !important;
+        margin-top: 12.5rem !important;
     }
+
+    section.one-source-section {
+        transform: translateX(-2.5px);
+    } 
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -997,9 +1002,14 @@
 
     .mobile-hero__container .mobile-hero__image {
         object-position: center right !important;
+        top: 0 !important;
     }
 
     .container.mobile-hero-box__container {
-        margin-top: 16.5rem !important;
+        margin-top: 12.5rem !important;
     }
+
+    section.one-source-section {
+        transform: translateX(-2.5px);
+    } 
 }
