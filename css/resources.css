@@ -479,10 +479,18 @@
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         top: -130px !important;
     }
+
+    .container.col-12.content {
+        margin-top: 14rem !important;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
-        top: -79px !important;
+        top: -89px !important;
+    }
+
+    .container.col-12.content {
+        margin-top: 18rem !important;
     }
 }
