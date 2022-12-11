@@ -526,4 +526,19 @@
  [data-module].references-section, [data-module].skeletal-section{
     margin-top: -22px;
  }
+
+ .numberwheel .inside-circle{
+    font-size: 34px!important;
+    line-height: 31px!important;
+    text-align: center!important;
+    letter-spacing: 1.19px!important;
+    font-family: 'Druk-bold'!important;
+ }
+ .how-sq-helps[data-module=Numbers] .numberwheelcntr+h3{
+    font-size: 18px;
+    line-height: 40px;
+ }
+ #studiedinallages{
+    padding-bottom: 0px;
+ }
 }
