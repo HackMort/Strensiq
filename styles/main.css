@@ -8037,3 +8037,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
         margin: 0;
     }
 }
+
+section#ISI.isi * {
+    font-size: 16px !important;
+}
