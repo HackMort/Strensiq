@@ -1083,6 +1083,14 @@
     .injection-sites__container {
         margin-bottom: 60px;
     }
+
+    .content.how-to-use-hero-box__container {
+        margin-top: 18rem !important;
+    }
+
+    .content.how-to-use-hero-box__container .pre-title {
+        padding-left: 133px;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -1133,6 +1141,14 @@
     .injection-sites__container {
         margin-bottom: 60px;
     }
+
+    .content.how-to-use-hero-box__container {
+        margin-top: 19rem !important;
+    }
+
+    .content.how-to-use-hero-box__container .pre-title {
+        padding-left: 180px;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 1023px) {
@@ -1148,4 +1164,9 @@
     .injection-sites .injection-sites__description p {
         font-size: 16px !important;
     }
+}
+
+.header.upper {
+    font-size: 42px !important;
+    letter-spacing: 1.22px !important;
 }
