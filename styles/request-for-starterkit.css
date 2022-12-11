@@ -109,6 +109,10 @@
        margin-bottom: 15px;
      }
 
+     .hero-box .header.upper {
+        font-size: 42px !important;
+    }
+
     .img-mbl-scale {
         transform: scale(1.5);
     }
@@ -132,6 +136,10 @@
     .tips-hero .request-a-starter-kit-hero-box {
         margin-top: -5%;
     }
+
+    #howtorequest.hpp-dtc-m-next-steps-form {
+        padding-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -144,8 +152,6 @@
     }
 
 }
-
-
 
 @media screen and (min-width: 992px) {
     [data-module=HeroModule] .row.mx-0:after {

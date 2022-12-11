@@ -212,7 +212,7 @@
     text-align: left;
 }
 
-.cw-text::first-letter {
+.first-letter-sup::first-letter {
     vertical-align: super;
     font-size: xx-small;
 }
@@ -503,9 +503,14 @@
     }
 }
 @media (min-width: 230px) and (max-width:767px) {
-.how-sq-helps h2{
+.how-sq-helps.skeletal-section h2{
     margin-bottom: 5px;
  }
+
+ .how-sq-helps.skeletal-section p:first-of-type {
+    margin-bottom: 8px;
+ }
+
  [data-module].references-section, [data-module].skeletal-section{
     margin-top: -22px;
  }
