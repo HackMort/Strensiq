@@ -480,8 +480,28 @@
         top: -130px !important;
     }
 
-    .container.col-12.content {
+    .content.resources-hero-box__container {
         margin-top: 14rem !important;
+    }
+
+    .hpp-dtc-life-with__content.container  .content-holder {
+        margin: 0 !important;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .title {
+        font-size: 42px !important;
+        letter-spacing: 1.47px;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .logo {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .description::before {
+        top: 5.5rem !important;
     }
 }
 
@@ -490,7 +510,27 @@
         top: -89px !important;
     }
 
-    .container.col-12.content {
+    .content.resources-hero-box__container {
         margin-top: 18rem !important;
+    }
+
+    .hpp-dtc-life-with__content.container  .content-holder {
+        margin: 0 !important;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .title {
+        font-size: 42px !important;
+        letter-spacing: 1.47px;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .logo {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .description::before {
+        top: 5.5rem !important;
     }
 }
