@@ -574,7 +574,27 @@
 	z-index: 2;
 }
 
+@media screen and (max-width: 375px) {
+    .power-of-diagnosis p:first-of-type {
+        padding: 0 0 0 7rem;
+        margin-bottom: 1.8rem;
+    }
 
+    .power-of-diagnosis p:first-of-type::before {
+        top: 16rem !important;
+        font-size: 18rem !important;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .power-of-diagnosis p:first-of-type {
+        padding: 0 3rem 0 7rem;
+    }
+
+    .power-of-diagnosis p:first-of-type::before {
+        font-size: 18rem !important;
+    }
+}
 
 @media screen and (min-width: 992px) {
 	.what-is-hpp-hero[data-module=HeroModule] .HeroCalloutCntr:after {
