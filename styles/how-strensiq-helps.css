@@ -378,6 +378,18 @@
 
 }
 
+@media screen and (max-width: 425px) {
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 21rem !important;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 28rem !important;
+    }
+}
+
 @media (max-width: 1023px) {
     .how-sq-helps[data-module=HeroModule] .HeroCalloutCntr {
         top: 0;
