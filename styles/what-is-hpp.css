@@ -584,6 +584,10 @@
         top: 16rem !important;
         font-size: 18rem !important;
     }
+
+    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
+        margin-top: 20rem !important;
+    }
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
@@ -593,6 +597,16 @@
 
     .power-of-diagnosis p:first-of-type::before {
         font-size: 18rem !important;
+    }
+
+    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
+        margin-top: 21rem !important;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
+        margin-top: 24.6rem !important;
     }
 }
 
