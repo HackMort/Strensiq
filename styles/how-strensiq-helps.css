@@ -326,6 +326,11 @@
 
 @media (max-width: 767px) {
 
+    .header.upper {
+        font-size: 42px !important;
+        letter-spacing: 1.22px !important;
+    }
+
     .stq-chart p {
         font-size: 16px;
     }

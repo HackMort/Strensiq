@@ -404,6 +404,12 @@
 }
 
 @media (max-width: 767px) {
+
+    .header.upper {
+        font-size: 42px !important;
+        letter-spacing: 1.22px !important;
+    }
+
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         height: 28.4rem;
         object-fit: cover;
