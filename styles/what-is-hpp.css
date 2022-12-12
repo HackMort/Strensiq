@@ -713,4 +713,29 @@
 	.green-bar-section .description {
 		margin-bottom: 3rem;
 	}
+
+	.hpp-dtc-icons-panel__content .main-content .mainDescription,
+	.hpp-dtc-icons-panel__content .main-content .mainTitle {
+		padding: 0;
+	}
+
+	#specialistswhocanhelp .container,
+	.container-fluid>.container {
+		max-width: 853px;
+	}
+
+	.hpp-dtc-life-with .description .d-md-block,
+	.hpp-dtc-life-with .description .d-lg-block {
+		display: none !important;
+	}
+
+	.hpp-dtc-looking-for-resources__content.container,
+	.container-fluid>.container .col-lg-11 {
+		max-width: 100%;
+	}
+
+	.hpp-dtc-footer__content.container,
+	.hpp-dtc-m-hpp-patient-support__content.container {
+		max-width: 100%;
+	}
 }
