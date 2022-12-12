@@ -334,6 +334,16 @@
     .hpp-dtc-m-hero .content {
         padding-right: 2.25rem !important;
     }
+
+    .hpp-dtc-life-with__content .description::before {
+        top: 4rem !important;
+    }
+
+    .hpp-dtc-life-with__content .logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 767px) {
