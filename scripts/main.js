@@ -14891,7 +14891,10 @@ const pageSubnavObserver = new IntersectionObserver(function (entries, observer)
         }
     })
 }, observerOptions)
-pageSubnavObserver.observe(pageSubnav);
+// if pageSubnav exists
+if (pageSubnav) {
+    pageSubnavObserver.observe(pageSubnav);
+}
 
 const ISISection = document.querySelector(".isi-inPageHeader.isi-header");
 const ISIObserver = new IntersectionObserver(function (entries, observer) {
@@ -14907,7 +14910,9 @@ const ISIObserver = new IntersectionObserver(function (entries, observer) {
         }
     })
 }, { ...observerOptions, rootMargin: '0px', threshold: 1 })
-ISIObserver.observe(ISISection);
+if (ISISection) {
+    ISIObserver.observe(ISISection);
+}
 
 
 $('document').ready(function () {
@@ -15411,6 +15416,11 @@ $(document).ready(function () {
         let mql = window.matchMedia('(max-width: 1023px)');
         if (mql.matches) {
             $('.navbar-toggle, .site-header .get-cta').toggleClass('no-cookie')
+        }
+        const barHeightDesktop = $('.site-header.header .cookie-disclaimer').outerHeight();
+        let mqlDesktop = window.matchMedia('(min-width: 1024px)');
+        if (mqlDesktop.matches) {
+            $('.hpp-dtc-m-hero:first-of-type').css('margin-top', barHeightDesktop);
         }
     }
 });
