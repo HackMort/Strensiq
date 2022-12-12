@@ -78,6 +78,11 @@
     text-transform: uppercase;
 }
 
+.hpp-dtc-m-card h4 sup {
+    font-size: 25px;
+    top: -4px;
+}
+
 .hpp-dtc-m-card_btn.link:hover {
     background-color: #005d55;
 }
@@ -405,6 +410,12 @@
 }
 
 @media (max-width: 767px) {
+
+    .header.upper {
+        font-size: 42px !important;
+        letter-spacing: 1.22px !important;
+    }
+
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         height: 28.4rem;
         object-fit: cover;
@@ -443,6 +454,8 @@
 
     .mainheading {
         font-size: 41px !important;
+        letter-spacing: 1.44px !important;
+        padding: 0 25px;
     }
 }
 

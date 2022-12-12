@@ -54,12 +54,6 @@
     transition: all .3s ease-in-out;
 }
 
-.submit-btn:hover,
-.submit-btn:focus {
-    background-color: var(--dark-green);
-    color: var(--white);
-}
-
 .starter-kit__img-container.imgzoom picture::after {
     pointer-events: none;
     content: "";
@@ -72,6 +66,19 @@
     width: 150px;
     height: 27px;
     bottom: -32px;
+}
+
+.needs-validation .submit-btn {
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+    background-color: var(--dark-green);
+    color: var(--white);
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

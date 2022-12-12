@@ -785,6 +785,11 @@
 
 @media (min-width: 230px) and (max-width: 767px) {
 
+    .header.upper {
+        font-size: 42px !important;
+        letter-spacing: 1.22px !important;
+    }
+
     .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
         padding-top: 30px;
     }
@@ -846,7 +851,7 @@
     }
 
     .looking-for-strensiq {
-        margin-top: 72px !important;
+        margin-top: 52px !important;
     }
 
     .looking-for-strensiq-tips {
@@ -1186,9 +1191,4 @@
     .injection-sites .injection-sites__description p {
         font-size: 16px !important;
     }
-}
-
-.header.upper {
-    font-size: 42px !important;
-    letter-spacing: 1.22px !important;
 }
