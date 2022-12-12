@@ -1,5 +1,5 @@
 .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
-	padding: 0px 0px !important;
+    padding: 0px 0px !important;
 }
 
 .patient-prescribing-information a {
@@ -7,739 +7,806 @@
 }
 
 [data-module=PageSubnav] .js-accordion__header {
-	cursor: auto !important;
+    cursor: auto !important;
 }
 
 [data-module=PageSubnav] .jumpbtn {
-	margin-top: -78px;
+    margin-top: -78px;
 }
 
 .resources-for-injection-text {
     text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.16px;
 }
 
 .lg-curve {
-	z-index: 1;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	background: white;
-	width: 100%;
-	padding: 38px 0;
-	border-top-left-radius: 100px;
-	box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
-	-webkit-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
-	-moz-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    padding: 38px 0;
+    border-top-left-radius: 100px;
+    box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    -webkit-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    -moz-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
 }
 
 
 .hero-box .video-link-container {
-	max-width: 48rem !important;
+    max-width: 48rem !important;
 }
 
 .howitsdosed .t-headline {
-	text-align: center;
-	font: normal normal bold 45px/42px Druk-bold !important;
-	letter-spacing: 1.57px !important;
-	color: #005D55 !important;
-	padding-bottom: 20px !important;
+    text-align: center;
+    font: normal normal bold 45px/42px Druk-bold !important;
+    letter-spacing: 1.57px !important;
+    color: #005D55 !important;
+    padding-bottom: 20px !important;
 }
 
 .self-injection {
-	text-align: center;
-	font: normal normal normal 18px/30px Azo Sans;
-	letter-spacing: 0.18px;
-	color: #343434;
-	opacity: 1;
-	margin-top: 0px !important;
+    text-align: center;
+    font: normal normal normal 18px/30px Azo Sans;
+    letter-spacing: 0.18px;
+    color: #343434;
+    opacity: 1;
+    margin-top: 0px !important;
 }
 
 .self-injection-heading {
-	text-align: center;
-	font: normal normal bold 22px/22px Druk-bold;
-	letter-spacing: 0.44px;
-	color: #005D55 !important;
-	text-transform: uppercase;
-	opacity: 1;
+    text-align: center;
+    font: normal normal bold 22px/22px Druk-bold;
+    letter-spacing: 0.44px;
+    color: #005D55 !important;
+    text-transform: uppercase;
+    opacity: 1;
 }
 
 .self-injection .rteblock {
-	text-align: center;
-	font: normal normal normal 18px/30px Azo Sans;
-	letter-spacing: 0.18px;
-	color: #343434;
-	opacity: 1;
+    text-align: center;
+    font: normal normal normal 18px/30px Azo Sans;
+    letter-spacing: 0.18px;
+    color: #343434;
+    opacity: 1;
 }
 
 .medical-alert-card {
-	background: #005D55 0% 0% no-repeat padding-box;
-	border-radius: 36px;
-	opacity: 1;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding: 34px 44px;
-	text-align: left;
+    background: #005D55 0% 0% no-repeat padding-box;
+    border-radius: 36px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 34px 44px;
+    text-align: left;
 }
 
 .medical-alert-card h3 {
-	text-align: left;
-	/* font: normal normal bold 18px/30px Azo Sans; */
-	letter-spacing: 0.18px;
-	color: #FFFFFF;
-	opacity: 1;
-	font-family: 'azo-sans-web';
-	font-weight: bold;
+    text-align: left;
+    /* font: normal normal bold 18px/30px Azo Sans; */
+    letter-spacing: 0.18px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'azo-sans-web';
+    font-weight: bold;
 }
 
 .medical-alert-card h3 a {
-	color: #FFFFFF;
-	text-decoration: underline;
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .medical-alert-card .calloutgraphic {
-	margin-right: 25px;
-	max-width: 90px;
+    margin-right: 25px;
+    max-width: 90px;
 }
 
 .smooth-injection-background {
-	background-color: #F2F2F2;
+    background-color: #F2F2F2;
 }
 
 .our-strensiq {
-	margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 .our-strensiq_content {
-	padding: 0px !important;
+    padding: 0px !important;
 }
 
 .tips-for-smooth-injection-heading,
 .resources-injection-heading {
-	color: #005D55;
-	text-align: left;
-	font: normal normal bold 45px/42px Druk-bold;
-	letter-spacing: 1.57px;
-	text-transform: uppercase;
-	opacity: 1;
+    color: #005D55;
+    text-align: left;
+    font: normal normal bold 45px/42px Druk-bold;
+    letter-spacing: 1.57px;
+    text-transform: uppercase;
+    opacity: 1;
 }
 
 .tips-for-smooth-injection-content {
-	margin-bottom: 30px !important;
+    margin-bottom: 30px !important;
 
 }
 
 .tips-image-size {
-	align-self: baseline;
-	margin-top: 5px;
+    align-self: baseline;
+    margin-top: 5px;
 }
 
 .tips-image-size1 {
-	align-self: baseline;
+    align-self: baseline;
 }
 
 .tips-for-smooth-injection-imgcontent {
-	text-align: left;
-	font: normal normal normal 18px/30px Azo Sans;
-	letter-spacing: 0.18px;
-	color: #343434;
-	opacity: 1;
-	padding-left: 20px;
+    text-align: left;
+    font: normal normal normal 18px/30px Azo Sans;
+    letter-spacing: 0.18px;
+    color: #343434;
+    opacity: 1;
+    padding-left: 20px;
 }
 
 .tips-for-smooth-injection-left {
-	margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .tips-for-smooth-injection-last {
-	margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .tips-last-content {
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .textcntr-img {
-	padding-right: 10%;
+    padding-right: 10%;
 }
 
 .resources-injection-site .subhead {
-	text-align: left;
-	font: normal normal bold 20px/32px Azo Sans;
-	letter-spacing: 0.2px;
-	color: #69BE28;
+    text-align: left;
+    font: normal normal bolder 16px/32px Azo Sans;
+    letter-spacing: 0.2px;
+    color: #69BE28;
 
 }
 
 .hpp-dtc-m-hero.internal-hero .content .hero-box-finding {
-	align-self: flex-start;
+    align-self: flex-start;
 
 }
 
 .isrblock1,
 .isrblock2 {
-	text-align: left;
-	font: normal normal normal 18px/30px Azo Sans;
-	letter-spacing: 0.18px;
-	opacity: 1;
-	flex: 1;
+    text-align: left;
+    font: normal normal normal 16px/26px Azo Sans;
+    letter-spacing: 0.16px;
+    opacity: 1;
+    flex: 1;
 }
 
 .isrblock1 ul,
 .isrblock2 ul {
-	list-style-type: disc;
+    list-style-type: disc;
 }
 
 .isrblock1 {
-	/* padding-right: 100px; */
-	padding-left: 20px;
+    /* padding-right: 100px; */
+    padding-left: 20px;
 }
 
 .isrblock2 {
-	padding-left: 100px;
+    padding-left: 100px;
 }
 
 .btn-brochure:hover,
 .btn-brochure:focus {
-	color: #005D55;
+    color: #005D55;
 }
 
 .btn-brochure {
-	border: 2px solid #005D55;
-	opacity: 1;
-	display: inline-block;
-	font-weight: 400;
-	color: #005D55;
-	text-align: center;
-	vertical-align: middle;
-	padding: 10px 20px;
-	/* font: normal normal medium 16px/24px Azo Sans; */
-	font-family: 'azo-sans-web';
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 24px;
-	letter-spacing: 1.6px;
-	text-transform: uppercase;
+    border: 2px solid #005D55;
+    opacity: 1;
+    display: inline-block;
+    font-weight: 400;
+    color: #005D55;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+    /* font: normal normal medium 16px/24px Azo Sans; */
+    font-family: 'azo-sans-web';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
 
     position: relative;
 }
 
 .btn-brochure p {
-	font-weight: 700 !important;
+    font-weight: 700 !important;
     display: inline-block;
 }
 
 .btn-brochure:after {
-	content: "";
-	background: url(../images/how-to-use-strensiq/download.svg) no-repeat;
-	background-size: contain;
-	background-position: 50%;
-	width: 20px;
-	height: 20px;
-	margin-left: 10px;
-	transition: all .3s ease-in-out;
-	font-weight: 400;
-	display: inline-block;
-	line-height: 1.3;
-	color: #00a8e1;
-	position: relative;
+    content: "";
+    background: url(../images/how-to-use-strensiq/download.svg) no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    transition: all .3s ease-in-out;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1.3;
+    color: #00a8e1;
+    position: relative;
 }
 
 .download-brochure {
-	position: relative;
-	left: 9%;
+    position: relative;
+    left: 9%;
 }
 
 .what-to-do {
-	background: #005D55;
-	padding: 50px;
-	border-radius: 10px;
-	text-align: left;
-	letter-spacing: 0.18px;
-	color: #FFFFFF;
-	opacity: 1;
+    background: #005D55;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: left;
+    letter-spacing: 0.18px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
 .what-to-do h3 {
-	text-align: left;
-	font: normal normal bold 28px/32px Druk-bold;
-	letter-spacing: 0.84px;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	opacity: 1;
+    text-align: left;
+    font: normal normal bold 28px/32px Druk-bold;
+    letter-spacing: 0.84px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
 }
 
 .what-to-do ul {
-	list-style-type: disc;
-	padding-left: 20px;
-	line-height: 28px;
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 28px;
 }
 
 .managing-isrs {
-	background: #F2F2F2;
-	padding: 50px;
-	border-radius: 10px;
-	text-align: left;
-	font: normal normal bold 28px/32px Druk-bold;
-	letter-spacing: 0.84px;
-	/* color: #005D55; */
-	opacity: 1;
-	padding-bottom: 85px;
+    background: #F2F2F2;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: left;
+    font: normal normal bold 28px/32px Druk-bold;
+    letter-spacing: 0.84px;
+    /* color: #005D55; */
+    opacity: 1;
+    padding-bottom: 85px;
 }
 
 .managing-isrs h3 {
-	text-align: left;
-	font: normal normal bold 28px/32px Druk-bold;
-	letter-spacing: 0.84px;
-	color: #005D55;
-	opacity: 1;
+    text-align: left;
+    font: normal normal bold 28px/32px Druk-bold;
+    letter-spacing: 0.84px;
+    color: #005D55;
+    opacity: 1;
 }
 
 .managing-isrs a {
-	font-weight: 400;
-	color: #00A8E1;
-	font-size: 18px;
+    font-weight: 400;
+    color: #00A8E1;
+    font-size: 18px;
 }
 
 .strensiq-injection-background .subhead {
-	text-align: left;
-	font: normal normal bold 20px/32px Azo Sans;
-	font-family: 'azo-sans-web';
-	letter-spacing: 0.2px;
-	color: #69BE28;
-	margin-bottom: 5px;
+    text-align: left;
+    font: normal normal bold 20px/32px Azo Sans;
+    font-family: 'azo-sans-web';
+    letter-spacing: 0.2px;
+    color: #69BE28;
+    margin-bottom: 5px;
 }
 
 .strensiq-injection-heading {
-	color: #005D55;
-	text-align: left;
-	font: normal normal bold 45px/42px Druk-bold;
-	letter-spacing: 1.57px;
-	text-transform: uppercase;
-	opacity: 1;
-	padding-top: 60px;
+    color: #005D55;
+    text-align: left;
+    font: normal normal bold 45px/42px Druk-bold;
+    letter-spacing: 1.57px;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-top: 60px;
 }
 
 .strensiq-injection-background {
-	background-color: #F2F2F2;
+    background-color: #F2F2F2;
 }
 
 .highlite-under-line,
 .highlite-under-line:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .looking-for-strensiq .title {
-	text-align: left;
-	font: normal normal bold 45px/42px Druk-bold;
-	letter-spacing: 1.57px;
-	color: #DFDF00;
-	text-transform: uppercase;
-	margin-bottom: 2rem;
+    text-align: left;
+    font: normal normal bold 45px/42px Druk-bold;
+    letter-spacing: 1.57px;
+    color: #DFDF00;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
 .looking-for-strensiq {
 
-	background-color: var(--dark-green);
-	color: var(--white);
+    background-color: var(--dark-green);
+    color: var(--white);
 }
 
 .looking-for-strensiq__content {
-	padding: 8rem;
+    padding: 8rem;
 }
 
 .looking-for-strensiq__content .description {
-	color: var(--white);
-	margin-bottom: 3.5rem;
-	width: 84%;
+    color: var(--white);
+    margin-bottom: 3.5rem;
+    width: 84%;
+    letter-spacing: 0.16px;
+    line-height: 26px;
 }
 
 .strensiq-routine {
-	margin-left: 12%;
+    margin-left: 12%;
 }
 
 .padding-right-adjust {
-	padding-right: 50px;
+    padding-right: 50px;
 }
 
 .flex-adjust {
-	display: flex;
+    display: flex;
 }
 
 .width-adjust {
-	width: 50%;
+    width: 50%;
 }
 
 .strensiq-injection-starter-kit {
-	padding-right: 50px;
-	padding-bottom: 0;
+    padding-right: 50px;
+    padding-bottom: 0;
 }
 
 .one-source-section {
-	padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .tips-image-size {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .tips-image-size1 {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.injection-sites {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3rem;
+}
+
+.injection-sites .injection-sites__description {
+    padding: 0 20px;
+}
+
+.injection-sites .injection-sites__description h5,
+.injection-sites .injection-sites__description p {
+    font-family: azo-sans-web, Arial, sans-serif;
+    font-size: 14px !important;
+    letter-spacing: 0.14px;
+    color: #343434;
+    text-align: center;
+}
+
+.injection-sites .injection-sites__description h5 {
+    font-weight: 700;
 }
 
 @media (max-width:820px) {
-	.tips-for-smooth-injection-content {
-		text-align: left;
-	}
+    .tips-for-smooth-injection-content {
+        text-align: left;
+    }
 
-	[data-module=PageSubnav] .jumpbtn {
-		margin-top: -10px !important;
-	}
+    [data-module=PageSubnav] .jumpbtn {
+        margin-top: -10px !important;
+    }
 
-	.hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
-		padding: 0 3rem !important;
-	}
+    .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
+        padding: 0 3rem !important;
+    }
 
-	.howitsdosed .t-headline {
-		padding-bottom: 40px !important;
-	}
+    .howitsdosed .t-headline {
+        padding-bottom: 40px !important;
+    }
 
-	.howitsdosed {
-		padding-bottom: 0px !important;
-	}
+    .howitsdosed {
+        padding-bottom: 0px !important;
+    }
 
-	.self-injection .contentinner {
-		padding: 0px 0px !important;
-		border-bottom: 3px solid #F8F8F8;
-	}
+    .self-injection .contentinner {
+        padding: 0px 0px !important;
+        border-radius: 0px;
+        border-bottom: 1px solid #e9e9e9;
+    }
 
-	.self-injection .rteblock p {
-		padding-bottom: 50px;
-	}
+    .self-injection .rteblock p {
+        padding-bottom: 50px;
+    }
 
-	.self-injection .rteblock-last p {
-		padding-bottom: 0px;
-	}
+    .self-injection .rteblock-last p {
+        padding-bottom: 0px;
+    }
 
-	.self-injection .contentinner-last {
-		border-bottom: none;
-		padding-bottom: 10px;
-	}
+    .self-injection .contentinner-last {
+        border-bottom: none;
+        padding-bottom: 10px;
+    }
 
-	.medical-alert-card {
-		display: block;
-		text-align: center;
-	}
+    .medical-alert-card {
+        display: block;
+        text-align: center;
+    }
 
-	.medical-alert-card h3 {
-		display: block;
-		text-align: center;
-		padding-top: 10px;
-	}
+    .medical-alert-card h3 {
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+    }
 
-	.strensiq-routine {
-		margin-left: 0;
-		padding: 0px 30px !important;
-	}
+    .strensiq-routine {
+        margin-left: 0;
+        padding: 0px 30px !important;
+    }
 
-	.looking-for-strensiq__content .description {
-		width: 100%;
-	}
+    .looking-for-strensiq__content .description {
+        width: 100%;
+    }
 
-	.our-strensiq,
-	.our-strensiq-bold {
-		padding-left: 10%;
-	}
+    .our-strensiq,
+    .our-strensiq-bold {
+        padding-left: 10%;
+    }
 
-	.our-strensiq-bold {
-		padding-bottom: 20px;
-	}
+    .our-strensiq-bold {
+        padding-bottom: 20px;
+    }
 
-	.smooth-injection-padding {
-		padding: 0px 15px;
-	}
+    .smooth-injection-padding {
+        padding: 0px 15px;
+    }
 
-	.tips-for-smooth-injection-heading {
-		text-align: center;
-	}
+    .tips-for-smooth-injection-heading {
+        text-align: center;
+    }
 
-	.resources-injection-site-padding {
-		padding: 0px 15px;
-	}
+    .resources-injection-site-padding {
+        padding: 0px 15px;
+    }
 
-	.resources-injection-heading {
-		text-align: center;
-	}
+    .resources-injection-heading {
+        text-align: center;
+    }
 
-	.padding-right-adjust {
-		padding-right: 10px;
-	}
+    .padding-right-adjust {
+        padding-right: 10px;
+    }
 
-	.flex-adjust {
-		display: block;
-	}
+    .flex-adjust {
+        display: block;
+    }
 
-	.isrblock1 {
-		padding-right: 0px;
-		padding-left: 20px;
-	}
+    .isrblock1 {
+        padding-right: 0px;
+        padding-left: 20px;
+    }
 
-	.isrblock2 {
-		padding-left: 20px;
-	}
+    .isrblock2 {
+        padding-left: 20px;
+    }
 
-	.what-to-do {
-		border-radius: 0px;
-		padding: 50px 40px;
-	}
+    .what-to-do {
+        border-radius: 0px;
+        padding: 50px 40px;
+    }
 
-	.managing-isrs {
-		background: #FFFFFF;
-		padding: 50px 40px;
-		border-radius: 0px;
-		padding-bottom: 20px;
-	}
+    .managing-isrs {
+        background: #FFFFFF;
+        padding: 50px 40px;
+        border-radius: 0px;
+        padding-bottom: 20px;
+    }
 
-	.strensiq-injection-padding {
-		padding: 0px 15px;
-	}
+    .strensiq-injection-padding {
+        padding: 0px 15px;
+    }
 
-	.strensiq-injection-background {
-		margin-top: 30px;
-	}
+    .strensiq-injection-background {
+        margin-top: 30px;
+    }
 
-	.strensiq-injection-heading {
-		padding-top: 0px;
-		text-align: center;
-	}
+    .strensiq-injection-heading {
+        padding-top: 0px;
+        text-align: center;
+    }
 
-	.strensiq-injection-starter-kit {
-		padding-right: 0%;
-		padding-bottom: 0px;
-	}
+    .strensiq-injection-starter-kit {
+        padding-right: 0%;
+        padding-bottom: 0px;
+    }
 
-	.strensiq-injection-background .subhead {
-		text-align: center;
-	}
+    .strensiq-injection-background .subhead {
+        text-align: center;
+    }
 
-	.download-guide {
-		text-align: center;
-	}
+    .download-guide {
+        text-align: center;
+    }
 
-	.one-source {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
+    .one-source {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
-	.one-source-section {
-		padding-bottom: 50px;
-	}
+    .one-source-section {
+        padding-bottom: 50px;
+    }
 
-	.looking-for-strensiq-tips {
-		/* padding-left: 20px; */
-		/* padding-right: 20px; */
-	}
+    .looking-for-strensiq-tips {
+        /* padding-left: 20px; */
+        /* padding-right: 20px; */
+    }
 
-	.looking-for-strensiq__content {
-		padding: 5rem;
-	}
+    .looking-for-strensiq__content {
+        padding: 5rem 3rem;
+    }
 
-	.looking-for-strensiq .title {
-		text-align: center;
-	}
+    .looking-for-strensiq .title {
+        text-align: center;
+    }
 
-	.lg-curve {
-		display: none;
-	}
+    .lg-curve {
+        display: none;
+    }
 
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
-	.lg-curve {
-		display: none;
-	}
+    .lg-curve {
+        display: none;
+    }
 
-	.hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
-		padding: 0 4rem !important;
-	}
+    .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
+        padding: 0 4rem !important;
+    }
 
-	.howitsdosed {
-		padding-bottom: 0px !important;
-	}
+    .howitsdosed {
+        padding-bottom: 0px !important;
+    }
 
-	.self-injection .iconcontent {
-		display: flex;
-	}
+    .self-injection .iconcontent {
+        display: flex;
+    }
 
-	.self-injection .rteblock {
-		padding-top: 20px;
-	}
+    .self-injection .rteblock {
+        padding-top: 20px;
+    }
 
-	.self-injection .rteblock p {
-		padding-right: 10%;
-	}
+    .self-injection .rteblock p {
+        padding-right: 10%;
+    }
 
-	.self-injection .contentinner {
-		border-bottom: 3px solid #F8F8F8;
-	}
+    .self-injection .contentinner {
+        border-bottom: 3px solid #F8F8F8;
+    }
 
-	.strensiq-routine {
-		margin-left: 10%;
-		margin-bottom: 50px;
-	}
+    .strensiq-routine {
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
 
-	.self-injection .contentinner-last {
-		border-bottom: none;
-		padding-bottom: 10px;
-	}
+    .self-injection .contentinner-last {
+        border-bottom: none;
+        padding-bottom: 10px;
+    }
 
-	.tips-for-smooth-injection-left,
-	.tips-for-smooth-injection-last {
-		padding: 0px 15%;
-	}
+    .tips-for-smooth-injection-left,
+    .tips-for-smooth-injection-last {
+        padding: 0px 15%;
+    }
 
-	.padding-right-adjust {
-		padding-right: 10px;
-	}
+    .padding-right-adjust {
+        padding-right: 10px;
+    }
 
-	.resources-injection-site-padding {
-		padding: 0px 15px;
-	}
+    .resources-injection-site-padding {
+        padding: 0px 15px;
+    }
 
-	.flex-adjust {
-		display: block;
-	}
+    .flex-adjust {
+        display: block;
+    }
 
-	.isrblock1 {
-		padding-right: 0px;
-		padding-left: 20px;
-	}
+    .isrblock1 {
+        padding-right: 0px;
+        padding-left: 20px;
+    }
 
-	.isrblock2 {
-		padding-left: 20px;
-	}
+    .isrblock2 {
+        padding-left: 20px;
+    }
 
-	.download-brochure {
-		position: inherit;
-		left: 0%;
-	}
+    .download-brochure {
+        position: inherit;
+        left: 0%;
+    }
 
-	.managing-isrs-adjust {
-		padding-top: 35px;
-	}
+    .managing-isrs-adjust {
+        padding-top: 35px;
+    }
 
-	.managing-isrs {
-		padding: 50px 50px 30px 50px;
-	}
+    .managing-isrs {
+        padding: 50px 50px 30px 50px;
+    }
 
-	.strensiq-injection-background {
-		margin-top: 30px;
-	}
+    .strensiq-injection-background {
+        margin-top: 30px;
+    }
 
-	.strensiq-injection-heading {
-		padding-top: 0px;
-		text-align: center;
-	}
+    .strensiq-injection-heading {
+        padding-top: 0px;
+        text-align: center;
+    }
 
-	.strensiq-injection-starter-kit {
-		padding-right: 0%;
-		padding-bottom: 0px;
-	}
+    .strensiq-injection-starter-kit {
+        padding-right: 0%;
+        padding-bottom: 0px;
+    }
 
-	.strensiq-injection-background .subhead {
-		text-align: center;
-	}
+    .strensiq-injection-background .subhead {
+        text-align: center;
+    }
 
-	.download-guide {
-		text-align: center;
-	}
+    .download-guide {
+        text-align: center;
+    }
 
-	.strensiq-injection-padding {
-		padding: 0px 15px;
-	}
+    .strensiq-injection-padding {
+        padding: 0px 15px;
+    }
 
-	.one-source {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
+    .one-source {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
-	.one-source-section {
-		padding-bottom: 50px;
-	}
+    .one-source-section {
+        padding-bottom: 50px;
+    }
 
-	.looking-for-strensiq-tips {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+    .looking-for-strensiq-tips {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-	.looking-for-strensiq__content {
-		padding: 5rem;
-	}
+    .looking-for-strensiq__content {
+        padding: 5rem;
+    }
 
-	.looking-for-strensiq .title {
-		text-align: center;
-	}
+    .looking-for-strensiq .title {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-	.custom-columns {
-		display: flex;
-		align-items: stretch;
-	}
+    .custom-columns {
+        display: flex;
+        align-items: stretch;
+    }
 
-	.managing-isrs,
-	.what-to-do {
-		height: 100%;
-	}
+    .managing-isrs,
+    .what-to-do {
+        height: 100%;
+    }
 
-	.managing-isrs h3,
-	.what-to-do h3 {
-		margin-bottom: 1.5rem;
-	}
+    .managing-isrs h3,
+    .what-to-do h3 {
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
-	.what-is-hpp-hero .how-to-use-video {
-		max-width: 60.0rem !important;
-		top: 5%;
-		position: relative;
-	}
+    .what-is-hpp-hero .how-to-use-video {
+        max-width: 60.0rem !important;
+        top: 5%;
+        position: relative;
+    }
 
-	.live-with-confidence-hero .hero-box {
-		max-width: 52.8rem !important;
-		padding-left: 8rem !important;
-		min-height: auto;
-		position: relative;
-		bottom: 22%;
-	}
+    .live-with-confidence-hero .hero-box {
+        max-width: 52.8rem !important;
+        padding-left: 8rem !important;
+        min-height: auto;
+        position: relative;
+        bottom: 22%;
+    }
 
-	.hpp-dtc-m-hero.internal-hero .content .pre-title {
-		text-align: left;
-		font: normal normal bold 28px/32px Druk-bold;
-		letter-spacing: 0.28px;
-		color: #FFFFFF;
-		text-transform: uppercase;
-		margin-top: 6.5rem;
-		opacity: 1;
-		left: 4rem;
-		position: relative;
-	}
+    .hpp-dtc-m-hero.internal-hero .content .pre-title {
+        text-align: left;
+        font: normal normal bold 28px/32px Druk-bold;
+        letter-spacing: 0.28px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: 6.5rem;
+        opacity: 1;
+        left: 4rem;
+        position: relative;
+    }
 
-	.hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
-		margin-bottom: 10rem;
-	}
+    .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
+        margin-bottom: 10rem;
+    }
 }
 
 @media (min-width: 230px) and (max-width: 767px) {
-	.live-with-confidence-hero .hero-box {
-		position: relative;
-		top: 14%
-	}
+
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
+        padding-top: 30px;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box h3 {
+        font-size: 42px;
+        line-height: 44px;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .live-with-confidence-hero .hero-box {
+        position: relative;
+        top: 11%;
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .howitsdosed .t-headline {
+        font-size: 41px !important;
+        line-height: 42px !important;
+        padding-bottom: 25px !important;
+    }
+
+    .howitsdosed .self-injection {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .self-injection .tips-image-size {
+        width: 160px;
+    }
 
     .download-brochure {
         display: flex;
         justify-content: center;
         left: 0;
+        padding: 30px;
+        padding-top: 10px;
     }
 
     .download-brochure .btn-brochure {
@@ -764,93 +831,344 @@
 
     .looking-for-strensiq-tips {
         padding: 0;
+    }
 
+    .looking-for-strensiq-tips .title {
+        font-size: 42px;
+        line-height: 42px;
     }
 
     .looking-for-strensiq-tips .description {
         text-align: center;
     }
 
-    .looking-for-strensiq-tips  .button-holder {
+    .looking-for-strensiq-tips .button-holder {
         display: flex;
         justify-content: center;
     }
 
-    .looking-for-strensiq-tips  .button-holder a {
+    .looking-for-strensiq-tips .button-holder a {
         width: auto;
         padding: .5rem 1.3rem;
     }
+
+    .one-source-section .medical-alert-card {
+        padding: 34px 34px;
+    }
+
+    .one-source-section .medical-alert-card img {
+        width: 109px !important;
+        max-width: 109px;
+    }
+
+    .one-source-section .medical-alert-card h3 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .strensiq-injection-heading {
+        font-size: 42px;
+        line-height: 42px;
+    }
+
+    .strensiq-injection-starter-kit .subhead {
+        line-height: 56px;
+    }
+
+    .strensiq-injection-starter-kit p {
+        text-align: center;
+    }
+
+    .managing-isrs h3 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .managing-isrs p {
+        margin-top: 25px;
+        letter-spacing: 0.16px;
+    }
+
+    .what-to-do h3 {
+        font-size: 32px;
+        padding-right: 60px;
+    }
+
+    .what-to-do p {
+        margin-top: 20px;
+        font-size: 16px !important;
+    }
+
+    .what-to-do ul {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.16px
+    }
+
+    .tips-for-smooth-injection .t-center p {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+    }
+
+    .tips-for-smooth-injection .tips-image-size1 {
+        width: 59px;
+    }
+
+    .tips-for-smooth-injection .tips-image-size {
+        width: 47px;
+    }
+
+    .medical-alert-card .calloutgraphic {
+        width: 75px;
+        max-width: 75px !important;
+        margin-right: 0px;
+    }
+
+    .medical-alert-card h3 {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.16px;
+    }
+
+    .medical-alert-card {
+        padding: 34px 30px;
+    }
+
+    .iconcontent .subhead {
+        letter-spacing: 1.29px;
+    }
+
+    .self-injection .rteblock p {
+        padding-bottom: 40px;
+    }
+
+    [data-module=PageSubnav] .jumpbtn {
+        margin-top: -15px !important;
+    }
+
+    .howitsdosed .h2 {
+        padding-top: 40px;
+    }
+
+    #howitsdosed .t-center p {
+        margin-top: 0px;
+        padding: 0px 12px;
+    }
+
+    [data-module=PageSubnav] {
+        margin-bottom: 30px;
+    }
+
 }
 
 @media (max-width: 1023px) {
-	.tips-image-size {
-		margin-top: 2rem;
-	}
+    .tips-image-size {
+        margin-top: 2rem;
+    }
 
-	[data-module=PageSubnav] {
-		min-height: auto !important;
-	}
+    [data-module=PageSubnav] {
+        min-height: auto !important;
+    }
 
-	#howitsdosed {
-		margin-top: 0;
-		padding-top: 0;
-	}
+    #howitsdosed {
+        margin-top: 0;
+        padding-top: 0;
+    }
 
-	.hpp-dtc-m-hero .hero-bg::before {
-		display: none;
-	}
+    .hpp-dtc-m-hero .hero-bg::before {
+        display: none;
+    }
 
-	.pagesubnavstickpoint.scrolled {
-		display: none;
-	}
+    .pagesubnavstickpoint.scrolled {
+        display: none;
+    }
 }
 
 @media (min-width: 1024px) {
-	[data-module=PageSubnav] .pagesubnavcntr span>button {
-		margin-right: 25px;
-	}
+    [data-module=PageSubnav] .pagesubnavcntr span>button {
+        margin-right: 25px;
+    }
 
-	.hpp-dtc-life-with__content .description::before {
-		top: 10rem !important;
-		left: -6rem;
-	}
+    .hpp-dtc-life-with__content .description::before {
+        top: 10rem !important;
+        left: -6rem;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
-	.custom-columns {
-		flex-direction: column;
-	}
+    .custom-columns {
+        flex-direction: column;
+    }
 
-	.custom-columns>div:first-of-type {
-		margin-bottom: 3rem;
-	}
+    .custom-columns>div:first-of-type {
+        margin-bottom: 3rem;
+    }
 
-	.custom-columns>div {
-		left: 0;
-		width: 100%;
-	}
+    .custom-columns>div {
+        left: 0;
+        width: 100%;
+    }
 
-	.strensiq-injection-heading {
-		font-size: 38px;
-		margin-bottom: 3rem;
-	}
+    .strensiq-injection-heading {
+        font-size: 38px;
+        margin-bottom: 3rem;
+    }
 
-	.strensiq-injection-padding .align-items-center {
-		display: flex;
-		align-items: center;
-	}
+    .strensiq-injection-padding .align-items-center {
+        display: flex;
+        align-items: center;
+    }
 
 }
 
 @media screen and (min-width: 992px) and (max-width: 1366px) {
-	.hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
-		margin: 3rem;
-	}
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
+        margin: 3rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-	.strensiq-injection-padding .l-row.u-mt-3 {
-		display: flex;
-		align-items: center;
-	}
+    .strensiq-injection-padding .l-row.u-mt-3 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .looking-for-strensiq__content {
+        padding: 5rem 3rem;
+    }
+
+    .tips-for-using__button {
+        font-size: 14px;
+    }
+
+    .mobile-hero__container .mobile-hero__image {
+        object-position: center right !important;
+        top: 0 !important;
+    }
+
+    .container.mobile-hero-box__container {
+        margin-top: 12.5rem !important;
+    }
+
+    section.one-source-section {
+        transform: translateX(-2.5px);
+    }
+
+    .medical-alert-card {
+        min-height: 330px;
+        padding: 22px 30px 44px 30px;
+    }
+
+    .medical-alert-card .calloutgraphic {
+        margin-bottom: 15px;
+    }
+
+    .medical-alert-card h3 {
+        padding-top: 0;
+    }
+
+    section.record.u-pb-8 {
+        padding-bottom: 50px !important;
+    }
+
+    .rteblock.rteblock-last p {
+        padding-bottom: 0 !important;
+    }
+
+    .mobile-self-injection-text {
+        margin-bottom: 15px !important;
+    }
+
+    .injection-sites__container {
+        margin-bottom: 60px;
+    }
+
+    .content.how-to-use-hero-box__container {
+        margin-top: 18rem !important;
+    }
+
+    .content.how-to-use-hero-box__container .pre-title {
+        padding-left: 133px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .looking-for-strensiq__content {
+        padding: 5rem 6rem;
+    }
+
+    .mobile-hero__container .mobile-hero__image {
+        object-position: center right !important;
+        top: 0 !important;
+    }
+
+    .container.mobile-hero-box__container {
+        margin-top: 12.5rem !important;
+    }
+
+    section.one-source-section {
+        transform: translateX(-2.5px);
+    }
+
+    .medical-alert-card {
+        min-height: auto;
+        padding: 22px 30px 44px 30px;
+    }
+
+    .medical-alert-card .calloutgraphic {
+        margin-bottom: 15px;
+    }
+
+    .medical-alert-card h3 {
+        padding-top: 0;
+
+        padding: 0 1.5rem;
+    }
+
+    section.record.u-pb-8 {
+        padding-bottom: 50px !important;
+    }
+
+    .rteblock.rteblock-last p {
+        padding-bottom: 0 !important;
+    }
+
+    .mobile-self-injection-text {
+        margin-bottom: 15px !important;
+    }
+
+    .injection-sites__container {
+        margin-bottom: 60px;
+    }
+
+    .content.how-to-use-hero-box__container {
+        margin-top: 19rem !important;
+    }
+
+    .content.how-to-use-hero-box__container .pre-title {
+        padding-left: 180px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+    .injection-sites__container {
+        margin-bottom: 60px;
+    }
+
+    .injection-sites .injection-sites__description {
+        padding: 0 128px;
+    }
+
+    .injection-sites .injection-sites__description h5,
+    .injection-sites .injection-sites__description p {
+        font-size: 16px !important;
+    }
+}
+
+.header.upper {
+    font-size: 42px !important;
+    letter-spacing: 1.22px !important;
 }

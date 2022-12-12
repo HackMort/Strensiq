@@ -11,6 +11,10 @@
   top: 48px;
 }
 
+.nav-only-desktop {
+    display: none;
+}
+
 .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
   content: "";
   background: #fff;
@@ -20,7 +24,7 @@
   width: 100%;
   border-top-left-radius: 100px;
   position: relative;
-  display: block;
+  display: none;
   left: 0;
   bottom: 0;
   z-index: -1;
@@ -74,6 +78,18 @@
 }
 
 /* Media Queries */
+@media screen and (max-width: 375px) {
+    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+        background-position: left 10% top 29% !important;
+    }    
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+        background-position: left 10% top 31% !important;
+    }    
+}
+
 @media screen and (min-width: 992px) {
   .hpp-star-section[data-module=HeroModule] .HeroCalloutCntr:after {
     display: block;
@@ -138,4 +154,14 @@
   .hpp-dtc-m-hero.hpp-star-section .hero-bg img {
     object-position: center
   }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-only-desktop {
+        display: block;
+    }
+
+    .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
+        display: block;
+    }
 }
