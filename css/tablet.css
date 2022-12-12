@@ -280,8 +280,9 @@
         left: 50%;
     }
 
-    .tips-image-size {
-        width: 150px;
+    .tips-image-size.injection-tips,
+    .tips-image-size1.injection-tips {
+        width: 77.73px !important;
     }
 
     .here-for-you-hero .hpp-dtc-life-with__content .description::before {
