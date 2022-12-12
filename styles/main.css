@@ -2027,7 +2027,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 .hpp-dtc-m-hpp-patient-support__content .quote-box-shadow p {
     color: var(--dark-green);
     font-family: cubano, sans-serif;
-    font-weight: bolder;
+    /* font-weight: bolder; */
+    font-weight: normal;
     font-size: 1.8rem;
     line-height: 30px;
     margin-bottom: .1rem;
