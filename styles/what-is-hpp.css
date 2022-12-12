@@ -739,3 +739,19 @@
 		max-width: 100%;
 	}
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+	.hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
+		top: 8rem !important;
+	}
+
+	.hpp-dtc-life-with__content.container {
+		max-width: 980px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
+		top: 12rem !important;
+	}
+}
