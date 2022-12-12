@@ -1,40 +1,50 @@
 /* Tablet Styles */
 
 .tablet-jumpbtn {
-        display:none;
-    }
+    display: none;
+}
 
 .desktop-jumpbtn {
     display: block;
-    position: relative; display: block; margin: 0 auto; z-index: 2
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    z-index: 2
 }
 
 @media (min-width:767px) and (max-width:991px) {
     .isi-header strong {
         font-weight: 700 !important;
     }
+
     .jumpbtn img {
-        margin:auto;
+        margin: auto;
         display: block;
     }
+
     .tablet-jumpbtn {
-        display:block;
+        display: block;
     }
+
     .desktop-jumpbtn {
         display: none;
     }
+
     .hpp-dtc-m-hero.home-hero .content {
         margin-bottom: 0;
     }
+
     .home-hero .hero-box {
         margin-top: 11rem;
     }
+
     .hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .hero-box {
         padding-top: 3.5rem;
         padding-bottom: 4.5rem;
         padding-left: 6rem;
         padding-right: 6rem;
     }
+
     .hero-box h3::before {
         top: 1.6rem;
     }
@@ -42,175 +52,234 @@
     .internal-hero.live-with-confidence-hero .hero-box {
         padding-left: 6rem;
     }
+
     .hpp-dtc-m-hero.internal-hero .content .hero-box h3 {
         font-size: 4.6rem;
         line-height: 4.6rem;
     }
+
     .hpp-flex .content {
         margin-top: 0px;
     }
+
     .hpp-dtc-m-hero.internal-hero .content .pre-title {
         margin-top: 6rem;
     }
+
     .hpp-dtc-m-hero.internal-hero .content .hero-box {
         padding-left: 6rem !important;
         margin-top: 3rem;
         min-height: auto;
     }
+
     .how-sq-works.internal-hero .content .hero-box {
         margin-top: 8rem;
     }
+
     .imgzoom {
-        padding:0;
+        padding: 0;
     }
+
     .stq-chart p {
         float: left;
     }
+
     .how-sq-helps .imgzoom picture:after {
         left: unset !important;
         right: 0px;
     }
+
     .l-col-12--md {
         width: 100% !important;
     }
+
     .improvements-section {
         padding-bottom: 0px !important;
     }
+
     .improvements-section .rteblock {
         max-width: 100% !important;
     }
-    .stq-chart-improvements-study img, .stq-chart-mobility img {
+
+    .stq-chart-improvements-study img,
+    .stq-chart-mobility img {
         max-width: 70%;
         margin: 3rem auto;
         display: block;
     }
+
     .how-sq-helps.references-section {
         margin-top: 0 !important;
     }
+
     .strensiq-side-effects img {
         padding-bottom: 0px !important;
     }
+
     .how-sq-helps .imgzoom .strensiq-side-effects:after {
         display: none;
     }
+
     .tap-zoom {
         display: block !important;
-        margin:auto;
-        width:150px;
+        margin: auto;
+        width: 150px;
         margin-bottom: 60px;
     }
+
     .hpp-dtc-lets-connect_cards .card {
         align-items: flex-start;
     }
+
     .hpp-dtc-p-home .hpp-dtc-lets-connect_cards.step-2 .card {
-        flex-direction: row!important;
+        flex-direction: row !important;
     }
+
     .hpp-dtc-p-home .hpp-dtc-lets-connect_cards.step-2 .card .description {
         margin: 2rem !important;
     }
+
     .hpp-dtc-p-home .hpp-dtc-lets-connect_cards.step-2 .card .icon.check {
-       align-self: center!important
+        align-self: center !important
     }
+
     .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .row .form {
         margin: 0 5% !important;
         min-width: 90% !important;
         border-radius: 3rem !important;
-            padding: 5rem !important;
+        padding: 5rem !important;
     }
-    .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .form-row .form-control.txtZipCode, .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .form-row .form-control#iam, .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .form-row .form-control#phone {
+
+    .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .form-row .form-control.txtZipCode,
+    .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .form-row .form-control#iam,
+    .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .form-row .form-control#phone {
         width: auto;
     }
+
     .hpp-dtc-lets-connect_form .message {
         max-width: 100%;
     }
+
     .hpp-dtc-life-with__content .content {
         margin-bottom: 1rem;
     }
+
     [data-module=PageSubnav] .jumpbtn {
         margin-top: -20px !important;
     }
+
     .skeletonarea:before {
         left: -15%;
         width: 130%;
     }
+
     .hpp-dtc-icons-panel__content .content-holder .image-holder .logo {
         width: 150px;
         margin-top: 0rem;
+        margin-right: 0rem;
     }
+
     .hpp-dtc-icons-panel__content .hpp-dtc-callout-fill {
         width: 98%;
     }
+
     .hpp-dtc-life-with__content .description::before {
         top: 18rem !important;
     }
+
+    .hpp-dtc-life-with__content .description.home-quote::before {
+        top: 13rem !important;
+    }
+
     .hpp-dtc-life-with__content {
         padding: 8rem 0 7rem 0;
     }
+
     .two-cols-hpp .hpp-image {
         width: 150px;
     }
+
     .how-sq-works .l-grid {
-        padding-right:40px;
+        padding-right: 40px;
         padding-left: 40px;
     }
+
     .hpp-dtc-footer__content {
-        padding-left:60px;
+        padding-left: 60px;
         padding-right: 60px;
     }
+
     .studied-section .l-row {
-        margin-top:0px !important;
+        margin-top: 0px !important;
     }
+
     .studies-text__container {
-        margin-top:50px;
+        margin-top: 50px;
     }
+
     .how-sq-helps[data-module=Numbers] {
         margin-top: 0 !important;
     }
+
     .how-sq-helps[data-module=Numbers] .numberwheelcntr+h3 {
         padding: 0 20px;
     }
+
     .how-sq-helps[data-module=FullStack] {
         padding-top: 0 !important;
     }
+
     .hpp-dtc-m-next-steps-form_form {
-        padding-right:60px !important;
+        padding-right: 60px !important;
         padding-left: 60px !important;
     }
+
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         top: 0px;
     }
+
+    .hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .hero-bg img {
+        top: 46px;
+    }
+
     .hpp-dtc-m-hero.internal-hero.resources-hero .hero-bg img {
         top: -30px !important;
     }
+
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .hero-bg img {
         top: -110px !important;
     }
-    .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content, .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content {
+
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content,
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content {
         margin-bottom: 6rem;
     }
+
     [data-module=HeroModule] .row.mx-0:after {
         height: 0px !important;
     }
+
     .journey-from-prescription-container {
-        padding-right:60px !important;
+        padding-right: 60px !important;
         padding-left: 60px !important;
     }
 
     .hpp-dtc-pharmacy-support__content {
-      display: inline-block;
-      position: relative;
-      border-bottom: none;
+        display: inline-block;
+        position: relative;
+        border-bottom: none;
     }
 
     .hpp-dtc-pharmacy-support__content:after {
-      position: absolute;
-      content: '';
-      border-bottom: .1rem solid #eaeaea;
-      width: 85%;
-      transform: translateX(-50%);
-      bottom: -15px;
-      left: 50%;
+        position: absolute;
+        content: '';
+        border-bottom: .1rem solid #eaeaea;
+        width: 85%;
+        transform: translateX(-50%);
+        bottom: -15px;
+        left: 50%;
     }
+
     .tips-image-size {
         width: 150px;
     }
@@ -218,41 +287,55 @@
     .here-for-you-hero .hpp-dtc-life-with__content .description::before {
         top: 0rem !important;
     }
-    .iconpanel .subhead, .iconpanel h5 {
+
+    .iconpanel .subhead,
+    .iconpanel h5 {
         text-align: left;
     }
+
     .self-injection .rteblock {
         padding-left: 20px;
     }
+
     .self-injection .rteblock p {
         text-align: left;
     }
+
     .medical-alert-card {
         display: flex;
     }
+
     .medical-alert-card h3 {
         text-align: left;
     }
-    .resources-injection-site-padding, .strensiq-injection-padding {
+
+    .resources-injection-site-padding,
+    .strensiq-injection-padding {
         padding: 0px 45px;
     }
+
     .resources-injection-heading {
         text-align: left;
     }
+
     .download-guide {
         text-align: left;
     }
+
     .strensiq-injection-heading {
         text-align: left;
     }
+
     .strensiq-injection-background .subhead {
         text-align: left;
     }
+
     .textcntr {
         align-self: center;
     }
+
     .howtostorestrensiq {
-        padding-right:17% !important;
+        padding-right: 17% !important;
         padding-left: 17% !important;
     }
 }
