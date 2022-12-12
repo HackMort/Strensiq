@@ -354,6 +354,8 @@
     color: var(--white);
     margin-bottom: 3.5rem;
     width: 84%;
+    letter-spacing: 0.16px;
+    line-height: 26px;
 }
 
 .strensiq-routine {

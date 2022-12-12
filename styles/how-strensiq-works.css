@@ -222,6 +222,43 @@
     .rwm-hero .hero-bg{
         background-color: #f8f8f8;
     }
+
+    .how-strensiq-works__picture-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .how-strensiq-works__picture {
+        width: 100% !important;
+        height: 100% !important;
+
+        max-width: 250px !important;
+        max-height: 250px !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+
+        text-align: center;
+        display: flex !important;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .how-strensiq-works__picture img {
+        width: 100% !important;
+        height: 100% !important;
+        max-width: initial !important;
+
+        object-fit: cover;
+        position: relative;
+    }
+
+    .how-strensiq-works__picture-description {
+        font-size: 18px !important;
+    }
+    
 }
 
 @media (max-width: 1023px) {
