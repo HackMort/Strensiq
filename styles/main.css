@@ -2467,7 +2467,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     letter-spacing: .1rem;
     margin-top: .6rem;
     padding: .8rem 1.4rem .8rem 1.6rem;
-    right: 5.5rem;
+    right: 5rem;
     text-transform: uppercase;
     top: 0;
     width: max-content
@@ -7555,5 +7555,11 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 @media screen and (min-width: 992px) and (max-width: 1023px) {
     .hpp-dtc-footer__content {
         padding-inline: 5.5rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hpp-dtc-m-sidebar {
+        top: 19.35rem
     }
 }
