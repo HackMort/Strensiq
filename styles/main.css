@@ -292,9 +292,9 @@ section.floating-subnav .floating-subnav__menu {
     position: absolute;
     z-index: 999;
     width: 100%;
-    
+
     transition: all 200ms ease-in-out;
-    
+
     top: 100%;
     height: 0px;
 
@@ -303,7 +303,7 @@ section.floating-subnav .floating-subnav__menu {
     overflow: hidden;
     left: 0;
     opacity: 1;
-    
+
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -311,7 +311,7 @@ section.floating-subnav .floating-subnav__menu {
     box-shadow: 0px 20px 20px 0px rgb(52 52 52 / 10%);
 }
 
-section.floating-subnav .floating-subnav__menu--opened  {
+section.floating-subnav .floating-subnav__menu--opened {
     padding-right: 1rem;
     padding-bottom: 1rem;
     height: auto;
@@ -319,7 +319,7 @@ section.floating-subnav .floating-subnav__menu--opened  {
 }
 
 section.floating-subnav .floating-subnav__menu a {
-    font-family: azo-sans-web,Arial,sans-serif;
+    font-family: azo-sans-web, Arial, sans-serif;
     color: #005d55;
     transition: all .3s ease;
     letter-spacing: 1px;
@@ -2390,7 +2390,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 .hpp-dtc-m-hpp-patient-support__content .quote-box-shadow p {
     color: var(--dark-green);
     font-family: cubano, sans-serif;
-    font-weight: bolder;
+    /* font-weight: bolder; */
+    font-weight: normal;
     font-size: 1.8rem;
     line-height: 30px;
     margin-bottom: .1rem;
@@ -2834,7 +2835,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     letter-spacing: .1rem;
     margin-top: .6rem;
     padding: .8rem 1.4rem .8rem 1.6rem;
-    right: 5.5rem;
+    right: 5rem;
     text-transform: uppercase;
     top: 0;
     width: max-content
@@ -3673,7 +3674,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     -webkit-appearance: none;
     background-color: var(--white);
     border: .1rem solid #969696;
-    padding: .9rem;
+    border-radius: 2px;
+    padding: 1rem;
+    /* padding: .9rem; */
     display: inline-block;
     position: absolute;
     vertical-align: middle;
@@ -3692,9 +3695,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     content: "";
     display: block;
     position: absolute;
-    top: .5rem;
+    top: 0.4rem;
     left: -2.3rem;
-    width: .4rem;
+    width: 0.5rem;
     height: 1.1rem;
     border: solid var(--white);
     border-width: 0 .2rem .2rem 0;
@@ -4461,6 +4464,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 .hpp-dtc-lets-connect_form .form-check_age,
 .hpp-dtc-lets-connect_form .form-check_agreement {
+    cursor: pointer;
     font-size: 1.4rem;
     letter-spacing: .014rem;
     line-height: 1.8rem;
@@ -4471,24 +4475,24 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     content: "";
     -webkit-appearance: none;
     background-color: var(--white);
-    border: .1rem solid #969696;
-    padding: .8rem;
+    border: 0.1rem solid #969696;
+    padding: 1rem;
     display: inline-block;
+    border-radius: 2px;
     position: absolute;
     vertical-align: middle;
     cursor: pointer;
-    left: -3rem;
-    margin: .1rem .5rem auto 3rem;
-    opacity: .4
+    left: -3.1rem;
+    margin: 0.1rem 0.5rem auto 3rem;
 }
 
 .hpp-dtc-lets-connect_form .form-check input:checked+label:after {
     content: "";
     display: block;
     position: absolute;
-    top: .3rem;
-    left: .8rem;
-    width: .4rem;
+    top: 0.5rem;
+    left: 0.8rem;
+    width: 0.5rem;
     height: 1.1rem;
     border: solid var(--white);
     border-width: 0 .2rem .2rem 0;
@@ -4497,8 +4501,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 }
 
 .hpp-dtc-lets-connect_form .form-check input:checked+label:before {
-    background-color: var(--green);
-    border-color: var(--green);
+    background-color: #77be2c;
+    border-color: #77be2c;
     opacity: 1;
 }
 
@@ -4506,9 +4510,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     content: "";
     display: block;
     position: absolute;
-    top: .6rem;
-    left: .8rem;
-    width: .4rem;
+    top: 0.7rem;
+    left: 0.8rem;
+    width: 0.5rem;
     height: 1.1rem;
     border: solid var(--white);
     border-width: 0 .2rem .2rem 0;
@@ -5352,9 +5356,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     content: "";
     display: block;
     position: absolute;
-    top: .5rem;
-    left: -2.5rem;
-    width: .4rem;
+    top: 0.4rem;
+    left: -2.6rem;
+    width: 0.5rem;
     height: 1.1rem;
     border: solid var(--white);
     border-width: 0 .2rem .2rem 0;
@@ -7779,8 +7783,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 }
 
 .cookie-banner .link {
-    color: var(--white);
-    text-decoration: underline;
+    color: var(--white) !important;
+    text-decoration: underline !important;
 }
 
 .cookie-closer {
@@ -7921,12 +7925,35 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
     .site-header .container .d-flex.jcnt-end .logo {
         margin-right: auto;
+        margin-left: -12px;
+    }
+
+    .pagesubnavstickpoint>.l-grid {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pagesubnavstickpoint>.l-grid {
+        padding-left: 20px;
     }
 }
 
 @media screen and (max-width: 1365px) {
     .hpp-dtc-m-sidebar.d-none.d-md-block.position-fixed {
         display: none !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    .hpp-dtc-footer__content {
+        padding-inline: 5.5rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hpp-dtc-m-sidebar {
+        top: 19.35rem
     }
 }
 

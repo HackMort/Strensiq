@@ -2,6 +2,35 @@
     padding: 0 1rem !important;
 }
 
+.hpp-dtc-m-hpp-patient-support-form_form .btn {
+    font-family: azo-sans-web, Arial, sans-serif;
+    color: var(--dark-green);
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid var(--dark-green);
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: all .3s ease-out;
+    letter-spacing: .1em;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
+}
+
+.hpp-dtc-m-hpp-patient-support-form_form .btn:hover,
+.hpp-dtc-m-hpp-patient-support-form_form .btn:focus {
+    background-color: var(--dark-green);
+}
+
+form .select-wrap:after {
+    top: 48px;
+}
+
 .form-control {
     border: none;
     height: 4.8rem;
@@ -133,7 +162,7 @@
 
 @media (min-width: 230px) and (max-width: 1023px) {
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .hero-box.quote {
-      padding-left: 3rem !important;
+        padding-left: 3rem !important;
         margin: 20px 5rem;
     }
 
@@ -144,9 +173,10 @@
     .hpp-dtc-life-with__content .description::before {
         left: 0rem !important;
     }
-   .hero-box .patient-info{
-    padding-bottom: 40px;
-   }
+
+    .hero-box .patient-info {
+        padding-bottom: 40px;
+    }
 
 }
 
@@ -154,11 +184,13 @@
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .hero-box.quote {
         margin: 25px;
     }
-    .hpp-dtc-life-with__content .description{
+
+    .hpp-dtc-life-with__content .description {
         padding: 21px;
         padding-bottom: 0px;
         margin-bottom: 38px;
     }
+
     .hpp-dtc-m-hero.here-for-you-hero .content .pre-title {
         position: relative;
         top: 16px;
@@ -169,8 +201,9 @@
         font-size: 15rem;
         top: 7.1rem !important;
     }
-    .hero-box .header{
-        font-size: 42px!important;
+
+    .hero-box .header {
+        font-size: 42px !important;
     }
 
     .peer-subnav .jumpbtn {
@@ -185,6 +218,16 @@
 }
 
 @media (min-width: 992px) {
+    .hpp-dtc-life-with__content .description::before {
+        top: 4.1rem !important;
+        left: -7rem !important;
+    }
+
+    .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
     [data-module=PageSubnav] {
         margin-top: 2rem !important;
     }
@@ -207,12 +250,24 @@
     }
 
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content {
-        margin-bottom: 4rem;
-        padding-right: 2.5rem !important;
+        margin-top: 15rem;
+        margin-bottom: 25px;
+        /* padding-right: 2.5rem !important; */
     }
 
     [data-module=PageSubnav] {
-        border-top-left-radius: 80px;
+        border-top-left-radius: 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hpp-dtc-m-hero .content {
+        line-height: 1;
+        padding: 0 15px !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .pre-title {
+        margin-top: 8px;
     }
 }
 

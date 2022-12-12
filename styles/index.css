@@ -53,6 +53,21 @@
 
 @media screen and (min-width: 992px) {
     .hpp-dtc-life-with__content .description::before {
+        top: 11rem;
+        left: -6rem;
+    }
+
+    #intro.hpp-dtc-m-hero .content {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .hpp-dtc-lets-connect_cards {
+        padding: 0 2rem;
+    }
+
+    .hpp-dtc-life-with__content .description::before {
         top: 8.5rem;
         left: -6rem;
     }
@@ -68,6 +83,17 @@
     .hpp-dtc-m-hero.home-hero .hero-box {
         max-width: 55rem;
         margin-top: 100px;
+    }
+
+    #intro.hpp-dtc-m-hero .content {
+        padding-right: 1.5rem;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hpp-dtc-life-with__content .description::before {
+        top: 12rem;
     }
 
     #intro.hpp-dtc-m-hero .content {

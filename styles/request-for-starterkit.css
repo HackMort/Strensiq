@@ -170,11 +170,6 @@
         height: 100px;
     }
 
-    .starting-strensiq-hero .pre-title {
-        position: relative;
-        left: -8.5rem;
-    }
-
     .tips-hero .request-a-starter-kit-hero-box {
         max-width: 50rem !important;
         padding-left: 7rem;
@@ -191,11 +186,11 @@
 
 @media (min-width: 992px) {
     .hpp-dtc-m-hero .content {
-        margin-bottom: 3.3rem;
+        margin-bottom: 30px;
     }
 
     .hpp-dtc-m-hero.internal-hero .content .pre-title {
-        margin-top: 3rem;
+        margin-top: 30px;
     }
 }
 
@@ -238,7 +233,18 @@
 }
 
 @media (min-width: 1024px) and (max-width: 9999px) {
-    [data-module=PageSubnav] .pagesubnavcntr span>button {
+    /* [data-module=PageSubnav] .pagesubnavcntr span>button {
         margin-right: 46px;
+    } */
+}
+
+@media screen and (min-width: 992px) {
+    .hpp-dtc-m-hero.internal-hero.starting-strensiq-hero .content {
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+
+    .starting-strensiq-hero .pre-title {
+        left: -8.5rem;
     }
 }

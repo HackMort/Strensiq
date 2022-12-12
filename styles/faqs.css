@@ -2,6 +2,10 @@
   text-decoration: none;
 }
 
+.link.wistia_embed {
+  display: inline-block;
+}
+
 .isi-body .link {
   text-decoration: underline;
 }
@@ -34,6 +38,7 @@ sup {
 @media screen and (min-width: 992px) {
   .hpp-dtc-m-hero .content {
     margin-bottom: 5rem;
+    padding: 0 15px;
   }
 
   [data-module=PageSubnav] .jumpbtn {
@@ -58,7 +63,7 @@ sup {
 
   .faqs-hero .pre-title {
     position: relative;
-    left: -8%;
+    left: 0;
   }
 
   .faqs-hero .hero-box {
@@ -146,7 +151,7 @@ sup {
 
 @media screen and (min-width: 1024px) {
   [data-module=PageSubnav] .pagesubnavcntr span>button {
-    margin-right: 35px;
+    /* margin-right: 46px; */
   }
 }
 

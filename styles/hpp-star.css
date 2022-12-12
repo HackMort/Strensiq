@@ -98,19 +98,14 @@
   }
 
   .hpp-dtc-m-hero.hpp-star-section .content {
-    /* margin-top: 30rem; */
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
+    padding: 0 15px;
   }
 
   .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
-    margin-top: 9rem;
+    left: 0;
+    margin-top: 8.5rem;
   }
-
-  /* .hpp-dtc-m-hero.hpp-star-section .content {
-    padding-right: 1rem;
-  } */
-
-
 
   .hpp-dtc-m-hpp-patient-support-form {
     padding-top: 1rem;

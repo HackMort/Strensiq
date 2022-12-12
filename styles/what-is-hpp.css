@@ -78,7 +78,7 @@
 
 	.hpp-dtc-m-hero.internal-hero .content .pre-title {
 		position: relative;
-		left: -9rem;
+		left: 0;
 	}
 
 	.hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .hero-box {
@@ -568,7 +568,7 @@
 	left: 0;
 	bottom: 0;
 	z-index: -1;
-	height: 100px;
+	height: 110px;
 }
 
 .hpp-dtc-m-hero.internal-hero .content .hero-box {
@@ -577,47 +577,47 @@
 }
 
 @media screen and (max-width: 375px) {
-    .power-of-diagnosis p:first-of-type {
-        padding: 0 0 0 7rem;
-        margin-bottom: 1.8rem;
-    }
+	.power-of-diagnosis p:first-of-type {
+		padding: 0 0 0 7rem;
+		margin-bottom: 1.8rem;
+	}
 
-    .power-of-diagnosis p:first-of-type::before {
-        top: 16rem !important;
-        font-size: 18rem !important;
-    }
+	.power-of-diagnosis p:first-of-type::before {
+		top: 16rem !important;
+		font-size: 18rem !important;
+	}
 
-    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
-        margin-top: 20rem !important;
-    }
+	.hpp-dtc-m-hero .content.wishpp-hero-box__container {
+		margin-top: 20rem !important;
+	}
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
-    .power-of-diagnosis p:first-of-type {
-        padding: 0 3rem 0 7rem;
-    }
+	.power-of-diagnosis p:first-of-type {
+		padding: 0 3rem 0 7rem;
+	}
 
-    .power-of-diagnosis p:first-of-type::before {
-        font-size: 18rem !important;
-    }
+	.power-of-diagnosis p:first-of-type::before {
+		font-size: 18rem !important;
+	}
 
-    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
-        margin-top: 21rem !important;
-    }
+	.hpp-dtc-m-hero .content.wishpp-hero-box__container {
+		margin-top: 21rem !important;
+	}
 
-    .content-holder.two-cols-hpp.endocrinologists-container {
-        padding-top: 1rem!important;
-    }
+	.content-holder.two-cols-hpp.endocrinologists-container {
+		padding-top: 1rem !important;
+	}
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
-        margin-top: 24.6rem !important;
-    }
+	.hpp-dtc-m-hero .content.wishpp-hero-box__container {
+		margin-top: 24.6rem !important;
+	}
 
-    .content-holder.two-cols-hpp.endocrinologists-container {
-        padding-top: 1rem!important;
-    }
+	.content-holder.two-cols-hpp.endocrinologists-container {
+		padding-top: 1rem !important;
+	}
 }
 
 @media screen and (min-width: 992px) {
@@ -635,7 +635,10 @@
 
 	.hpp-dtc-m-hero.what-is-hpp-hero .content {
 		/* margin-top: 30rem; */
-		margin-bottom: 4rem;
+		margin-bottom: 30px;
+		max-width: 1190px;
+		padding-right: 15px;
+		padding-left: 15px;
 	}
 
 	/* .hpp-dtc-m-hero.sign-up-hero .content {
@@ -693,7 +696,6 @@
 		margin-bottom: 3rem;
 	}
 
-	.hpp-dtc-life-with__content .title {}
 }
 
 @media (max-width: 1023px) {
@@ -726,7 +728,7 @@
 @media screen and (min-width: 992px) {
 	.hpp-dtc-m-hero.internal-hero .content .pre-title {
 		font-size: 2.8rem;
-		margin-top: 5rem;
+		margin-top: 30px;
 	}
 
 	.hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
@@ -755,4 +757,50 @@
 	.green-bar-section .description {
 		margin-bottom: 3rem;
 	}
+
+	.hpp-dtc-icons-panel__content .main-content .mainDescription,
+	.hpp-dtc-icons-panel__content .main-content .mainTitle {
+		padding: 0;
+	}
+
+	#specialistswhocanhelp .container,
+	.container-fluid>.container {
+		max-width: 853px;
+	}
+
+	.hpp-dtc-life-with .description .d-md-block,
+	.hpp-dtc-life-with .description .d-lg-block {
+		display: none !important;
+	}
+
+	.hpp-dtc-looking-for-resources__content.container,
+	.container-fluid>.container .col-lg-11 {
+		max-width: 100%;
+	}
+
+	.hpp-dtc-footer__content.container,
+	.hpp-dtc-m-hpp-patient-support__content.container {
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+	.hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
+		top: 8rem !important;
+	}
+
+	.hpp-dtc-life-with .title .d-md-block {
+		display: none !important;
+	}
+
+	.hpp-dtc-life-with__content.container {
+		max-width: 980px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
+		top: 12rem !important;
+	}
+
 }

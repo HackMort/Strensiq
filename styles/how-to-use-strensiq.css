@@ -236,8 +236,8 @@
     background: url(../images/how-to-use-strensiq/download.svg) no-repeat;
     background-size: contain;
     background-position: 50%;
-    width: 20px;
-    height: 20px;
+    width: 21px;
+    height: 21px;
     margin-left: 10px;
     transition: all .3s ease-in-out;
     font-weight: 400;
@@ -245,6 +245,19 @@
     line-height: 1.3;
     color: #00a8e1;
     position: relative;
+}
+
+.btn-brochure:hover,
+.btn-brochure:focus {
+    color: var(--white);
+    background-color: var(--dark-green);
+}
+
+.btn-brochure:hover:after,
+.btn-brochure:focus:after {
+    background: url('../images/how-to-use-strensiq/download_white.svg');
+    height: 21px;
+    width: 21px;
 }
 
 .download-brochure {
@@ -752,14 +765,15 @@
         letter-spacing: 0.28px;
         color: #FFFFFF;
         text-transform: uppercase;
-        margin-top: 6.5rem;
+        margin-top: 5.5rem;
         opacity: 1;
-        left: 4rem;
+        left: 0;
         position: relative;
     }
 
     .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
         margin-bottom: 10rem;
+        padding: 0 15px !important;
     }
 }
 
@@ -986,9 +1000,9 @@
 }
 
 @media (min-width: 1024px) {
-    [data-module=PageSubnav] .pagesubnavcntr span>button {
-        margin-right: 25px;
-    }
+    /* [data-module=PageSubnav] .pagesubnavcntr span>button {
+		margin-right: 25px;
+	} */
 
     .hpp-dtc-life-with__content .description::before {
         top: 10rem !important;
