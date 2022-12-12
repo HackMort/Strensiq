@@ -745,6 +745,11 @@
 }
 
 @media screen and (min-width: 992px) {
+    .hpp-dtc-life-with .logo {
+        margin: auto;
+        display: block;
+    }
+
     .what-is-hpp-hero .how-to-use-video {
         max-width: 60.0rem !important;
         top: 5%;
@@ -772,6 +777,7 @@
     }
 
     .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
+        margin-top: 11rem;
         margin-bottom: 10rem;
         padding: 0 15px !important;
     }
@@ -1010,7 +1016,7 @@
 	} */
 
     .hpp-dtc-life-with__content .description::before {
-        top: 10rem !important;
+        top: 11rem !important;
         left: -6rem;
     }
 }

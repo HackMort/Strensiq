@@ -256,3 +256,15 @@
         left: -8.5rem;
     }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .hpp-dtc-looking-for-resources__content {
+        text-align: left;
+        padding: 6.5rem 2rem;
+    }
+
+    .hpp-dtc-looking-for-resources__content .description {
+        padding: 0;
+        text-align: left;
+    }
+}

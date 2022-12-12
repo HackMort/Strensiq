@@ -805,8 +805,14 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
-        top: 12rem !important;
-    }
+	.hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
+		top: 12rem !important;
+	}
+}
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.hpp-dtc-life-with .logo {
+		margin: 0 auto;
+		display: block;
+	}
 }

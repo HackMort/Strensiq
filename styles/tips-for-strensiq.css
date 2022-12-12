@@ -211,6 +211,14 @@
     margin-bottom: 3rem;
 }
 
+.desktop-only {
+    display: none;
+}
+
+.mobile-only {
+    display: block;
+}
+
 @media screen and (min-width: 992px) {
     .hpp-dtc-m-hero.internal-hero .content {
         justify-content: flex-end;
@@ -245,6 +253,14 @@
     .lg-curve {
         bottom: 40px;
     }
+
+    .desktop-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1023px) {
@@ -271,7 +287,7 @@
     }
 
     #howtostorestrensiq .l-row.u-mt-3 .l-col-5:last-of-type .d-flex:last-of-type .textcntr {
-        margin-top: 1px;
+        /* margin-top: 1px; */
     }
 }
 

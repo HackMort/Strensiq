@@ -27,6 +27,10 @@ header.site-header {
   .site-header .container .d-flex.jcnt-end .logo {
     margin-left: 0;
   }
+
+  .site-header .container .d-flex.jcnt-end .logo img {
+    width: 167px;
+  }
 }
 
 @media (min-width: 1024px) {

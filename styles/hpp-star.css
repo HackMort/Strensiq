@@ -12,7 +12,7 @@
 }
 
 .nav-only-desktop {
-    display: none;
+  display: none;
 }
 
 .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
@@ -79,9 +79,9 @@
 
 /* Media Queries */
 @media screen and (max-width: 375px) {
-    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
-        background-position: left 10% top 29% !important;
-    }    
+  .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+    background-position: left 10% top 29% !important;
+  }
 }
 
 /* Media Queries */
@@ -93,9 +93,9 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
-    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
-        background-position: left 10% top 31% !important;
-    }    
+  .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+    background-position: left 10% top 31% !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -106,6 +106,7 @@
   }
 
   .hpp-dtc-m-hero.hpp-star-section .content {
+    margin-top: 9rem;
     margin-bottom: 3rem;
     padding: 0 15px;
   }
@@ -160,11 +161,21 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .nav-only-desktop {
-        display: block;
-    }
+  .nav-only-desktop {
+    display: block;
+  }
 
-    .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
-        display: block;
-    }
+  .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .hpp-dtc-m-hero.hpp-star-section .content {
+    margin-top: 15rem;
+  }
+
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
+    margin-top: 7.5rem;
+  }
 }
