@@ -14,9 +14,9 @@ header.site-header {
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
-  .icon-bar {
+  /* .icon-bar {
     background-color: var(--dark-green);
-  }
+  } */
 
   #navbar-collapse.show.add li a {
     color: var(--white);

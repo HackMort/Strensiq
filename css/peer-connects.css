@@ -162,7 +162,7 @@ form .select-wrap:after {
 
 @media (min-width: 230px) and (max-width: 1023px) {
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .hero-box.quote {
-      padding-left: 3rem !important;
+        padding-left: 3rem !important;
         margin: 20px 5rem;
     }
 
@@ -173,9 +173,10 @@ form .select-wrap:after {
     .hpp-dtc-life-with__content .description::before {
         left: 0rem !important;
     }
-   .hero-box .patient-info{
-    padding-bottom: 40px;
-   }
+
+    .hero-box .patient-info {
+        padding-bottom: 40px;
+    }
 
 }
 
@@ -183,11 +184,13 @@ form .select-wrap:after {
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .hero-box.quote {
         margin: 25px;
     }
-    .hpp-dtc-life-with__content .description{
+
+    .hpp-dtc-life-with__content .description {
         padding: 21px;
         padding-bottom: 0px;
         margin-bottom: 38px;
     }
+
     .hpp-dtc-m-hero.here-for-you-hero .content .pre-title {
         position: relative;
         top: 16px;
@@ -198,8 +201,9 @@ form .select-wrap:after {
         font-size: 15rem;
         top: 7.1rem !important;
     }
-    .hero-box .header{
-        font-size: 42px!important;
+
+    .hero-box .header {
+        font-size: 42px !important;
     }
 
     .peer-subnav .jumpbtn {
@@ -215,8 +219,13 @@ form .select-wrap:after {
 
 @media (min-width: 992px) {
     .hpp-dtc-life-with__content .description::before {
-        top: 3rem !important;
+        top: 4.1rem !important;
         left: -7rem !important;
+    }
+
+    .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content {
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
     [data-module=PageSubnav] {

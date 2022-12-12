@@ -216,10 +216,11 @@
         font-size: 1.7rem;
     }
 
-    #howstrensiqworksinthebody .my-3 .col-sm-4{
+    #howstrensiqworksinthebody .my-3 .col-sm-4 {
         padding: 0px 34px;
     }
-    .rwm-hero .hero-bg{
+
+    .rwm-hero .hero-bg {
         background-color: #f8f8f8;
     }
 
@@ -227,7 +228,7 @@
         display: flex;
         justify-content: center;
     }
-    
+
     .how-strensiq-works__picture {
         width: 100% !important;
         height: 100% !important;
@@ -245,7 +246,7 @@
         align-items: center;
     }
 
-    
+
     .how-strensiq-works__picture img {
         width: 100% !important;
         height: 100% !important;
@@ -258,7 +259,7 @@
     .how-strensiq-works__picture-description {
         font-size: 18px !important;
     }
-    
+
 }
 
 @media (max-width: 1023px) {
@@ -267,7 +268,18 @@
     }
 }
 
+.header.upper {
+    font-size: 42px !important;
+    letter-spacing: 1.22px !important;
+}
+
 @media (min-width: 992px) {
+    .header.upper {
+        font-size: 6.5rem !important;
+        line-height: 6.2rem !important;
+        margin-bottom: 0.9rem !important;
+    }
+
     .site-header .container .d-flex.jcnt-end .logo {
         margin-left: -5px;
     }
@@ -311,9 +323,4 @@
     .rteblock p {
         text-align: left;
     }
-}
-
-.header.upper {
-    font-size: 42px !important;
-    letter-spacing: 1.22px !important;
 }
