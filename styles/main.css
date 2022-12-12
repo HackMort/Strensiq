@@ -7550,3 +7550,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
         display: none !important;
     }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    .hpp-dtc-footer__content {
+        padding-inline: 5.5rem;
+    }
+}
