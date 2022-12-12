@@ -354,7 +354,9 @@ section.floating-subnav .floating-subnav__menu a:not(:last-of-type) {
         display: block;
     }
 
-    section.floating-subnav .floating-subnav__menu {
+    section.floating-subnav,
+    section.floating-subnav .floating-subnav__menu,
+    section.floating-subnav.floating-subnav--opened {
         display: none;
     }
 }

@@ -79,37 +79,38 @@
     .lg-curve {
         display: none;
     }
-    .needs-validation .submit-btn{
-    width: 220px;
-    font-size: 14px!important;
-    height: 60px;
-    line-height: 20px!important
+
+    .needs-validation .submit-btn {
+        width: 220px;
+        font-size: 14px !important;
+        height: 60px;
+        line-height: 20px !important
     }
 
-    .hpp-dtc-m-hero .hero-bg{
+    .hpp-dtc-m-hero .hero-bg {
         background-color: #f2f2f2;
     }
 
-     #howtorequest .main-image{
+    #howtorequest .main-image {
         scale: 1.25;
-     }
+    }
 
-     .starting-strensiq-hero .hero-box{
+    .starting-strensiq-hero .hero-box {
         position: relative;
         bottom: 12%;
         padding: 33px;
-     }
-     
-     .starting-strensiq-hero .pre-title{
+    }
+
+    .starting-strensiq-hero .pre-title {
         position: relative;
         bottom: 12%;
-     }
+    }
 
-     .starting-strensiq-hero .hero-box p{
-       margin-bottom: 15px;
-     }
+    .starting-strensiq-hero .hero-box p {
+        margin-bottom: 15px;
+    }
 
-     .hero-box .header.upper {
+    .hero-box .header.upper {
         font-size: 42px !important;
     }
 
@@ -128,7 +129,7 @@
     [data-module=PageSubnav] .jumpbtn {
         margin-top: -72px !important;
     }
-   
+
     .starting-strensiq-hero .pre-title {
         margin-top: 42px;
     }
@@ -246,5 +247,17 @@
 
     .starting-strensiq-hero .pre-title {
         left: -8.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .hpp-dtc-looking-for-resources__content {
+        text-align: left;
+        padding: 6.5rem 2rem;
+    }
+
+    .hpp-dtc-looking-for-resources__content .description {
+        padding: 0;
+        text-align: left;
     }
 }

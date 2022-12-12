@@ -223,6 +223,12 @@ form .select-wrap:after {
         left: -7rem !important;
     }
 
+    .hpp-dtc-m-hpp-patient-support-form {
+        z-index: 2;
+        padding: 2rem 0 13rem;
+        position: relative;
+    }
+
     .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content {
         padding-right: 1rem;
         padding-left: 1rem;

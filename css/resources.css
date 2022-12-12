@@ -226,41 +226,42 @@
 
 @media (min-width: 230px) and (max-width: 767px) {
 
-    .journey-from-prescription-container .imgzoom .mainheading{
-        font-size: 30px!important;
-        line-height: 32px!important;
+    .journey-from-prescription-container .imgzoom .mainheading {
+        font-size: 30px !important;
+        line-height: 32px !important;
     }
 
-    .hpp-dtc-pharmacy-support__content .main-content-holder .subTitle{
+    .hpp-dtc-pharmacy-support__content .main-content-holder .subTitle {
         font-size: 18px;
     }
 
-    .heecol{
+    .heecol {
         padding-top: 20%;
     }
 
-    .hpp-dtc-m-card.global-genes .hpp-dtc-m-card_text, .hpp-dtc-m-card.nord .hpp-dtc-m-card_text{
+    .hpp-dtc-m-card.global-genes .hpp-dtc-m-card_text,
+    .hpp-dtc-m-card.nord .hpp-dtc-m-card_text {
         font-size: 16px;
         line-height: 26px;
     }
 
-    #support h2{
+    #support h2 {
         padding: 0 40px;
-        font-size: 41px!important;
+        font-size: 41px !important;
 
     }
 
-    .hpp-dtc-m-hero .content{
-        padding: 0 22px!important;
+    .hpp-dtc-m-hero .content {
+        padding: 0 22px !important;
     }
 
     [data-module=PageSubnav] {
-        margin-top: 40px!important;
+        margin-top: 40px !important;
     }
 
-    .hpp-dtc-m-hpp-patient-advocacy_header{
-        line-height: 42px!important;
-        font-size: 42px!important;
+    .hpp-dtc-m-hpp-patient-advocacy_header {
+        line-height: 42px !important;
+        font-size: 42px !important;
     }
 
     .hpp-support-elx {
@@ -383,7 +384,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {   
+@media screen and (max-width: 767px) {
 
     .cards-container {
         justify-content: center;
@@ -494,9 +495,9 @@
         margin-left: 45px;
     }
 
-    .hpp-dtc-life-with__content .content-holder {
+    /* .hpp-dtc-life-with__content .content-holder {
         margin-left: -80px;
-    }
+    } */
 }
 
 @media screen and (max-width: 375px) {
@@ -508,7 +509,7 @@
         margin-top: 14rem !important;
     }
 
-    .hpp-dtc-life-with__content.container  .content-holder {
+    .hpp-dtc-life-with__content.container .content-holder {
         margin: 0 !important;
         justify-content: center;
         gap: 2rem;
@@ -538,7 +539,7 @@
         margin-top: 18rem !important;
     }
 
-    .hpp-dtc-life-with__content.container  .content-holder {
+    .hpp-dtc-life-with__content.container .content-holder {
         margin: 0 !important;
         justify-content: center;
         gap: 2rem;
