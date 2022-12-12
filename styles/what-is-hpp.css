@@ -577,47 +577,47 @@
 }
 
 @media screen and (max-width: 375px) {
-    .power-of-diagnosis p:first-of-type {
-        padding: 0 0 0 7rem;
-        margin-bottom: 1.8rem;
-    }
+	.power-of-diagnosis p:first-of-type {
+		padding: 0 0 0 7rem;
+		margin-bottom: 1.8rem;
+	}
 
-    .power-of-diagnosis p:first-of-type::before {
-        top: 16rem !important;
-        font-size: 18rem !important;
-    }
+	.power-of-diagnosis p:first-of-type::before {
+		top: 16rem !important;
+		font-size: 18rem !important;
+	}
 
-    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
-        margin-top: 20rem !important;
-    }
+	.hpp-dtc-m-hero .content.wishpp-hero-box__container {
+		margin-top: 20rem !important;
+	}
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
-    .power-of-diagnosis p:first-of-type {
-        padding: 0 3rem 0 7rem;
-    }
+	.power-of-diagnosis p:first-of-type {
+		padding: 0 3rem 0 7rem;
+	}
 
-    .power-of-diagnosis p:first-of-type::before {
-        font-size: 18rem !important;
-    }
+	.power-of-diagnosis p:first-of-type::before {
+		font-size: 18rem !important;
+	}
 
-    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
-        margin-top: 21rem !important;
-    }
+	.hpp-dtc-m-hero .content.wishpp-hero-box__container {
+		margin-top: 21rem !important;
+	}
 
-    .content-holder.two-cols-hpp.endocrinologists-container {
-        padding-top: 1rem!important;
-    }
+	.content-holder.two-cols-hpp.endocrinologists-container {
+		padding-top: 1rem !important;
+	}
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
-        margin-top: 24.6rem !important;
-    }
+	.hpp-dtc-m-hero .content.wishpp-hero-box__container {
+		margin-top: 24.6rem !important;
+	}
 
-    .content-holder.two-cols-hpp.endocrinologists-container {
-        padding-top: 1rem!important;
-    }
+	.content-holder.two-cols-hpp.endocrinologists-container {
+		padding-top: 1rem !important;
+	}
 }
 
 @media screen and (min-width: 992px) {
@@ -789,6 +789,10 @@
 		top: 8rem !important;
 	}
 
+	.hpp-dtc-life-with .title .d-md-block {
+		display: none !important;
+	}
+
 	.hpp-dtc-life-with__content.container {
 		max-width: 980px;
 	}
@@ -798,4 +802,5 @@
 	.hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
 		top: 12rem !important;
 	}
+
 }
