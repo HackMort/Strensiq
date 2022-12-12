@@ -212,7 +212,7 @@
     text-align: left;
 }
 
-.cw-text::first-letter {
+.first-letter-sup::first-letter {
     vertical-align: super;
     font-size: xx-small;
 }
@@ -279,7 +279,7 @@
         padding: 0 10px;
     }
 
-    .video-container > div {
+    .video-container>div {
         justify-content: flex-start !important;
     }
 
@@ -378,6 +378,18 @@
 
 }
 
+@media screen and (max-width: 425px) {
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 21rem !important;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 28rem !important;
+    }
+}
+
 @media (max-width: 1023px) {
     .how-sq-helps[data-module=HeroModule] .HeroCalloutCntr {
         top: 0;
@@ -404,25 +416,50 @@
 
 @media (min-width: 992px) {
     .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
-        margin-bottom: 2rem;
+        margin-bottom: 13px;
         padding-right: 7rem;
-        /* padding-right: 1rem; */
+        padding-left: 15px;
     }
 
     .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
-        margin-top: 4.5rem;
+        margin-top: 35px;
         position: relative;
-        left: -12rem;
+        left: 0;
         bottom: 1.5rem;
     }
+
 
     .how-sq-helps .hero-box {
         position: relative;
         left: 5%
     }
+
+    [data-module=PageSubnav] {
+        border-top-left-radius: 100px;
+        background-color: var(--white);
+    }
 }
 
 @media (min-width: 1024px) {
+
+    .how-sq-helps.sq-improves>.l-grid .l-row {
+        display: block;
+        margin: 0 auto;
+        max-width: 980px;
+    }
+
+    .studies-text__container {
+        display: block;
+        margin: 0 auto;
+        max-width: 720px;
+    }
+
+    .how-sq-helps.sq-improves>.l-grid,
+    .how-sq-helps.skeletal-section>.l-grid {
+        display: block;
+        margin: 0 auto;
+        max-width: 980px;
+    }
 
     .stq-chart p {
         text-align: left;
@@ -456,23 +493,23 @@
 }
 
 @media (min-width: 992px) {
-    [data-module=PageSubnav] .pagesubnavcntr span {
+    /* [data-module=PageSubnav] .pagesubnavcntr span {
         margin-right: 2.5rem;
-    }
+    } */
 
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         object-position: right;
     }
 
-    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
+    /* .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
         left: -9%;
-    }
+    } */
 }
 
 @media screen and (min-width: 1250px) and (max-width: 1365px) {
-    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
+    /* .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
         left: -11%;
-    }
+    } */
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -500,5 +537,37 @@
 
     .imgzoom picture~.cw-text {
         margin-top: -20px !important;
+    }
+}
+
+@media (min-width: 230px) and (max-width:767px) {
+    .how-sq-helps.skeletal-section h2 {
+        margin-bottom: 5px;
+    }
+
+    .how-sq-helps.skeletal-section p:first-of-type {
+        margin-bottom: 8px;
+    }
+
+    [data-module].references-section,
+    [data-module].skeletal-section {
+        margin-top: -22px;
+    }
+
+    .numberwheel .inside-circle {
+        font-size: 34px !important;
+        line-height: 31px !important;
+        text-align: center !important;
+        letter-spacing: 1.19px !important;
+        font-family: 'Druk-bold' !important;
+    }
+
+    .how-sq-helps[data-module=Numbers] .numberwheelcntr+h3 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    #studiedinallages {
+        padding-bottom: 0px;
     }
 }

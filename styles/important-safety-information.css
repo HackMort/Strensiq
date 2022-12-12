@@ -14,11 +14,23 @@ header.site-header {
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
-  .icon-bar {
+  /* .icon-bar {
     background-color: var(--dark-green);
-  }
+  } */
 
   #navbar-collapse.show.add li a {
     color: var(--white);
+  }
+}
+
+@media (min-width: 992px) {
+  .site-header .container .d-flex.jcnt-end .logo {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hpp-dtc-footer__content {
+    padding-inline: 2.15rem;
   }
 }

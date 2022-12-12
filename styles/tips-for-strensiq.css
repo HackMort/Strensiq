@@ -78,6 +78,8 @@
 
 .hpp-dtc-m-hero.internal-hero .content.cw {
     max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media (max-width: 767px) {
@@ -152,7 +154,7 @@
     }
 
     .hpp-dtc-m-hero .content {
-        margin-bottom: 5rem;
+        margin-bottom: 4rem;
     }
 
     .tips-hero .hero-box {
@@ -212,10 +214,12 @@
 @media screen and (min-width: 992px) {
     .hpp-dtc-m-hero.internal-hero .content {
         justify-content: flex-end;
+        padding: 0 15px;
     }
 
     .hpp-dtc-m-hero.internal-hero.tips-for-using-strensiq-hero .content .pre-title {
-        margin-top: 4rem;
+        left: 0;
+        margin-top: 35px;
     }
 
     [data-module=HeroModule] .row.mx-0:after {
@@ -250,9 +254,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-    [data-module=PageSubnav] .pagesubnavcntr span>button {
+    /* [data-module=PageSubnav] .pagesubnavcntr span>button {
         margin-right: 35px;
-    }
+    } */
 
     #howtostorestrensiq .l-row.u-mt-3 .l-col-5>.d-flex {
         min-height: 120px;
@@ -290,4 +294,115 @@
     #howtostorestrensiq .l-row.u-mt-3 .l-col-5 {
         width: 50%;
     }
+}
+
+@media (min-width: 230px) and (max-width: 767px) {
+    .hpp-dtc-callout-fill_logo {
+        max-width: 100% !important;
+    }
+
+    .howtostorestrensiq .hpp-dtc-callout-fill {
+        padding: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .tips-callout,
+    .tips-hero {
+        margin-top: 25px;
+    }
+
+    .howtostorestrensiq .img-mbl-scale {
+        padding: 0 50px;
+    }
+
+    .howtostorestrensiq .d-flex:nth-of-type(2) {
+        margin-top: 50px;
+    }
+
+    .howtostorestrensiq .d-flex:nth-of-type(3) {
+        margin-top: 50px !important;
+    }
+
+    .traveling-with-strensiq .description .link {
+        text-decoration: none;
+    }
+
+    .hpp-dtc-m-hpp-patient-support .mainTitle {
+        font-size: 42px !important;
+        line-height: 49px !important;
+    }
+
+    .howtostorestrensiq {
+        margin-top: 45px;
+    }
+
+    .tips-for-using-strensiq-hero .hero-box .header {
+        font-size: 42px !important;
+        line-height: 44px !important;
+    }
+
+    .tips-for-using-strensiq-hero .hero-box p {
+        margin-bottom: 12px
+    }
+
+    .hpp-dtc-looking-for-resources__content .mainTitle {
+        font-size: 42px;
+        line-height: 42px;
+    }
+
+    .hpp-dtc-looking-for-resources__content .description {
+        padding: 0px 17px;
+    }
+
+    .hpp-dtc-icons-panel__content {
+        padding-top: 25px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    section.travel-tips .hero-box {
+        top: 52px
+    }
+
+    section.travel-tips .hero-bg picture img {
+        object-position: -56px -34px !important;
+    }
+
+    .hpp-dtc-icons-panel__content {
+        padding-top: 25px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .howtostorestrensiq .container.tips-callout {
+        margin: 0;
+        padding: 0 !important;
+
+        margin-top: 38px;
+    }
+
+    .hpp-dtc-looking-for-resources__content .mainTitle {
+        padding: 0 16px;
+    }
+
+    section.travel-tips .hero-box {
+        top: 52px
+    }
+
+    section.travel-tips .hero-bg picture img {
+        object-position: -56px -34px !important;
+    }
+
+    section.travel-tips .header.upper {
+        padding-left: 25px;
+    }
+
+    .hpp-dtc-icons-panel__content {
+        padding-top: 25px !important;
+    }
+}
+
+.header.upper {
+    font-size: 42px !important;
+    letter-spacing: 1.22px !important;
 }
