@@ -79,6 +79,39 @@
     .lg-curve {
         display: none;
     }
+    .needs-validation .submit-btn{
+    width: 220px;
+    font-size: 14px!important;
+    height: 60px;
+    line-height: 20px!important
+    }
+
+    .hpp-dtc-m-hero .hero-bg{
+        background-color: #f2f2f2;
+    }
+
+     #howtorequest .main-image{
+        scale: 1.25;
+     }
+
+     .starting-strensiq-hero .hero-box{
+        position: relative;
+        bottom: 12%;
+        padding: 33px;
+     }
+     
+     .starting-strensiq-hero .pre-title{
+        position: relative;
+        bottom: 12%;
+     }
+
+     .starting-strensiq-hero .hero-box p{
+       margin-bottom: 15px;
+     }
+
+     .hero-box .header.upper {
+        font-size: 42px !important;
+    }
 
     .img-mbl-scale {
         transform: scale(1.5);
@@ -93,15 +126,19 @@
     }
 
     [data-module=PageSubnav] .jumpbtn {
-        margin-top: -17px !important;
+        margin-top: -72px !important;
     }
-
+   
     .starting-strensiq-hero .pre-title {
         margin-top: 42px;
     }
 
     .tips-hero .request-a-starter-kit-hero-box {
         margin-top: -5%;
+    }
+
+    #howtorequest.hpp-dtc-m-next-steps-form {
+        padding-bottom: 1rem;
     }
 }
 
@@ -115,8 +152,6 @@
     }
 
 }
-
-
 
 @media screen and (min-width: 992px) {
     [data-module=HeroModule] .row.mx-0:after {
@@ -135,11 +170,6 @@
         height: 100px;
     }
 
-    .starting-strensiq-hero .pre-title {
-        position: relative;
-        left: -8.5rem;
-    }
-
     .tips-hero .request-a-starter-kit-hero-box {
         max-width: 50rem !important;
         padding-left: 7rem;
@@ -156,11 +186,11 @@
 
 @media (min-width: 992px) {
     .hpp-dtc-m-hero .content {
-        margin-bottom: 3.3rem;
+        margin-bottom: 30px;
     }
 
     .hpp-dtc-m-hero.internal-hero .content .pre-title {
-        margin-top: 3rem;
+        margin-top: 30px;
     }
 }
 
@@ -203,7 +233,18 @@
 }
 
 @media (min-width: 1024px) and (max-width: 9999px) {
-    [data-module=PageSubnav] .pagesubnavcntr span>button {
+    /* [data-module=PageSubnav] .pagesubnavcntr span>button {
         margin-right: 46px;
+    } */
+}
+
+@media screen and (min-width: 992px) {
+    .hpp-dtc-m-hero.internal-hero.starting-strensiq-hero .content {
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+
+    .starting-strensiq-hero .pre-title {
+        left: -8.5rem;
     }
 }
