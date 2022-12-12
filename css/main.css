@@ -228,7 +228,7 @@ ul {
 
 .logo {
     padding: 17px 0;
-    margin-right:50px;
+    margin-right: 50px;
 }
 
 .get-cta a:hover {
@@ -609,13 +609,13 @@ body {
         margin-right: 10px;
     }
 
-    .navbar-collapse .nav li a {
+    /* .navbar-collapse .nav li a {
         font-size: 11px;
     }
 
     .navbar-collapse .nav li a {
         font-size: 11px;
-    }
+    } */
 
 
 }
@@ -846,12 +846,14 @@ body {
     .navbar-collapse .nav li a.active {
         color: #dfdf00 !important;
     }
-    .navbar-collapse .nav ul.subnav li a.active{
-        color: #dfdf00!important;
-        font-weight: 700!important;
+
+    .navbar-collapse .nav ul.subnav li a.active {
+        color: #dfdf00 !important;
+        font-weight: 700 !important;
     }
-    .activelisg a{
-        color: #dfdf00!important;
+
+    .activelisg a {
+        color: #dfdf00 !important;
     }
 
     .hpp-dtc-footer__content .quick-links li a {
