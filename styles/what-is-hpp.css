@@ -19,9 +19,9 @@
 }
 
 .mainTitle {
-	font-size: 4.5rem !important;
-	letter-spacing: 1.57px !important;
-	line-height: 4.2rem !important;
+	font-size: 42px !important;
+	letter-spacing: 1.22px !important;
+	line-height: 42px !important;
 	color: #005D55 !important;
 	font-weight: bold !important;
 }
@@ -102,8 +102,8 @@
 	content: "";
 	position: absolute;
 	top: 0;
-	left: 0;
-	width: 100%;
+	left: -50%;
+	width: 200%;
 	height: 100%;
 	background: hsla(0, 0%, 97%, .5);
 	opacity: 0;
@@ -480,7 +480,7 @@
 
 	.hpp-flex {
 		display: block;
-		margin-bottom: 50px;
+		margin-bottom: 56px;
 		border-bottom: 3px solid #F8F8F8;
 	}
 
@@ -495,7 +495,9 @@
 	}
 
 	.hpp-spl-heading {
-		font-size: 28px;
+		font-size: 30px;
+		line-height: 26px;
+		letter-spacing: 1.29px;
 		text-align: center;
 		overflow-wrap: break-word;
 		font-family: Druk-bold, sans-serif;
@@ -574,7 +576,49 @@
 	z-index: 2;
 }
 
+@media screen and (max-width: 375px) {
+    .power-of-diagnosis p:first-of-type {
+        padding: 0 0 0 7rem;
+        margin-bottom: 1.8rem;
+    }
 
+    .power-of-diagnosis p:first-of-type::before {
+        top: 16rem !important;
+        font-size: 18rem !important;
+    }
+
+    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
+        margin-top: 20rem !important;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .power-of-diagnosis p:first-of-type {
+        padding: 0 3rem 0 7rem;
+    }
+
+    .power-of-diagnosis p:first-of-type::before {
+        font-size: 18rem !important;
+    }
+
+    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
+        margin-top: 21rem !important;
+    }
+
+    .content-holder.two-cols-hpp.endocrinologists-container {
+        padding-top: 1rem!important;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
+        margin-top: 24.6rem !important;
+    }
+
+    .content-holder.two-cols-hpp.endocrinologists-container {
+        padding-top: 1rem!important;
+    }
+}
 
 @media screen and (min-width: 992px) {
 	.what-is-hpp-hero[data-module=HeroModule] .HeroCalloutCntr:after {
@@ -627,7 +671,7 @@
 
 	.hpp-dtc-icons-panel__content .content-holder .secondary-content {
 		border-bottom: 1px solid rgb(150 150 150 / 50%);
-		padding: 5.4rem;
+		padding: 4rem 2rem 3rem;
 	}
 
 	.two-cols-hpp .hpp-image~.content .hpp-spl-p {

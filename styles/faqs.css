@@ -79,8 +79,55 @@ sup {
   }
 
   [data-module=PageSubnav] .jumpbtn {
-    margin-top: 10px !important;
+    margin-top: -43px !important;
   }
+
+  .hpp-dtc-faqs-textContent_description{
+    font-size: 16px!important;
+    line-height: 26px!important;
+  }
+
+  .hpp-dtc-p-faqs .hpp-dtc-faqs-textContent_group{
+    margin: 5rem 2rem;
+  }
+
+  .hpp-dtc-m-hero.internal-hero .content .hero-box{
+    padding-top: 8.5rem;   
+    padding-bottom: 0;
+    position: relative;
+    bottom: 3%;
+  }
+   .hero-box h3{
+    bottom: 50px;
+   }
+   .hpp-dtc-m-hero.internal-hero.faqs-hero .content .hero-box p{
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 50px;
+   }
+
+  .hpp-dtc-m-hero.internal-hero .hero-bg img {
+    position: relative;
+
+    height: auto;
+    object-position: left bottom;
+  }
+
+  .pagesubnav.subnav-intersected {
+    margin-bottom: 25px !important;
+  }
+}
+
+@media (min-width: 320px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -62px;
+    }
+}
+
+@media (min-width: 425px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -43px;
+    }
 }
 
 @media (max-width: 1023px) {
@@ -89,7 +136,6 @@ sup {
   }
 
   .pagesubnavstickpoint {
-    display: none;
   }
 
   .hpp-dtc-p-faqs .hpp-dtc-faqs-textContent_group:first-child {
@@ -107,4 +153,9 @@ sup {
   [data-module=PageSubnav] .pagesubnavcntr span>button {
     /* margin-right: 46px; */
   }
+}
+
+.header.upper {
+    font-size: 42px !important;
+    letter-spacing: 1.22px !important;
 }

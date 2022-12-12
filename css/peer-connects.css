@@ -162,7 +162,7 @@ form .select-wrap:after {
 
 @media (min-width: 230px) and (max-width: 1023px) {
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .hero-box.quote {
-        padding-left: 3rem !important;
+      padding-left: 3rem !important;
         margin: 20px 5rem;
     }
 
@@ -173,24 +173,33 @@ form .select-wrap:after {
     .hpp-dtc-life-with__content .description::before {
         left: 0rem !important;
     }
+   .hero-box .patient-info{
+    padding-bottom: 40px;
+   }
 
 }
 
 @media (min-width: 230px) and (max-width:767px) {
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .hero-box.quote {
-        padding-left: 3rem !important;
-        margin: 50px 1.5rem;
+        margin: 25px;
     }
-
+    .hpp-dtc-life-with__content .description{
+        padding: 21px;
+        padding-bottom: 0px;
+        margin-bottom: 38px;
+    }
     .hpp-dtc-m-hero.here-for-you-hero .content .pre-title {
         position: relative;
-        top: 42px;
-        right: 34px;
+        top: 16px;
+        right: 25px;
     }
 
     .hpp-dtc-life-with__content .description::before {
         font-size: 15rem;
-        top: 5.5rem !important;
+        top: 7.1rem !important;
+    }
+    .hero-box .header{
+        font-size: 42px!important;
     }
 
     .peer-subnav .jumpbtn {
@@ -262,5 +271,33 @@ form .select-wrap:after {
 @media screen and (min-width: 1024px) {
     .nav-only-desktop {
         display: block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -63px;
+    }
+
+    .body.font-azo-sans.left-align.description {
+        margin-bottom: 15px !important;
+    }
+
+    h3.header.upper {
+        margin-bottom: -0.5rem !important;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -51px;
+    }
+
+    .body.font-azo-sans.left-align.description {
+        margin-bottom: 15px !important;
+    }
+
+    h3.header.upper {
+        margin-bottom: -0.5rem !important;
     }
 }

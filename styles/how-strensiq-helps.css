@@ -212,7 +212,7 @@
     text-align: left;
 }
 
-.cw-text::first-letter {
+.first-letter-sup::first-letter {
     vertical-align: super;
     font-size: xx-small;
 }
@@ -378,6 +378,18 @@
 
 }
 
+@media screen and (max-width: 425px) {
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 21rem !important;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 28rem !important;
+    }
+}
+
 @media (max-width: 1023px) {
     .how-sq-helps[data-module=HeroModule] .HeroCalloutCntr {
         top: 0;
@@ -507,4 +519,32 @@
     .imgzoom picture~.cw-text {
         margin-top: -20px !important;
     }
+}
+@media (min-width: 230px) and (max-width:767px) {
+.how-sq-helps.skeletal-section h2{
+    margin-bottom: 5px;
+ }
+
+ .how-sq-helps.skeletal-section p:first-of-type {
+    margin-bottom: 8px;
+ }
+
+ [data-module].references-section, [data-module].skeletal-section{
+    margin-top: -22px;
+ }
+
+ .numberwheel .inside-circle{
+    font-size: 34px!important;
+    line-height: 31px!important;
+    text-align: center!important;
+    letter-spacing: 1.19px!important;
+    font-family: 'Druk-bold'!important;
+ }
+ .how-sq-helps[data-module=Numbers] .numberwheelcntr+h3{
+    font-size: 18px;
+    line-height: 40px;
+ }
+ #studiedinallages{
+    padding-bottom: 0px;
+ }
 }

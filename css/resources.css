@@ -226,6 +226,43 @@
 
 @media (min-width: 230px) and (max-width: 767px) {
 
+    .journey-from-prescription-container .imgzoom .mainheading{
+        font-size: 30px!important;
+        line-height: 32px!important;
+    }
+
+    .hpp-dtc-pharmacy-support__content .main-content-holder .subTitle{
+        font-size: 18px;
+    }
+
+    .heecol{
+        padding-top: 20%;
+    }
+
+    .hpp-dtc-m-card.global-genes .hpp-dtc-m-card_text, .hpp-dtc-m-card.nord .hpp-dtc-m-card_text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #support h2{
+        padding: 0 40px;
+        font-size: 41px!important;
+
+    }
+
+    .hpp-dtc-m-hero .content{
+        padding: 0 22px!important;
+    }
+
+    [data-module=PageSubnav] {
+        margin-top: 40px!important;
+    }
+
+    .hpp-dtc-m-hpp-patient-advocacy_header{
+        line-height: 42px!important;
+        font-size: 42px!important;
+    }
+
     .hpp-support-elx {
         margin-top: 50px;
     }
@@ -346,10 +383,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    [data-module=PageSubnav] {
-        margin-top: 3rem !important;
-    }
+@media screen and (max-width: 767px) {   
 
     .cards-container {
         justify-content: center;
@@ -382,6 +416,12 @@
         border: none;
     }
 
+    .journey-from-prescription-container .subTitle {
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+
     .journey-from-prescription-container .container-fluid .imgzoom {
         border-bottom: .1rem solid #eaeaea;
         margin-bottom: 6rem;
@@ -401,7 +441,7 @@
     }
 
     .mainheading {
-        font-size: 42px !important;
+        font-size: 41px !important;
     }
 }
 
@@ -456,5 +496,65 @@
 
     .hpp-dtc-life-with__content .content-holder {
         margin-left: -80px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -130px !important;
+    }
+
+    .content.resources-hero-box__container {
+        margin-top: 14rem !important;
+    }
+
+    .hpp-dtc-life-with__content.container  .content-holder {
+        margin: 0 !important;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .title {
+        font-size: 42px !important;
+        letter-spacing: 1.47px;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .logo {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .description::before {
+        top: 5.5rem !important;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -89px !important;
+    }
+
+    .content.resources-hero-box__container {
+        margin-top: 18rem !important;
+    }
+
+    .hpp-dtc-life-with__content.container  .content-holder {
+        margin: 0 !important;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .title {
+        font-size: 42px !important;
+        letter-spacing: 1.47px;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .logo {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hpp-dtc-life-with__content .content-holder .description::before {
+        top: 5.5rem !important;
     }
 }
