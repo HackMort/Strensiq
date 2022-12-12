@@ -442,6 +442,25 @@
 
 @media (min-width: 1024px) {
 
+    .how-sq-helps.sq-improves>.l-grid .l-row {
+        display: block;
+        margin: 0 auto;
+        max-width: 980px;
+    }
+
+    .studies-text__container {
+        display: block;
+        margin: 0 auto;
+        max-width: 720px;
+    }
+
+    .how-sq-helps.sq-improves>.l-grid,
+    .how-sq-helps.skeletal-section>.l-grid {
+        display: block;
+        margin: 0 auto;
+        max-width: 980px;
+    }
+
     .stq-chart p {
         text-align: left;
         transform: translateY(-20px) translateX(12%);
@@ -520,31 +539,35 @@
         margin-top: -20px !important;
     }
 }
+
 @media (min-width: 230px) and (max-width:767px) {
-.how-sq-helps.skeletal-section h2{
-    margin-bottom: 5px;
- }
+    .how-sq-helps.skeletal-section h2 {
+        margin-bottom: 5px;
+    }
 
- .how-sq-helps.skeletal-section p:first-of-type {
-    margin-bottom: 8px;
- }
+    .how-sq-helps.skeletal-section p:first-of-type {
+        margin-bottom: 8px;
+    }
 
- [data-module].references-section, [data-module].skeletal-section{
-    margin-top: -22px;
- }
+    [data-module].references-section,
+    [data-module].skeletal-section {
+        margin-top: -22px;
+    }
 
- .numberwheel .inside-circle{
-    font-size: 34px!important;
-    line-height: 31px!important;
-    text-align: center!important;
-    letter-spacing: 1.19px!important;
-    font-family: 'Druk-bold'!important;
- }
- .how-sq-helps[data-module=Numbers] .numberwheelcntr+h3{
-    font-size: 18px;
-    line-height: 40px;
- }
- #studiedinallages{
-    padding-bottom: 0px;
- }
+    .numberwheel .inside-circle {
+        font-size: 34px !important;
+        line-height: 31px !important;
+        text-align: center !important;
+        letter-spacing: 1.19px !important;
+        font-family: 'Druk-bold' !important;
+    }
+
+    .how-sq-helps[data-module=Numbers] .numberwheelcntr+h3 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    #studiedinallages {
+        padding-bottom: 0px;
+    }
 }
