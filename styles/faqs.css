@@ -66,11 +66,11 @@ sup {
         left: 0;
     }
 
-    .faqs-hero .hero-box {
+    /* .faqs-hero .hero-box {
         max-width: 46rem !important;
         padding-left: 8rem !important;
         padding-right: 0px !important;
-    }
+    } */
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
