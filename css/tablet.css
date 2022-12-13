@@ -355,6 +355,11 @@
         width: 77.73px !important;
     }
 
+    #injectiontips .tips-image-size.injection-tips,
+    #injectiontips .tips-image-size1.injection-tips {
+        width: 71px !important;
+    }
+
     .here-for-you-hero .hpp-dtc-life-with__content .description::before {
         top: 0rem !important;
     }

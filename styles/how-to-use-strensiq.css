@@ -708,6 +708,8 @@
 
     .tips-for-smooth-injection-left,
     .tips-for-smooth-injection-last {
+        display: flex;
+        gap: 1.5rem;
         padding: 0px 15%;
     }
 
