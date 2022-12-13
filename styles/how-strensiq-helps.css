@@ -523,6 +523,17 @@ section.callout-container {
         flex-direction: column;
     }
 
+    .twoup.plasma-section {
+        margin-top: 60px !important;
+    }
+
+    [data-module=FullStack].twoup .rteblock ul li {
+        margin-bottom: 1rem;
+    }
+
+    [data-module=FullStack].twoup .rteblock ul {
+        margin-bottom: 5rem;
+    }
 
     #adolescentsandadults .imgzoom.full-image .strensiq-side-effects {
         order: 1;
