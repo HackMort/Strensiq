@@ -1,203 +1,286 @@
 /* Hero */
 .hpp-star-section[data-module=HeroModule] {
-  align-items: flex-start;
+    align-items: flex-start;
 }
 
 .hpp-star-section[data-module=HeroModule] .HeroCalloutCntr:after {
-  display: none;
+    display: none;
 }
 
 .hpp-star-section form .select-wrap:after {
-  top: 48px;
+    top: 48px;
 }
 
 .nav-only-desktop {
-  display: none;
+    display: none;
 }
 
 .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
-  content: "";
-  background: #fff;
-  box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
-  -webkit-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
-  -moz-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
-  width: 100%;
-  border-top-left-radius: 100px;
-  position: relative;
-  display: none;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-  height: 100px;
+    content: "";
+    background: #fff;
+    box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    -webkit-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    -moz-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    width: 100%;
+    border-top-left-radius: 100px;
+    position: relative;
+    display: none;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100px;
 }
 
 .hpp-dtc-m-hero.hpp-star-section .content {
-  z-index: 2;
+    z-index: 2;
 }
 
 .hpp-dtc-m-hero.hpp-star-section .hero-bg img {
-  object-position: top;
+    object-position: top;
 }
 
 .hpp-star-section .l-ten {
-  left: 8.33333%;
-  width: 83.33333%;
+    left: 8.33333%;
+    width: 83.33333%;
 }
 
 .hpp-star-section .green-text {
-  color: var(--dark-green);
-  font-weight: bold;
-  margin-bottom: 20px;
+    color: var(--dark-green);
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .hpp-dtc-m-hpp-patient-support-form_form .btn {
-  font-family: azo-sans-web, Arial, sans-serif;
-  color: var(--dark-green);
-  background: transparent;
-  border-radius: 0;
-  border: 1px solid var(--dark-green);
-  font-weight: 700;
-  font-size: 14px;
-  box-shadow: none;
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 20px;
-  transition: all .3s ease-out;
-  letter-spacing: .1em;
-  position: relative;
-  z-index: 2;
-  cursor: pointer;
-  text-align: center;
+    font-family: azo-sans-web, Arial, sans-serif;
+    color: var(--dark-green);
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid var(--dark-green);
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: all .3s ease-out;
+    letter-spacing: .1em;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
 }
 
 .hpp-dtc-m-hpp-patient-support-form_form .btn:hover {
-  background: var(--dark-green);
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 0;
-  color: var(--white);
+    background: var(--dark-green);
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: var(--white);
+}
+
+.hpp-dtc-life-with__content.header-content,
+.hpp-dtc-life-with__content.header-content .header-content__description,
+.hpp-dtc-life-with__content.header-content .header-content__description p,
+.hpp-dtc-life-with__content.header-content .header-content__footer {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.hpp-dtc-life-with__content.header-content {
+    margin-top: 16px !important;
+    padding-top: 48px !important;
+    padding-bottom: 15px !important;
+
+    padding-left: 33px !important;
+}
+
+.hpp-dtc-life-with__content.header-content .header-content__description {
+    position: relative !important;
+    display: flex !important;
+
+    gap: 11px !important;
+    padding-left: 0px !important;
+    padding-right: 17px !important;
+}
+
+.hpp-dtc-life-with__content.header-content .header-content__description p {
+    margin-bottom: 15px !important;
+}
+
+.hpp-dtc-life-with__content.header-content .header-content__description::before {
+    top: 0 !important;
+    left: 0 !important;
+    position: initial !important;
+
+    transform: translateY(53px) !important;
+    font-size: 16rem !important;
+}
+
+.hpp-dtc-life-with__content.header-content .header-content__footer {
+    line-height: 2.6rem !important;
+    font-weight: 800 !important;
+    font-size: 1.6rem !important;
+    text-align: left !important;
 }
 
 /* Media Queries */
-@media screen and (max-width: 375px) {
-  .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
-    background-position: left 10% top 29% !important;
-  }
+@media screen and (min-width: 375px) {
+    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+        background-position: left 10% top 29% !important;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .hpp-dtc-life-with__content.header-content .header-content__description {
+        padding-right: 58px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .hpp-dtc-life-with__content.header-content {
+        padding-bottom: 32px !important;
+    }
+
+    .hpp-dtc-life-with__content.header-content .header-content__title {
+        margin-bottom: 2.5rem !important;
+    }
+
+    .hpp-dtc-life-with__content.header-content .header-content__description {
+        padding-left: 60px !important;
+        padding-right: 8px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hpp-dtc-life-with__content.header-content .header-content__title {
+        margin-left: 113px !important;
+    }
+
+    .hpp-dtc-life-with__content.header-content .header-content__description {
+        padding-right: 50px !important;
+        gap: 0px !important;
+    }
+
+    .hpp-dtc-life-with__content.header-content .header-content__description::before {
+        font-size: 20rem !important;
+        transform: translateY(42px) translateX(-22px) !important;
+    }
 }
 
 /* Media Queries */
 @media screen and (max-width: 767px) {
-  .header.upper {
-    font-size: 42px !important;
-    letter-spacing: 1.22px !important;
-  }
+    .header.upper {
+        font-size: 42px !important;
+        letter-spacing: 1.22px !important;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
-  .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
-    background-position: left 10% top 31% !important;
-  }
+    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+        background-position: left 10% top 31% !important;
+    }
 }
 
 @media screen and (min-width: 992px) {
-  .hpp-star-section[data-module=HeroModule] .HeroCalloutCntr:after {
-    display: block;
-    bottom: 95px;
-    z-index: 1;
-  }
+    .hpp-star-section[data-module=HeroModule] .HeroCalloutCntr:after {
+        display: block;
+        bottom: 95px;
+        z-index: 1;
+    }
 
-  .hpp-dtc-m-hero.hpp-star-section .content {
-    margin-top: 9rem;
-    margin-bottom: 3rem;
-    padding: 0 15px;
-  }
+    .hpp-dtc-m-hero.hpp-star-section .content {
+        margin-top: 9rem;
+        margin-bottom: 3rem;
+        padding: 0 15px;
+    }
 
-  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
-    left: 0;
-    margin-top: 8.5rem;
-  }
+    .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
+        left: 0;
+        margin-top: 8.5rem;
+    }
 
-  .hpp-dtc-m-hpp-patient-support-form {
-    padding-top: 1rem;
-    background-color: var(--white);
-    position: relative;
-    z-index: 3;
-    margin-top: -1rem;
-  }
+    .hpp-dtc-m-hpp-patient-support-form {
+        padding-top: 1rem;
+        background-color: var(--white);
+        position: relative;
+        z-index: 3;
+        margin-top: -1rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
-  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box.quote {
-    position: relative;
-  }
+    .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box.quote {
+        position: relative;
+    }
 
-  .hpp-dtc-life-with__content .description::before {
-    top: 18.68rem;
-  }
+    .hpp-dtc-life-with__content .description::before {
+        top: 18.68rem;
+    }
 
-  .hpp-star-section .pre-title {
-    position: relative;
-    left: -9%;
-  }
+    .hpp-star-section .pre-title {
+        position: relative;
+        left: -9%;
+    }
 
-  .hpp-star-section .hero-box {
-    position: relative;
-    top: 10%
-  }
+    .hpp-star-section .hero-box {
+        position: relative;
+        top: 10%
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  .hpp-dtc-m-hero.hpp-star-section .hero-bg img {
-    object-position: right;
-  }
+    .hpp-dtc-m-hero.hpp-star-section .hero-bg img {
+        object-position: right;
+    }
 
-  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box {
-    max-width: 55rem;
-    margin-top: -5rem;
-  }
+    .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box {
+        max-width: 55rem;
+        margin-top: -5rem;
+    }
 }
 
 @media (min-width: 1200px) {
-  .hpp-dtc-m-hero.internal-hero.hpp-dtc-m-hero.hpp-star-section .content .hero-box.quote {
-    max-width: 650px;
-  }
+    .hpp-dtc-m-hero.internal-hero.hpp-dtc-m-hero.hpp-star-section .content .hero-box.quote {
+        max-width: 650px;
+    }
 }
 
 @media (min-width: 1600px) {
-  .hpp-dtc-m-hero.hpp-star-section .hero-bg img {
-    object-position: center
-  }
+    .hpp-dtc-m-hero.hpp-star-section .hero-bg img {
+        object-position: center
+    }
 }
 
 @media screen and (min-width: 1024px) {
-  .nav-only-desktop {
-    display: block;
-  }
+    .nav-only-desktop {
+        display: block;
+    }
 
-  .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
-    display: block;
-  }
+    .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
+        display: block;
+    }
 }
 
 
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .hpp-dtc-m-hero.hpp-star-section .content {
-    margin-top: 15rem;
-  }
+    .hpp-dtc-m-hero.hpp-star-section .content {
+        margin-top: 15rem;
+    }
 
-  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
-    margin-top: 7.5rem;
-  }
+    .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
+        margin-top: 7.5rem;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  .hpp-dtc-life-with__content .description::before {
-    left: 5rem;
-  }
+    .hpp-dtc-life-with__content .description::before {
+        left: 5rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-  .hpp-dtc-life-with__content .description::before {
-    left: 8rem;
-  }
+    .hpp-dtc-life-with__content .description::before {
+        left: 8rem;
+    }
 }

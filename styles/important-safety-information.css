@@ -6,6 +6,29 @@
 
 header.site-header {
   background: none;
+  background-color: white;
+}
+
+header.mobile-header {
+    background: none
+}
+
+header.mobile-header .mobile-header__logo.white,
+header.mobile-header.mobile-header--menu-opened .mobile-header__logo.green {
+    display: none;
+}
+
+header.mobile-header .mobile-header__logo.green,
+header.mobile-header.mobile-header--menu-opened .mobile-header__logo.white {
+    display: block;
+}
+
+header.mobile-header.mobile-header--menu-opened .icon-bar {
+    background-color: white;
+}
+
+header.mobile-header .icon-bar {
+    background-color: var(--dark-green);
 }
 
 [data-module=FullStack] h2 {
