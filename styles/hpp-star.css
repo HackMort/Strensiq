@@ -86,10 +86,10 @@
 
 /* Media Queries */
 @media screen and (max-width: 767px) {
-    .header.upper {
-        font-size: 42px !important;
-        letter-spacing: 1.22px !important;
-    }
+  .header.upper {
+    font-size: 42px !important;
+    letter-spacing: 1.22px !important;
+  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -126,6 +126,14 @@
 }
 
 @media screen and (min-width: 992px) {
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box.quote {
+    position: relative;
+  }
+
+  .hpp-dtc-life-with__content .description::before {
+    top: 18.68rem;
+  }
+
   .hpp-star-section .pre-title {
     position: relative;
     left: -9%;
@@ -170,6 +178,8 @@
   }
 }
 
+
+
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .hpp-dtc-m-hero.hpp-star-section .content {
     margin-top: 15rem;
@@ -177,5 +187,17 @@
 
   .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .pre-title {
     margin-top: 7.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .hpp-dtc-life-with__content .description::before {
+    left: 5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hpp-dtc-life-with__content .description::before {
+    left: 8rem;
   }
 }
