@@ -362,6 +362,17 @@ a {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box p {
+        padding-right: 0;
+    }
+
+    [data-module=PageSubnav] {
+        background: var(--white);
+        border-top-left-radius: 60px;
+    }
+}
+
 @media (min-width: 230px) and (max-width: 767px) {
     .hpp-dtc-callout-fill_logo {
         max-width: 100% !important;
