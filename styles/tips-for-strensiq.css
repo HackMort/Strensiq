@@ -223,6 +223,32 @@ a {
     display: block;
 }
 
+.hpp-dtc-icons-panel__content .link {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hpp-dtc-icons-panel__content {
+        margin-top: -50px;
+        padding: 0 0 8rem 0;
+    }
+
+    .hpp-dtc-icons-panel.traveling-with-strensiq .content-holder .col-md-6:first-child {
+        margin-right: 0;
+    }
+
+    .hpp-dtc-icons-panel.traveling-with-strensiq .content-holder .secondary-content>.row {
+        display: flex;
+        align-items: flex-start;
+        gap: 3rem;
+        margin-bottom: 25px;
+    }
+
+    .hpp-dtc-icons-panel.traveling-with-strensiq .content-holder .image-holder .logo {
+        margin-top: 5px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .hpp-dtc-m-hero.internal-hero .content {
         justify-content: flex-end;
