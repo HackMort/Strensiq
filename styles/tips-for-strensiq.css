@@ -267,6 +267,23 @@ a {
         margin: 0 auto;
         max-width: 550px;
     }
+
+    .hpp-dtc-looking-for-resources.container-fluid.p-left-10 .col-12.p-0.content-container .description {
+        text-align: center;
+    }
+
+    .hpp-dtc-looking-for-resources.container-fluid.p-left-10 .col-12.p-0.content-container {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 560px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .hpp-dtc-looking-for-resources.container-fluid.p-left-10 {
+        padding-left: 15px !important;
+    }
 }
 
 @media screen and (min-width: 992px) {
