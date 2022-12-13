@@ -324,3 +324,24 @@
         text-align: left;
     }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .how-sq-works.strensiq-treats {
+        padding-bottom: 20px;
+    }
+
+    #howstrensiqworksinthebody {
+        margin-top: 60px;
+    }
+
+    .iq.how-sq-works {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 650px;
+    }
+
+    .iq.how-sq-works .callout {
+        margin-left: -3.5rem;
+    }
+}
