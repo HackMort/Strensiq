@@ -469,6 +469,16 @@
     width: 100px;
 }
 
+.hpp-dtc-m-hero .content {
+    margin-top: 18rem !important;
+}
+
+@media (min-width: 768px) {
+    .hpp-dtc-m-hero .content {
+        margin-top: 28rem !important;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
 
     .header.upper {
