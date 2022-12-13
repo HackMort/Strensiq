@@ -517,6 +517,27 @@ section.callout-container {
     } */
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #adolescentsandadults .imgzoom.full-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #adolescentsandadults .imgzoom.full-image .strensiq-side-effects {
+        order: 1;
+    }
+
+    #adolescentsandadults .imgzoom.full-image .tap-zoom {
+        order: 2;
+        margin-top: -1rem;
+    }
+
+    #adolescentsandadults .imgzoom.full-image .cw-text.first-letter-sup {
+        order: 3;
+    }
+}
+
 @media screen and (min-width: 1250px) and (max-width: 1365px) {
     /* .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
         left: -11%;
