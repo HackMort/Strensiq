@@ -547,12 +547,28 @@ section.callout-container {
     #adolescentsandadults .imgzoom.full-image .cw-text.first-letter-sup {
         order: 3;
     }
+
+    #studiedinallages img.tap-zoom {
+        float: right;
+        margin-top: -34px;
+        width: 100px;
+    }
+
+    #studiedinallages .stq-chart p {
+        padding-left: 12.5%;
+    }
 }
 
 @media screen and (min-width: 1250px) and (max-width: 1365px) {
     /* .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title {
         left: -11%;
     } */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    #studiedinallages.how-sq-helps .imgzoom picture:after {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
