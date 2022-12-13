@@ -674,6 +674,12 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .hpp-dtc-m-hero .content.wishpp-hero-box__container {
+        margin-top: 20rem !important;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .hpp-dtc-life-with__content .description::before {
         top: 16rem !important;
@@ -815,14 +821,14 @@
 }
 
 @media screen and (min-width: 1200px) {
-	.hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
-		top: 12rem !important;
-	}
+    .hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
+        top: 12rem !important;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-	.hpp-dtc-life-with .logo {
-		margin: 0 auto;
-		display: block;
-	}
+    .hpp-dtc-life-with .logo {
+        margin: 0 auto;
+        display: block;
+    }
 }
