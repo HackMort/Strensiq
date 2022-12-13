@@ -387,6 +387,11 @@ section.floating-subnav .floating-subnav__menu a img {
     height: 20px;
 }
 
+section.floating-subnav .floating-subnav__menu a.active {
+    color: #d0d023;
+    transition: all .3s ease;
+}
+
 section.floating-subnav .floating-subnav__menu a:not(:last-of-type) {
     border-bottom: 1px solid #eaeaea;
 }
