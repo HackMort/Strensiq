@@ -81,6 +81,20 @@
     color: var(--white);
 }
 
+.hpp-dtc-m-starter-kit__content__area__modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease;
+    opacity: 0;
+    z-index: -1;
+}
+
+.starter-kit__dialog-container {
+    position: relative;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
 
     .lg-curve {
@@ -155,6 +169,11 @@
         padding: 0px !important;
     }
 
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
+        margin-left: -15px;
+        margin-top: 45px;
+    }
+
     .hero-box {
         min-height: 27.3rem !important;
     }
@@ -162,6 +181,11 @@
 }
 
 @media screen and (min-width: 992px) {
+
+    .starter-kit__dialog-container {
+        position: initial;
+    }
+
     [data-module=HeroModule] .row.mx-0:after {
         content: "";
         background: #fff;
@@ -258,6 +282,7 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+
     .hpp-dtc-looking-for-resources__content {
         text-align: left;
         padding: 6.5rem 2rem;

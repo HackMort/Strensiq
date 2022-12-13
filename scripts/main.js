@@ -368,6 +368,7 @@
         });
         var r = e("../helpers/constants");
         n.default = function () {
+            /*
             function e() {
                 var e = "." + r.prefix + "-m-starter-kit__content__area";
                 if (window.matchMedia("(max-width: 768px)").matches) {
@@ -376,6 +377,7 @@
                     $(e + "__modal").css("top", t - n)
                 } else $(e + "__modal").css("top", "")
             }
+            */
             var t = document.querySelector("." + r.prefix + "-m-starter-kit__content__area"),
                 n = t.querySelectorAll(".starter-kit-btns"),
                 i = document.querySelector("." + r.prefix + "-m-starter-kit__content__area__modal"),
@@ -385,7 +387,7 @@
                 e.preventDefault(), i.classList.remove("active"), t.classList.remove("active")
             }), Array.from(n).forEach(function (n) {
                 n.addEventListener("click", function (r) {
-                    $(".starter-kit-btns").removeClass("boxActive"), r.preventDefault(), $(n).addClass("boxActive"), e();
+                    $(".starter-kit-btns").removeClass("boxActive"), r.preventDefault(), $(n).addClass("boxActive"); // e();
                     var s = r.target.id;
                     Array.from(o).forEach(function (e) {
                         e.classList.value.includes(s) ? e.classList.add("active") : e.classList.remove("active"), i.classList.add("active"), t.classList.add("active")
@@ -14883,7 +14885,6 @@ const observerOptions = {
 const pageSubnav = document.querySelector(".subnav-intersected");
 const pageSubnavObserver = new IntersectionObserver(function (entries, observer) {
     entries.forEach(entry => {
-        console.log(entry)
         if (!entry.isIntersecting && entry.boundingClientRect.top < 0) {
             showFloatingSubnav = true
         } else {
@@ -14899,7 +14900,6 @@ if (pageSubnav) {
 const ISISection = document.querySelector(".isi-inPageHeader.isi-header");
 const ISIObserver = new IntersectionObserver(function (entries, observer) {
     entries.forEach(entry => {
-        console.log(entry)
         if (entry.isIntersecting) {
             showFloatingSubnav = true
         } else {

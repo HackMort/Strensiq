@@ -66,6 +66,40 @@
         margin-top: 6rem;
     }
 
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .pre-title {
+        margin-top: 6rem;
+        padding: 0 5rem;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero .content .pre-title {
+        margin-top: 8rem;
+        padding: 0 5rem;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .content .pre-title,
+    .hpp-dtc-m-hero.internal-hero.how-sq-helps .content .pre-title,
+    .hpp-dtc-m-hero.internal-hero.hpp-star-section .content .pre-title {
+        margin-top: 4rem;
+    }
+
+    .hpp-star-section .hpp-dtc-life-with__content {
+        padding: 8rem 0 3rem 0;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.starting-strensiq-hero .content .pre-title {
+        margin-top: 1rem;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.starting-strensiq-hero .content .hero-box h3 {
+        font-size: 5.6rem;
+        line-height: 5.6rem;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero .content .hero-box h3 {
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+
     .hpp-dtc-m-hero.internal-hero .content .hero-box {
         padding-left: 6rem !important;
         margin-top: 3rem;
@@ -74,6 +108,10 @@
 
     .how-sq-works.internal-hero .content .hero-box {
         margin-top: 8rem;
+    }
+
+    .how-sq-works.internal-hero .content .hero-box.replace {
+        margin-top: 4rem;
     }
 
     .imgzoom {
@@ -183,12 +221,39 @@
         width: 98%;
     }
 
+    .peer-connect .hpp-dtc-life-with__content {
+        padding: 8rem 0 2rem 0;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.peer-connect .content .hero-box.quote p {
+        padding-left: 11.8rem;
+        margin-bottom: 1rem;
+        padding-bottom: 20px;
+    }
+
     .hpp-dtc-life-with__content .description::before {
         top: 18rem !important;
     }
 
+    .hpp-star-section .description::before {
+        top: 28.7rem !important;
+        left: 17rem;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.hpp-star-section .content .hero-box {
+        padding-left: 6rem !important;
+        margin-top: 3rem;
+        min-height: auto;
+        padding-right: 5.3rem !important;
+    }
+
     .hpp-dtc-life-with__content .description.home-quote::before {
         top: 13rem !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.how-to-use .content .pre-title {
+        line-height: 2.3rem;
+        margin-top: 5rem;
     }
 
     .hpp-dtc-life-with__content {
@@ -226,7 +291,8 @@
     }
 
     .how-sq-helps[data-module=FullStack] {
-        padding-top: 0 !important;
+        /*padding-top: 0 !important;*/
+        margin-top: 0 !important;
     }
 
     .hpp-dtc-m-next-steps-form_form {
@@ -243,11 +309,15 @@
     }
 
     .hpp-dtc-m-hero.internal-hero.resources-hero .hero-bg img {
-        top: -30px !important;
+        top: -70px !important;
     }
 
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .hero-bg img {
         top: -110px !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero.peer-connect .hero-bg img {
+        top: -90px !important;
     }
 
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content,
@@ -287,6 +357,16 @@
 
     .here-for-you-hero .hpp-dtc-life-with__content .description::before {
         top: 0rem !important;
+    }
+
+    .here-for-you-hero.peer-connect .hpp-dtc-life-with__content .description::before {
+        top: 6rem !important;
+        left: 5rem !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero.peer-connect .content .hero-box.quote {
+        padding-left: 6rem !important;
+        margin: 20px 5rem;
     }
 
     .iconpanel .subhead,
@@ -336,7 +416,199 @@
     }
 
     .howtostorestrensiq {
-        padding-right: 17% !important;
-        padding-left: 17% !important;
+        padding-right: 5% !important;
+        padding-left: 5% !important;
+    }
+
+    header.mobile-header .mobile-header__container--menu-opened .right-content {
+        opacity: 1 !important;
+    }
+
+    header.mobile-header .mobile-header__container .mobile-header__sidenav {
+        padding: 30px 80px !important;
+    }
+
+    header.mobile-header .sidenav__menu .sidenav__menu-item:not(:last-of-type),
+    header.mobile-header .sidenav__menu .sidenav__menu-group {
+        width: 60%;
+    }
+
+    header.mobile-header .sidenav__menu .sidenav__menu-group.last {
+        border: none;
+    }
+
+    .hpp-dtc-p-faqs .hpp-dtc-faqs-textContent_group:first-child {
+        margin-top: 5rem;
+    }
+
+    .hpp-dtc-p-faqs .hpp-dtc-faqs-textContent_group {
+        margin: 5rem 0;
+    }
+
+    .how-sq-helps .imgzoom picture:after {
+        display: none !important;
+    }
+
+    .imgzoom picture img {
+        width: 75%;
+        margin: auto;
+    }
+
+    .imgzoom.full-image picture img {
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 44px !important;
+    }
+
+    .hpp-dtc-p-home .hpp-dtc-lets-connect_cards .card .description {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .question .text::before {
+        top: 11rem;
+    }
+
+    [data-module=PageSubnav] .jumpbtn {
+        margin-bottom: 15px;
+    }
+
+    .hpp-dtc-m-hpp-patient-support-form_form {
+        padding: 0 13rem;
+    }
+
+    [data-module=FullStack] h2 {
+        font-size: 42px;
+        margin-bottom: 40px;
+    }
+
+    .hpp-dtc-icons-panel__content .content-holder .image-holder {
+        text-align: right;
+    }
+
+    .hpp-dtc-icons-panel__content .content-holder .secondary-content {
+        border-bottom: none;
+    }
+
+    .secondary-content:after {
+        content: "";
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        height: 1px;
+        width: 80%;
+        /* or 100px */
+        padding: 5rem 0 4rem;
+        border-bottom: 0.1rem solid rgb(150 150 150 / 50%);
+    }
+
+    .hpp-dtc-icons-panel.hpp-conditions .main-content .mainDescription,
+    .hpp-dtc-icons-panel.hpp-conditions .main-content .mainTitle {
+        padding: 0 4.3rem;
+    }
+
+    .icon-separate {
+        padding-left: 36px;
+    }
+
+    .hpp-dtc-icons-panel__content .content-holder .icon-separate .title {
+        margin-bottom: 1rem;
+    }
+
+    .hpp-dtc-icons-panel__content .content-holder .icon-separate .description {
+        margin-top: 0rem;
+    }
+
+    [data-module=CenteredFullStack] {
+        padding-top: 0;
+    }
+
+    [data-module=CalloutBlock].iq .l-ten {
+        width: 100%;
+        left: 30px;
+    }
+
+    .iq .l-grid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    [data-module=CalloutBlock].iq .callout {
+        padding: 40px 30px 40px 75px;
+    }
+
+    .how-sq-helps.numbers-section {
+        margin-top: 40px !important;
+    }
+
+    .starter-kit__img-container.imgzoom picture::after {
+        display: none;
+    }
+
+    .hpp-dtc-m-starter-kit__content__area__btns {
+        max-width: 100%;
+        margin-top: 2.2rem;
+        margin-left: 4.2rem;
+    }
+
+    .hpp-dtc-m-hero.internal-hero .content .hero-box.request-a-starter-kit-hero-box h3 {
+        font-size: 4.2rem;
+        line-height: 4.2rem;
+    }
+
+    .heecol .hero-box {
+        max-width: 100% !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero .content .hero-box {
+        margin-left: 5rem !important;
+        margin-right: 5rem !important;
+        padding-right: 20rem !important;
+        padding-left: 5rem !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero.heecol .content .hero-box h3 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .hpp-dtc-m-hero.heecol .content {
+        margin-top: 15rem !important;
+        z-index: 2;
+    }
+
+    .hpp-dtc-life-with__content .description.onesource::before {
+        top: 5.8rem !important;
+    }
+
+    .hpp-dtc-m-hpp-patient-support-form_form.onesource {
+        padding: 0 5rem;
+    }
+
+    .logo.onesource {
+        margin-right: 0;
+    }
+
+    .journey-title {
+        font-size: 26px !important;
+        margin: 0 0 50px !important;
+    }
+
+    .hpp-dtc-m-card {
+        width: 100%;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero.peer-connect .content {
+        margin-bottom: 0rem;
+    }
+
+    .hpp-dtc-m-hpp-patient-support-form_form.peer-connect {
+        padding: 0 6rem;
+    }
+
+    .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
+        width: 100%;
     }
 }
