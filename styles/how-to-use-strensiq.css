@@ -614,8 +614,49 @@
         padding-bottom: 0px !important;
     }
 
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box h3 br {
+        display: none;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .hero-box {
+        padding-bottom: 45px;
+    }
+
+    .howitsdosed .t-headline {
+        padding-top: 25px !important;
+    }
+
+    .self-injection .iconcontent .tips-image-size {
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 150px;
+    }
+
+    .self-injection .l-col.l-col-4.l-col-12--md .iconcontent {
+        margin-top: 30px;
+    }
+
+    .self-injection .l-col.l-col-4.l-col-12--md:first-of-type .iconcontent {
+        margin-top: 70px;
+    }
+
+    .self-injection .l-col.l-col-4.l-col-12--md:last-of-type .iconcontent {
+        margin-bottom: 30px;
+    }
+
     .self-injection .iconcontent {
         display: flex;
+        gap: 3rem;
+        align-items: flex-start;
+    }
+
+    .self-injection .iconcontent .rteblock {
+        padding-top: 0px;
+    }
+
+    .iconpanel .subhead,
+    .iconpanel h5 {
+        margin-top: 0;
     }
 
     .self-injection .rteblock {
@@ -638,6 +679,18 @@
     .self-injection .contentinner-last {
         border-bottom: none;
         padding-bottom: 10px;
+    }
+
+    .tips-for-smooth-injection-heading {
+        text-align: left !important;
+    }
+
+    .tips-for-smooth-injection .text-left.tips-for-smooth-injection-content:last-of-type {
+        margin-bottom: 50px !important;
+    }
+
+    .textcntr-img u-pb-5.d-lg-none.u-show--sm.u-show--md.container-fluid {
+        padding-left: 25%;
     }
 
     .tips-for-smooth-injection-left,
