@@ -9,7 +9,8 @@ header.site-header {
 }
 
 [data-module=FullStack] h2 {
-  font-family: Druk, Arial, sans-serif;
+  /* font-family: Druk, Arial, sans-serif; */
+  font-family: druk-bold, sans-serif;
   margin-bottom: 40px;
 }
 
