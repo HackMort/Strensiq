@@ -287,6 +287,14 @@
 
     .heecol .hero-box .hpp-dtc-m-card_btn {
         font-size: 12px !important;
+        font-size: 12px !important;
+        width: 189px !important;
+        padding: 0 !important;
+        height: 60px !important;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .hpp-dtc-life-with__content .description::before {
@@ -316,6 +324,10 @@
     .resources-hero .resources-hero-content {
         position: relative;
         top: 12%;
+    }
+
+    .hpp-dtc-m-hpp-patient-support-form.hpp-patient-support__container {
+        padding: 2.60rem 0 6.5rem;
     }
 }
 
@@ -515,7 +527,7 @@
 
 @media screen and (max-width: 375px) {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
-        top: -130px !important;
+        top: -115px !important;
     }
 
     .content.resources-hero-box__container {
@@ -545,7 +557,7 @@
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
-        top: -89px !important;
+        top: -115px !important;
     }
 
     .content.resources-hero-box__container {
