@@ -630,3 +630,27 @@ section.callout-container {
         padding-bottom: 0px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    [data-module=PageSubnav] {
+        min-height: auto;
+    }
+
+    [data-module=CenteredFullStack] {
+        padding-top: 0px !important;
+    }
+
+    body > main > section.how-sq-helps.references-section {
+        margin-top: 0px;
+    }
+
+    #adolescentsandadults {
+        padding-top: 0px !important;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hero-box {
+        max-width: 55%;
+    }
+}
