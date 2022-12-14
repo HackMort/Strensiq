@@ -39,6 +39,26 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    #intro > div.video-wrap.hpp-dtc-m-hero-video {
+        height: 371px !important;
+    }
+
+    #intro > div.row.mx-0 > div > div.hero-box {
+        margin-top: 4rem !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #intro > div.video-wrap.hpp-dtc-m-hero-video {
+        height: auto !important
+    }
+
+    #intro > div.row.mx-0 > div > div.hero-box {
+        margin-top: 1.6rem;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .hpp-dtc-p-home .hpp-dtc-lets-connect_cards {
         padding-top: 1rem;
