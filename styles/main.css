@@ -8125,3 +8125,13 @@ section#ISI.isi * {
 section#ISI.isi .isi-banner sup {
     top: -2.75px;
 }
+
+[data-module=PageSubnav]>.pagesubnavstickpoint.scrolled {
+    display: none !important;
+}
+
+@media screen and (min-width: 1024px) {
+    [data-module=PageSubnav]>.pagesubnavstickpoint.scrolled {
+        display: block !important;
+    }
+}
