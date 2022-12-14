@@ -8135,3 +8135,7 @@ section#ISI.isi .isi-banner sup {
         display: block !important;
     }
 }
+
+button.w-vulcan-v2-button {
+    display: none !important;
+}

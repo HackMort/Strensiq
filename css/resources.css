@@ -583,3 +583,9 @@
         top: 5.5rem !important;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        object-position: center right;
+    }
+}
