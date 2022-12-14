@@ -1312,3 +1312,7 @@
         margin-top: 0 !important;
     }
 }
+
+.hpp-dtc-m-hero .hero-bg::before {
+    display: none;
+}
