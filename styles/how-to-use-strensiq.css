@@ -865,6 +865,7 @@
         opacity: 1;
         left: 0;
         position: relative;
+        margin-left: 40px;
     }
 
     .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
@@ -1281,5 +1282,33 @@
     .injection-sites .injection-sites__description h5,
     .injection-sites .injection-sites__description p {
         font-size: 16px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    div.hpp-how-touse-strensiq>section.hpp-dtc-m-hero.position-relative.internal-hero.what-is-hpp-hero.how-to-use>div.lg-curve {
+        bottom: -43px;
+    }
+
+    [data-module=PageSubnav] {
+        margin-top: 74px !important;
+    }
+
+    .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
+        margin-bottom: 6rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    div.hpp-how-touse-strensiq>section.hpp-dtc-m-hero.position-relative.internal-hero.what-is-hpp-hero.how-to-use>div.lg-curve {
+        bottom: 0px !important;
+    }
+
+    .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
+        margin-bottom: 10rem !important;
+    }
+
+    [data-module=PageSubnav] {
+        margin-top: 0 !important;
     }
 }
