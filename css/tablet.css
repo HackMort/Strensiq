@@ -329,7 +329,7 @@
     }
 
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero.peer-connect .hero-bg img {
-        top: -90px !important;
+        top: -65px !important;
     }
 
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content,
@@ -377,7 +377,7 @@
     }
 
     .here-for-you-hero.peer-connect .hpp-dtc-life-with__content .description::before {
-        top: 6rem !important;
+        top: 3.75rem !important;
         left: 5rem !important;
     }
 
