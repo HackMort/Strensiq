@@ -630,3 +630,53 @@ section.callout-container {
         padding-bottom: 0px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    [data-module=PageSubnav] {
+        min-height: auto;
+    }
+
+    [data-module=CenteredFullStack] {
+        padding-top: 0px !important;
+    }
+
+    body > main > section.how-sq-helps.references-section {
+        margin-top: 0px;
+    }
+
+    #adolescentsandadults {
+        padding-top: 0px !important;
+        margin-top: calc(10 * 1rem + -2.75vw) !important;
+    }
+
+    #adolescentsandadults > div:nth-child(2) > div > p {
+        font-size: 14px;
+        letter-spacing: 0.14px;
+        margin-top: -60px !important;
+    }
+
+    body > main > section.hpp-dtc-looking-for-resources.container-fluid {
+        padding: 0 !important;
+    }
+
+    body > main > section.hpp-dtc-looking-for-resources.container-fluid > div {
+        max-width: 70% !important;
+    }
+
+    body > main > section.hpp-dtc-looking-for-resources.container-fluid > div > div > div > p {
+        padding: 0 !important;
+        text-align: left;
+        margin-right: 0px !important;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1366px) {
+    .hero-box {
+        max-width: 55%;
+    }
+}

@@ -838,3 +838,46 @@
         display: block;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .what-is-hpp-hero[data-module=HeroModule] .row.mx-0:after {
+        display: none;
+    }
+
+    .what-is-hpp-hero[data-module=HeroModule] .HeroCalloutCntr:after {
+        bottom: 59px;
+    }
+
+    [data-module=PageSubnav] {
+        margin-top: 74px !important;
+    }
+
+    .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
+        margin-bottom: 6rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .what-is-hpp-hero[data-module=HeroModule] .HeroCalloutCntr:after {
+        bottom: 100px !important;
+    }
+
+    .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
+        margin-bottom: 10rem !important;
+    }
+
+    [data-module=PageSubnav] {
+        margin-top: 0 !important;
+        min-height: auto !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero .content .pre-title {
+        margin-left: 6%;
+    }
+}
+
+@media screen and (min-width: 1189px) {
+    .hpp-dtc-m-hero.internal-hero .content .pre-title {
+        margin-left: 0px;
+    }
+}
