@@ -12,7 +12,7 @@
 }
 
 .nav-only-desktop {
-    display: none;
+  display: none;
 }
 
 .sign-up-section[data-module=HeroModule] .row.mx-0:after {
@@ -69,15 +69,15 @@
 
 /* Media Queries */
 @media screen and (max-width: 375px) {
-    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
-        background-position: left 10% top 48% !important;
-    }    
+  .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+    background-position: left 10% top 48% !important;
+  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
-    .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
-        background-position: left 10% top 52% !important;
-    }    
+  .hpp-dtc-m-hero.internal-hero .content .hero-box.quote {
+    background-position: left 10% top 52% !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -205,11 +205,25 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .nav-only-desktop {
-        display: block;
-    }
+  .nav-only-desktop {
+    display: block;
+  }
 
-    .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
-        display: block;
-    }
+  .hpp-star-section[data-module=HeroModule] .row.mx-0:after {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hpp-dtc-m-hero .content {
+    margin-top: 28rem !important;
+  }
+
+  .hpp-dtc-m-hero.internal-hero.sign-up-hero .content .hero-box.quote {
+    background-position-y: 13.5rem;
+  }
+
+  .hpp-dtc-m-hero.internal-hero .hero-bg img {
+    top: 45px;
+  }
 }
