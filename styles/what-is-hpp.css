@@ -781,6 +781,10 @@
     .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .hero-bg img {
         object-position: top !important;
     }
+
+    .hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .hero-box {
+        padding-top: 4.5rem !important;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
