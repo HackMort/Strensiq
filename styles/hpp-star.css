@@ -284,3 +284,13 @@
         left: 8rem;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hpp-dtc-m-hero .content {
+        margin-top: 27rem !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: 45px !important;
+    }
+}
