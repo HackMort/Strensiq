@@ -249,7 +249,7 @@
     }
 
     [data-module=CalloutBlock].iq .callout {
-        padding: 50px 20px 20px !important;
+        padding: 50px 39px 20px !important;
     }
 
     [data-module=Numbers]>.l-row+.l-row,
@@ -678,5 +678,59 @@ section.callout-container {
 @media screen and (min-width: 1366px) {
     .hero-box {
         max-width: 55%;
+    }
+}
+
+.hpp-dtc-m-hero.internal-hero .content .hero-box p {
+    letter-spacing: .16px;
+}
+
+div#iq-sq-callout.iq.sq-callout {
+    padding: 0 !important;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#iq-sq-callout.iq.sq-callout .callout-container {
+    margin: 0 10% !important;
+}
+
+div#iq-sq-callout.iq.sq-callout .callout{
+    padding: 50px 39px 20px !important;
+    margin: 0 !important;
+}
+
+@media screen and (min-width: 425px) {
+    div#iq-sq-callout.iq.sq-callout .callout {
+        padding: 50px 67px 20px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    div#iq-sq-callout.iq.sq-callout .callout {
+        margin: 0 60px;
+    }
+
+    div#iq-sq-callout.iq.sq-callout .callout-container {
+        margin: 0 11% !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    div#iq-sq-callout.iq.sq-callout .callout {
+        max-width: 1016px !important;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    div#iq-sq-callout.iq.sq-callout .callout {
+        max-width: 1027px !important;
+    }
+
+    div#iq-sq-callout.iq.sq-callout .callout-container {
+        margin: 0 13% !important;
     }
 }
