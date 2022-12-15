@@ -814,3 +814,7 @@ body > main > section.how-sq-helps.skeletal-section {
         padding: 60px 151px !important;
     }    
 }
+
+#adolescentsandadults > div:nth-child(1) > div > p {
+    text-align: left !important;
+}
