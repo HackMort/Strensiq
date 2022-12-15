@@ -610,6 +610,15 @@
         padding: 0 4rem !important;
     }
 
+    .hpp-dtc-m-hero.position-relative.internal-hero.live-with-confidence-hero .hero-bg img {
+        object-position: top;
+        max-height: none;
+    }
+
+    .hpp-dtc-m-hero.position-relative.internal-hero.live-with-confidence-hero .hero-box {
+        margin-top: 18rem;
+    }
+
     #howitsdosed .d-block.d-lg-none.mt-5.text-center strong {
         display: none;
     }
