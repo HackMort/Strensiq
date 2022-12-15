@@ -773,6 +773,16 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .secondary-content:last-of-type::after {
+        display: none;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .hero-bg img {
+        object-position: top !important;
+    }
+}
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .hero-bg img {
         object-position: right;
