@@ -149,6 +149,14 @@ a {
     .hero-box {
         min-height: 27.3rem !important;
     }
+
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        max-height: none;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.travel-tips .content.cw {
+        margin-top: 28rem !important;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -176,7 +184,7 @@ a {
     }
 
     .hpp-dtc-m-hero .content {
-        margin-top: 20rem !important;
+        margin-top: 23.5rem !important;
     }
 }
 
@@ -507,13 +515,19 @@ a {
         height: 510px;
     }
 
-    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+    /* .hpp-dtc-m-hero.internal-hero .hero-bg img {
         transform: scale(1.15);
-    }
+    } */
 }
 
 @media screen and (min-width: 1024px) {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         transform: scale(1);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hpp-dtc-m-hero.position-relative.internal-hero.tips-for-using-strensiq-hero .hero-bg img {
+        top: 45px;
     }
 }
