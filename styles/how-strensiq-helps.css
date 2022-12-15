@@ -331,6 +331,9 @@ section.callout-container {
 }
 
 @media (max-width: 767px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        object-position: left;
+    }
 
     .header.upper {
         font-size: 42px !important;
