@@ -312,11 +312,16 @@
     }
 
     .hpp-dtc-m-hero.internal-hero.resources-hero:first-of-type .hero-bg img {
-        top: -115px !important;
+        top: -82px !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero.heecol .content .hero-box {
+        margin-top: 200px;
     }
 
     .hpp-dtc-m-hero.internal-hero.resources-hero.heecol .hero-bg img {
         top: -65px !important;
+        max-height: none;
     }
 
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .hero-bg img {
