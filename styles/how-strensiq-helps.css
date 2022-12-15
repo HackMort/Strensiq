@@ -640,7 +640,7 @@ section.callout-container {
         padding-top: 0px !important;
     }
 
-    body > main > section.how-sq-helps.references-section {
+    body>main>section.how-sq-helps.references-section {
         margin-top: 0px;
     }
 
@@ -649,21 +649,21 @@ section.callout-container {
         margin-top: calc(10 * 1rem + -2.75vw) !important;
     }
 
-    #adolescentsandadults > div:nth-child(2) > div > p {
+    #adolescentsandadults>div:nth-child(2)>div>p {
         font-size: 14px;
         letter-spacing: 0.14px;
         margin-top: -60px !important;
     }
 
-    body > main > section.hpp-dtc-looking-for-resources.container-fluid {
+    body>main>section.hpp-dtc-looking-for-resources.container-fluid {
         padding: 0 !important;
     }
 
-    body > main > section.hpp-dtc-looking-for-resources.container-fluid > div {
+    body>main>section.hpp-dtc-looking-for-resources.container-fluid>div {
         max-width: 70% !important;
     }
 
-    body > main > section.hpp-dtc-looking-for-resources.container-fluid > div > div > div > p {
+    body>main>section.hpp-dtc-looking-for-resources.container-fluid>div>div>div>p {
         padding: 0 !important;
         text-align: left;
         margin-right: 0px !important;
@@ -671,8 +671,14 @@ section.callout-container {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hpp-dtc-m-hero.internal-hero .content {
+        margin-top: 23.6rem !important;
+    }
 
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: 40px !important;
+    }
 }
 
 @media screen and (min-width: 1366px) {
