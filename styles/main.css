@@ -8139,3 +8139,15 @@ section#ISI.isi .isi-banner sup {
 button.w-vulcan-v2-button {
     display: none !important;
 }
+
+*::-webkit-scrollbar {
+    width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+    display: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--dark-green);
+}

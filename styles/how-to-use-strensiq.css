@@ -346,8 +346,8 @@
 
 .looking-for-strensiq .title {
     text-align: left;
-    font: normal normal bold 45px/42px Druk-bold;
-    letter-spacing: 1.57px;
+    font: normal normal bold 45px/42px druk-bold;
+    letter-spacing: .1rem;
     color: #DFDF00;
     text-transform: uppercase;
     margin-bottom: 2rem;

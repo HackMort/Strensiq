@@ -143,8 +143,6 @@ sup {
         min-height: auto !important;
     }
 
-    .pagesubnavstickpoint {}
-
     .hpp-dtc-p-faqs .hpp-dtc-faqs-textContent_group:first-child {
         margin-top: 1rem;
     }
@@ -153,6 +151,12 @@ sup {
 @media screen and (min-width: 992px) and (max-width: 1100px) {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         object-position: right;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -43px !important;
     }
 }
 
