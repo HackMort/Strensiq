@@ -682,7 +682,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .hpp-dtc-m-hero .content.wishpp-hero-box__container {
-        margin-top: 20rem !important;
+        margin-top: 24.5rem !important;
     }
 }
 
@@ -773,6 +773,20 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .secondary-content:last-of-type::after {
+        display: none;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .hero-bg img {
+        object-position: top !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .hero-box {
+        padding-top: 4.5rem !important;
+    }
+}
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .hpp-dtc-m-hero.internal-hero.what-is-hpp-hero .hero-bg img {
         object-position: right;
@@ -845,7 +859,14 @@
     }
 
     .what-is-hpp-hero[data-module=HeroModule] .HeroCalloutCntr:after {
-        bottom: 59px;
+        bottom: 60px;
+        box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+        -webkit-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+        -moz-box-shadow: 0px -50px 50px 0px rgb(0 0 0 / 49%);
+    }
+
+    .pagesubnavstickpoint {
+        background-color: var(--white);
     }
 
     [data-module=PageSubnav] {
@@ -859,7 +880,7 @@
 
 @media screen and (min-width: 1024px) {
     .what-is-hpp-hero[data-module=HeroModule] .HeroCalloutCntr:after {
-        bottom: 100px !important;
+        bottom: 120px !important;
     }
 
     .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
