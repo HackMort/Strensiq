@@ -703,6 +703,22 @@ div#iq-sq-callout.iq.sq-callout .callout{
     margin: 0 !important;
 }
 
+[data-module=FullStack] h2 {
+    font-size: 42px !important;
+    letter-spacing: 1.22px !important;
+}
+
+div > div > div:nth-child(1) > p > strong,
+div > div > div:nth-child(2) > div > p.green-text,
+p.mt-4.green-text {
+    font-size: 18px;
+    letter-spacing: 0.77px;
+}
+
+.rteblock p > strong {
+    font-size: 16px !important;
+}
+
 @media screen and (min-width: 425px) {
     div#iq-sq-callout.iq.sq-callout .callout {
         padding: 50px 67px 20px !important;
