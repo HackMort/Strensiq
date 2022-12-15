@@ -169,13 +169,29 @@
         padding: 0px !important;
     }
 
+    .hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero .content {
+        margin-top: 25rem !important;
+    }
+
+    .hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero .hero-bg img {
+        top: 40px !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .hero-bg img {
+        max-height: none;
+    }
+
     .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
-        margin-left: -15px;
-        margin-top: 45px;
+        margin-left: 7px;
+        margin-top: 120px;
     }
 
     .hero-box {
         min-height: 27.3rem !important;
+    }
+
+    .hpp-dtc-m-hero.position-relative.internal-hero.live-with-confidence-hero.tips-hero .content {
+        margin-top: 28rem !important;
     }
 
 }
