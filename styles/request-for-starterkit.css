@@ -82,7 +82,7 @@
 }
 
 .hpp-dtc-m-starter-kit__content__area__modal {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -197,6 +197,10 @@
 }
 
 @media screen and (min-width: 992px) {
+
+    .hpp-dtc-m-starter-kit__content__area__modal { 
+        position: absolute;
+    }
 
     .starter-kit__dialog-container {
         position: initial;
