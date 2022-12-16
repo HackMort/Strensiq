@@ -38,7 +38,7 @@ header.mobile-header.mobile-header--visible {
     top: 0;
     background: none;
     background-color: white;
-    box-shadow: 0 0 10px 5px rgba(52,52,52,.1);
+    box-shadow: 0 0 10px 5px rgba(52, 52, 52, .1);
 
 }
 
@@ -266,7 +266,7 @@ header.mobile-header .sidenav__menu-item .menu-item--active {
         pointer-events: none;
     }
 
-    header.mobile-header .sidenav__menu > .sidenav__menu-group:last-of-type {
+    header.mobile-header .sidenav__menu>.sidenav__menu-group:last-of-type {
         border: none;
     }
 }
@@ -3410,7 +3410,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
         transform: translateY(-110%);
         left: 0;
         right: 0;
-        margin-inline: auto
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -3881,7 +3882,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     .hpp-dtc-m-next-steps-form button {
         font-size: 1.6rem;
         max-width: 100%;
-        padding-inline: 2rem
+        padding-inline: 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
 }
 
@@ -3960,7 +3963,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     }
 
     .hpp-dtc-m-next-steps-form button {
-        padding-inline: 1rem
+        padding-inline: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 }
 
@@ -4865,13 +4870,16 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
     .hpp-dtc-lets-connect_cards.step-1 .card .icon .img {
         position: absolute;
-        margin-inline: auto;
+        margin-left: auto;
+        margin-right: auto;
         left: 0;
         right: 0
     }
 
     .hpp-dtc-lets-connect_cards.step-1 .card .description {
-        padding-inline: 2.5rem
+        padding-inline: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     .hpp-dtc-lets-connect_cards.step-1 .card.selected .icon,
@@ -5577,7 +5585,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 }
 
 .hpp-dtc-footer__content {
-    padding-inline: 3rem
+    padding-inline: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
 
 .hpp-dtc-footer__content h3 {
@@ -5698,7 +5708,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     }
 
     .hpp-dtc-footer__content {
-        padding-inline: 3.5rem
+        padding-inline: 3.5rem;
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
     }
 
     .hpp-dtc-footer__content p {
@@ -6173,6 +6185,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 .hpp-dtc-m-form {
     font-family: azo-sans-web, sans-serif;
     padding-inline: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     margin-top: 4rem;
     margin-bottom: 6.3rem
 }
@@ -6206,7 +6220,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 1.7rem;
-    padding-inline: 2.2rem
+    padding-inline: 2.2rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem
 }
 
 .hpp-dtc-m-form__body_item {
@@ -6228,6 +6244,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 .hpp-dtc-m-form__body_item select {
     border: none;
     padding-inline: 2.2rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
     background-color: #f8f8f8;
     min-height: 4.6rem;
     -webkit-appearance: none;
@@ -6333,7 +6351,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 .hpp-dtc-m-form__body_submit {
     margin-top: 3.5rem;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase;
     background-color: var(--white);
     border: 1px solid var(--dark-green);
@@ -6348,11 +6367,15 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 @media screen and (min-width:768px) {
     .hpp-dtc-m-form {
         max-width: 76.9%;
-        padding-inline: 0
+        padding-inline: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .hpp-dtc-m-form__body {
-        padding-inline: 4rem
+        padding-inline: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 
     .hpp-dtc-m-form__body_item:nth-child(4) {
@@ -6375,6 +6398,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
     .hpp-dtc-m-form__body {
         padding-inline: 1.8rem;
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
         -ms-flex-pack: justify;
         justify-content: space-between
     }
@@ -7285,7 +7310,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 }
 
 .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .col-12 {
-    padding-inline: 2rem !important
+    padding-inline: 2rem !important;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important
 }
 
 .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .title {
@@ -7293,12 +7320,16 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 }
 
 .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
-    padding-inline: 1rem
+    padding-inline: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .link {
     font-size: 1.6rem;
     padding-inline: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     width: 100%;
     max-width: 28.7rem
 }
@@ -7311,7 +7342,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
         width: 46rem;
         margin-bottom: 3.3rem;
-        margin-inline: 0
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -7331,7 +7363,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     }
 
     .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
-        margin-inline: 0;
+        margin-left: auto;
+        margin-right: auto;
         width: max-content;
         padding: 0
     }
@@ -7339,7 +7372,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (min-width:1200px) {
     .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
-        margin-inline: 0
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -8001,6 +8035,8 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 @media screen and (min-width: 992px) and (max-width: 1023px) {
     .hpp-dtc-footer__content {
         padding-inline: 5.5rem;
+        padding-right: 5.5rem;
+        padding-left: 5.5rem;
     }
 }
 

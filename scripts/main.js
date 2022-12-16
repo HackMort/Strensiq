@@ -14846,32 +14846,23 @@ const mobileHeaderIsVisible = mobileHeader.classList.contains('mobile-header--vi
 
 $(window).scroll(function () {
     const currentScroll = $(window).scrollTop();
-
     if (!showFloatingSubnav) {
-        floatingSubnav?.classList?.remove("floating-subnav--opened")
+        floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
     }
-
     if (currentScroll > lastScroll && (window.scrollY > 150)) {
         mobileHeader.classList.remove("mobile-header--visible")
         mobileHeader.classList.add("mobile-header--hidden")
-
-        showFloatingSubnav && floatingSubnav?.classList?.add("floating-subnav--opened")
-
+        showFloatingSubnav && floatingSubnav !== null && floatingSubnav.classList.add("floating-subnav--opened")
     } else if (currentScroll < lastScroll && currentScroll > 0) {
         mobileHeader.classList.add("mobile-header--visible")
         mobileHeader.classList.remove("mobile-header--hidden")
-
-        floatingSubnav?.classList?.remove("floating-subnav--opened")
-
+        floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
     } else {
         mobileHeader.classList.remove("mobile-header--visible")
         mobileHeader.classList.remove("mobile-header--hiddent")
-
-        floatingSubnav?.classList?.remove("floating-subnav--opened")
+        floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
     }
-
     lastScroll = currentScroll <= 0 ? 0 : currentScroll;
-
     $(".floating-subnav__menu").removeClass("floating-subnav__menu--opened");
     $(".dropdown-button").removeClass("dropdown-button--opened");
 });
