@@ -250,6 +250,10 @@
         line-height: 26px;
     }
 
+    .alexion-hyperlink {
+        color: #00a8e1 !important;
+    }
+
     #support h2 {
         padding: 0 40px;
         font-size: 41px !important;
