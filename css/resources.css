@@ -469,7 +469,7 @@
 
     .mainheading {
         font-size: 41px !important;
-        letter-spacing: 1.44px !important;
+        letter-spacing: .6px !important;
         padding: 0 25px;
     }
 }
