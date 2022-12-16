@@ -535,7 +535,7 @@
     }
 
     .what-to-do {
-        /* border-radius: 0px; */
+        border-radius: 0px;
         margin-top: 40px;
         padding: 50px 40px;
     }
@@ -1324,4 +1324,11 @@
 
 .hpp-dtc-m-hero .hero-bg::before {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .what-to-do {
+        border-radius: 35px;
+    }
 }
