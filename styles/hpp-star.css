@@ -3,6 +3,10 @@
     align-items: flex-start;
 }
 
+.alexion-hyperlink {
+    color: #00a8e1 !important;
+}
+
 .hpp-star-section[data-module=HeroModule] .HeroCalloutCntr:after {
     display: none;
 }
