@@ -1,6 +1,6 @@
 .hpp-spl-heading {
     text-align: left;
-    font: normal normal bold 22px/22px Druk;
+    font: normal normal bold 30px/22px Druk;
     letter-spacing: 0.44px;
     color: #005D55;
     text-transform: uppercase;
@@ -471,6 +471,10 @@
 
 .hpp-dtc-m-hero .content {
     margin-top: 18rem !important;
+}
+
+#specialistswhocanhelp > div {
+    padding-top: 0px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
