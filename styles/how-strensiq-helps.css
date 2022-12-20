@@ -560,6 +560,11 @@ section.callout-container {
     #studiedinallages .stq-chart p {
         padding-left: 12.5%;
     }
+
+    .btn.btn--video {
+        margin-bottom: 30px;
+    }
+
 }
 
 @media screen and (min-width: 1250px) and (max-width: 1365px) {
