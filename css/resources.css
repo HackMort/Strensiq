@@ -228,6 +228,10 @@
         min-height: 52rem;
     }
 
+    .hpp-dtc-m-hpp-patient-advocacy_header.journey-title {
+        font-size: 22px !important;
+        line-height: 20px;
+    }
 }
 
 @media (min-width: 230px) and (max-width: 767px) {
