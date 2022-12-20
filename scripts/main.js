@@ -15196,7 +15196,7 @@ function nextBtn() {
 
                     document.querySelector('.connect-with-onesource .intro_subtitle').innerHTML = 'CONNECT WITH ONESOURCE&trade;';
                     document.querySelector('.connect-with-onesource .intro_subtitleContent').innerHTML = 'OneSource™ is a complimentary, personalized patient support program offered by Alexion. When you enroll in the program, you’ll work with a dedicated team of people with expertise in rare conditions and health insurance.';
-                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to get in touch with a ONESOURCE&trade; team member.	';
+                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to get in touch with a OneSource&trade; team member.	';
                 }
                 if (step2OptionsSelected.includes(3)) {
                     document.querySelector('.hpp-dtc-lets-connect_form .request-starter-kit').style.display = 'block';
