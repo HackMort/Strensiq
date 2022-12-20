@@ -232,6 +232,10 @@
         font-size: 22px !important;
         line-height: 20px;
     }
+
+    #journey_prescription picture img.lazyautosizes {
+        cursor: default;
+    }
 }
 
 @media (min-width: 230px) and (max-width: 767px) {
