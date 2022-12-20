@@ -169,4 +169,15 @@
     }
 }
 
+@media screen and (max-width: 991px) {
+    .hpp-dtc-lets-connect_cards .card {
+        padding: 1rem 2.5rem;
+        align-items: center;
+    }
+
+    .hpp-dtc-p-home .hpp-dtc-lets-connect_cards.step-2 .card .description {
+        margin: 0 !important;
+    }
+}
+
 /* =========================== QUIZ ============================================ */
