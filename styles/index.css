@@ -125,6 +125,10 @@
 
 /* =========================== QUIZ ============================================ */
 
+.hpp-dtc-lets-connect_form .form-check label:before {
+    transform: translateY(-3px);
+}
+
 #question3 > div.text {
     padding: 3.5rem 0 0 5.5rem;
 }
