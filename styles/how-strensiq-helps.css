@@ -543,12 +543,13 @@ section.callout-container {
     }
 
     #adolescentsandadults .imgzoom.full-image .tap-zoom {
-        order: 2;
-        margin-top: -1rem;
+        order: 3;
+        margin-top: 1rem;
     }
 
     #adolescentsandadults .imgzoom.full-image .cw-text.first-letter-sup {
-        order: 3;
+        order: 2;
+        margin-top: -2rem;
     }
 
     #studiedinallages img.tap-zoom {
