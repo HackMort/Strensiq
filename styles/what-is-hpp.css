@@ -762,6 +762,11 @@
     .hpp-dtc-p-what-is-hpp .hpp-dtc-life-with .description::before {
         top: 12.4rem !important;
     }
+
+    .hpp-dtc-icons-panel__content .main-content .mainDescription {
+        padding: 0 !important;
+        margin-bottom: 3rem !important;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -802,7 +807,7 @@
 
     .hpp-dtc-icons-panel__content .main-content .mainDescription,
     .hpp-dtc-icons-panel__content .main-content .mainTitle {
-        padding: 0;
+        padding: 0 !important;
     }
 
     #specialistswhocanhelp .container,

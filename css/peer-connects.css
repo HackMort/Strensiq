@@ -99,7 +99,7 @@ form .select-wrap:after {
     content: "";
     display: block;
     position: absolute;
-    top: 0.5rem;
+    top: 0.3rem !important;
     left: -2.3rem;
     width: 0.4rem;
     height: 1.1rem;
@@ -212,12 +212,18 @@ form .select-wrap:after {
 }
 
 @media (min-width: 992px) {
+
+    .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .hero-box.quote {
+        padding-left: 11.3rem !important;
+    }
+
     .hpp-dtc-life-with__content .description::before {
         top: 4.1rem !important;
         left: -7rem !important;
     }
 
     .hpp-dtc-m-hpp-patient-support-form {
+        background: white;
         z-index: 2;
         padding: 2rem 0 13rem;
         position: relative;
@@ -268,6 +274,14 @@ form .select-wrap:after {
 
     .hpp-dtc-m-hero.internal-hero.here-for-you-hero .content .pre-title {
         margin-top: 8px;
+    }
+
+    .hpp-dtc-p-here-for-you .hpp-dtc-looking-for-resources__content .description {
+        margin-left: 0;
+    }
+
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: 40px !important;
     }
 }
 
@@ -325,8 +339,8 @@ form .select-wrap:after {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
     .form-container .form-check label:before {
-        transform: translateY(-3px);
+        transform: translateY(-2px);
     }
 }

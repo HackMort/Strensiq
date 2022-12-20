@@ -341,8 +341,12 @@ a {
         min-height: 120px;
     }
 
+    #howtostorestrensiq .l-row.u-mt-3 .l-col-5>.d-flex.align-items-center {
+        margin-top: 10px;
+    }
+
     .img-do-not {
-        margin-top: -5px;
+        margin-top: -4px;
     }
 
     .hpp-dtc-icons-panel.traveling-with-strensiq .logo {
