@@ -802,7 +802,8 @@
 
     .hpp-dtc-icons-panel__content .main-content .mainDescription,
     .hpp-dtc-icons-panel__content .main-content .mainTitle {
-        padding: 0;
+        padding: 0 !important;
+        margin-bottom: 3rem !important;
     }
 
     #specialistswhocanhelp .container,
