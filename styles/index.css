@@ -122,3 +122,47 @@
         max-width: 45% !important;
     }
 }
+
+/* =========================== QUIZ ============================================ */
+
+#question3 > div.text {
+    padding: 3.5rem 0 0 5.5rem;
+}
+
+#question3 > div.text::before {
+    top: 10.5rem;
+    left: -0.6rem;
+}
+
+.hpp-dtc-lets-connect_form .message {
+    padding: -2.2rem 2.3rem;
+}
+
+@media screen and (min-width: 992px) {
+    body > div:nth-child(5) > section.hpp-dtc-lets-connect.container-fluid > div > div.row > div.col-12.hpp-dtc-lets-connect_form.p-0.step-3 > div > div.row {
+        margin: 0 !important;
+        gap: 1rem;
+        padding: 0 !important;
+    }
+
+    body > div:nth-child(5) > section.hpp-dtc-lets-connect.container-fluid > div > div.row > div.col-12.hpp-dtc-lets-connect_form.p-0.step-3 > div > div > div.order-md-1.col-12.col-md-8.form {
+        margin: 0 !important;
+        min-width: auto !important;
+        flex: auto !important;
+        width: 61rem;
+    }
+
+    .hpp-dtc-lets-connect_form .form, .hpp-dtc-lets-connect_form .thank-you {
+        width: 61rem;
+        flex: auto;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    body > div:nth-child(5) > section.hpp-dtc-lets-connect.container-fluid > div > div.row > div.col-12.hpp-dtc-lets-connect_form.p-0.step-3 > div > div.row {
+        gap: 3rem;
+    }
+}
+
+/* =========================== QUIZ ============================================ */

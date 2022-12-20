@@ -8177,3 +8177,8 @@ button.w-vulcan-v2-button {
 *::-webkit-scrollbar-thumb {
     background-color: var(--dark-green);
 }
+
+#ISI .isi-showmore span.t-accent-green,
+#ISI .isi-showless span.t-accent-green {
+    font-size: 24px !important;
+}

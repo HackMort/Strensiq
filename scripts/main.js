@@ -15227,6 +15227,8 @@ function nextBtn() {
                 break;
             }
         }
+        document.querySelector('.hpp-dtc-lets-connect .hpp-dtc-lets-connect_title').style.display = 'none';
+        document.querySelector('.hpp-dtc-lets-connect .hpp-dtc-lets-connect_cards').style.display = 'none';
         document.querySelector('.hpp-dtc-lets-connect .secondary-title').classList.add('invisible');
         document.querySelector('.hpp-dtc-lets-connect .main-title').style.display = 'none';
         document.querySelector('.hpp-dtc-lets-connect .lets-connect').style.display = 'none';
