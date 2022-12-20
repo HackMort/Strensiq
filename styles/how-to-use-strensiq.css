@@ -167,7 +167,10 @@
 
 .resources-injection-site .subhead {
     text-align: left;
-    font: normal normal bolder 16px/32px Azo Sans;
+    font-family: Azo Sans, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
     letter-spacing: 0.2px;
     color: #69BE28;
 
@@ -615,10 +618,6 @@
         max-height: none;
     }
 
-    .hpp-dtc-m-hero.position-relative.internal-hero.live-with-confidence-hero .hero-box {
-        margin-top: 18rem;
-    }
-
     #howitsdosed .d-block.d-lg-none.mt-5.text-center strong {
         display: none;
     }
@@ -750,12 +749,6 @@
 
     .managing-isrs-adjust {
         padding-top: 35px;
-    }
-
-    .managing-isrs {
-        background: #f2f2f2;
-        border-radius: 10px;
-        padding: 50px 50px 30px 50px;
     }
 
     #resources img.mt-5 {
@@ -1326,9 +1319,23 @@
     display: none;
 }
 
+.hpp-dtc-m-hero .content {
+	margin-top: 22rem !important;
+}
+
 @media screen and (min-width: 768px) {
 
     .what-to-do {
         border-radius: 35px;
+    }
+
+    section.hpp-dtc-m-hero:nth-child(4) > div:nth-child(2) > div:nth-child(1) {
+        margin-top: 34rem !important;
+    }
+
+    .managing-isrs {
+        background: #f2f2f2;
+        border-radius: 35px;
+        padding: 50px 50px 30px 50px;
     }
 }

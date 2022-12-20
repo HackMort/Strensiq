@@ -197,13 +197,9 @@ a {
         margin-top: 16rem !important;
     }
 
-    .hpp-dtc-icons-panel__content .content-holder .logo {
-        margin-top: 3rem;
-    }
-
     .hpp-dtc-icons-panel__content .content-holder .secondary-content {
-        border: 0;
-        padding-bottom: 2rem;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
     }
 }
 
@@ -480,7 +476,7 @@ a {
     }
 
     section.travel-tips .hero-box {
-        top: 52px
+        top: 38px
     }
 
     section.travel-tips .hero-bg picture img {
@@ -533,5 +529,19 @@ a {
 
     .hpp-dtc-m-hero.position-relative.internal-hero.tips-for-using-strensiq-hero .content {
         margin-top: 23.5rem !important;
+    }
+}
+
+.hpp-dtc-icons-panel__content .content-holder .secondary-content::after {
+    display: none !important;
+}
+
+.hpp-dtc-icons-panel__content .content-holder .secondary-content {
+    border-bottom: .1rem solid #c5c5c5 !important;
+}
+
+@media screen and (min-width: 992px) {
+    .hpp-dtc-icons-panel__content .content-holder .secondary-content {
+        border: none !important;
     }
 }

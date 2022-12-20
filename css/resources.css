@@ -417,7 +417,14 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 375px) {
+
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: -110px;
+    }
+}
+
+@media screen and (min-width: 425px) {
 
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         top: -110px;
