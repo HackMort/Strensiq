@@ -1343,5 +1343,17 @@
 @media screen and (min-width: 992px) {
     .hpp-how-touse-strensiq .hpp-dtc-m-hero .container.content.how-to-use-hero-box__container {
         margin-top: 11.6rem !important;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1024px) {
+    [data-module=PageSubnav] {
+        border-top-left-radius: 30px;
+        margin-top: -120px !important;
+    }
+
+    [data-module=PageSubnav] .pagesubnavstickpoint {
+        background-color: white;
     }
 }

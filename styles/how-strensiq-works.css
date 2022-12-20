@@ -364,4 +364,8 @@
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         object-position: center;
     }
+
+    .live-with-confidence-hero.tips-hero.rwm-hero {
+        margin-bottom: 70px;
+    }
 }

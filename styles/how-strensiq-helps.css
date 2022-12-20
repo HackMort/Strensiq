@@ -648,8 +648,8 @@ section.callout-container {
     }
 
     #adolescentsandadults {
-        padding-top: 0px !important;
-        margin-top: calc(10 * 1rem + -2.75vw) !important;
+        padding-top: calc(6 * 1rem + 0.25vw);
+        /* margin-top: calc(10 * 1rem + -2.75vw) !important; */
     }
 
     #adolescentsandadults>div:nth-child(2)>div>p {
@@ -701,26 +701,26 @@ div.iq.sq-callout .callout {
     letter-spacing: 1.22px !important;
 }
 
-div > div > div:nth-child(1) > p > strong,
-div > div > div:nth-child(2) > div > p.green-text,
+div>div>div:nth-child(1)>p>strong,
+div>div>div:nth-child(2)>div>p.green-text,
 p.mt-4.green-text {
     font-size: 18px;
     letter-spacing: 0.77px;
 }
 
-.rteblock p > strong {
+.rteblock p>strong {
     font-size: 16px !important;
 }
 
-body > main > section.how-sq-helps.references-section > div > div > div > p:nth-child(1) {
+body>main>section.how-sq-helps.references-section>div>div>div>p:nth-child(1) {
     margin-top: 25px;
 }
 
-#adolescentsandadults > div > div.l-row.mb-2 > div.l-col.l-col-4.l-col-push-1.l-col-push-0--md.l-col-12--md.u-mt-3--md.u-hide-md.imgzoom > picture::after {
+#adolescentsandadults>div>div.l-row.mb-2>div.l-col.l-col-4.l-col-push-1.l-col-push-0--md.l-col-12--md.u-mt-3--md.u-hide-md.imgzoom>picture::after {
     bottom: -13px;
 }
 
-#adolescentsandadults > div > div.row > div > p {
+#adolescentsandadults>div>div.row>div>p {
     margin-bottom: 45px;
 }
 
@@ -765,11 +765,11 @@ body > main > section.how-sq-helps.references-section > div > div > div > p:nth-
         max-width: 1016px !important;
     }
 
-    body > main > section.pagesubnav.subnav-intersected {
+    body>main>section.pagesubnav.subnav-intersected {
         min-height: auto;
     }
 
-    body > main > section:nth-child(4) > div.how-sq-helps.sq-improves {
+    body>main>section:nth-child(4)>div.how-sq-helps.sq-improves {
         margin: 0 83px;
     }
 }
@@ -784,37 +784,37 @@ body > main > section.how-sq-helps.references-section > div > div > div > p:nth-
     }
 }
 
-body > main > section.how-sq-helps.skeletal-section > div {
+body>main>section.how-sq-helps.skeletal-section>div {
     margin: 0;
 }
 
-body > main > section.how-sq-helps.skeletal-section *:not(li) {
+body>main>section.how-sq-helps.skeletal-section *:not(li) {
     padding: 0;
     box-sizing: border-box;
 }
 
-body > main > section.how-sq-helps.skeletal-section {
+body>main>section.how-sq-helps.skeletal-section {
     padding: 60px 43px !important;
 }
 
 @media screen and (min-width: 768px) {
-    body > main > section.how-sq-helps.skeletal-section {
+    body>main>section.how-sq-helps.skeletal-section {
         padding: 60px 61px !important;
-    }  
+    }
 }
 
 @media screen and (min-width: 1024px) {
-    body > main > section.how-sq-helps.skeletal-section {
+    body>main>section.how-sq-helps.skeletal-section {
         padding: 60px 123px !important;
-    }   
+    }
 }
 
 @media screen and (min-width: 1440px) {
-    body > main > section.how-sq-helps.skeletal-section {
+    body>main>section.how-sq-helps.skeletal-section {
         padding: 60px 151px !important;
-    }    
+    }
 }
 
-#adolescentsandadults > div:nth-child(1) > div > p {
+#adolescentsandadults>div:nth-child(1)>div>p {
     text-align: left !important;
 }
