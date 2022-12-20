@@ -1320,7 +1320,7 @@
 }
 
 .hpp-dtc-m-hero .content {
-	margin-top: 22rem !important;
+    margin-top: 22rem !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -1329,7 +1329,7 @@
         border-radius: 35px;
     }
 
-    section.hpp-dtc-m-hero:nth-child(4) > div:nth-child(2) > div:nth-child(1) {
+    section.hpp-dtc-m-hero:nth-child(4)>div:nth-child(2)>div:nth-child(1) {
         margin-top: 34rem !important;
     }
 
@@ -1337,5 +1337,11 @@
         background: #f2f2f2;
         border-radius: 35px;
         padding: 50px 50px 30px 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hpp-how-touse-strensiq .hpp-dtc-m-hero .container.content.how-to-use-hero-box__container {
+        margin-top: 11.6rem !important;
     }
 }
