@@ -470,7 +470,6 @@ section.callout-container {
 
 
 @media (min-width: 1024px) {
-
     .how-sq-helps.sq-improves>.l-grid .l-row {
         display: block;
         margin: 0 auto;
@@ -844,6 +843,14 @@ body>main>section.how-sq-helps.skeletal-section {
     }
 }
 
-#adolescentsandadults>div:nth-child(1)>div>p {
-    text-align: left !important;
+@media (max-width: 767px) {
+    #adolescentsandadults>div:nth-child(1)>div>p {
+        text-align: left !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #adolescentsandadults>div:nth-child(1)>div>p {
+        text-align: center !important;
+    }
 }
