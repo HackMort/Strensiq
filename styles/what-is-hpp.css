@@ -599,6 +599,45 @@
     z-index: 2;
 }
 
+@media screen and (min-width: 325px) and (max-width: 767px) {
+
+    #hppandalp>div>div>div.pt-5>div>div {
+        padding-left: 0px !important;
+    }
+
+    #hppandalp>div>div>div.hpp-dtc-m-callout {
+        margin: 6.5rem 0rem;
+    }
+
+    #signsandsymptoms>div>div>div.col-lg-6.col-md-12 p {
+        font-size: 16px;
+        letter-spacing: 0.16px;
+        line-height: 26px;
+    }
+
+    body>div:nth-child(10)>div>div>div.container>section>div {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100%;
+    }
+
+    #howitsdiagnosed>div>div.main-content {
+        margin: 0 16px;
+    }
+
+    #howitsdiagnosed>div>div.row.px-5.content-holder>div>div.warning {
+        padding: 0 12px;
+    }
+
+    body > div:nth-child(13) > div > div > div.main-content > p.body.center-align.mainDescription.font-azo-sans.mb-2 {
+        padding: 0 1rem;
+    }
+
+    #specialistswhocanhelp > div > div > div.main-content {
+        padding: 0 10px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .power-of-diagnosis p:first-of-type {
         padding: 0 0 0 7rem;
@@ -743,7 +782,7 @@
     }
 
     .hpp-how-sterensiq-works .cta {
-        padding: 0.5rem 0.8rem;
+        padding: 0.5rem 2rem;
         font-size: 15px;
     }
 }
