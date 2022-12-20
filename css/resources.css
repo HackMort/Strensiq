@@ -20,6 +20,7 @@
 
 .pagesubnavstickpoint {
     background-color: white;
+    border-top-left-radius: 15px;
 }
 
 .hpp-dtc-life-with__content .description::before {
@@ -595,8 +596,26 @@
     }
 }
 
+@media screen and (min-width: 992px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        top: 40px;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero.heecol .content .hero-box {
+        mask-type: -80px;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero.heecol .hero-bg img {
+        top: 0;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         object-position: center right;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.resources-hero.heecol .hero-bg::before {
+        display: none;
     }
 }

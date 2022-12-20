@@ -655,7 +655,8 @@ section.callout-container {
     #adolescentsandadults>div:nth-child(2)>div>p {
         font-size: 14px;
         letter-spacing: 0.14px;
-        margin-top: -60px !important;
+        margin-top: -40px !important;
+        max-width: 88%;
     }
 
     body>main>section.hpp-dtc-looking-for-resources.container-fluid {
@@ -771,6 +772,12 @@ body>main>section.how-sq-helps.references-section>div>div>div>p:nth-child(1) {
 
     body>main>section:nth-child(4)>div.how-sq-helps.sq-improves {
         margin: 0 83px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #adolescentsandadults>div:nth-child(2)>div>p {
+        max-width: 1037px;
     }
 }
 
