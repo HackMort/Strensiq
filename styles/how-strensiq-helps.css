@@ -242,6 +242,19 @@
     background-color: transparent !important;
 }
 
+.one-bullet-list {
+    margin-top: 0;
+    margin-left: 1.5rem !important;
+}
+
+.one-bullet-list li::before {
+    color: #343434 !important;
+}
+
+.study-endpoint {
+    margin-bottom: 1.5rem !important;
+}
+
 /* Media Queries */
 @media (max-width: 640px) {
     .how-sq-helps .intro h2 {
@@ -454,6 +467,8 @@ section.callout-container {
     }
 }
 
+
+
 @media (min-width: 1024px) {
 
     .how-sq-helps.sq-improves>.l-grid .l-row {
@@ -464,8 +479,9 @@ section.callout-container {
 
     .studies-text__container {
         display: block;
-        margin: 0 auto;
-        max-width: 720px;
+        margin: 0;
+        margin-left: auto;
+        max-width: 970px;
     }
 
     .how-sq-helps.sq-improves>.l-grid,
