@@ -14855,26 +14855,29 @@ let showFloatingSubnav = false;
 const mobileHeaderIsVisible = mobileHeader.classList.contains('mobile-header--visible')
 
 $(window).scroll(function () {
-    const currentScroll = $(window).scrollTop();
-    if (!showFloatingSubnav) {
-        floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
+    const isMobile = window.matchMedia('(max-width: 991px)').matches
+    if (isMobile) {
+        const currentScroll = $(window).scrollTop();
+        if (!showFloatingSubnav) {
+            floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
+        }
+        if (currentScroll > lastScroll && (window.scrollY > 150)) {
+            mobileHeader.classList.remove("mobile-header--visible")
+            mobileHeader.classList.add("mobile-header--hidden")
+            showFloatingSubnav && floatingSubnav !== null && floatingSubnav.classList.add("floating-subnav--opened")
+        } else if (currentScroll < lastScroll && currentScroll > 0) {
+            mobileHeader.classList.add("mobile-header--visible")
+            mobileHeader.classList.remove("mobile-header--hidden")
+            floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
+        } else {
+            mobileHeader.classList.remove("mobile-header--visible")
+            mobileHeader.classList.remove("mobile-header--hiddent")
+            floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
+        }
+        lastScroll = currentScroll <= 0 ? 0 : currentScroll;
+        $(".floating-subnav__menu").removeClass("floating-subnav__menu--opened");
+        $(".dropdown-button").removeClass("dropdown-button--opened");
     }
-    if (currentScroll > lastScroll && (window.scrollY > 150)) {
-        mobileHeader.classList.remove("mobile-header--visible")
-        mobileHeader.classList.add("mobile-header--hidden")
-        showFloatingSubnav && floatingSubnav !== null && floatingSubnav.classList.add("floating-subnav--opened")
-    } else if (currentScroll < lastScroll && currentScroll > 0) {
-        mobileHeader.classList.add("mobile-header--visible")
-        mobileHeader.classList.remove("mobile-header--hidden")
-        floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
-    } else {
-        mobileHeader.classList.remove("mobile-header--visible")
-        mobileHeader.classList.remove("mobile-header--hiddent")
-        floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
-    }
-    lastScroll = currentScroll <= 0 ? 0 : currentScroll;
-    $(".floating-subnav__menu").removeClass("floating-subnav__menu--opened");
-    $(".dropdown-button").removeClass("dropdown-button--opened");
 });
 
 const observerOptions = {
@@ -14893,6 +14896,7 @@ const pageSubnavObserver = new IntersectionObserver(function (entries, observer)
         }
     })
 }, observerOptions)
+
 // if pageSubnav exists
 if (pageSubnav) {
     pageSubnavObserver.observe(pageSubnav);
@@ -14911,6 +14915,7 @@ const ISIObserver = new IntersectionObserver(function (entries, observer) {
         }
     })
 }, { ...observerOptions, rootMargin: '0px', threshold: 1 })
+
 if (ISISection) {
     ISIObserver.observe(ISISection);
 }
