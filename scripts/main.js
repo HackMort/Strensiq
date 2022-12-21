@@ -14848,34 +14848,6 @@ $(window).scroll(function () {
 
 
 let lastScroll = $(window).scrollTop()
-const mobileHeader = document.querySelector("header.mobile-header")
-
-const floatingSubnav = document.querySelector("section.floating-subnav")
-let showFloatingSubnav = false;
-const mobileHeaderIsVisible = mobileHeader.classList.contains('mobile-header--visible')
-
-$(window).scroll(function () {
-    const currentScroll = $(window).scrollTop();
-    if (!showFloatingSubnav) {
-        floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
-    }
-    if (currentScroll > lastScroll && (window.scrollY > 150)) {
-        mobileHeader.classList.remove("mobile-header--visible")
-        mobileHeader.classList.add("mobile-header--hidden")
-        showFloatingSubnav && floatingSubnav !== null && floatingSubnav.classList.add("floating-subnav--opened")
-    } else if (currentScroll < lastScroll && currentScroll > 0) {
-        mobileHeader.classList.add("mobile-header--visible")
-        mobileHeader.classList.remove("mobile-header--hidden")
-        floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
-    } else {
-        mobileHeader.classList.remove("mobile-header--visible")
-        mobileHeader.classList.remove("mobile-header--hiddent")
-        floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
-    }
-    lastScroll = currentScroll <= 0 ? 0 : currentScroll;
-    $(".floating-subnav__menu").removeClass("floating-subnav__menu--opened");
-    $(".dropdown-button").removeClass("dropdown-button--opened");
-});
 
 const observerOptions = {
     root: null,
@@ -14883,16 +14855,59 @@ const observerOptions = {
     threshold: 0
 }
 
+let header
+let floatingSubnav
+let stickySubnavPoint
+
+let showStikySubnav = false;
+
+$(window).scroll(function () {
+    const isMobile = window.matchMedia('(max-width: 1023px)').matches
+
+    if (isMobile) {
+        header = document.querySelector("header.mobile-header")
+        floatingSubnav = document.querySelector("section.floating-subnav")
+    }
+
+    const currentScroll = $(window).scrollTop();
+
+    if (isMobile) {
+        if (!showStikySubnav) {
+            floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
+        }
+        if (currentScroll > lastScroll && (window.scrollY > 150)) {
+            header.classList.remove("mobile-header--visible")
+            header.classList.add("mobile-header--hidden")
+            showStikySubnav && floatingSubnav !== null && floatingSubnav.classList.add("floating-subnav--opened")
+        } else if (currentScroll < lastScroll && currentScroll > 0) {
+            header.classList.add("mobile-header--visible")
+            header.classList.remove("mobile-header--hidden")
+            floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
+        } else {
+            header.classList.remove("mobile-header--visible")
+            header.classList.remove("mobile-header--hidden")
+            floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
+        }
+
+        $(".floating-subnav__menu").removeClass("floating-subnav__menu--opened");
+        $(".dropdown-button").removeClass("dropdown-button--opened");
+
+    }
+
+    lastScroll = currentScroll <= 0 ? 0 : currentScroll;
+});
+
 const pageSubnav = document.querySelector(".subnav-intersected");
 const pageSubnavObserver = new IntersectionObserver(function (entries, observer) {
     entries.forEach(entry => {
         if (!entry.isIntersecting && entry.boundingClientRect.top < 0) {
-            showFloatingSubnav = true
+            showStikySubnav = true
         } else {
-            showFloatingSubnav = false
+            showStikySubnav = false
         }
     })
 }, observerOptions)
+
 // if pageSubnav exists
 if (pageSubnav) {
     pageSubnavObserver.observe(pageSubnav);
@@ -14902,15 +14917,16 @@ const ISISection = document.querySelector(".isi-inPageHeader.isi-header");
 const ISIObserver = new IntersectionObserver(function (entries, observer) {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            showFloatingSubnav = true
+            showStikySubnav = true
         } else {
 
             if (entry.boundingClientRect.top < 0) {
-                showFloatingSubnav = false
+                showStikySubnav = false
             }
         }
     })
 }, { ...observerOptions, rootMargin: '0px', threshold: 1 })
+
 if (ISISection) {
     ISIObserver.observe(ISISection);
 }
