@@ -14871,7 +14871,7 @@ $(window).scroll(function () {
             floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
         } else {
             mobileHeader.classList.remove("mobile-header--visible")
-            mobileHeader.classList.remove("mobile-header--hiddent")
+            mobileHeader.classList.remove("mobile-header--hidden")
             floatingSubnav !== null && floatingSubnav.classList.remove("floating-subnav--opened")
         }
         lastScroll = currentScroll <= 0 ? 0 : currentScroll;
