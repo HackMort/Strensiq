@@ -11518,7 +11518,7 @@ select.selectpicker {
   color: var(--dark-green);
   /* font-size: 28px !important; */
   font-size: 45px;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .hpp-dtc-life-with__content {

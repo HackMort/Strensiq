@@ -1,6 +1,6 @@
 .hpp-spl-heading {
     text-align: left;
-    font: normal normal bold 30px/22px Druk;
+    font: normal 30px/22px Druk;
     letter-spacing: 0.44px;
     color: #005D55;
     text-transform: uppercase;
@@ -23,7 +23,7 @@
     letter-spacing: 1.22px !important;
     line-height: 42px !important;
     color: #005D55 !important;
-    font-weight: bold !important;
+    /* font-weight: bold !important; */
 }
 
 .hpp-alp-p {
@@ -672,7 +672,7 @@
     }
 
     .hpp-dtc-m-hero .content.wishpp-hero-box__container {
-        margin-top: 21rem !important;
+        margin-top: 19.5rem !important;
     }
 
     .content-holder.two-cols-hpp.endocrinologists-container {
@@ -682,7 +682,7 @@
 
 @media (min-width: 426px) and (max-width: 768px) {
     .hpp-dtc-m-hero .content.wishpp-hero-box__container {
-        margin-top: 24.6rem !important;
+        margin-top: 19.5rem !important;
     }
 
     .content-holder.two-cols-hpp.endocrinologists-container {

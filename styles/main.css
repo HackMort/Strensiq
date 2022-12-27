@@ -7673,7 +7673,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
         position: relative;
-        top: 40px;
+        top: 20px;
     }
 
     .index-hero-box__container {
@@ -7696,7 +7696,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media screen and (max-width: 767px) {
     .hpp-dtc-m-hero .content {
-        margin-top: 24rem !important;
+        margin-top: 21rem !important;
         z-index: 2;
     }
 }
