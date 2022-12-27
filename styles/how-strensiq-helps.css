@@ -112,7 +112,7 @@
 .how-sq-helps h4 {
     /* font-family: 'azo-sans-web', sans-serif; */
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     line-height: 32px;
     margin-bottom: 20px;
 }
@@ -121,6 +121,7 @@
     font-family: 'azo-sans-web', sans-serif;
     margin-top: 15px;
     margin-bottom: 0px !important;
+    font-weight: 600;
 }
 
 .how-sq-helps .btn--primary--video .wistia_click_to_play:before,
@@ -154,7 +155,7 @@
     border-radius: 50%;
     background: #f8f8f8;
     z-index: 99;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 28px;
     line-height: 35px;
     display: grid;
@@ -720,6 +721,7 @@ div.iq.sq-callout .callout {
 
 [data-module=FullStack] h2 {
     font-size: 42px !important;
+    font-weight: normal;
     letter-spacing: 1.22px !important;
 }
 

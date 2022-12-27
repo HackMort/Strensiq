@@ -2339,6 +2339,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 }
 
 .hpp-dtc-m-hpp-patient-support__content h2 {
+    font-weight: normal;
     margin-bottom: 1.3rem
 }
 
@@ -2734,6 +2735,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 .hpp-dtc-looking-for-resources__content .title {
     color: var(--custom-yellow);
     font-size: 45px;
+    font-weight: normal;
     margin-bottom: 2.5rem
 }
 
