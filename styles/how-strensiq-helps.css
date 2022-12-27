@@ -197,6 +197,12 @@
     transform: rotate(44deg);
 }
 
+.how-sq-helps[data-module=Numbers] .numberwheel .fill.fill100,
+.how-sq-helps[data-module=Numbers] .numberwheel .mask.full.full-100 {
+    animation: fillfull ease-in-out 3s;
+    transform: rotate(180deg);
+}
+
 .small-text {
     font-size: 14px;
     line-height: 21px;
