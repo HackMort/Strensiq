@@ -7,7 +7,7 @@
 }
 
 .mainTitle {
-    font-weight: 700;
+    font-weight: normal;
     line-height: 1;
     font-family: 'Druk-bold', Arial, sans-serif;
     margin-bottom: 0;
@@ -95,8 +95,13 @@
     position: relative;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+    .hpp-dtc-m-hero .content {
+        margin-top: 24rem !important;
+    }
+}
 
+@media (min-width: 320px) and (max-width: 767px) {
     .lg-curve {
         display: none;
     }
@@ -198,7 +203,7 @@
 
 @media screen and (min-width: 992px) {
 
-    .hpp-dtc-m-starter-kit__content__area__modal { 
+    .hpp-dtc-m-starter-kit__content__area__modal {
         position: absolute;
     }
 
