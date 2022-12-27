@@ -1,3 +1,11 @@
+[data-module=CenteredFullStack].howitsdosed .t-headline,
+.iconpanel .subhead,
+.iconpanel h5,
+.tips-for-smooth-injection-heading,
+.resources-injection-heading {
+    font-weight: normal !important;
+}
+
 .hpp-how-touse-strensiq .hpp-dtc-m-hero .content {
     padding: 0px 0px !important;
 }
@@ -280,7 +288,7 @@
 
 .what-to-do h3 {
     text-align: left;
-    font: normal normal bold 28px/32px Druk-bold;
+    font: normal normal 28px/32px Druk-bold;
     letter-spacing: 0.84px;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -307,7 +315,7 @@
 
 .managing-isrs h3 {
     text-align: left;
-    font: normal normal bold 28px/32px Druk-bold;
+    font: normal normal 28px/32px Druk-bold;
     letter-spacing: 0.84px;
     color: #005D55;
     opacity: 1;
@@ -321,7 +329,7 @@
 
 .strensiq-injection-background .subhead {
     text-align: left;
-    font: normal normal bold 20px/32px Azo Sans;
+    font: normal normal 20px/32px Azo Sans;
     font-family: 'azo-sans-web';
     letter-spacing: 0.2px;
     color: #69BE28;
@@ -349,7 +357,7 @@
 
 .looking-for-strensiq .title {
     text-align: left;
-    font: normal normal bold 45px/42px druk-bold;
+    font: normal normal 45px/42px druk-bold;
     letter-spacing: .1rem;
     color: #DFDF00;
     text-transform: uppercase;
@@ -877,6 +885,12 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .hpp-dtc-m-hero .content.how-to-use-hero-box__container {
+        margin-top: 17rem !important;
+    }
+}
+
 @media (min-width: 230px) and (max-width: 767px) {
 
     .header.upper {
@@ -1278,7 +1292,7 @@
     }
 
     .injection-sites .injection-sites__description {
-        padding: 0 128px;
+        padding: 0 20px;
     }
 
     .injection-sites .injection-sites__description h5,

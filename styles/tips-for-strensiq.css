@@ -2,10 +2,15 @@ a {
     text-decoration: none;
 }
 
+.h4 {
+    font-weight: normal;
+}
+
 .mainTitle {
     font-weight: 700;
     line-height: 1;
     font-family: 'Druk-bold', Arial, sans-serif;
+    font-weight: normal;
     margin-bottom: 0;
     letter-spacing: 2px;
     color: #005d55;
@@ -176,7 +181,7 @@ a {
     }
 
     .hpp-dtc-m-hero .content {
-        margin-top: 23.5rem !important;
+        margin-top: 19rem !important;
     }
 }
 
@@ -194,7 +199,7 @@ a {
     }
 
     .hpp-dtc-m-hero.internal-hero .content.cw {
-        margin-top: 16rem !important;
+        margin-top: 13.5rem !important;
     }
 
     .hpp-dtc-icons-panel__content .content-holder .secondary-content {

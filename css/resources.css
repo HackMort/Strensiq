@@ -65,6 +65,7 @@
 
 .mainheading {
     font-size: 45px !important;
+    font-weight: normal;
     margin: 0 0 50px !important;
 }
 
@@ -422,21 +423,21 @@
     }
 
     .hpp-dtc-m-hero .content {
-        margin-top: 16rem !important;
+        margin-top: 10rem !important;
     }
 }
 
 @media screen and (min-width: 375px) {
 
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
-        top: -110px;
+        top: -140px;
     }
 }
 
 @media screen and (min-width: 425px) {
 
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
-        top: -110px;
+        top: -140px;
     }
 }
 
@@ -476,7 +477,7 @@
     }
 
     .heecol.hpp-dtc-m-hero .content {
-        margin-top: 7rem !important;
+        margin-top: 5.5rem !important;
     }
 
     .hpp-dtc-m-hpp-patient-advocacy {
@@ -576,11 +577,11 @@
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
-        top: -115px !important;
+        top: -140px !important;
     }
 
     .content.resources-hero-box__container {
-        margin-top: 18rem !important;
+        margin-top: 10rem !important;
     }
 
     .hpp-dtc-life-with__content.container .content-holder {

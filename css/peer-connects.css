@@ -2,6 +2,10 @@
     padding: 0 1rem !important;
 }
 
+.h2 {
+    font-weight: normal;
+}
+
 .hpp-dtc-m-hpp-patient-support-form_form .btn {
     font-family: azo-sans-web, Arial, sans-serif;
     color: var(--dark-green);
@@ -287,7 +291,8 @@ form .select-wrap:after {
 
 @media screen and (max-width: 1023px) {
     .hpp-dtc-m-hero.internal-hero .hero-bg img {
-        top: -110px;
+        top: -95px;
+        object-position: top;
     }
 }
 

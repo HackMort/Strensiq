@@ -80,6 +80,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .hpp-dtc-m-hero .content {
+    margin-top: 18.5rem !important;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .sign-up-hero[data-module=HeroModule] .HeroCalloutCntr:after {
     /* display: block; */
