@@ -7955,6 +7955,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     top: 15px;
 }
 
+
 #cookieModal .btn {
     font-family: azo-sans-web, Arial, sans-serif;
     color: #00a8e1;
@@ -7973,6 +7974,13 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     z-index: 2;
     cursor: pointer;
     text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+#cookieModal .btn:hover,
+#cookieModal .btn:focus {
+    color: #FFFFFF;
+    background: #00a8e1;
 }
 
 @media (min-width: 1024px) {
