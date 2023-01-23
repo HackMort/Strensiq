@@ -8169,18 +8169,6 @@ button.w-vulcan-v2-button {
     display: none !important;
 }
 
-*::-webkit-scrollbar {
-    width: 2px;
-}
-
-*::-webkit-scrollbar-track {
-    display: none;
-}
-
-*::-webkit-scrollbar-thumb {
-    background-color: var(--dark-green);
-}
-
 #ISI .isi-showmore span.t-accent-green,
 #ISI .isi-showless span.t-accent-green {
     font-size: 24px !important;
@@ -8188,4 +8176,8 @@ button.w-vulcan-v2-button {
 
 .alexion-hyperlink {
     color: #00a8e1 !important;
+}
+
+.isi-inPage--first-child {
+    padding-top: 20px !important;
 }

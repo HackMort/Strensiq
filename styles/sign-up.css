@@ -137,7 +137,6 @@
 
 @media (min-width: 992px) and (max-width: 1024px) {
   .hpp-dtc-m-hpp-patient-support-form {
-    margin-top: -2rem;
     background: white;
     z-index: 2;
     position: relative;
