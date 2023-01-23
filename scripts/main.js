@@ -15453,3 +15453,45 @@ $(document).on('click', '[data-cookie]', function (e) {
     $('[role="main"]').css('margin-top', '0');
     $('.navbar-toggle, .site-header .get-cta').removeClass('no-cookie')
 })
+
+// Modal Functionality only all links with target="_blank" are affected
+/* The above code is adding an event listener to all links that have a target of
+_blank. When the link is clicked, the event is stopped and the modal is shown.
+When the modal is shown, the confirm button is added an event listener that
+opens the link in a new tab. */
+$('a[href*="https://"]').click(function (e) {
+    
+    /**
+     * It returns an object with the href and target of the first link it finds in the
+     * DOM tree.
+     * @param element {HTMLElement} - The element that was clicked.
+     * @returns {{href: string, target: string}} an object with two properties: href and target.
+     */
+    const getRedirectInfo = function(element) {
+        const href = element.href;
+        const target = element.target || '_self';
+        if (href) {
+            return {href, target}
+        } else {
+            return getRedirectInfo(element.parentElement)
+        }
+    }
+
+    const {href, target} = getRedirectInfo(e.target);
+    e.preventDefault();
+    e.stopPropagation();
+    $('#cookieModal').modal('show');
+
+    const confirmButton = document.querySelector('#cookieModal .confirm-button');
+    
+    /* Adding an event listener to the confirm button. When the button is clicked, the
+    event is prevented from propagating and the default action is prevented. Then
+    the window is opened with the href and target attributes. Finally, the modal is
+    hidden. */
+    confirmButton.addEventListener('click', (buttonEvent) => {
+        buttonEvent.preventDefault();
+        buttonEvent.stopPropagation();
+        window.open(href, target);
+        $('#cookieModal').modal('hide');
+    });
+});
