@@ -175,8 +175,7 @@
 
 .resources-injection-site .subhead {
     text-align: left;
-    font-family: Azo Sans, Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: "A750-Sans", Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0.2px;
@@ -334,6 +333,8 @@
     letter-spacing: 0.2px;
     color: #69BE28;
     margin-bottom: 5px;
+
+    font-weight: 600;
 }
 
 .strensiq-injection-heading {
@@ -1097,7 +1098,7 @@
 
 @media (max-width: 1023px) {
     .tips-image-size {
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
     }
 
     [data-module=PageSubnav] {

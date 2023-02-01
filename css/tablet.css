@@ -199,6 +199,7 @@
 
     .hpp-dtc-lets-connect_form .message {
         max-width: 100%;
+        justify-content: center;
     }
 
     .hpp-dtc-life-with__content .content {
