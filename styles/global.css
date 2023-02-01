@@ -41,6 +41,10 @@ a[href^=tel] {
   resize: none
 }
 
+input[type="checkbox"].reset {
+    border: 0;
+}
+
 input:active:-ms-input-placeholder,
 input:focus:-ms-input-placeholder,
 select:active:-ms-input-placeholder,

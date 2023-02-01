@@ -8189,3 +8189,74 @@ button.w-vulcan-v2-button {
 .isi-inPage--first-child {
     padding-top: 20px !important;
 }
+
+/* ##################### New Fixes ################################## */
+
+/* Index hero */
+.container.content.index-hero-box__container {
+    margin-top: 20rem !important;
+}
+
+@media screen and (min-width: 433px) {
+    .container.content.index-hero-box__container {
+        margin-top: 25rem !important;
+    }
+}
+
+@media screen and (min-width: 449px) {
+    .container.content.index-hero-box__container {
+        margin-top: 26rem !important;
+    }
+}
+
+@media screen and (min-width: 485px) {
+    .container.content.index-hero-box__container {
+        margin-top: 29rem !important;
+    }
+}
+
+@media screen and (min-width: 521px) {
+    .container.content.index-hero-box__container {
+        margin-top: 31rem !important;
+    }
+}
+
+@media screen and (min-width: 563px) {
+    .container.content.index-hero-box__container {
+        margin-top: 34rem !important;
+    }
+}
+
+@media screen and (min-width: 579px) {
+    .container.content.index-hero-box__container {
+        margin-top: 37rem !important;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .container.content.index-hero-box__container {
+        margin-top: 42rem !important;
+    }
+}
+
+@media screen and (min-width: 655px) {
+    .container.content.index-hero-box__container {
+        margin-top: 44rem !important;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .container.content.index-hero-box__container {
+        margin-top: 46rem !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container.content.index-hero-box__container {
+        margin-top: 20rem !important;
+    }
+}
+
+/* Index hero */
+
+/* ##################### New Fixes ################################## */
