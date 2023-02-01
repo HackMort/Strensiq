@@ -90,15 +90,21 @@
     }
 }
 
-@media (min-width:0px) and (max-width:1023px) {
-    .skeletonarea {
-        max-width: 300px;
-        margin: 0 auto;
-    }
+.skeletonarea {
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 0 auto;
+}
 
-    .skeletonarea img {
-        max-width: 180px;
-        margin-top: 20px;
+.skeletonarea img {
+    max-width: 180px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .skeletonarea {
+        max-width: 302px;
     }
 }
 
@@ -106,7 +112,7 @@
     content: "";
     position: absolute;
     top: 0;
-    left: -50%;
+    left: -25%;
     width: 200%;
     height: 100%;
     background: hsla(0, 0%, 97%, .5);
@@ -246,19 +252,17 @@
     width: 82px;
 }
 
-@media (min-width:0px) and (max-width:1023px) {
-    .skeletonarea .spancallout:first-of-type {
-        top: 35px;
-        left: -20px;
-    }
+.skeletonarea .spancallout:first-of-type {
+    top: 35px;
+    left: -20px;
+}
 
-    .skeletonarea .spancallout:first-of-type span {
-        max-width: 60px;
-    }
+.skeletonarea .spancallout:first-of-type span {
+    max-width: 60px;
+}
 
-    .skeletonarea .spancallout:first-of-type:after {
-        width: 60px;
-    }
+.skeletonarea .spancallout:first-of-type:after {
+    width: 60px;
 }
 
 .skeletonarea .spancallout:nth-of-type(2) {
@@ -270,19 +274,17 @@
     width: 104px;
 }
 
-@media (min-width:0px) and (max-width:1023px) {
-    .skeletonarea .spancallout:nth-of-type(2) {
-        right: -20px;
-        top: 95px;
-    }
+.skeletonarea .spancallout:nth-of-type(2) {
+    right: -20px;
+    top: 95px;
+}
 
-    .skeletonarea .spancallout:nth-of-type(2) span {
-        max-width: 60px;
-    }
+.skeletonarea .spancallout:nth-of-type(2) span {
+    max-width: 60px;
+}
 
-    .skeletonarea .spancallout:nth-of-type(2):after {
-        width: 70px;
-    }
+.skeletonarea .spancallout:nth-of-type(2):after {
+    width: 70px;
 }
 
 .skeletonarea .spancallout:nth-of-type(3) {
@@ -294,19 +296,17 @@
     width: 82px;
 }
 
-@media (min-width:0px) and (max-width:1023px) {
-    .skeletonarea .spancallout:nth-of-type(3) {
-        top: 150px;
-        right: -10px;
-    }
+.skeletonarea .spancallout:nth-of-type(3) {
+    top: 150px;
+    right: -10px;
+}
 
-    .skeletonarea .spancallout:nth-of-type(3) span {
-        max-width: 46px;
-    }
+.skeletonarea .spancallout:nth-of-type(3) span {
+    max-width: 46px;
+}
 
-    .skeletonarea .spancallout:nth-of-type(3):after {
-        width: 55px;
-    }
+.skeletonarea .spancallout:nth-of-type(3):after {
+    width: 55px;
 }
 
 .skeletonarea .spancallout:nth-of-type(4) {
@@ -318,15 +318,13 @@
     width: 115px;
 }
 
-@media (min-width:0px) and (max-width:1023px) {
-    .skeletonarea .spancallout:nth-of-type(4) {
-        top: 242px;
-        left: -5px;
-    }
+.skeletonarea .spancallout:nth-of-type(4) {
+    top: 242px;
+    left: -26px;
+}
 
-    .skeletonarea .spancallout:nth-of-type(4):after {
-        width: 43px;
-    }
+.skeletonarea .spancallout:nth-of-type(4):after {
+    width: 64px;
 }
 
 .skeletonarea .spancallout:nth-of-type(5) {
@@ -338,38 +336,35 @@
     width: 70px;
 }
 
-@media (min-width:0px) and (max-width:1023px) {
-    .skeletonarea .spancallout:nth-of-type(5) {
-        top: 358px;
-        right: -22px;
-    }
-
-    .skeletonarea .spancallout:nth-of-type(5) span {
-        max-width: 55px;
-    }
-
-    .skeletonarea .spancallout:nth-of-type(5):after {
-        width: 50px;
-    }
+.skeletonarea .spancallout:nth-of-type(5) {
+    top: 358px;
+    right: -22px;
 }
 
-.skeletonarea .spancallout:nth-of-type(6) {
-    top: 485px;
-    left: 24px;
+.skeletonarea .spancallout:nth-of-type(5) span {
+    max-width: 55px;
+}
+
+.skeletonarea .spancallout:nth-of-type(5):after {
+    width: 50px;
 }
 
 .skeletonarea .spancallout:nth-of-type(6):after {
     width: 90px;
 }
 
-@media (min-width:0px) and (max-width:1023px) {
-    .skeletonarea .spancallout:nth-of-type(6) {
-        top: 465px;
-        left: 0;
-    }
+.skeletonarea .spancallout:nth-of-type(6) {
+    top: 465px;
+    left: 0;
+}
 
+.skeletonarea .spancallout:nth-of-type(6):after {
+    width: 43px;
+}
+
+@media screen and (min-width: 1024px) {
     .skeletonarea .spancallout:nth-of-type(6):after {
-        width: 43px;
+        width: 38px;
     }
 }
 
@@ -955,3 +950,122 @@
         margin-left: 0px;
     }
 }
+
+
+
+/* What is HPP hero page */
+
+@media screen and (min-width: 653px) {
+    .container.content.wishpp-hero-box__container {
+        margin-top: 22.5rem !important;
+    }
+
+}
+
+@media screen and (min-width: 653px) and (max-width: 766px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: 32rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .container.content.wishpp-hero-box__container {
+        margin-top: 23.5rem !important;
+    }
+}
+
+@media screen and (min-width: 746px) {
+    .container.content.wishpp-hero-box__container {
+        margin-top: 24.5rem !important;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .container.content.wishpp-hero-box__container {
+        margin-top: 24.5rem !important;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: 37rem;
+        object-position: 0% 66% !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container.content.wishpp-hero-box__container {
+        margin-top: 18rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container.content.wishpp-hero-box__container {
+        margin-top: 13rem !important;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .skeletonarea .spancallout:nth-of-type(4) {
+        top: 242px;
+        left: -53px;
+    }
+
+    .skeletonarea .spancallout:nth-of-type(4):after {
+        width: 90px;
+    }
+}
+
+/* What is HPP hero page */
+
+/* HPP Symptoms throughout a person’s life section */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hpp-dtc-icons-panel__content .content-holder .image-holder {
+        text-align: center;
+    }
+
+    .container.secondary-content .image-holder .logo {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hpp-dtc-icons-panel__content .content-holder .secondary-content:last-child,
+    .hpp-dtc-icons-panel__content .content-holder .secondary-content {
+        padding: 0;
+        max-width: 90%;
+        margin: 4rem auto 1rem;
+        padding-bottom: 5rem;
+    }
+
+    .hpp-dtc-icons-panel .container {
+        padding: 0rem .9375rem;
+    }
+}
+
+@media screen and (min-width: 653px) {
+    .hpp-dtc-m-hero .content {
+        margin-top: 22rem !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hpp-dtc-m-hero .content {
+        margin-top: 26rem !important;
+    }
+}
+
+.hpp-dtc-icons-panel-wrapper {
+    margin-top: 6rem;
+}
+
+#specialistswhocanhelp {
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hpp-flex .content {
+        margin-top: 5px !important;
+    }
+}
+/* HPP Symptoms throughout a person’s life section */

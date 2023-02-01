@@ -369,3 +369,140 @@
         margin-bottom: 70px;
     }
 }
+
+@media screen and (min-width: 425px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: 30.4rem;
+    }
+
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 22rem !important;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: 33.4rem;
+    }
+
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 24rem !important;
+    }
+}
+
+@media screen and (min-width: 629px) {
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 25rem !important;
+    }
+}
+
+@media screen and (min-width: 685px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: 38.4rem;
+    }
+
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 29rem !important;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: auto;
+    }
+
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 24rem !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: 100%;
+    }
+
+    .how-sq-helps[data-module=HeroModule].hpp-dtc-m-hero .content {
+        margin-top: 14.1rem !important;
+    }
+}
+
+/* Replace what's missing */
+.hpp-dtc-m-hero.internal-hero .hero-bg img {
+    object-position: 40%;
+    height: 32.4rem;
+}
+
+.hpp-dtc-m-hero.internal-hero .content {
+    margin-top: 25rem !important;
+}
+
+@media screen and (min-width: 767px) {
+    .hpp-dtc-m-hero .content {
+        margin-top: 21rem !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hpp-dtc-m-hero.internal-hero .content {
+        margin-top: 24.6rem !important;
+    }
+}
+
+@media screen and (min-width: 864px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: 35.4rem;
+    }
+
+    .hpp-dtc-m-hero.internal-hero .content {
+        margin-top: 26.6rem !important;
+    }
+}
+
+@media screen and (min-width: 937px) {
+    .hpp-dtc-m-hero.internal-hero .content {
+        margin-top: 27.6rem !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        height: 100%;
+        max-height: 608px;
+        object-position: 75%;
+    }
+
+    .hpp-dtc-m-hero.internal-hero .content {
+        margin-top: 14.1rem !important;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
+        max-width: 60%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .custom-max-width {
+        max-width: 1286px;
+    }
+
+    .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
+        max-width: 53.8rem;
+    }
+
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        max-height: 677px;
+    }
+}
+
+@media screen and (min-width: 2027px) {
+    .hpp-dtc-m-hero.internal-hero .hero-bg img {
+        max-height: 772px;
+    }
+}
+/* Replace what's missing */

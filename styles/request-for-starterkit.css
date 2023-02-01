@@ -175,7 +175,7 @@
     }
 
     .hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero .content {
-        margin-top: 25rem !important;
+        margin-top: 23rem !important;
     }
 
     .hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero .hero-bg img {
@@ -318,3 +318,72 @@
         text-align: left;
     }
 }
+
+/* Hero */
+@media screen and (min-width: 491px) {
+    /* Hero image */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.HeroCalloutCntr.hero-bg > picture > img {
+        height: fit-content;
+    }
+
+    /* Green box */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.row.mx-0 > div {
+        margin-top: 28rem !important;
+    }
+}
+
+@media screen and (min-width: 491px) {
+    /* Green box */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.row.mx-0 > div {
+        margin-top: 30rem !important;
+    }
+}
+
+@media screen and (min-width: 589px) {
+    /* Green box */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.row.mx-0 > div {
+        margin-top: 33rem !important;
+    }
+}
+
+@media screen and (min-width: 649px) {
+    /* Green box */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.row.mx-0 > div {
+        margin-top: 36rem !important;
+    }
+}
+
+@media screen and (min-width: 723px) {
+    /* Green box */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.row.mx-0 > div {
+        margin-top: 39rem !important;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    /* Green box */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.row.mx-0 > div {
+        margin-top: 35rem !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Green box */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.row.mx-0 > div {
+        margin-top: 24rem !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* Hero image */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.HeroCalloutCntr.hero-bg > picture > img {
+        max-height: fit-content;
+        height: 100%;
+    }
+
+    /* Green box */
+    body > div:nth-child(6) > section.hpp-dtc-m-hero.position-relative.internal-hero.starting-strensiq-hero > div.row.mx-0 > div {
+        margin-top: 14rem !important;
+    }
+}
+/* Hero */

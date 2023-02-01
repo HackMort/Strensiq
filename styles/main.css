@@ -4401,7 +4401,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 .hpp-dtc-lets-connect_form .thank-you .intro .d-flex .square {
     height: 1rem;
     width: 1rem;
-    margin-top: .5rem
+    margin-top: .75rem
 }
 
 .hpp-dtc-lets-connect_form .form .intro_infoTitle,
@@ -6966,8 +6966,9 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
         font-size: 1.8rem;
         letter-spacing: .018rem;
         line-height: 2rem;
-        width: 37.2rem;
-        margin: 0 3rem 2rem 8rem
+        width: 100%;
+        max-width: 35rem;
+        margin: 0 0rem 2rem 4rem
     }
 
     .hpp-dtc-p-home .hpp-dtc-lets-connect .step-3 .question .text::before {
@@ -8015,7 +8016,7 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
 
 @media (max-width: 1023px) {
     #cookieModal .modal-dialog {
-        top: 25%;
+        top: 50%;
     }
 }
 
@@ -8262,5 +8263,27 @@ button.w-vulcan-v2-button {
 }
 
 /* Index hero */
+
+/* Index quiz */
+@media screen and (min-width: 600px) {
+    .hpp-dtc-lets-connect_cards .card .description {
+        font-size: 18px;
+    }
+}
+#questions .card .description,
+#magnify .card .description,
+#medical .card .description {
+    text-align: left;
+}
+
+@supports (-webkit-touch-callout: none) and (not (translate: none)) {
+    #questions .card .icon.check
+    #magnify .card .icon.check,
+    #medical .card .icon.check {
+        margin-left: 2rem;
+    }
+}
+
+/* Index quiz */
 
 /* ##################### New Fixes ################################## */
