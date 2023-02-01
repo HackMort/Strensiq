@@ -6985,6 +6985,10 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     }
 }
 
+#quiz .card {
+    padding: 2.5rem 0;
+}
+
 @media screen and (max-width:767px) {
 
     .hpp-dtc-p-home .hpp-dtc-lets-connect_slide-pagination .next,
@@ -6993,23 +6997,23 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     }
 
     #quiz .card {
-        align-items: stretch;
+        /* align-items: stretch; */
     }
 
     .hpp-dtc-lets-connect_cards.step-1 .card .icon-question {
-        padding: 50px 0px 50px 0px;
+        /* padding: 50px 0px 50px 0px; */
     }
 
     .hpp-dtc-lets-connect_cards.step-1 .card .icon-magnifying {
-        padding: 64px 0px 46px 0px;
+        /* padding: 64px 0px 46px 0px; */
     }
 
     .hpp-dtc-lets-connect_cards.step-1 .card .icon-medical {
-        padding: 78px 0px 46px 0px;
+        /* padding: 78px 0px 46px 0px; */
     }
 
     .hpp-dtc-lets-connect_cards.step-1 .card .description {
-        margin: 2rem 1rem;
+        margin: 1rem;
     }
 
     .hpp-dtc-lets-connect_cards.step-1 .card .icon .img {
