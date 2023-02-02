@@ -175,8 +175,7 @@
 
 .resources-injection-site .subhead {
     text-align: left;
-    font-family: Azo Sans, Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: "A750-Sans", Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0.2px;
@@ -329,11 +328,13 @@
 
 .strensiq-injection-background .subhead {
     text-align: left;
-    font: normal normal 20px/32px Azo Sans;
-    font-family: 'azo-sans-web';
+    font: normal normal 20px/32px 'A750-Sans';
+    font-family: 'A750-Sans';
     letter-spacing: 0.2px;
     color: #69BE28;
     margin-bottom: 5px;
+
+    font-weight: 600;
 }
 
 .strensiq-injection-heading {
@@ -423,7 +424,13 @@
     justify-content: center;
     align-items: center;
 
-    gap: 3rem;
+    gap: 5rem;
+}
+
+@supports (-webkit-touch-callout: none) and (not (translate: none)) {
+    #injectiontips > div > div.l-row.u-mt-3.tips-for-smooth-injection > div.l-col.l-col-5.l-col-push-1.l-col-12--md.l-col-push-0--md.t-center.injection-sites__container > div > picture {
+        margin-bottom: 5rem;
+    }
 }
 
 .injection-sites .injection-sites__description {
@@ -895,7 +902,7 @@
 
     .header.upper {
         font-size: 42px !important;
-        letter-spacing: 1.22px !important;
+        letter-spacing: 1px !important;
     }
 
     .hpp-dtc-m-hero.internal-hero.live-with-confidence-hero .content .hero-box {
@@ -1097,7 +1104,7 @@
 
 @media (max-width: 1023px) {
     .tips-image-size {
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
     }
 
     [data-module=PageSubnav] {
@@ -1364,5 +1371,37 @@
 @media (min-width: 1024px) {
     [data-module=PageSubnav] .pagesubnavstickpoint {
         background-color: white;
+    }
+}
+
+#injectiontips > div > div.l-row.u-mt-3.tips-for-smooth-injection > div:nth-child(1) > div:nth-child(2),
+#injectiontips > div > div.l-row.u-mt-3.tips-for-smooth-injection > div:nth-child(1) > div.d-flex.align-items-center.tips-for-smooth-injection-left,
+#injectiontips > div > div.l-row.u-mt-3.tips-for-smooth-injection > div:nth-child(1) > div.d-flex.align-items-center.tips-for-smooth-injection-last {
+    align-items: flex-start !important;
+}
+
+#injectiontips > div > div.l-row.u-mt-3.tips-for-smooth-injection > div:nth-child(1) > div:nth-child(2) > img {
+    margin-top: 5px;
+}
+
+#injectiontips > div > div.l-row.u-mt-3.tips-for-smooth-injection > div:nth-child(1) > div:nth-child(2) > img,
+#injectiontips > div > div.l-row.u-mt-3.tips-for-smooth-injection > div:nth-child(1) > div.d-flex.align-items-center.tips-for-smooth-injection-left > img,
+#injectiontips > div > div.l-row.u-mt-3.tips-for-smooth-injection > div:nth-child(1) > div.d-flex.align-items-center.tips-for-smooth-injection-last > img {
+    max-width: 71.27px;
+}
+
+.normalized-sup {
+    font-size: 20px;
+    top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    #resources > div > div:nth-child(3) > div.l-col.l-col-6.l-col-push-1.l-col-6--md.l-col-push-0--md.l-col-12--sm > div.flex-adjust {
+        margin-top: 2.5rem;
+    }
+
+    body > div.hpp-how-touse-strensiq > div.strensiq-injection-background.container-fluid > div > div.l-row.u-mt-3 > div:nth-child(1) > div > div:nth-child(2) > p,
+    body > div.hpp-how-touse-strensiq > div.strensiq-injection-background.container-fluid > div > div.l-row.u-mt-3 > div:nth-child(1) > div > div:nth-child(3) > p {
+        font-size: 20px;
     }
 }

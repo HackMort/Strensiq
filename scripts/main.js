@@ -53,8 +53,8 @@
                 error: "Enter valid email"
             },
             zip: {
-                success: "Enter zip code",
-                error: "Enter valid zip code"
+                success: "Enter ZIP code",
+                error: "Enter valid ZIP code"
             },
             adress1: {
                 success: "Enter a street address",
@@ -90,8 +90,8 @@
                 error: "Enter email address"
             },
             zip: {
-                success: "Enter zip code",
-                error: "Enter zip code"
+                success: "Enter ZIP code",
+                error: "Enter ZIP code"
             },
             adress1: {
                 success: "Enter a street address",
@@ -15071,7 +15071,7 @@ function nextBtn() {
 
                     // Form header info
                     document.querySelector('.hpp-dtc-lets-connect_form .intro_infoTitle').innerHTML = 'Want information about HPP?';
-                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'Sign up for our Peer Connects program to talk to someone<br> impacted by HPP';
+                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'SIGN UP FOR OUR PEER CONNECTS PROGRAM TO TALK TO SOMEONE WHO IS TREATING WITH STRENSIQ';
                     document.querySelector('.sign-up .intro_subtitleContent').innerHTML = 'Peer Connects is a phone-based program that matches you with an HPP STAR who will share their story with you and can answer questions about HPP.';
                     document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR.';
 
@@ -15084,7 +15084,7 @@ function nextBtn() {
                     // Form header info
                     document.querySelector('.hpp-dtc-lets-connect_form .intro_infoTitle').innerHTML = 'Want information about HPP?';
                     document.querySelector('.attend-hpp .intro_subtitle').innerHTML = 'Attend an HPP Educational Event';
-                    document.querySelector('.attend-hpp .intro_subtitleContent').innerHTML = 'Register to attend an educational, no-cost HPP webinar	and/or live event. You’ll hear from someone whose life has been impacted by HPP, as well as a healthcare provider specializing in HPP.';
+                    document.querySelector('.attend-hpp .intro_subtitleContent').innerHTML = 'Register to attend an educational, no-cost HPP webinar and/or live event. You’ll hear from someone whose life has been impacted by HPP as well as a healthcare provider specializing in HPP.';
                     // document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR.';
                     document.querySelector('.hpp-dtc-lets-connect_form .register-now').style.display = 'block';
                     document.querySelector('.hpp-dtc-lets-connect_form .content').style.display = 'none';
@@ -15098,7 +15098,7 @@ function nextBtn() {
 
                     // Form header info
                     document.querySelector('.hpp-dtc-lets-connect_form .intro_infoTitle').innerHTML = 'Want information about HPP?';
-                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'Sign up for our Peer Connects program to talk to someone<br> impacted by HPP';
+                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'SIGN UP FOR OUR PEER CONNECTS PROGRAM TO TALK TO SOMEONE WHO IS TREATING WITH STRENSIQ';
                     document.querySelector('.sign-up .intro_subtitleContent').innerHTML = 'Peer Connects is a phone-based program that matches you with an HPP STAR who will share their story with you and can answer questions about HPP.';
                     document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR.';
 
@@ -15117,9 +15117,9 @@ function nextBtn() {
 
                     // Form header info
 
-                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'Sign up for our Peer Connects program to talk to someone<br> impacted by HPP';
+                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'SIGN UP FOR OUR PEER CONNECTS PROGRAM TO TALK TO SOMEONE WHO IS TREATING WITH STRENSIQ';
                     document.querySelector('.sign-up .intro_subtitleContent').innerHTML = 'Peer Connects is a phone-based program that matches you with an HPP STAR who will share their story with you and can answer questions about HPP.';
-                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR.';
+                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR and get in touch with a OneSource™ team member.';
                 }
                 if (step2OptionsSelected.includes(1)) {
                     document.querySelector('.hpp-dtc-lets-connect_form .connect-with-onesource').style.display = 'block';
@@ -15142,7 +15142,7 @@ function nextBtn() {
                     // Form header info
                     document.querySelector('.hpp-dtc-lets-connect_form .intro_infoTitle').innerHTML = 'Want information about starting treatment with strensiq?';
                     document.querySelector('.attend-hpp .intro_subtitle').innerHTML = 'Attend an HPP Educational Event';
-                    document.querySelector('.attend-hpp .intro_subtitleContent').innerHTML = 'Register to attend an educational, no-cost HPP webinar and/or live event. You’ll hear from someone whose life has been impacted by HPP, as well as a healthcare provider specializing in HPP.';
+                    document.querySelector('.attend-hpp .intro_subtitleContent').innerHTML = 'Register to attend an educational, no-cost HPP webinar and/or live event. You’ll hear from someone whose life has been impacted by HPP as well as a healthcare provider specializing in HPP.';
                     document.querySelector('.hpp-dtc-lets-connect_form .register-now').style.display = 'block';
                     document.querySelector('.hpp-dtc-lets-connect_form .content').style.display = 'none';
                 }
@@ -15155,7 +15155,7 @@ function nextBtn() {
                     // Form header info
                     document.querySelector('.hpp-dtc-lets-connect_form .intro_infoTitle').innerHTML = 'Want information about starting treatment with strensiq?';
                     document.querySelector('.request-starter-kit .intro_subtitle').innerHTML = 'REQUEST A STARTER KIT';
-                    document.querySelector('.request-starter-kit .intro_subtitleContent').innerHTML = 'Coping with HPP can be difficult but starting treatment shouldn’t have to be. The STRENSIQ Patient Starter Kit is equipped with tools to help familiarize you with STRENSIQ.';
+                    document.querySelector('.request-starter-kit .intro_subtitleContent').innerHTML = 'Coping with HPP can be difficult but administering treatment shouldn’t have to be. The STRENSIQ Patient Starter Kit is equipped with tools to help familiarize you with STRENSIQ.';
                     document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to request a STRENSIQ Patient Starter Kit if you have not already received one.';
                 }
 
@@ -15188,7 +15188,7 @@ function nextBtn() {
                     document.querySelector('#question3 p').innerHTML = "I think the Peer Connects program is a nice way to communicate with patients on a one-on-one basis, hear their story, share our story, and really just help people through their diagnosis.”";
                     document.querySelector('#question3 .autor').innerHTML = 'Becky, Caregiver HPP STAR';
 
-                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'SIGN UP FOR OUR PEER CONNECTS PROGRAM TO TALK TO SOMEONE IMPACTED BY HPP';
+                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'SIGN UP FOR OUR PEER CONNECTS PROGRAM TO TALK TO SOMEONE WHO IS TREATING WITH STRENSIQ';
                     document.querySelector('.sign-up .intro_subtitleContent').innerHTML = 'Peer Connects is a phone-based program that matches you with an HPP STAR who will share their story with you and can answer questions about HPP.';
                     document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR.';
 
@@ -15200,7 +15200,7 @@ function nextBtn() {
                     document.querySelector('#question3 span').innerHTML = 'Sharon, HPP STAR';
 
                     document.querySelector('.attend-hpp .intro_subtitle').innerHTML = 'ATTEND AN HPP EDUCATIONAL EVENT';
-                    document.querySelector('.attend-hpp .intro_subtitleContent').innerHTML = 'Register to attend an educational, no-cost HPP webinar and/or live event. You’ll hear from someone whose life has been impacted by HPP, as well as a healthcare provider specializing in HPP.';
+                    document.querySelector('.attend-hpp .intro_subtitleContent').innerHTML = 'Register to attend an educational, no-cost HPP webinar and/or live event. You’ll hear from someone whose life has been impacted by HPP as well as a healthcare provider specializing in HPP.';
                     document.querySelector('.hpp-dtc-lets-connect_form .register-now').style.display = 'block';
                     document.querySelector('.hpp-dtc-lets-connect_form .content').style.display = 'none';
                 }
@@ -15221,8 +15221,8 @@ function nextBtn() {
                     document.querySelector('#question3 .autor').innerHTML = 'Becky, Caregiver HPP STAR and Juliana, who lives with HPP';
 
                     document.querySelector('.request-starter-kit .intro_subtitle').innerHTML = 'REQUEST A STARTER KIT';
-                    document.querySelector('.request-starter-kit .intro_subtitleContent').innerHTML = 'Coping with HPP can be difficult but starting treatment shouldn’t have to be. The STRENSIQ Patient Starter Kit is equipped with tools to help familiarize you with STRENSIQ.';
-                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to request a STRENSIQ Patient Starter Kit. if you have not already received one.';
+                    document.querySelector('.request-starter-kit .intro_subtitleContent').innerHTML = 'Coping with HPP can be difficult but administering treatment shouldn’t have to be. The STRENSIQ Patient Starter Kit is equipped with tools to help familiarize you with STRENSIQ.';
+                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to request a STRENSIQ Patient Starter Kit if you have not already received one.';
                 }
                 if (step2OptionsSelected.length > 1) {
                     document.querySelector('#question3 img').setAttribute('src', 'images/global/becky.png');
@@ -15459,6 +15459,7 @@ $(document).on('click', '[data-cookie]', function (e) {
 _blank. When the link is clicked, the event is stopped and the modal is shown.
 When the modal is shown, the confirm button is added an event listener that
 opens the link in a new tab. */
+let redirection = {};
 $('a[href*="https://"]').click(function (e) {
     
     /**
@@ -15477,11 +15478,12 @@ $('a[href*="https://"]').click(function (e) {
         }
     }
 
-    const {href, target} = getRedirectInfo(e.target);
+    redirection = getRedirectInfo(e.target);
+
     e.preventDefault();
     e.stopPropagation();
     $('#cookieModal').modal('show');
-
+    
     const confirmButton = document.querySelector('#cookieModal .confirm-button');
     
     /* Adding an event listener to the confirm button. When the button is clicked, the
@@ -15491,7 +15493,7 @@ $('a[href*="https://"]').click(function (e) {
     confirmButton.addEventListener('click', (buttonEvent) => {
         buttonEvent.preventDefault();
         buttonEvent.stopPropagation();
-        window.open(href, target);
+        window.open(redirection.href, redirection.target);
         $('#cookieModal').modal('hide');
     });
 });
