@@ -135,6 +135,7 @@
 
 [data-module=Numbers] .title {
     font-family: 'azo-sans-web', sans-serif;
+    font-weight: 700;
 }
 
 [data-module=Numbers] .numberwheel .inside-circle {

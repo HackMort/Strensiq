@@ -15117,7 +15117,7 @@ function nextBtn() {
 
                     // Form header info
 
-                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'SIGN UP FOR OUR PEER CONNECTS PROGRAM TO TALK TO SOMEONE WHO IS TREATING WITH STRENSIQ';
+                    document.querySelector('.sign-up .intro_subtitle').innerHTML = 'SIGN UP FOR OUR PEER CONNECTS PROGRAM TO TALK TO SOMEONE IMPACTED BY HPP';
                     document.querySelector('.sign-up .intro_subtitleContent').innerHTML = 'Peer Connects is a phone-based program that matches you with an HPP STAR who will share their story with you and can answer questions about HPP.';
                     document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR and get in touch with a OneSource™ team member.';
                 }
@@ -15164,7 +15164,7 @@ function nextBtn() {
                     document.querySelector('#question3 p').innerHTML = "We all have our challenges, and HPP is mine. If I can help someone else because of my experiences, I am grateful.”";
                     document.querySelector('#question3 .autor').innerHTML = 'Sharon, HPP STAR';
                     document.querySelector('.hpp-dtc-lets-connect_form .content').style.display = 'block';
-                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR.';
+                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR and get in touch with a OneSource™ team member.';
                 }
 
                 if (step2OptionsSelected.includes(0) && step2OptionsSelected.includes(1)) {
