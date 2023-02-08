@@ -15460,7 +15460,7 @@ _blank. When the link is clicked, the event is stopped and the modal is shown.
 When the modal is shown, the confirm button is added an event listener that
 opens the link in a new tab. */
 let redirection = {};
-$('a[href*="https://"]').click(function (e) {
+$('a[href*="https://"]:not([href$=".pdf"]').click(function (e) {
     
     /**
      * It returns an object with the href and target of the first link it finds in the
