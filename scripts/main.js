@@ -15119,7 +15119,7 @@ function nextBtn() {
 
                     document.querySelector('.sign-up .intro_subtitle').innerHTML = 'SIGN UP FOR OUR PEER CONNECTS PROGRAM TO TALK TO SOMEONE IMPACTED BY HPP';
                     document.querySelector('.sign-up .intro_subtitleContent').innerHTML = 'Peer Connects is a phone-based program that matches you with an HPP STAR who will share their story with you and can answer questions about HPP.';
-                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR and get in touch with a OneSource™ team member.';
+                    document.querySelector('.hpp-dtc-lets-connect_form .instructions').innerHTML = 'Fill out the form below to connect with an HPP STAR.';
                 }
                 if (step2OptionsSelected.includes(1)) {
                     document.querySelector('.hpp-dtc-lets-connect_form .connect-with-onesource').style.display = 'block';
