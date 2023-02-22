@@ -15249,6 +15249,8 @@ function nextBtn() {
         document.querySelector('.hpp-dtc-lets-connect .main-title').style.display = 'none';
         document.querySelector('.hpp-dtc-lets-connect .lets-connect').style.display = 'none';
         document.querySelector('.hpp-dtc-lets-connect_form').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+        document.querySelector('.home-jump-button').href = '#quiz-result'
     }
 }
 function prevBtn() {
