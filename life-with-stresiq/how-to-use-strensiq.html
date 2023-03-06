@@ -508,7 +508,7 @@
                     </picture>
                 </div>
                 <div class="row mx-0">
-                    <div id="video" class="container col-12 content">
+                    <div id="how-to-inject-video" class="container col-12 content">
                         <div class="hero-box">
                             <h3 class="header upper">Strensiq Injection <br /> How-To</h3>
                             <div
@@ -1447,10 +1447,16 @@
 
             <script>
                 jQuery(document).ready(function ($) {
-                    if (window.location.hash == '#video') {
+                    if (window.location.hash == '#how-to-inject-video') {
                         $('html, body').animate({
-                            scrollTop: $("#video").offset().top - 100
+                            scrollTop: $("#how-to-inject-video").offset().top - 100
                         }, 1000);
+
+                        const howToPlayVideoButton = $("#how-to-inject-video .video-btn").get()[0]
+
+                        if (howToPlayVideoButton) {
+                            howToPlayVideoButton.click()
+                        }
                     }
                 });
             </script>
