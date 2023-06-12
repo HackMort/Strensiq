@@ -1,0 +1,12 @@
+[data-module=HeroModule] .HeroCalloutCntr:after {
+    display: none;
+    content: none;
+}
+
+.hpp-dtc-m-hero .hero-bg {
+    position: initial;
+}
+
+.hpp-dtc-m-hero.internal-hero .hero-bg img {
+    object-position: left;
+}
