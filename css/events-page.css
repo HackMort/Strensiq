@@ -3,6 +3,34 @@
     --swiper-navigation-top-offset: 30%;
 }
 
+.hidde {
+    display: none;
+}
+
+@media screen and (min-width: 375px) {
+    .xs\:block {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:hidde {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:block {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:inline {
+        display: inline;
+    }
+}
+
 button {
     background-color: transparent;
     background: transparent;
@@ -17,6 +45,15 @@ button {
     margin-right: auto;
 }
 
+.hpp-dtc-m-hero .hero-bg {
+    min-height: auto;
+}
+
+.hpp-dtc-m-hero .hero-bg img {
+    height: 100% !important;
+    max-height: none !important;
+}
+
 [data-module=HeroModule] .HeroCalloutCntr:after {
     display: none;
     content: none;
@@ -27,7 +64,7 @@ button {
 }
 
 .hpp-dtc-m-hero.internal-hero .hero-bg img {
-    object-position: left;
+    object-position: top left;
 }
 
 /* Hero */
@@ -36,17 +73,35 @@ button {
 }
 
 .how-sq-helps[data-module=HeroModule] picture {
-    height: 100%;
+    height: calc(300px + ((770 - 300) * ((100vw - 320px) / (1440 - 320))));
+    max-height: 770px;
     display: block;
 }
 
 [data-module=HeroModule] {
     flex-direction: column;
+    background: #ffffff;
+}
+
+@media screen and (min-width: 1366px) {
+    .hpp-dtc-m-hero.internal-hero {
+        min-height: auto;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    [data-module=HeroModule] {
+        display: block;
+        position: relative;
+    }
 }
 
 .hero__green-box-container {
     width: 100%;
     max-width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
 
     position: relative;
     z-index: 1;
@@ -54,17 +109,57 @@ button {
     margin-top: -80px;
 }
 
+@media screen and (min-width: 768px) {
+    .hero__green-box-container {
+        max-width: 676px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hero__green-box-container {
+        position: absolute;
+        right: 85px;
+        bottom: 110px;
+        display: flex;
+        align-items: flex-end;
+        width: calc(100vw - 216px);
+        max-width: initial;
+        justify-content: space-between;
+    }
+}
+
 .hero__green-box-container .hero__name {
     color: #ffffff;
     text-align: end;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 15.5904px;
+    font-size: 16px;
     font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__green-box-container .hero__name {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hero__green-box-container .hero__name {
+        text-align: left;
+        font-size: 33.76px;
+        line-height: 34.69px;
+        letter-spacing: 0.94px;
+    }
 }
 
 .hero__green-box-container .hero__green-box {
     background-color: #005D55;
+}
+
+@media screen and (min-width: 1366px) {
+    .hero__green-box-container .hero__green-box {
+        max-width: 676px;
+    }
 }
 
 .hero__green-box-container .hero__green-box .hero__green-box-wrapper {
@@ -76,6 +171,9 @@ button {
 
 .hero__green-box-container .hero__green-box .hero__green-box-wrapper .hero__green-box-header {
     display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
 }
 
 .hero__green-box-container .hero__green-box .hero__green-box-wrapper .hero__green-box-header .hero__green-box-title {
@@ -86,19 +184,32 @@ button {
     letter-spacing: 0.8px;
 
     color: #DFDF00;
-    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__green-box-container .hero__green-box .hero__green-box-wrapper .hero__green-box-header .hero__green-box-title {
+        font-size: 72px;
+        line-height: 72px;
+    }
 }
 
 .hero__green-box-container .hero__green-box .hero__green-box-wrapper .hero__green-box-header .hero__green-box-unmask-logo {
     width: 77.42px;
     height: 58.06px;
-    flex: 1 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__green-box-container .hero__green-box .hero__green-box-wrapper .hero__green-box-header .hero__green-box-unmask-logo {
+        width: 98.67px;
+        height: 74px;
+    }
 }
 
 .hero__green-box-container .hero__green-box .hero__green-box-wrapper .hero__green-box-content p {
     color: #ffffff;
     font-weight: 600;
-
+    font-size: 16px;
+    line-height: 27.2px;
     margin-bottom: 20px;
 }
 
@@ -107,6 +218,8 @@ button {
     background-color: #ffffff;
     border-radius: 4px;
     box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.15);
+
+    overflow: hidden;
 }
 
 
@@ -188,6 +301,8 @@ button {
     padding-right: 12px;
     padding-bottom: 12px;
     padding-left: 12px;
+
+    position: relative;
 }
 
 .event-card .event-card__wrapper .event-card__header {
@@ -254,6 +369,12 @@ button {
     border-right: solid .5px #5E5E5E;
 }
 
+@media screen and (max-width: 767px) {
+    .event-card:not(.event-card--expandable) .event-card__wrapper .event-card__header .event-card__info .event-card__place span:nth-child(2) {
+        border: none;
+    }
+}
+
 .event-card .event-card__wrapper .event-card__header .event-card__info .event-card__speaker {
     font-weight: 400;
     font-size: 12px;
@@ -263,6 +384,28 @@ button {
 .event-card .event-card__wrapper .event-card__actions {
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .event-card:not(.event-card--expandable) .event-card__wrapper .event-card__header {
+        margin-bottom: 0;
+    }
+
+    .event-card:not(.event-card--expandable) .event-card__wrapper .event-card__actions {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 48px;
+
+        display: block;
+    }
+
+    .event-card:not(.event-card--expandable) .event-card__wrapper .event-card__actions .event-card__register-button {
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .event-card .event-card__wrapper .event-card__actions .event-card__expand-button {
@@ -333,6 +476,28 @@ button {
     margin-top: 16px;
 }
 
+@media screen and (min-width: 1366px) {
+    .event-list-section {
+        margin-top: -77px;
+        position: relative;
+        z-index: 1;
+
+        border-top-left-radius: 120px;
+    }
+
+    .event-list-section::before {
+        position: absolute;
+        content: "";
+        bottom: 87%;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: #ffffff;
+        border-top-left-radius: 120px;
+        z-index: -1;
+    }
+}
+
 .event-list-section .event-list__p {
     font-weight: 400;
     font-size: 12px;
@@ -351,5 +516,14 @@ button {
         padding-right: 20px;
         padding-bottom: 26px;
         padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero__green-box-container .hero__green-box .hero__green-box-wrapper {
+        padding-top: 60px;
+        padding-right: 32px;
+        padding-bottom: 32px;
+        padding-left: 32px;
     }
 }
