@@ -25,8 +25,26 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .lg\:block {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lg\:hidde {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .md\:inline {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lg\:inline {
         display: inline;
     }
 }
@@ -43,6 +61,18 @@ button {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        max-width: 88%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .wrapper {
+        max-width: 1190px;
+    }
 }
 
 .hpp-dtc-m-hero .hero-bg {
@@ -217,11 +247,17 @@ button {
 .event-card {
     background-color: #ffffff;
     border-radius: 4px;
-    box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.15);
-
     overflow: hidden;
+
+    cursor: pointer;
+
+    transition: all 200ms ease-in-out;
 }
 
+.event-card:not(.event-card--expandable):hover {
+    box-shadow: 8px 4px 21px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
 
 .event-card a {
     font-weight: 700;
@@ -238,8 +274,17 @@ button {
     transition: 200ms height ease-in-out;
 }
 
+@media screen and (min-width: 1024px) {
+    .event-card .event-card__expandable-panel {
+        height: 100%;
+        max-height: 0px;
+
+        transition: 200ms max-height ease-in-out;
+    }
+}
+
 .event-card.event-card--expandable.expanded .event-card__expandable-panel {
-    height: 156px;
+    height: 175px;
     padding-top: 16px;
 }
 
@@ -275,6 +320,21 @@ button {
     padding: 0 3rem;
 }
 
+.expandable-panel-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 16px;
+}
+
+.expandable-panel-content>div {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.expandable-panel-content>div:first-of-type {
+    border-right: solid 1px #939393;
+}
+
 .content__title {
     font-weight: 700;
     font-size: 13.39px;
@@ -296,6 +356,15 @@ button {
     text-align: center;
 }
 
+@media screen and (min-width: 1024px) {
+
+    .content__title,
+    .content__paragraph,
+    .content__info {
+        text-align: left;
+    }
+}
+
 .event-card .event-card__wrapper {
     padding-top: 12px;
     padding-right: 12px;
@@ -308,6 +377,17 @@ button {
 .event-card .event-card__wrapper .event-card__header {
     display: flex;
     margin-bottom: 16px;
+}
+
+.event-card .event-card__wrapper .event-card__header .event-card__expand-button {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .event-card .event-card__wrapper .event-card__header .event-card__expand-button {
+        display: block;
+        margin-right: 24px;
+    }
 }
 
 .event-card .event-card__wrapper .event-card__header .event-card__date {
@@ -370,7 +450,7 @@ button {
 }
 
 @media screen and (max-width: 767px) {
-    .event-card:not(.event-card--expandable) .event-card__wrapper .event-card__header .event-card__info .event-card__place span:nth-child(2) {
+    .event-card .event-card__wrapper .event-card__header .event-card__info .event-card__place span:nth-child(2) {
         border: none;
     }
 }
@@ -413,7 +493,7 @@ button {
     height: 44px;
 }
 
-.event-card .event-card__wrapper .event-card__actions .event-card__expand-button img {
+.event-card .event-card__wrapper .event-card__expand-button img {
     transition: 200ms transform ease-in-out;
 }
 
@@ -442,6 +522,41 @@ button {
     background-color: #F1F1F1;
 }
 
+@media screen and (min-width: 1024px) {
+    .event-card.event-card--expandable {
+        background-color: #ffffff;
+    }
+
+    .event-card.event-card--expandable .event-card__wrapper .event-card__actions .event-card__register-button {
+        max-width: 122px;
+    }
+
+    .event-card.event-card--expandable:hover {
+        background: #DDFFC8;
+    }
+
+    .event-card.event-card--expandable:hover .event-card__expandable-panel {
+        max-height: 175px;
+        padding-top: 16px;
+        position: relative;
+    }
+
+    .event-card.event-card--expandable:hover .event-card__expandable-panel::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 14.34px;
+        opacity: 0.3;
+        background: linear-gradient(180deg, #8C8C8C 0%, rgba(238, 238, 238, 0) 56.67%);
+    }
+
+    .event-card.event-card--expandable:hover .event-card__expand-button img {
+        transform: rotate(180deg);
+    }
+}
+
 .event-card.event-card--expandable.expanded {
     outline: solid #939393 0.75px;
 }
@@ -454,7 +569,7 @@ button {
     content: "";
     position: absolute;
     top: 0;
-    left: ;
+    left: 0;
     width: 100%;
     height: 14.34px;
     opacity: 0.3;
@@ -470,6 +585,28 @@ button {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .event-card.event-card--expandable .event-card__header {
+        margin-bottom: 0;
+        align-items: center;
+    }
+
+    .event-card.event-card--expandable .event-card__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .event-card.event-card--expandable .event-card__actions {
+        flex: 1 0 auto;
+        justify-content: flex-end;
+    }
+
+    .event-card.event-card--expandable .event-card__actions .event-card__expand-button {
+        display: none;
+    }
+}
+
 /* Event card component */
 
 .event-list-section {
@@ -478,23 +615,43 @@ button {
 
 @media screen and (min-width: 1366px) {
     .event-list-section {
-        margin-top: -77px;
+        margin-top: -69px;
         position: relative;
         z-index: 1;
 
         border-top-left-radius: 120px;
+        padding-top: 55px;
     }
 
     .event-list-section::before {
         position: absolute;
         content: "";
-        bottom: 87%;
+        bottom: 85%;
         left: 0;
         width: 100%;
         height: 100px;
         background: #ffffff;
         border-top-left-radius: 120px;
         z-index: -1;
+    }
+}
+
+.event-list-section .event-list__header {}
+
+.event-list-section .event-list__title {
+    text-transform: uppercase;
+    color: #005D55;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: 1.07px;
+
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .event-list-section .event-list__title {
+        display: block;
+        font-size: 38.6px;
     }
 }
 
@@ -506,8 +663,97 @@ button {
     margin-bottom: 16px;
 }
 
+.event-list-section .event-list__p a {
+    text-decoration: underline;
+    color: #00A9E0;
+}
+
+.event-list__filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+    .event-list__filters {
+        align-items: flex-start;
+    }
+}
+
+.event-list__filters .event-list__filter {
+    height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+
+    background: #E1E1E1;
+    color: #67737A;
+
+    font-size: 12px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: 0.31px;
+}
+
+.event-list__filters .event-list__filter:hover {
+    color: #3D4950;
+}
+
+.event-list__filters .event-list__filter.active {
+    color: #ffffff;
+    background: #005D55;
+}
+
+.event-list__filters .event-list__filter:not(:last-of-type) {
+    margin-right: 8px;
+}
+
 .event-list-section .events .event-card {
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .event-list__filters .event-list__filter {
+        height: 38px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .event-list-section .event-list__header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .event-list__filters {
+        flex: 1 0 auto;
+        justify-content: flex-end;
+    }
+
+    .events {
+        max-width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-bottom: 20px;
+    }
+
+    .event-list-section .events .event-card {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .event-list-section .events .event-card:not(:last-of-type) {
+        border-bottom: solid 1px #939393;
+    }
 }
 
 @media screen and (min-width: 375px) {

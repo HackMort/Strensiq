@@ -9,6 +9,63 @@ const getParent = function (child, className) {
   }
 }
 
+const toggleCards = (currentCard, cards) => {
+  if (currentCard && cards) {
+    cards.forEach(card => {
+      if (card === currentCard) {
+        card.classList.toggle('expanded')
+      } else {
+        card.classList.remove('expanded')
+      }
+    })
+  }
+}
+
+const removeExpandedClassInDesktop = () => {
+  const isMobile = window.matchMedia('(max-width: 1023px)')
+
+  if (!isMobile.matches) {
+    const cards = document.querySelectorAll(
+      '.event-card.event-card--expandable'
+    )
+    cards.forEach(card => {
+      card.classList.remove('expanded')
+    })
+  }
+}
+
+const switchSwiperVisibility = () => {
+  const isMobile = window.matchMedia('(max-width: 1023px)')
+  const swipers = document.querySelectorAll(
+    '.event-card.event-card--expandable .event-card__expandable-panel .swiper'
+  )
+
+  const desktopContent = document.querySelectorAll(
+    '.event-card.event-card--expandable .event-card__expandable-panel .expandable-panel-content'
+  )
+
+  swipers.forEach(swiper => {
+    if (isMobile.matches) {
+      swiper.removeAttribute('style')
+    } else {
+      swiper.setAttribute('style', 'display: none;')
+    }
+  })
+
+  desktopContent.forEach(content => {
+    if (isMobile.matches) {
+      content.setAttribute('style', 'display: none;')
+    } else {
+      content.removeAttribute('style')
+    }
+  })
+}
+
+window.addEventListener('resize', () => {
+  switchSwiperVisibility()
+  removeExpandedClassInDesktop()
+})
+
 document.addEventListener('DOMContentLoaded', () => {
   const swiper = new Swiper('.swiper', {
     // Optional parameters
@@ -29,23 +86,13 @@ document.addEventListener('DOMContentLoaded', () => {
     direction: 'horizontal'
   })
 
-  // Event card
+  switchSwiperVisibility()
 
-  const toggleCards = (currentCard, cards) => {
-    if (currentCard && cards) {
-      cards.forEach(card => {
-        if (card === currentCard) {
-          card.classList.toggle('expanded')
-        } else {
-          card.classList.remove('expanded')
-        }
-      })
-    }
-  }
+  // Event card
 
   const eventExpandButtons = window.Array.from(
     document.querySelectorAll(
-      '.event-card.event-card--expandable .event-card__expand-button'
+      '.event-card.event-card--expandable .event-card__actions .event-card__expand-button'
     )
   )
   eventExpandButtons.forEach(expandButton => {
