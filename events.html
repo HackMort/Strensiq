@@ -453,15 +453,15 @@
                     </div>
 
                     <div class="event-list__filters">
-                        <button class="event-list__filter active">All</button>
-                        <button class="event-list__filter">In-Person</button>
-                        <button class="event-list__filter">Virtual</button>
+                        <button data-filter="all" class="event-list__filter active">All</button>
+                        <button data-filter="in-person" class="event-list__filter">In-Person</button>
+                        <button data-filter="virtual" class="event-list__filter">Virtual</button>
                     </div>
                 </div>
 
                 <div class="events">
 
-                    <div class="event-card event-card--expandable">
+                    <div class="event-card event-card--expandable" data-event-id="1" data-event-type="virtual">
 
                         <div class="event-card__wrapper">
                             <div class="event-card__header">
@@ -544,7 +544,7 @@
 
                     </div>
 
-                    <div class="event-card event-card--expandable">
+                    <div class="event-card event-card--expandable" data-event-id="2" data-event-type="in-person">
 
                         <div class="event-card__wrapper">
                             <div class="event-card__header">
@@ -627,7 +627,256 @@
 
                     </div>
 
-                    <div class="event-card event-card--expandable">
+                    <div class="event-card event-card--expandable" data-event-id="3" data-event-type="in-person">
+
+                        <div class="event-card__wrapper">
+                            <div class="event-card__header">
+                                <button class="event-card__expand-button">
+                                    <img src="/images/events/expand-event-arrow-down.svg" alt="">
+                                </button>
+                                <div class="event-card__date">
+                                    <p class="event-card__month">jan</p>
+                                    <p class="event-card__day">23</p>
+                                </div>
+                                <div class="event-card__info">
+                                    <p class="event-card__title">Talk Title</p>
+                                    <p class="event-card__place">
+                                        <span class="event-card__address">City, State</span>
+                                        <span class="event-card__hour">7:00 PM EST</span>
+                                        <span class="hidde lg:inline">Presented by: Speaker</span>
+                                    </p>
+                                    <p class="event-card__speaker lg:hidde">Presented by: Speaker</p>
+                                </div>
+                            </div>
+                            <div class="event-card__actions">
+                                <button class="event-card__expand-button">
+                                    <img src="/images/events/expand-event-arrow-down.svg" alt="">
+                                </button>
+                                <button class="event-card__register-button">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="event-card__expandable-panel">
+
+                            <!-- Slider main container -->
+                            <div class="swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <p class="content__title">About</p>
+                                        <p class="content__paragraph">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud
+                                        </p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <p class="content__title">Venue information</p>
+                                        <div class="content__info">
+                                            <a href="#">Venue Name</a>
+                                            <p class="content__paragraph">Address</p>
+                                            <p class="content__paragraph">City, State Zip Code</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+
+                            <div class="expandable-panel-content">
+                                <div>
+                                    <p class="content__title">About</p>
+                                    <p class="content__paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="content__title">Venue information</p>
+                                    <div class="content__info">
+                                        <a href="#">Venue Name</a>
+                                        <p class="content__paragraph">Address</p>
+                                        <p class="content__paragraph">City, State Zip Code</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="event-card event-card--expandable" data-event-id="4" data-event-type="in-person">
+
+                        <div class="event-card__wrapper">
+                            <div class="event-card__header">
+                                <button class="event-card__expand-button">
+                                    <img src="/images/events/expand-event-arrow-down.svg" alt="">
+                                </button>
+                                <div class="event-card__date">
+                                    <p class="event-card__month">jan</p>
+                                    <p class="event-card__day">23</p>
+                                </div>
+                                <div class="event-card__info">
+                                    <p class="event-card__title">Talk Title</p>
+                                    <p class="event-card__place">
+                                        <span class="event-card__address">City, State</span>
+                                        <span class="event-card__hour">7:00 PM EST</span>
+                                        <span class="hidde lg:inline">Presented by: Speaker</span>
+                                    </p>
+                                    <p class="event-card__speaker lg:hidde">Presented by: Speaker</p>
+                                </div>
+                            </div>
+                            <div class="event-card__actions">
+                                <button class="event-card__expand-button">
+                                    <img src="/images/events/expand-event-arrow-down.svg" alt="">
+                                </button>
+                                <button class="event-card__register-button">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="event-card__expandable-panel">
+
+                            <!-- Slider main container -->
+                            <div class="swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <p class="content__title">About</p>
+                                        <p class="content__paragraph">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud
+                                        </p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <p class="content__title">Venue information</p>
+                                        <div class="content__info">
+                                            <a href="#">Venue Name</a>
+                                            <p class="content__paragraph">Address</p>
+                                            <p class="content__paragraph">City, State Zip Code</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+
+                            <div class="expandable-panel-content">
+                                <div>
+                                    <p class="content__title">About</p>
+                                    <p class="content__paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="content__title">Venue information</p>
+                                    <div class="content__info">
+                                        <a href="#">Venue Name</a>
+                                        <p class="content__paragraph">Address</p>
+                                        <p class="content__paragraph">City, State Zip Code</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="event-card event-card--expandable" data-event-id="5" data-event-type="in-person">
+
+                        <div class="event-card__wrapper">
+                            <div class="event-card__header">
+                                <button class="event-card__expand-button">
+                                    <img src="/images/events/expand-event-arrow-down.svg" alt="">
+                                </button>
+                                <div class="event-card__date">
+                                    <p class="event-card__month">jan</p>
+                                    <p class="event-card__day">23</p>
+                                </div>
+                                <div class="event-card__info">
+                                    <p class="event-card__title">Talk Title</p>
+                                    <p class="event-card__place">
+                                        <span class="event-card__address">City, State</span>
+                                        <span class="event-card__hour">7:00 PM EST</span>
+                                        <span class="hidde lg:inline">Presented by: Speaker</span>
+                                    </p>
+                                    <p class="event-card__speaker lg:hidde">Presented by: Speaker</p>
+                                </div>
+                            </div>
+                            <div class="event-card__actions">
+                                <button class="event-card__expand-button">
+                                    <img src="/images/events/expand-event-arrow-down.svg" alt="">
+                                </button>
+                                <button class="event-card__register-button">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="event-card__expandable-panel">
+
+                            <!-- Slider main container -->
+                            <div class="swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <p class="content__title">About</p>
+                                        <p class="content__paragraph">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud
+                                        </p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <p class="content__title">Venue information</p>
+                                        <div class="content__info">
+                                            <a href="#">Venue Name</a>
+                                            <p class="content__paragraph">Address</p>
+                                            <p class="content__paragraph">City, State Zip Code</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+
+                            <div class="expandable-panel-content">
+                                <div>
+                                    <p class="content__title">About</p>
+                                    <p class="content__paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="content__title">Venue information</p>
+                                    <div class="content__info">
+                                        <a href="#">Venue Name</a>
+                                        <p class="content__paragraph">Address</p>
+                                        <p class="content__paragraph">City, State Zip Code</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="event-card event-card--expandable" data-event-id="6" data-event-type="virtual">
 
                         <div class="event-card__wrapper">
                             <div class="event-card__header">
