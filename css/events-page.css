@@ -116,13 +116,20 @@ button {
 @media screen and (min-width: 1366px) {
     .hpp-dtc-m-hero.internal-hero {
         min-height: auto;
-    }
-}
-
-@media screen and (min-width: 1366px) {
-    [data-module=HeroModule] {
+        position: relative !important;
         display: block;
-        position: relative;
+    }
+
+    .hpp-dtc-m-hero.internal-hero::before {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 95px;
+        background: #ffffff;
+        border-top-left-radius: 120px;
+        z-index: 0;
     }
 }
 
@@ -615,24 +622,11 @@ button {
 
 @media screen and (min-width: 1366px) {
     .event-list-section {
-        margin-top: -69px;
+        margin-top: -35px;
         position: relative;
         z-index: 1;
 
         border-top-left-radius: 120px;
-        padding-top: 55px;
-    }
-
-    .event-list-section::before {
-        position: absolute;
-        content: "";
-        bottom: 85%;
-        left: 0;
-        width: 100%;
-        height: 100px;
-        background: #ffffff;
-        border-top-left-radius: 120px;
-        z-index: -1;
     }
 }
 
