@@ -826,6 +826,7 @@ button {
 
 .form__header {
     align-items: flex-start;
+    margin-bottom: 24px;
 }
 
 .event-info__title {
@@ -845,4 +846,32 @@ button {
 .event-info__date a {
     font-weight: 700;
     text-decoration: underline;
+}
+
+.step__form-actions .button--primary {
+    background: #20396B;
+    color: #ffffff;
+    border-radius: 82px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 46px;
+}
+
+.step__form-actions .button--back {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 46px;
+    color: #824BB0;
+}
+
+.step__form-actions .button--back::before {
+    content: "<";
+    margin-right: 8px;
 }

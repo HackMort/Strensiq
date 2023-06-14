@@ -71,6 +71,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
     <link rel="stylesheet" href="../css/events-page.css" />
+    <link rel="stylesheet" href="../css/forms.css" />
 </head>
 
 <body class="hpp-dtc-p-how-strensiq-helps body-reset">
@@ -1477,17 +1478,19 @@
                                                 </div>
                                                 <div class="form__control-radios">
                                                     <div class="form__control-radio">
-                                                        <input id="yes" type="radio" value="yes" name="bringing-guest"
+                                                        <input id="taking-strensiq-yes" type="radio" value="yes"
+                                                            name="taking-strensiq"
                                                             onblur="validateFormControl(event); checkStepValidity(event)"
                                                             onchange="validateFormControl(event); checkStepValidity(event)" />
-                                                        <label class="form__control-label" for="yes">
+                                                        <label class="form__control-label" for="taking-strensiq-yes">
                                                             Yes</label>
                                                     </div>
                                                     <div class="form__control-radio">
-                                                        <input id="no" type="radio" value="no" name="bringing-guest"
+                                                        <input id="taking-strensiq-no" type="radio" value="no"
+                                                            name="taking-strensiq"
                                                             onblur="validateFormControl(event); checkStepValidity(event)"
                                                             onchange="validateFormControl(event); checkStepValidity(event)" />
-                                                        <label class="form__control-label" for="no">
+                                                        <label class="form__control-label" for="taking-strensiq-no">
                                                             No</label>
                                                     </div>
                                                 </div>
@@ -1499,8 +1502,7 @@
                                         </div>
                                     </div>
                                     <div class="step__form-actions">
-                                        <button disabled type="button" class="button button--basic button--next"
-                                            onclick="goToLastStep()">Next</button>
+                                        <button class="button--primary" onclick="goToLastStep()">Next</button>
                                     </div>
                                 </div>
                                 <div data-step-id="2" data-visible="false" class="step step__hidden">
@@ -1515,17 +1517,19 @@
                                                 </div>
                                                 <div class="form__control-radios">
                                                     <div class="form__control-radio">
-                                                        <input id="yes" type="radio" value="yes" name="bringing-guest"
+                                                        <input id="bringing-guest-yes" type="radio" value="yes"
+                                                            name="bringing-guest"
                                                             onblur="validateFormControl(event); checkStepValidity(event)"
                                                             onchange="validateFormControl(event); checkStepValidity(event)" />
-                                                        <label class="form__control-label" for="yes">
+                                                        <label class="form__control-label" for="bringing-guest-yes">
                                                             Yes</label>
                                                     </div>
                                                     <div class="form__control-radio">
-                                                        <input id="no" type="radio" value="no" name="bringing-guest"
+                                                        <input id="bringing-guest-no" type="radio" value="no"
+                                                            name="bringing-guest"
                                                             onblur="validateFormControl(event); checkStepValidity(event)"
                                                             onchange="validateFormControl(event); checkStepValidity(event)" />
-                                                        <label class="form__control-label" for="no">
+                                                        <label class="form__control-label" for="bringing-guest-no">
                                                             No</label>
                                                     </div>
                                                 </div>
@@ -1643,9 +1647,12 @@
 
                                                     <br>
 
-                                                    For more information on how your information may be used, please
-                                                    review Alexion’s <a href="https://alexion.com/Legal#privacynotice"
-                                                        target="_blank">Privacy Notice</a>.
+                                                    <span class="last-text">
+                                                        For more information on how your information may be used, please
+                                                        review Alexion’s <a
+                                                            href="https://alexion.com/Legal#privacynotice"
+                                                            target="_blank">Privacy Notice</a>.
+                                                    </span>
                                                 </label>
                                             </div>
                                             <p class="form__control-error">
@@ -1654,12 +1661,10 @@
                                         </div>
                                     </div>
                                     <div class="step__form-actions">
-                                        <button type="button" class="button button--basic button--back"
+                                        <button type="button" class="button--back"
                                             onclick="goToFirstStep()">Back</button>
-                                        <div class="button button--primary">
-                                            <input class="input__submit" type="submit" value="Register"
-                                                onclick="validateFormOnSubmit(event)" />
-                                        </div>
+                                        <input class="button--primary" type="submit" value="Register"
+                                            onclick="validateFormOnSubmit(event)" />
                                     </div>
                                 </div>
                             </form>
