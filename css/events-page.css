@@ -359,6 +359,14 @@ button {
     padding: 0 3rem;
 }
 
+.form-swiper {
+    overflow: hidden;
+}
+
+.form-swiper .swiper-slide {
+    padding: 1px 1px;
+}
+
 .expandable-panel-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -808,8 +816,7 @@ button {
     background: #ffffff;
     border-radius: 8px;
     width: 100%;
-    height: auto;
-    max-width: 95%;
+    height: max-content;
 
     padding-left: 16px;
     padding-right: 16px;

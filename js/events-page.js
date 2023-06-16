@@ -195,29 +195,17 @@ const prepareFormAccordingEventType = (eventType, form) => {
 
 Scrolls to the top of the view by creating an anchor element, adding it to the body, clicking it, and removing it from the body.
 */
-const scrollToViewTop = () => {
+const scrollToHref = href => {
   const a = document.createElement('a')
   const body = document.querySelector('body')
 
-  a.href = '#upcoming-events'
+  a.href = '#' + href
   a.setAttribute('style', 'display: none;')
 
   body.appendChild(a)
   a.click()
 
   body.removeChild(a)
-}
-
-/**
-
-Removes the event registration form from the DOM and returns its parent element.
-@returns {HTMLElement} The parent element of the removed form.
-*/
-const destroyForm = () => {
-  const form = document.querySelector('.events-form__container')
-  const parent = form.parentElement
-  parent.removeChild(form)
-  return parent
 }
 
 /**
@@ -260,69 +248,7 @@ const showConfirmationView = (container, eventData, formData) => {
 
   container.appendChild(confirmationView)
 
-  scrollToViewTop()
-}
-
-/**
- * Returns an array of HTML elements representing the form steps.
- * @returns An array of HTML elements representing the form steps.
- * @returns {HTMLElement[]}
- */
-const getSteps = function () {
-  const steps = Array.from(document.querySelectorAll('.form__steps .step'))
-  return steps
-}
-
-/**
-
-Marks a given step as visible by setting the data-visible attribute to 'true'
-and adding the class step__visible, while removing the class step__hidden.
-@param {HTMLElement} step - The step to mark as visible.
-*/
-const markStepAsVisible = function (step) {
-  step.dataset.visible = 'true'
-  step.classList.add('step__visible')
-  step.classList.remove('step__hidden')
-}
-
-/**
-  
-  Marks a given step as hidden by setting the data-visible attribute to 'false'
-  and adding the class step__hidden, while removing the class step__visible.
-  @param {HTMLElement} step - The step to mark as hidden.
-  */
-const markStepAsHidden = function (step) {
-  step.dataset.visible = 'false'
-  step.classList.remove('step__visible')
-  step.classList.add('step__hidden')
-}
-
-/**
-
-Navigates to the first step of a two-step process by marking the first step as visible
-and the second step as hidden.
-*/
-function goToFirstStep () {
-  const [step1, step2] = getSteps()
-
-  markStepAsVisible(step1)
-  markStepAsHidden(step2)
-
-  scrollToViewTop()
-}
-
-/**
-  
-  Navigates to the last step of a two-step process by marking the first step as hidden
-  and the second step as visible.
-  */
-function goToLastStep () {
-  const [step1, step2] = getSteps()
-
-  markStepAsHidden(step1)
-  markStepAsVisible(step2)
-
-  scrollToViewTop()
+  scrollToHref()
 }
 
 /**
@@ -417,7 +343,7 @@ window.addEventListener('resize', () => {
 })
 
 document.addEventListener('DOMContentLoaded', () => {
-  const swiper = new Swiper('.swiper', {
+  new Swiper('.swiper', {
     // Optional parameters
     loop: false,
     autoHeight: true,
@@ -486,4 +412,68 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
   // Events filter
+
+  // ================================== Event form ========================================
+  let formSwiper = null
+  let formModalObserver = null
+
+  const initFormSwiper = () => {
+    formSwiper = new Swiper('.form-swiper', {
+      loop: false,
+      centeredSlides: true,
+      direction: 'horizontal'
+    })
+
+    const form = document.querySelector('form')
+
+    const nextButton = form.querySelector('.button--next')
+    const backButton = form.querySelector('.button--back')
+
+    nextButton.addEventListener('click', () => {
+      formSwiper.slideNext(200, true)
+      // scrollToHref('jd-modal-event-form-modal')
+    })
+
+    backButton.addEventListener('click', () => {
+      formSwiper.slidePrev(200, true)
+      // scrollToHref('jd-modal-event-form-modal')
+    })
+  }
+
+  const initFormModalObserver = () => {
+    const observedElement = document.querySelector('body')
+    const observerConfig = { childList: true, subtree: true }
+    formModalObserver = new MutationObserver(mutations => {
+      const addedNodes = Array.from(mutations[0].addedNodes)
+      const removedNodes = Array.from(mutations[0].removedNodes)
+
+      const init = addedNodes.some(
+        node =>
+          typeof node === 'object' &&
+          node.classList.contains('fancybox__viewport')
+      )
+
+      const destroy = removedNodes.some(
+        node =>
+          typeof node === 'object' &&
+          node.classList.contains('event-form-modal')
+      )
+
+      if (init && !formSwiper) {
+        initFormSwiper()
+      }
+
+      if (destroy) {
+        formSwiper.destroy(true, false)
+        formSwiper = null
+      }
+    })
+
+    formModalObserver.observe(observedElement, observerConfig)
+  }
+
+  if (!formModalObserver) {
+    initFormModalObserver()
+  }
+  // ================================== Event form ========================================
 })

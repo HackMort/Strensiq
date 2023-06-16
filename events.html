@@ -1338,32 +1338,7 @@
             <div class="jd-modal__wrapper">
                 <div class="jd-modal__content">
 
-                    <!-- <div>
-                        <div data-jd-modal-header>
-                            <h1 class="modal__title" data-jd-modal-title>Modal content 1</h1>
-                            <button data-jd-modal-close>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
-                                    <path
-                                        d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="modal__text" data-jd-modal-content>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-                                officiis mollitia cum amet quas quisquam soluta omnis, iusto,
-                                rem veritatis dicta a optio aperiam vel corrupti recusandae vero
-                                harum nisi!
-                            </p>
-                        </div>
-                        <div class="modal__actions" data-jd-modal-actions>
-                            <button class="button" data-jd-modal-close>Close</button>
-                        </div>
-                    </div> -->
-
-                    <div class="form-container">
+                    <div class="form-container" id="event-form-container">
 
                         <div data-jd-modal-header class="form__header">
                             <div>
@@ -1388,287 +1363,344 @@
                             </button>
                         </div>
 
-                        <div class="form__steps">
-                            <form class="form" id="register-event-form" novalidate>
-                                <input class="input-hidden" type="hidden" name="event-id" />
-                                <div data-step-id="1" data-visible="true" class="step step__visible">
-                                    <div class="step__form-controls">
-                                        <div class="form__control" data-touched="false" data-required="true"
-                                            data-is-valid="false">
-                                            <input placeholder="First name" autocomplete="given-name"
-                                                class="form__control-input" type="text" id="first-name"
-                                                name="first-name" required aria-required="true"
-                                                pattern="^[a-zA-Z.'\\- ]{1,50}$"
-                                                onblur="validateFormControl(event); checkStepValidity(event)"
-                                                onchange="validateFormControl(event); checkStepValidity(event)" />
-                                            <p class="form__control-error">
-                                                First name is required
-                                            </p>
-                                        </div>
-                                        <div class="form__control" data-touched="false" data-required="true"
-                                            data-is-valid="false">
-                                            <input placeholder="Last name" autocomplete="additional-name"
-                                                class="form__control-input" type="text" id="last-name" name="last-name"
-                                                required aria-required="true" pattern="^[a-zA-Z.'\\- ]{1,50}$"
-                                                onblur="validateFormControl(event); checkStepValidity(event)"
-                                                onchange="validateFormControl(event); checkStepValidity(event)" />
-                                            <p class="form__control-error">
-                                                Last name is required
-                                            </p>
-                                        </div>
+                        <form class="form" id="register-event-form" novalidate>
+                            <input class="input-hidden" type="hidden" name="event-id" />
 
-                                        <div class="form__control" data-touched="false" data-required="true"
-                                            data-is-valid="false">
-                                            <input placeholder="Email address" autocomplete="email"
-                                                class="form__control-input" type="email" id="email" name="email"
-                                                required aria-required="true"
-                                                pattern="^[a-zA-Z0-9._-]{1,100}@[a-zA-Z0-9]+\.[a-zA-Z]{2,10}$"
-                                                onblur="validateFormControl(event); checkStepValidity(event)"
-                                                onchange="validateFormControl(event); checkStepValidity(event)" />
-                                            <p class="form__control-error">
-                                                Email address is required
-                                            </p>
-                                        </div>
+                            <div class="form-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
 
-                                        <div class="form__control" data-touched="false" data-required="true"
-                                            data-is-valid="false">
-                                            <input placeholder="ZIP code" autocomplete="postal-code"
-                                                class="form__control-input" type="text" id="zip-code" name="zip-code"
-                                                required aria-required="true" pattern="^[0-9]+"
-                                                onblur="validateFormControl(event); checkStepValidity(event)"
-                                                onchange="validateFormControl(event); checkStepValidity(event)" />
-                                            <p class="form__control-error">
-                                                ZIP code is required
-                                            </p>
-                                        </div>
-
-                                        <div class="form__control" data-touched="false" data-required="true"
-                                            data-is-valid="false">
-                                            <input placeholder="Phone number" autocomplete="tel"
-                                                class="form__control-input" type="tel" id="phone-number"
-                                                name="phone-number" required aria-required="true" pattern="^[0-9]+"
-                                                onblur="validateFormControl(event); checkStepValidity(event)"
-                                                onchange="validateFormControl(event); checkStepValidity(event)" />
-                                            <p class="form__control-error">
-                                                Phone number is required
-                                            </p>
-                                        </div>
-
-                                        <div class="form__control" data-touched="false" data-required="true"
-                                            data-is-valid="false">
-                                            <select id="i-am-a" name="i-am-a" class="form__control-select"
-                                                aria-placeholder="Select one" required aria-required="true"
-                                                onblur="validateFormControl(event); checkStepValidity(event)"
-                                                onchange="validateFormControl(event); checkStepValidity(event)">
-                                                <option value="" selected disabled>I am...</option>
-                                                <option value="Person living with HPP">Person living with HPP</option>
-                                                <option value="Caregiver/family member">Caregiver/family member</option>
-                                                <option value="Patient advocate">Patient advocate</option>
-                                            </select>
-                                            <p class="form__control-error">
-                                                Please select an option
-                                            </p>
-                                        </div>
-                                        <div class="form__control" data-touched="false" data-field-index="8"
-                                            data-required="true" data-is-valid="false" data-only-for-types="in-person">
-                                            <fieldset>
-                                                <div class="legend-container">
-                                                    <legend class="form__control-legend">Are you or a loved one
-                                                        currently taking STRENSIQ® (asfotase alfa)?</span>
+                                        <div class="step step--required step--1">
+                                            <div class="step__form-controls">
+                                                <div class="form__control" data-touched="false" data-required="true"
+                                                    data-is-valid="false">
+                                                    <input placeholder="First name" autocomplete="given-name"
+                                                        class="form__control-input" type="text" id="first-name"
+                                                        name="first-name" required aria-required="true"
+                                                        pattern="^[a-zA-Z.'\\- ]{1,50}$"
+                                                        onblur="validateFormControl(event); checkStepValidity(event)"
+                                                        onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                    <p class="form__control-error">
+                                                        First name is required
+                                                    </p>
                                                 </div>
-                                                <div class="form__control-radios">
-                                                    <div class="form__control-radio">
-                                                        <input id="taking-strensiq-yes" type="radio" value="yes"
-                                                            name="taking-strensiq"
-                                                            onblur="validateFormControl(event); checkStepValidity(event)"
-                                                            onchange="validateFormControl(event); checkStepValidity(event)" />
-                                                        <label class="form__control-label" for="taking-strensiq-yes">
-                                                            Yes</label>
-                                                    </div>
-                                                    <div class="form__control-radio">
-                                                        <input id="taking-strensiq-no" type="radio" value="no"
-                                                            name="taking-strensiq"
-                                                            onblur="validateFormControl(event); checkStepValidity(event)"
-                                                            onchange="validateFormControl(event); checkStepValidity(event)" />
-                                                        <label class="form__control-label" for="taking-strensiq-no">
-                                                            No</label>
-                                                    </div>
+                                                <div class="form__control" data-touched="false" data-required="true"
+                                                    data-is-valid="false">
+                                                    <input placeholder="Last name" autocomplete="additional-name"
+                                                        class="form__control-input" type="text" id="last-name"
+                                                        name="last-name" required aria-required="true"
+                                                        pattern="^[a-zA-Z.'\\- ]{1,50}$"
+                                                        onblur="validateFormControl(event); checkStepValidity(event)"
+                                                        onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                    <p class="form__control-error">
+                                                        Last name is required
+                                                    </p>
                                                 </div>
-                                            </fieldset>
 
-                                            <p class="form__control-error">
-                                                Please select an option
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="step__form-actions">
-                                        <button class="button--primary" onclick="goToLastStep()">Next</button>
-                                    </div>
-                                </div>
-                                <div data-step-id="2" data-visible="false" class="step step__hidden">
-                                    <div class="step__form-controls">
-                                        <div class="form__control" data-touched="false" data-field-index="8"
-                                            data-required="true" data-is-valid="false" data-only-for-types="in-person">
-                                            <fieldset>
-                                                <div class="legend-container">
-                                                    <legend class="form__control-legend">Are you bringing a guest?
-                                                    </legend><span class="label__hint">(Only one guest per
-                                                        registrant)</span>
+                                                <div class="form__control" data-touched="false" data-required="true"
+                                                    data-is-valid="false">
+                                                    <input placeholder="Email address" autocomplete="email"
+                                                        class="form__control-input" type="email" id="email" name="email"
+                                                        required aria-required="true"
+                                                        pattern="^[a-zA-Z0-9._-]{1,100}@[a-zA-Z0-9]+\.[a-zA-Z]{2,10}$"
+                                                        onblur="validateFormControl(event); checkStepValidity(event)"
+                                                        onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                    <p class="form__control-error">
+                                                        Email address is required
+                                                    </p>
                                                 </div>
-                                                <div class="form__control-radios">
-                                                    <div class="form__control-radio">
-                                                        <input id="bringing-guest-yes" type="radio" value="yes"
-                                                            name="bringing-guest"
-                                                            onblur="validateFormControl(event); checkStepValidity(event)"
-                                                            onchange="validateFormControl(event); checkStepValidity(event)" />
-                                                        <label class="form__control-label" for="bringing-guest-yes">
-                                                            Yes</label>
-                                                    </div>
-                                                    <div class="form__control-radio">
-                                                        <input id="bringing-guest-no" type="radio" value="no"
-                                                            name="bringing-guest"
-                                                            onblur="validateFormControl(event); checkStepValidity(event)"
-                                                            onchange="validateFormControl(event); checkStepValidity(event)" />
-                                                        <label class="form__control-label" for="bringing-guest-no">
-                                                            No</label>
-                                                    </div>
+
+                                                <div class="form__control" data-touched="false" data-required="true"
+                                                    data-is-valid="false">
+                                                    <input placeholder="ZIP code" autocomplete="postal-code"
+                                                        class="form__control-input" type="text" id="zip-code"
+                                                        name="zip-code" required aria-required="true" pattern="^[0-9]+"
+                                                        onblur="validateFormControl(event); checkStepValidity(event)"
+                                                        onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                    <p class="form__control-error">
+                                                        ZIP code is required
+                                                    </p>
                                                 </div>
-                                            </fieldset>
 
-                                            <p class="form__control-error">
-                                                Please select an option
-                                            </p>
-                                        </div>
-                                        <div class="form__control" data-touched="false" data-required="false"
-                                            data-is-valid="false" data-only-for-types="in-person">
-                                            <fieldset>
-                                                <legend class="form__control-legend">Any dietary restrictions for you or
-                                                    your guest?.</legend>
-                                                <div class="form__control-checkboxes">
-                                                    <div class="form__control-checkbox form__control-checkbox--rounded">
-                                                        <input id="vegetarian" type="checkbox"
-                                                            name="dietary-restriction" value="Yes, I am vegetarian"
-                                                            aria-required="false" />
-                                                        <label class="form__control-label" for="vegetarian">Yes, I am
-                                                            vegetarian</label>
-                                                    </div>
-                                                    <div class="form__control-checkbox form__control-checkbox--rounded">
-                                                        <input id="guest-vegetarian" type="checkbox"
-                                                            name="dietary-restriction"
-                                                            value="Yes, my guest is vegetarian" aria-required="false" />
-                                                        <label class="form__control-label" for="guest-vegetarian">Yes,
-                                                            my guest is vegetarian</label>
-                                                    </div>
-                                                    <div class="form__control-checkbox form__control-checkbox--rounded">
-                                                        <input id="vegan" type="checkbox" name="dietary-restriction"
-                                                            value="Yes, I am vegan" aria-required="false" />
-                                                        <label class="form__control-label" for="vegan">Yes, I am
-                                                            vegan</label>
-                                                    </div>
-                                                    <div class="form__control-checkbox form__control-checkbox--rounded">
-                                                        <input id="guest-vegan" type="checkbox"
-                                                            name="dietary-restriction" value="Yes, my guest is vegan"
-                                                            aria-required="false" />
-                                                        <label class="form__control-label" for="guest-vegan">Yes, my
-                                                            guest is vegan</label>
-                                                    </div>
-                                                    <div class="form__control-checkbox form__control-checkbox--rounded">
-                                                        <input id="gluten-free" type="checkbox"
-                                                            name="dietary-restriction" value="Yes, I am gluten-free"
-                                                            aria-required="false" />
-                                                        <label class="form__control-label" for="gluten-free">Yes, I am
-                                                            gluten-free</label>
-                                                    </div>
-                                                    <div class="form__control-checkbox form__control-checkbox--rounded">
-                                                        <input id="guest-gluten-free" type="checkbox"
-                                                            name="dietary-restriction"
-                                                            value="Yes, my guest is gluten-free"
-                                                            aria-required="false" />
-                                                        <label class="form__control-label" for="guest-gluten-free">Yes,
-                                                            my guest is gluten-free</label>
-                                                    </div>
-                                                    <div class="form__control-checkbox form__control-checkbox--rounded">
-                                                        <input id="kosher" type="checkbox" name="dietary-restriction"
-                                                            value="Yes, I am kosher" aria-required="false" />
-                                                        <label class="form__control-label" for="kosher">Yes, I am
-                                                            kosher</label>
-                                                    </div>
-                                                    <div class="form__control-checkbox form__control-checkbox--rounded">
-                                                        <input id="guest-kosher" type="checkbox"
-                                                            name="dietary-restriction" value="Yes, my guest is kosher"
-                                                            aria-required="false" />
-                                                        <label class="form__control-label" for="guest-kosher">Yes, my
-                                                            guest is kosher</label>
-                                                    </div>
-                                                    <div class="form__control-checkbox form__control-checkbox--rounded">
-                                                        <input id="no-restrictions" type="checkbox"
-                                                            name="dietary-restriction" value="No dietary restrictions"
-                                                            aria-required="false" />
-                                                        <label class="form__control-label" for="no-restrictions">No
-                                                            dietary restrictions</label>
-                                                    </div>
+                                                <div class="form__control" data-touched="false" data-required="true"
+                                                    data-is-valid="false">
+                                                    <input placeholder="Phone number" autocomplete="tel"
+                                                        class="form__control-input" type="tel" id="phone-number"
+                                                        name="phone-number" required aria-required="true"
+                                                        pattern="^[0-9]+"
+                                                        onblur="validateFormControl(event); checkStepValidity(event)"
+                                                        onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                    <p class="form__control-error">
+                                                        Phone number is required
+                                                    </p>
                                                 </div>
-                                            </fieldset>
-                                        </div>
-                                        <div class="form__control" data-touched="false" data-required="true"
-                                            data-is-valid="false">
-                                            <div class="form__control-checkbox">
-                                                <input id="terms-and-conditions" type="checkbox"
-                                                    name="terms-and-conditions" aria-required="true" required
-                                                    onblur="validateFormControl(event); checkStepValidity(event)"
-                                                    onchange="validateFormControl(event); checkStepValidity(event)" />
-                                                <label class="form__control-label" for="terms-and-conditions">
-                                                    <strong>By checking this box and submitting this form, I can confirm
-                                                        and agree to the following:</strong>
 
-                                                    <br /><br />
-                                                    <ul>
-                                                        <li>
-                                                            If I have hypophosphatasia (HPP) or care for someone who
-                                                            does, I confirm I am 18 years of age or older.
-                                                        </li>
-                                                        <li>
-                                                            If I care for someone living with HPP who plans to attend
-                                                            the event, I confirm that I will attend the event with them.
-                                                        </li>
-                                                        <li>
-                                                            I agree to my personal data being processed in this
-                                                            Registration Portal for the purposes of registering my
-                                                            interest in attending an upcoming patient program sponsored
-                                                            by Alexion.
-                                                        </li>
-                                                        <li>
-                                                            I give Alexion permission to provide promotional information
-                                                            to me or otherwise contact me about Alexion products,
-                                                            services, programs, or other topics that Alexion thinks may
-                                                            interest me.
-                                                        </li>
-                                                    </ul>
+                                                <div class="form__control" data-touched="false" data-required="true"
+                                                    data-is-valid="false">
+                                                    <select id="i-am-a" name="i-am-a" class="form__control-select"
+                                                        aria-placeholder="Select one" required aria-required="true"
+                                                        onblur="validateFormControl(event); checkStepValidity(event)"
+                                                        onchange="validateFormControl(event); checkStepValidity(event)">
+                                                        <option value="" selected disabled>I am...</option>
+                                                        <option value="Person living with HPP">Person living with HPP
+                                                        </option>
+                                                        <option value="Caregiver/family member">Caregiver/family member
+                                                        </option>
+                                                        <option value="Patient advocate">Patient advocate</option>
+                                                    </select>
+                                                    <p class="form__control-error">
+                                                        Please select an option
+                                                    </p>
+                                                </div>
+                                                <div class="form__control" data-touched="false" data-field-index="8"
+                                                    data-required="true" data-is-valid="false"
+                                                    data-only-for-types="in-person">
+                                                    <fieldset>
+                                                        <div class="legend-container">
+                                                            <legend class="form__control-legend">Are you or a loved one
+                                                                currently taking STRENSIQ® (asfotase alfa)?</span>
+                                                        </div>
+                                                        <div class="form__control-radios">
+                                                            <div class="form__control-radio">
+                                                                <input id="taking-strensiq-yes" type="radio" value="yes"
+                                                                    name="taking-strensiq"
+                                                                    onblur="validateFormControl(event); checkStepValidity(event)"
+                                                                    onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                                <label class="form__control-label"
+                                                                    for="taking-strensiq-yes">
+                                                                    Yes</label>
+                                                            </div>
+                                                            <div class="form__control-radio">
+                                                                <input id="taking-strensiq-no" type="radio" value="no"
+                                                                    name="taking-strensiq"
+                                                                    onblur="validateFormControl(event); checkStepValidity(event)"
+                                                                    onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                                <label class="form__control-label"
+                                                                    for="taking-strensiq-no">
+                                                                    No</label>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
 
-                                                    <br>
-
-                                                    <span class="last-text">
-                                                        For more information on how your information may be used, please
-                                                        review Alexion’s <a
-                                                            href="https://alexion.com/Legal#privacynotice"
-                                                            target="_blank">Privacy Notice</a>.
-                                                    </span>
-                                                </label>
+                                                    <p class="form__control-error">
+                                                        Please select an option
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <p class="form__control-error">
-                                                Please confirm you are agree
-                                            </p>
+                                            <div class="step__form-actions">
+                                                <button type="button" class="button--primary button--next">Next</button>
+                                            </div>
                                         </div>
+
                                     </div>
-                                    <div class="step__form-actions">
-                                        <button type="button" class="button--back"
-                                            onclick="goToFirstStep()">Back</button>
-                                        <input class="button--primary" type="submit" value="Register"
-                                            onclick="validateFormOnSubmit(event)" />
+                                    <div class="swiper-slide">
+
+                                        <div class="step step--2">
+                                            <div class="step__form-controls">
+                                                <div class="form__control" data-touched="false" data-field-index="8"
+                                                    data-required="true" data-is-valid="false"
+                                                    data-only-for-types="in-person">
+                                                    <fieldset>
+                                                        <div class="legend-container">
+                                                            <legend class="form__control-legend">Are you bringing a
+                                                                guest?
+                                                            </legend><span class="label__hint">(Only one guest per
+                                                                registrant)</span>
+                                                        </div>
+                                                        <div class="form__control-radios">
+                                                            <div class="form__control-radio">
+                                                                <input id="bringing-guest-yes" type="radio" value="yes"
+                                                                    name="bringing-guest"
+                                                                    onblur="validateFormControl(event); checkStepValidity(event)"
+                                                                    onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                                <label class="form__control-label"
+                                                                    for="bringing-guest-yes">
+                                                                    Yes</label>
+                                                            </div>
+                                                            <div class="form__control-radio">
+                                                                <input id="bringing-guest-no" type="radio" value="no"
+                                                                    name="bringing-guest"
+                                                                    onblur="validateFormControl(event); checkStepValidity(event)"
+                                                                    onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                                <label class="form__control-label"
+                                                                    for="bringing-guest-no">
+                                                                    No</label>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+
+                                                    <p class="form__control-error">
+                                                        Please select an option
+                                                    </p>
+                                                </div>
+                                                <div class="form__control" data-touched="false" data-required="false"
+                                                    data-is-valid="false" data-only-for-types="in-person">
+                                                    <fieldset>
+                                                        <legend class="form__control-legend">Any dietary restrictions
+                                                            for you or
+                                                            your guest?.</legend>
+                                                        <div class="form__control-checkboxes">
+                                                            <div
+                                                                class="form__control-checkbox form__control-checkbox--rounded">
+                                                                <input id="vegetarian" type="checkbox"
+                                                                    name="dietary-restriction"
+                                                                    value="Yes, I am vegetarian"
+                                                                    aria-required="false" />
+                                                                <label class="form__control-label" for="vegetarian">Yes,
+                                                                    I am
+                                                                    vegetarian</label>
+                                                            </div>
+                                                            <div
+                                                                class="form__control-checkbox form__control-checkbox--rounded">
+                                                                <input id="guest-vegetarian" type="checkbox"
+                                                                    name="dietary-restriction"
+                                                                    value="Yes, my guest is vegetarian"
+                                                                    aria-required="false" />
+                                                                <label class="form__control-label"
+                                                                    for="guest-vegetarian">Yes,
+                                                                    my guest is vegetarian</label>
+                                                            </div>
+                                                            <div
+                                                                class="form__control-checkbox form__control-checkbox--rounded">
+                                                                <input id="vegan" type="checkbox"
+                                                                    name="dietary-restriction" value="Yes, I am vegan"
+                                                                    aria-required="false" />
+                                                                <label class="form__control-label" for="vegan">Yes, I am
+                                                                    vegan</label>
+                                                            </div>
+                                                            <div
+                                                                class="form__control-checkbox form__control-checkbox--rounded">
+                                                                <input id="guest-vegan" type="checkbox"
+                                                                    name="dietary-restriction"
+                                                                    value="Yes, my guest is vegan"
+                                                                    aria-required="false" />
+                                                                <label class="form__control-label"
+                                                                    for="guest-vegan">Yes, my
+                                                                    guest is vegan</label>
+                                                            </div>
+                                                            <div
+                                                                class="form__control-checkbox form__control-checkbox--rounded">
+                                                                <input id="gluten-free" type="checkbox"
+                                                                    name="dietary-restriction"
+                                                                    value="Yes, I am gluten-free"
+                                                                    aria-required="false" />
+                                                                <label class="form__control-label"
+                                                                    for="gluten-free">Yes, I am
+                                                                    gluten-free</label>
+                                                            </div>
+                                                            <div
+                                                                class="form__control-checkbox form__control-checkbox--rounded">
+                                                                <input id="guest-gluten-free" type="checkbox"
+                                                                    name="dietary-restriction"
+                                                                    value="Yes, my guest is gluten-free"
+                                                                    aria-required="false" />
+                                                                <label class="form__control-label"
+                                                                    for="guest-gluten-free">Yes,
+                                                                    my guest is gluten-free</label>
+                                                            </div>
+                                                            <div
+                                                                class="form__control-checkbox form__control-checkbox--rounded">
+                                                                <input id="kosher" type="checkbox"
+                                                                    name="dietary-restriction" value="Yes, I am kosher"
+                                                                    aria-required="false" />
+                                                                <label class="form__control-label" for="kosher">Yes, I
+                                                                    am
+                                                                    kosher</label>
+                                                            </div>
+                                                            <div
+                                                                class="form__control-checkbox form__control-checkbox--rounded">
+                                                                <input id="guest-kosher" type="checkbox"
+                                                                    name="dietary-restriction"
+                                                                    value="Yes, my guest is kosher"
+                                                                    aria-required="false" />
+                                                                <label class="form__control-label"
+                                                                    for="guest-kosher">Yes, my
+                                                                    guest is kosher</label>
+                                                            </div>
+                                                            <div
+                                                                class="form__control-checkbox form__control-checkbox--rounded">
+                                                                <input id="no-restrictions" type="checkbox"
+                                                                    name="dietary-restriction"
+                                                                    value="No dietary restrictions"
+                                                                    aria-required="false" />
+                                                                <label class="form__control-label"
+                                                                    for="no-restrictions">No
+                                                                    dietary restrictions</label>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                                <div class="form__control" data-touched="false" data-required="true"
+                                                    data-is-valid="false">
+                                                    <div class="form__control-checkbox">
+                                                        <input id="terms-and-conditions" type="checkbox"
+                                                            name="terms-and-conditions" aria-required="true" required
+                                                            onblur="validateFormControl(event); checkStepValidity(event)"
+                                                            onchange="validateFormControl(event); checkStepValidity(event)" />
+                                                        <label class="form__control-label" for="terms-and-conditions">
+                                                            <strong>By checking this box and submitting this form, I can
+                                                                confirm
+                                                                and agree to the following:</strong>
+
+                                                            <br /><br />
+                                                            <ul>
+                                                                <li>
+                                                                    If I have hypophosphatasia (HPP) or care for someone
+                                                                    who
+                                                                    does, I confirm I am 18 years of age or older.
+                                                                </li>
+                                                                <li>
+                                                                    If I care for someone living with HPP who plans to
+                                                                    attend
+                                                                    the event, I confirm that I will attend the event
+                                                                    with them.
+                                                                </li>
+                                                                <li>
+                                                                    I agree to my personal data being processed in this
+                                                                    Registration Portal for the purposes of registering
+                                                                    my
+                                                                    interest in attending an upcoming patient program
+                                                                    sponsored
+                                                                    by Alexion.
+                                                                </li>
+                                                                <li>
+                                                                    I give Alexion permission to provide promotional
+                                                                    information
+                                                                    to me or otherwise contact me about Alexion
+                                                                    products,
+                                                                    services, programs, or other topics that Alexion
+                                                                    thinks may
+                                                                    interest me.
+                                                                </li>
+                                                            </ul>
+
+                                                            <br>
+
+                                                            <span class="last-text">
+                                                                For more information on how your information may be
+                                                                used, please
+                                                                review Alexion’s <a
+                                                                    href="https://alexion.com/Legal#privacynotice"
+                                                                    target="_blank">Privacy Notice</a>.
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <p class="form__control-error">
+                                                        Please confirm you are agree
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="step__form-actions">
+                                                <button type="button" class="button--back">Back</button>
+                                                <input class="button--primary" type="submit" value="Register"
+                                                    onclick="validateFormOnSubmit(event)" />
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
-                            </form>
-                        </div>
+                            </div>
+                        </form>
 
                     </div>
 
