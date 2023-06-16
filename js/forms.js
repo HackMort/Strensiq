@@ -188,4 +188,6 @@ function validateFormOnSubmit (event) {
       setValidationStatusToFormControl(formControl, nativeControl)
     })
   }
+
+  return formIsValid
 }

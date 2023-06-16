@@ -831,6 +831,29 @@ button {
     }
 }
 
+@media screen and (min-width: 425px) {
+    .event-form-modal {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .event-form-modal {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .event-form-modal {
+        max-width: 920px;
+        padding-left: 104px;
+        padding-right: 104px;
+    }
+}
+
 .form__header {
     align-items: flex-start;
     margin-bottom: 24px;
@@ -878,7 +901,27 @@ button {
     color: #824BB0;
 }
 
+@media screen and (min-width: 1024px) {
+    .step__form-actions {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .step__form-actions .button--primary {
+        max-width: 125px;
+    }
+
+    .step__form-actions .button--back {
+        max-width: max-content;
+    }
+}
+
 .step__form-actions .button--back::before {
     content: "<";
     margin-right: 8px;
+}
+
+.swiper-slide-next {
+    position: absolute;
+    left: 100%;
 }

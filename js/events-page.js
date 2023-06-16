@@ -114,22 +114,28 @@ const getParent = function (child, className) {
  */
 const eventToJSON = function (event) {
   const { eventId, eventType } = event.dataset
-  const date = event.querySelector('.event__date').innerText.trim()
-  const hour = event.querySelector('.event__hour').innerText.trim()
-  const title = event.querySelector('.event__title').innerText.trim()
-  const presenter = event.querySelector('.event__presenter').innerText.trim()
-  const description = event
-    .querySelector('.event__description')
-    .innerText.trim()
+  const extractDate = () => {
+    return (
+      event
+        .querySelector('.event-card__date .event-card__month')
+        .innerText.trim() +
+      ' ' +
+      event.querySelector('.event-card__date .event-card__day').innerText.trim()
+    )
+  }
+  const date = extractDate()
+  const hour = event.querySelector('.event-card__hour').innerText.trim()
+  const title = event.querySelector('.event-card__title').innerText.trim()
+  const speaker = event.querySelector('.event-card__speaker').innerText.trim()
+  let description = event.querySelector('.event-card__description')
 
-  let type = event.querySelector('.event__type')
-  if (type) {
-    type = type.innerText.trim()
+  if (description) {
+    description = description.innerText.trim()
   }
 
-  let location = event.querySelector('.event__location')
-  if (location) {
-    location = location.innerHTML.trim()
+  let address = event.querySelector('.event-card__address')
+  if (address) {
+    address = address.innerHTML.trim()
   }
 
   return {
@@ -137,11 +143,10 @@ const eventToJSON = function (event) {
     type: eventType,
     date,
     hour,
-    typeString: type,
-    location,
+    address,
     title,
     description,
-    presenter
+    speaker
   }
 }
 
@@ -169,26 +174,68 @@ const addEventDataToForm = (eventData, form) => {
 }
 
 /**
- * This function filters form controls based on the event type and removes those that are not
- * applicable.
- * @param {string} eventType - a string representing the type of event for which the form needs to be prepared.
- * @param {HTMLFormElement} form - The `form` parameter is a reference to an HTML form element that will be modified
- * based on the `eventType` parameter.
+ * The function prepares a form based on the type of event data provided, and modifies the form header
+ * and content accordingly.
+ * @param eventData - An object containing information about an event, including its type, title, date,
+ * hour, and address.
+ * @param formContainer - The container element that holds the form for the event.
  */
-const prepareFormAccordingEventType = (eventType, form) => {
-  const filterableControls = Array.from(
-    form.querySelectorAll('.form__control[data-only-for-types]')
+const prepareFormAccordingEventType = (eventData, formContainer) => {
+  const type = eventData.type
+  const formHeader = formContainer.querySelector('.form__header')
+
+  const titleElement = formHeader.querySelector('.event-info__title')
+  if (eventData.title && titleElement) {
+    titleElement.innerText = eventData.title
+  }
+
+  const dateElement = formHeader.querySelector('.event-info__date .date')
+  if (eventData.date && dateElement) {
+    dateElement.innerText = eventData.date
+  }
+
+  const hourElement = formHeader.querySelector('.event-info__date .hour')
+  if (eventData.hour && hourElement) {
+    hourElement.innerText = eventData.hour
+  }
+
+  const addressElement = formHeader.querySelector(
+    '.event-info__date .address .city'
   )
+  if (eventData.address && hourElement) {
+    addressElement.innerText = eventData.address
+  }
 
-  filterableControls.forEach(control => {
-    const onlyForTypes = [].concat(control.dataset.onlyForTypes.split(','))
+  if (type && type === filterTypes.VIRTUAL) {
+    const form = formContainer.querySelector('form')
+    const optionalSlide = form.querySelector('.slide--optional')
+    const requiredSlide = form.querySelector('.slide--required')
 
-    const deleteControl = !onlyForTypes.includes(eventType)
-
-    if (deleteControl) {
-      control.parentElement.removeChild(control)
+    if (optionalSlide) {
+      optionalSlide.parentElement.removeChild(optionalSlide)
     }
-  })
+
+    if (requiredSlide) {
+      const actionsContainer = requiredSlide.querySelector(
+        '.step__form-actions'
+      )
+
+      if (actionsContainer) {
+        const nextButton = actionsContainer.querySelector('button')
+        if (nextButton) {
+          actionsContainer.removeChild(nextButton)
+        }
+
+        const submit = document.createElement('input')
+        submit.type = 'submit'
+        submit.value = 'Register'
+        submit.classList.add('button--primary')
+        // submit.onclick = event => validateFormOnSubmit(event)
+
+        actionsContainer.appendChild(submit)
+      }
+    }
+  }
 }
 
 /**
@@ -250,39 +297,40 @@ const showConfirmationView = (container, eventData, formData) => {
 
   scrollToHref()
 }
-
 /**
+ * The function checks if any required control in a given step is invalid or not yet touched.
+ * @param step - The "step" parameter is a DOM element representing a step in a multi-step form. The
+ * function checks if all the required form controls in the step have been filled out and are valid.
+ * @returns a boolean value indicating whether any required control in the current step is invalid or
+ * not yet touched. If there is at least one invalid or untouched control, the function returns `true`,
+ * otherwise it returns `false`.
+ */
 
-Checks the validity of the current step in a multi-step form and enables/disables the "Next" button accordingly.
-@param {Event} event - The event object for the input event that triggered this function.
-@returns {void}
-*/
-function checkStepValidity (event) {
-  const step = getParent(event.target, 'step')
-
+function checkStepValidity (step) {
   // Get an array of all required controls in the current step.
   const stepRequiredControls = Array.from(
     step.querySelectorAll('.form__control[data-required="true"]')
   )
 
   // Check if any required control is invalid or not yet touched.
-  const isInvalid = stepRequiredControls.some(
+  const invalid = stepRequiredControls.some(
     control =>
       control.classList.contains('form__control--invalid') ||
       control.dataset.touched === 'false'
   )
 
-  // Get the "Next" button for the current step.
-  const nextButton = step.querySelector('.button--next')
+  return invalid
+}
 
-  // If any required control is invalid or not yet touched, disable the "Next" button.
-  if (isInvalid) {
-    nextButton.setAttribute('disabled', 'true')
-  } else {
-    if (nextButton) {
-      nextButton.removeAttribute('disabled')
-    }
-  }
+function markUntouchedStepControlsAsInvalid (step) {
+  const stepRequiredControls = Array.from(
+    step.querySelectorAll('.form__control[data-required="true"]')
+  )
+
+  stepRequiredControls.forEach(control => {
+    control.dataset.touched = 'true'
+    control.classList.add('form__control--invalid')
+  })
 }
 
 const toggleCards = (currentCard, cards) => {
@@ -416,6 +464,35 @@ document.addEventListener('DOMContentLoaded', () => {
   // ================================== Event form ========================================
   let formSwiper = null
   let formModalObserver = null
+  let eventData = null
+
+  const getEventData = element => {
+    let event
+
+    if (element.classList.contains('event-card')) {
+      event = element
+    } else {
+      event = getParent(element, 'event-card')
+    }
+
+    eventData = eventToJSON(event)
+    console.log(eventData)
+  }
+
+  const eventRegisterButtons = document.querySelectorAll(
+    '.event-card .event-card__register-button'
+  )
+
+  const nextEventCard = document.querySelector('#next-event-card')
+  nextEventCard.addEventListener('click', () => {
+    getEventData(nextEventCard)
+  })
+
+  eventRegisterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      getEventData(button)
+    })
+  })
 
   const initFormSwiper = () => {
     formSwiper = new Swiper('.form-swiper', {
@@ -425,19 +502,41 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     const form = document.querySelector('form')
+    const formContainer = document.querySelector('#event-form-container')
 
-    const nextButton = form.querySelector('.button--next')
-    const backButton = form.querySelector('.button--back')
+    prepareFormAccordingEventType(eventData, formContainer)
 
-    nextButton.addEventListener('click', () => {
-      formSwiper.slideNext(200, true)
-      // scrollToHref('jd-modal-event-form-modal')
-    })
+    if (eventData.type !== filterTypes.VIRTUAL) {
+      const nextButton = form.querySelector('.button--next')
+      const backButton = form.querySelector('.button--back')
+      nextButton.addEventListener('click', () => {
+        const step = getParent(nextButton, 'step')
+        const invalid = checkStepValidity(step)
+        if (!invalid) {
+          formSwiper.slideNext(200, true)
+        } else {
+          markUntouchedStepControlsAsInvalid(step)
+        }
+      })
 
-    backButton.addEventListener('click', () => {
-      formSwiper.slidePrev(200, true)
-      // scrollToHref('jd-modal-event-form-modal')
-    })
+      backButton.addEventListener('click', () => {
+        formSwiper.slidePrev(200, true)
+      })
+    }
+
+    const submit = form.querySelector('[type="submit"]')
+
+    if (submit) {
+      submit.addEventListener('click', event => {
+        const valid = validateFormOnSubmit(event)
+
+        if (valid) {
+          const form = event.target.form
+          const formData = new FormData(form)
+          console.log(formData)
+        }
+      })
+    }
   }
 
   const initFormModalObserver = () => {
@@ -447,23 +546,29 @@ document.addEventListener('DOMContentLoaded', () => {
       const addedNodes = Array.from(mutations[0].addedNodes)
       const removedNodes = Array.from(mutations[0].removedNodes)
 
-      const init = addedNodes.some(
-        node =>
+      const init = addedNodes.some(node => {
+        return (
+          node &&
           typeof node === 'object' &&
+          node.classList &&
           node.classList.contains('fancybox__viewport')
-      )
+        )
+      })
 
-      const destroy = removedNodes.some(
-        node =>
+      const destroy = removedNodes.some(node => {
+        return (
+          node &&
           typeof node === 'object' &&
+          node.classList &&
           node.classList.contains('event-form-modal')
-      )
+        )
+      })
 
       if (init && !formSwiper) {
         initFormSwiper()
       }
 
-      if (destroy) {
+      if (destroy && formSwiper) {
         formSwiper.destroy(true, false)
         formSwiper = null
       }
