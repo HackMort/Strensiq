@@ -221,7 +221,10 @@ const prepareFormAccordingEventType = (eventData, formContainer) => {
 
     if (addressElement) {
       addressElement.innerHTML = '<strong>Virtual</strong>'
-      addressElement.setAttribute('style', 'text-decoration: underline')
+      addressElement.setAttribute(
+        'style',
+        'text-decoration: underline; color: #000000;'
+      )
     }
 
     console.log(controlContainer, termsAndConditionsControl)
