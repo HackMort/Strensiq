@@ -149,6 +149,12 @@ ul {
     max-width: 1190px;
 }
 
+@media screen and (min-width: 1366px) {
+    .container {
+        padding-right: 0;
+    }
+}
+
 .collapse:not(.show) {
     display: block;
 }
@@ -188,7 +194,13 @@ ul {
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
+}
+
+@media screen and (min-width: 1366px) {
+    .navbar-collapse .nav li a {
+        letter-spacing: 1px;
+    }
 }
 
 .herobanner:after {
@@ -215,7 +227,7 @@ ul {
     letter-spacing: .1rem;
     background: #00a8e1;
     color: #fff;
-    padding: 9px 16px 6px;
+    padding: 9px 8px 6px;
     display: flex;
     font-weight: bold;
     white-space: nowrap;

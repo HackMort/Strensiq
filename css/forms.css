@@ -141,6 +141,7 @@ input[type=checkbox]::before {
     background-color: #F4F4F4;
     width: 100%;
     outline: .5px solid #DBDBDB;
+    border: 0
 }
 
 .form__control .form__control-input:hover,
