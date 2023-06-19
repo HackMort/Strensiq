@@ -817,7 +817,12 @@ button {
     border-radius: 8px;
     width: 100%;
     height: max-content;
+}
 
+.form-container,
+.confirmation-view__header,
+.confirmation-view__content,
+.confirmation-view__footer {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 30px;
@@ -825,7 +830,11 @@ button {
 }
 
 @media screen and (min-width: 375px) {
-    .event-form-modal {
+
+    .form-container,
+    .confirmation-view__header,
+    .confirmation-view__content,
+    .confirmation-view__footer {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -834,13 +843,23 @@ button {
 @media screen and (min-width: 425px) {
     .event-form-modal {
         max-width: 95%;
+    }
+
+    .form-container,
+    .confirmation-view__header,
+    .confirmation-view__content,
+    .confirmation-view__footer {
         margin-left: auto;
         margin-right: auto;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .event-form-modal {
+
+    .form-container,
+    .confirmation-view__header,
+    .confirmation-view__content,
+    .confirmation-view__footer {
         padding-left: 45px;
         padding-right: 45px;
     }
@@ -849,6 +868,12 @@ button {
 @media screen and (min-width: 1024px) {
     .event-form-modal {
         max-width: 920px;
+    }
+
+    .form-container,
+    .confirmation-view__header,
+    .confirmation-view__content,
+    .confirmation-view__footer {
         padding-left: 104px;
         padding-right: 104px;
     }
@@ -924,4 +949,109 @@ button {
 .swiper-slide-next {
     position: absolute;
     left: 100%;
+}
+
+.confirmation-view .confirmation__view-title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.84px;
+}
+
+.confirmation-view .confirmation-view__footer {
+    background: #F0F0F0;
+}
+
+.confirmation-view .confirmation-view__header {
+    padding-bottom: 0;
+}
+
+.confirmation-view .confirmation-view__content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .confirmation-view .confirmation-view__header {
+        height: 150px;
+    }
+
+    .confirmation-view .confirmation-view__header .title-container {
+        align-self: flex-end;
+    }
+
+    .confirmation-view .confirmation-view__content {
+        padding-bottom: 120px;
+    }
+}
+
+.confirmation-view .confirmation-view__footer {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    text-align: center;
+}
+
+.confirmation-view__content .paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.confirmation-view__content .event-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.confirmation-view__content .event-date {
+    margin-bottom: 16px;
+}
+
+.confirmation-view__content .event-date,
+.confirmation-view__content .event-date a {
+    color: #979797;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.confirmation-view__content .event-date a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.confirmation-view__content .message {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #162647;
+    margin-bottom: 25px;
+}
+
+.confirmation-view__footer {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.confirmation-view__footer .call-to-action-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.84px;
+    margin-bottom: 16px;
+}
+
+.confirmation-view__footer .alexion-logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 284.49px;
+    margin-bottom: 16px;
+}
+
+.confirmation-view__footer .footnote {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
 }

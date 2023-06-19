@@ -48,7 +48,7 @@ const enableSubmitButton = submit => {
  * @returns {boolean} A boolean value.
  */
 const radioGroupIsValid = function (name) {
-  const radioGroup = document.getElementsByName(
+  const radioGroup = document.querySelectorAll(
     `input[type="radio"][name=${name}]`
   )
   let isValid = false
@@ -114,7 +114,7 @@ const setValidationStatusToFormControl = (formControl, nativeControl) => {
   const isOptional = formControl.dataset.required === 'false'
   markFormControlAsTouched(formControl)
 
-  if (nativeControl.type === 'radio' && !nativeControl.checked) {
+  if (nativeControl.type === 'radio') {
     const groupIsValid = radioGroupIsValid(nativeControl.name)
 
     if (groupIsValid || isOptional) {

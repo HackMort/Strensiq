@@ -199,23 +199,38 @@ const prepareFormAccordingEventType = (eventData, formContainer) => {
     hourElement.innerText = eventData.hour
   }
 
-  const addressElement = formHeader.querySelector(
+  const cityAddressElement = formHeader.querySelector(
     '.event-info__date .address .city'
   )
   if (eventData.address && hourElement) {
-    addressElement.innerText = eventData.address
+    cityAddressElement.innerText = eventData.address
   }
 
   if (type && type === filterTypes.VIRTUAL) {
     const form = formContainer.querySelector('form')
     const optionalSlide = form.querySelector('.slide--optional')
     const requiredSlide = form.querySelector('.slide--required')
+    const controlContainer = requiredSlide.querySelector('.step__form-controls')
+    const termsAndConditionsControl = optionalSlide.querySelector(
+      '#terms-and-conditions-control'
+    )
 
-    if (optionalSlide) {
-      optionalSlide.parentElement.removeChild(optionalSlide)
+    const addressElement = formHeader.querySelector(
+      '.event-info__date .address'
+    )
+
+    if (addressElement) {
+      addressElement.innerHTML = '<strong>Virtual</strong>'
+      addressElement.setAttribute('style', 'text-decoration: underline')
     }
 
+    console.log(controlContainer, termsAndConditionsControl)
+
     if (requiredSlide) {
+      if (controlContainer && termsAndConditionsControl) {
+        controlContainer.appendChild(termsAndConditionsControl)
+      }
+
       const actionsContainer = requiredSlide.querySelector(
         '.step__form-actions'
       )
@@ -234,6 +249,10 @@ const prepareFormAccordingEventType = (eventData, formContainer) => {
 
         actionsContainer.appendChild(submit)
       }
+    }
+
+    if (optionalSlide) {
+      optionalSlide.parentElement.removeChild(optionalSlide)
     }
   }
 }
@@ -324,7 +343,9 @@ function checkStepValidity (step) {
 
 function markUntouchedStepControlsAsInvalid (step) {
   const stepRequiredControls = Array.from(
-    step.querySelectorAll('.form__control[data-required="true"]')
+    step.querySelectorAll(
+      '.form__control[data-required="true"][data-touched="false"]'
+    )
   )
 
   stepRequiredControls.forEach(control => {
@@ -466,6 +487,9 @@ document.addEventListener('DOMContentLoaded', () => {
   let formModalObserver = null
   let eventData = null
 
+  /**
+   * The function gets event data from an HTML element.
+   */
   const getEventData = element => {
     let event
 
@@ -476,7 +500,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     eventData = eventToJSON(event)
-    console.log(eventData)
   }
 
   const eventRegisterButtons = document.querySelectorAll(
@@ -494,6 +517,10 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   })
 
+  /**
+   * The function initializes a Swiper instance for a form and adds event listeners for navigation and
+   * form submission.
+   */
   const initFormSwiper = () => {
     formSwiper = new Swiper('.form-swiper', {
       loop: false,
@@ -528,17 +555,87 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (submit) {
       submit.addEventListener('click', event => {
+        event.preventDefault()
         const valid = validateFormOnSubmit(event)
 
         if (valid) {
           const form = event.target.form
-          const formData = new FormData(form)
-          console.log(formData)
+          const data = new FormData(form)
+          showConfirmationView({
+            ...eventData,
+            firstName: data.get('first-name'),
+            email: data.get('email')
+          })
         }
       })
     }
   }
 
+  /**
+   * The function shows a confirmation view with data provided and hides the event form container.
+   */
+  const showConfirmationView = data => {
+    console.log(data)
+    const template = document.querySelector('#confirmation-view-template')
+    const formContainer = document.querySelector('#event-form-container')
+    const view = template.content.cloneNode(true)
+
+    const mainContainer = template.parentElement
+
+    const firstNameElement = view.querySelector('.first-name')
+    const eventTitleElement = view.querySelector('.event-title')
+    const eventDateElement = view.querySelector('.date')
+    const eventHourElement = view.querySelector('.hour')
+    const eventAddressElement = view.querySelector('.address')
+    const emailElement = view.querySelector('.email')
+
+    if (firstNameElement) {
+      firstNameElement.innerText = data.firstName
+    }
+
+    if (eventTitleElement) {
+      eventTitleElement.innerText = data.title
+    }
+
+    if (eventDateElement) {
+      eventDateElement.innerText = data.date
+    }
+
+    if (eventHourElement) {
+      eventHourElement.innerText = data.hour
+    }
+
+    if (eventAddressElement) {
+      eventAddressElement.innerText = data.address
+    }
+
+    if (emailElement) {
+      emailElement.innerText = data.email
+    }
+
+    if (formContainer) {
+      formContainer.setAttribute('style', 'display: none;')
+    }
+
+    if (mainContainer && view) {
+      mainContainer.appendChild(view)
+
+      const closeButton = mainContainer.querySelector(
+        '.confirmation-view button[data-jd-modal-close]'
+      )
+      if (closeButton) {
+        closeButton.addEventListener('click', () => {
+          Fancybox.close()
+        })
+      }
+    }
+  }
+
+  /**
+   * This function initializes a MutationObserver that listens for changes to the body element and
+   * triggers the initialization or destruction of a form swiper based on the presence or absence of
+   * certain nodes.
+   */
   const initFormModalObserver = () => {
     const observedElement = document.querySelector('body')
     const observerConfig = { childList: true, subtree: true }
@@ -565,6 +662,7 @@ document.addEventListener('DOMContentLoaded', () => {
       })
 
       if (init && !formSwiper) {
+        // showConfirmationView()
         initFormSwiper()
       }
 

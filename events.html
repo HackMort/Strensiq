@@ -1631,8 +1631,8 @@
                                                         </div>
                                                     </fieldset>
                                                 </div>
-                                                <div class="form__control" data-touched="false" data-required="true"
-                                                    data-is-valid="false">
+                                                <div id="terms-and-conditions-control" class="form__control"
+                                                    data-touched="false" data-required="true" data-is-valid="false">
                                                     <div class="form__control-checkbox">
                                                         <input id="terms-and-conditions" type="checkbox"
                                                             name="terms-and-conditions" aria-required="true" required
@@ -1702,9 +1702,65 @@
                             </div>
                         </form>
 
-                        <template id=""></template>
-
                     </div>
+
+
+                    <template id="confirmation-view-template">
+                        <div class="confirmation-view">
+
+                            <div data-jd-modal-header class="form__header confirmation-view__header">
+                                <div class="title-container">
+                                    <p class="confirmation__view-title">
+                                        Your spot is saved, <span class="first-name">firstname</span>!
+                                    </p>
+                                </div>
+                                <button data-jd-modal-close>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.5607 9.85355L19.7071 0.707108L19 0L9.85355 9.14645L0.707107 1.20249e-06L1.54541e-08 0.707108L9.14645 9.85355L0 19L0.707107 19.7071L9.85355 10.5607L19 19.7071L19.7071 19L10.5607 9.85355Z"
+                                            fill="black" />
+                                    </svg>
+
+                                </button>
+                            </div>
+
+                            <div class="confirmation-view__content">
+                                <p class="paragraph">Thank you for registering for the following event:</p>
+
+                                <p class="event-title">
+                                    Talk Title
+                                </p>
+
+                                <div class="event-date">
+                                    <p>
+                                        <span class="date">June 07</span>
+                                        <span class="hour">7:00 PM ET</span>
+                                    </p>
+                                    <a href="" target="_blank">Venue</a>
+                                    <p class="address">City, State</p>
+                                </div>
+
+                                <p class="message">
+                                    An email confirmation has been sent to <span class="email">user@email.com</span>. We
+                                    look forward to you joining this event.
+                                </p>
+
+                            </div>
+
+                            <div class="confirmation-view__footer">
+
+                                <p class="call-to-action-text">If you have any questions about the event, please call
+                                    (844)-581-5898</p>
+
+                                <img class="alexion-logo" src="/images/events/alexion-logo-colored.png" alt="">
+
+                                <p class="footnote">This program is sponsored by Alexion Pharmaceuticals, Inc. </p>
+
+                            </div>
+
+                        </div>
+                    </template>
 
                 </div>
             </div>
