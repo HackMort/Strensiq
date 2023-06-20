@@ -190,8 +190,6 @@ header.mobile-header .mobile-header__container .left-content,
 header.mobile-header .mobile-header__container .right-content {
     display: flex;
     align-items: center;
-
-    gap: 1.5rem;
 }
 
 header.mobile-header .mobile-header__toggle {
@@ -243,15 +241,67 @@ header.mobile-header .mobile-header__signup,
     border: 1px solid #00A8E1;
     background: #00a8e1;
     color: #fff;
-    padding: 9px 16px 6px;
+    padding: 9px 8px 6px;
     font-weight: bold;
     white-space: nowrap;
     height: 40px;
-    width: 104px;
+    width: 82px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+header.mobile-header .mobile-header__signup.events-button {
+    background: #DFDF00;
+    margin-left: 8px;
+    color: #005D55;
+    border-color: #DFDF00;
+}
+
+@media screen and (min-width: 375px) {
+    header.mobile-header .mobile-header__signup.events-button {
+        margin-left: 16px;
+    }
+}
+
+.header-right-buttons {
+    display: flex;
+}
+
+.header-right-buttons a {
+    min-width: 78px;
+}
+
+.header-right-buttons .events-button {
+    color: #005D55;
+    background: #DFDF00;
+    margin-left: 12px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1100px) {
+    .header-right-buttons .events-button {
+        margin-left: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header-right-buttons .events-button {
+        margin-left: 38px;
+    }
+}
+
+.header-right-buttons .events-button:hover,
+.header-right-buttons .events-button:focus {
+    color: #005D55 !important;
+    background: #bdbd00 !important;
+}
+
+@media screen and (min-width: 1366px) {
+    .header-right-buttons .events-button {
+        margin-left: 20px;
+    }
 }
 
 header.mobile-header .sidenav__menu-item .menu-item--active {
@@ -8029,6 +8079,11 @@ div:last-child>.hpp-dtc-m-tipcard_holder {
     .site-header .container .d-flex.jcnt-end .logo {
         margin-right: auto;
         margin-left: -12px;
+        flex: 0 1 auto;
+    }
+
+    .site-header .container .d-flex.jcnt-end .hedright {
+        flex: 1 1 auto;
     }
 
     .pagesubnavstickpoint>.l-grid {
@@ -8270,6 +8325,7 @@ button.w-vulcan-v2-button {
         font-size: 18px;
     }
 }
+
 #questions .card .description,
 #magnify .card .description,
 #medical .card .description {
@@ -8277,8 +8333,8 @@ button.w-vulcan-v2-button {
 }
 
 @supports (-webkit-touch-callout: none) and (not (translate: none)) {
-    #questions .card .icon.check
-    #magnify .card .icon.check,
+
+    #questions .card .icon.check #magnify .card .icon.check,
     #medical .card .icon.check {
         margin-left: 2rem;
     }

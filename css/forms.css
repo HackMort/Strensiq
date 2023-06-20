@@ -1,0 +1,290 @@
+input {
+    width: 100%;
+    border: 0;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    color: currentColor;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #62708E;
+    transform: translateY(-1.2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
+
+input[type=radio] {
+    border-radius: 50%;
+}
+
+input[type=radio]::before {
+    content: "";
+    width: 10.4px;
+    height: 10.4px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 16px 16px #005D55;
+    background-color: CanvasText;
+}
+
+input[type=radio]:checked::before {
+    transform: scale(1);
+}
+
+input[type=checkbox] {
+    border-radius: 4px;
+    -webkit-appearance: none;
+    position: relative;
+}
+
+input[type=checkbox]:checked {
+    background-color: #005D55;
+    border-color: #005D55;
+}
+
+input[type=checkbox]::before {
+    content: "";
+    position: absolute;
+    transition: 120ms transform ease-in-out;
+    border: solid #FFFFFF;
+    right: 50%;
+    top: 45%;
+    width: 7px;
+    height: 12px;
+    border-width: 0 2px 2px 0;
+    margin: 0px -2px 0 -1px;
+    transform: rotate(45deg) translate(-50%, -50%);
+    z-index: 2;
+}
+
+.form__control {
+    display: block;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 24px;
+    transition: all 100ms ease-in-out;
+}
+
+.form__control * {
+    color: #333333;
+}
+
+.form__control a {
+    color: #870051;
+}
+
+.form__control .legend-container {
+    display: block;
+}
+
+.form__control .label__hint {
+    margin-left: 0px;
+    color: #A9A9A9;
+}
+
+.form__control .form__control-label,
+.form__control .form__control-legend {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    display: inline-block;
+    cursor: pointer;
+
+    margin-bottom: 0;
+}
+
+.form__control .form__control-legend {
+    margin-bottom: 0px;
+    line-height: 20px;
+    margin-top: 0;
+}
+
+.form__control .form__control-error {
+    display: none;
+    color: red;
+    font-size: 1rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    margin-top: 1px;
+}
+
+@media screen and (min-width: 1024px) {
+    .form__control .form__control-error {
+        font-size: 14px;
+    }
+}
+
+.form__control[data-required=true] .form__control-label::after,
+.form__control[data-required=true] .form__control-legend::after {
+    content: "*";
+    color: red;
+    display: inline-block;
+}
+
+.form__control .form__control-input,
+.form__control .form__control-select {
+    height: 48px;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #F4F4F4;
+    width: 100%;
+    outline: .5px solid #DBDBDB;
+    border: 0
+}
+
+.form__control .form__control-input:hover,
+.form__control .form__control-input:focus,
+.form__control .form__control-input:focus-visible,
+.form__control .form__control-select:hover,
+.form__control .form__control-select:focus,
+.form__control .form__control-select:focus-visible {
+    outline-color: #559CB5;
+}
+
+.form__control .form__control-select {
+    display: inline-block;
+    background-image: url("/images/events/expand-event-arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 11px) calc(1em - -3px),
+        calc(100% - 15px) calc(1em + 2px),
+        100% 0;
+}
+
+.form__control .form__control-select:focus {
+    background-image: url("/images/events/arrow-up.svg");
+}
+
+.form__control .form__control-radios {
+    display: flex;
+}
+
+.form__control .form__control-radios .form__control-radio:first-of-type {
+    margin-right: 16px;
+}
+
+.form__control .form__control-radio,
+.form__control .form__control-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.form__control .form__control-radio input,
+.form__control .form__control-checkbox input {
+    margin-right: 10px;
+}
+
+.form__control .form__control-radio .form__control-label,
+.form__control .form__control-checkbox .form__control-label {
+    cursor: pointer;
+}
+
+.form__control .form__control-radio .form__control-label::after,
+.form__control .form__control-checkbox .form__control-label::after {
+    display: none;
+}
+
+.form__control .form__control-checkbox {
+    align-items: flex-start;
+}
+
+.form__control .form__control-checkbox .form__control-label strong {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.23px;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+
+.form__control .form__control-checkbox .form__control-label ul li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.96px;
+    letter-spacing: 0.6px;
+    color: #5E5E5E;
+}
+
+.form__control .form__control-checkbox .form__control-label .last-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 0.6px;
+    color: #5E5E5E;
+}
+
+.form__control .form__control-checkbox .form__control-label .last-text a {
+    text-decoration: underline;
+    color: #00A9E0;
+}
+
+.form__control .form__control-checkbox .form__control-label ul {
+    transform: translateX(12px);
+    max-width: calc(100% - 12px);
+}
+
+.form__control .form__control-checkbox .form__control-label ul li {
+    line-height: initial;
+    list-style-type: disc;
+}
+
+.form__control .form__control-checkbox .form__control-label ul li::marker {
+    color: #5E5E5E;
+}
+
+.form__control .form__control-checkbox.form__control-checkbox--rounded {
+    align-items: center;
+}
+
+.form__control .form__control-checkbox.form__control-checkbox--rounded input {
+    border-radius: 50%;
+}
+
+.form__control .form__control-checkbox.form__control-checkbox--rounded input:checked {
+    background-color: transparent;
+    border-color: #62708E;
+}
+
+.form__control .form__control-checkbox.form__control-checkbox--rounded input::before {
+    position: initial;
+    content: "";
+    width: 10.4px;
+    height: 10.4px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 16px 16px #005D55;
+    border: initial;
+
+    margin: 0;
+}
+
+.form__control .form__control-checkbox.form__control-checkbox--rounded input:checked::before {
+    transform: scale(1);
+}
+
+.form__control .form__control-checkbox.form__control-checkbox--rounded .form__control-label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.form__control.form__control--invalid[data-touched=true][data-required=true][data-is-valid=false] .form__control-input,
+.form__control.form__control--invalid[data-touched=true][data-required=true][data-is-valid=false] .form__control-select {
+    outline-color: red;
+}
+
+.form__control.form__control--invalid[data-touched=true][data-required=true][data-is-valid=false] .form__control-error {
+    display: block;
+}
