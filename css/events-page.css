@@ -131,9 +131,15 @@ button {
 }
 
 .how-sq-helps[data-module=HeroModule] picture {
-    height: calc(300px + ((770 - 300) * ((100vw - 320px) / (1440 - 320))));
+    height: calc(300px + ((664 - 300) * ((100vw - 320px) / (1100 - 320))));
     max-height: 770px;
     display: block;
+}
+
+@media screen and (min-width: 1100px) {
+    .how-sq-helps[data-module=HeroModule] picture {
+        height: calc(664px + ((770 - 664) * ((100vw - 1100px) / (1440 - 1100))));
+    }
 }
 
 [data-module=HeroModule] {
@@ -141,7 +147,7 @@ button {
     background: #ffffff;
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1100px) {
     .hpp-dtc-m-hero.internal-hero {
         min-height: auto;
         position: relative !important;
@@ -154,10 +160,16 @@ button {
         bottom: -2px;
         left: 0;
         width: 100%;
-        height: 95px;
+        height: 63px;
         background: #ffffff;
         border-top-left-radius: 120px;
         z-index: 0;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hpp-dtc-m-hero.internal-hero::before {
+        height: 95px;
     }
 }
 
@@ -180,16 +192,24 @@ button {
     }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1100px) {
     .hero__green-box-container {
         position: absolute;
-        right: 85px;
-        bottom: 110px;
+        right: 15px;
+        bottom: 74px;
         display: flex;
         align-items: flex-end;
-        width: calc(100vw - 216px);
+        width: calc(100vw - 65px);
         max-width: initial;
         justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hero__green-box-container {
+        right: 124px;
+        bottom: 110px;
+        width: calc(100vw - 248px);
     }
 }
 
@@ -208,7 +228,7 @@ button {
     }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1100px) {
     .hero__green-box-container .hero__name {
         text-align: left;
         font-size: 33.76px;
@@ -221,7 +241,13 @@ button {
     background-color: #005D55;
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1100px) {
+    .hero__green-box-container .hero__green-box {
+        max-width: 620px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     .hero__green-box-container .hero__green-box {
         max-width: 676px;
     }
@@ -657,7 +683,7 @@ button {
 /* Event card component */
 
 .event-list-section {
-    margin-top: 16px;
+    margin-top: 4px;
 }
 
 @media screen and (min-width: 1366px) {
@@ -809,6 +835,21 @@ button {
         padding-right: 32px;
         padding-bottom: 32px;
         padding-left: 32px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .hero__green-box-container .hero__green-box .hero__green-box-wrapper {
+        padding-top: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hero__green-box-container .hero__green-box .hero__green-box-wrapper {
+        padding-top: 60px;
     }
 }
 

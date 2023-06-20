@@ -256,6 +256,13 @@ header.mobile-header .mobile-header__signup.events-button {
     background: #DFDF00;
     margin-left: 8px;
     color: #005D55;
+    border-color: #DFDF00;
+}
+
+@media screen and (min-width: 375px) {
+    header.mobile-header .mobile-header__signup.events-button {
+        margin-left: 16px;
+    }
 }
 
 .header-right-buttons {
@@ -269,8 +276,20 @@ header.mobile-header .mobile-header__signup.events-button {
 .header-right-buttons .events-button {
     color: #005D55;
     background: #DFDF00;
-    margin-left: 4px;
+    margin-left: 12px;
     justify-content: center;
+}
+
+@media screen and (min-width: 1100px) {
+    .header-right-buttons .events-button {
+        margin-left: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header-right-buttons .events-button {
+        margin-left: 38px;
+    }
 }
 
 .header-right-buttons .events-button:hover,
@@ -281,7 +300,7 @@ header.mobile-header .mobile-header__signup.events-button {
 
 @media screen and (min-width: 1366px) {
     .header-right-buttons .events-button {
-        margin-left: 6px;
+        margin-left: 20px;
     }
 }
 
